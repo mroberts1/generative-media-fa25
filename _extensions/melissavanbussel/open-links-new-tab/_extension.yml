@@ -1,0 +1,9 @@
+title: "Open Links in New Tab"
+author: Melissa Van Bussel
+version: 1.0.0
+description: "A Quarto extension that opens all links in a new tab."
+quarto-required: ">=1.6.42"
+contributes:
+  filters:
+    - open-links-new-tab.lua
+

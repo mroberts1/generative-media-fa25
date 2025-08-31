@@ -1,0 +1,93 @@
+/*-- scss:defaults --*/
+
+// use litera as the base
+ //$theme: "litera" !default;
+
+// import google fonts
+//@import 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap';
+//@import 'https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap';
+//@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400;500;600;700&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Jost:ital,wght@0,100..900;1,100..900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+// import IBM Plex Mono
+//@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+// use Adobe Europa font
+//@import url("https://use.typekit.net/sfe1vyn.css");
+
+//@font-face {
+//    font-family: 'Helvetica Neue LT Std 43 Light Extended';
+//    src: url('fonts/Helvetica Neue LT Std 43 Light Extended.eot'), url('fonts/Helvetica Neue LT Std 43 Light Extended.woff') format('woff'), url('fonts/Helvetica Neue LT Std 43 Light Extended.ttf') format('truetype'), url('fonts/Helvetica Neue LT Std 43 Light Extended.svg') format('svg');
+//	font-weight: normal;
+//	font-style: normal;
+//}
+//@font-face {
+//	font-family: 'HelveticaNeueLTStd-BdEx';
+//	src: url('fonts/HelveticaNeueLTStd-BdEx.eot'), url('fonts/HelveticaNeueLTStd-BdEx.otf'), url('fonts/HelveticaNeueLTStd-BdEx.woff') format('woff'), url('fonts/HelveticaNeueLTStd-BdEx.ttf') format('truetype'), url('fonts/HelveticaNeueLTStd-BdEx.svg') format('svg');
+//	font-weight: normal;
+//	font-style: normal;
+//}
+
+@import url("https://use.typekit.net/fme8kty.css");
+@import url("https://use.typekit.net/ejl5bmc.css");
+
+// use Atkinson Hyperlegible font if available
+$font-family-sans-serif:  "neue-haas-unica", "proxima-nova", "Helvetica Neue", "Joss", "Source Sans", "Inter", "IBM Plex Sans", "Public Sans", "Noto Sans", "Atkinson Hyperlegible", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial,  sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+// use IBM Plex Mono
+$font-family-monospace: "Overpass Mono", "Roboto Mono", "IBM Plex Mono", monospace, monospace;
+
+$font-family-serif: "Gentium Plus", "Newsreader", "Literata", "Piazzolla", serif;
+
+/*-- scss:rules --*/
+
+// litera is serif by default: revert to san-serif
+p, li, {
+  font-family: $font-family-sans-serif;
+}
+
+h1 {
+     text-decoration:none;
+     #text-transform:uppercase;
+     color:#000000;
+     font-family: $font-family-sans-serif;
+     font-size: 1.8em;
+     font-weight: 600;
+     letter-spacing: 1px;
+}
+
+h2, h3, h4, h5, h6 {
+     text-decoration:none;
+     #text-transform:uppercase;
+     color:#000000;
+     font-family: $font-family-sans-serif;
+    font-size: 1.3em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+a:link {
+  text-decoration: none;
+  //text-decoration-color: #235440;
+  //text-decoration-thickness: 1px;
+  //text-underline-offset: 3px;
+}
+a:visited {
+    text-decoration: none;
+    //text-decoration-color: #235440;
+    //text-decoration-thickness: 1px;
+    //text-underline-offset: 3px;
+}
+a:hover {
+  color: white;
+  //text-decoration: underline;
+  background-color: #62259d;
+  //text-decoration-color: #235440;
+  //text-decoration-thickness: 2px;
+  //text-underline-offset: 3px;
+}
+a:active {
+  text-decoration: none;
+}

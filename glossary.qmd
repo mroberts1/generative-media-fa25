@@ -1,0 +1,239 @@
+---
+title: "Key Concepts"
+subtitle: "VM200 Media Criticism - Glossary of Terms (Weeks 1-6)"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-title: "Concepts"
+---
+
+## Introduction
+
+This glossary provides definitions of key theoretical concepts covered in the first six weeks of VM200 Media Criticism. Each entry includes a comprehensive definition (50-200 words) and citations to relevant sources for further reading.
+
+## A
+
+### Aesthetics {#aesthetics}
+
+The philosophical study of beauty, taste, and artistic value, particularly as it relates to media forms and visual culture. In digital contexts, aesthetics refers to curated visual styles and sensibilities that emerge on social media platforms (like "cottagecore" or "dark academia"), serving as identity markers and forms of cultural expression. These internet aesthetics function as vernacular theories of taste that help individuals construct and communicate their identities online.
+
+::: {.callout-note}
+## Sources
+- Giolo, G. & Berghman, M. "The Aesthetics of the Self: The Meaning-Making of Internet Aesthetics"
+- [Aesthetics Wiki](https://aesthetics.fandom.com/wiki/Aesthetics_Wiki)
+- Ngai, Sianne. *Our Aesthetic Categories: Zany, Cute, Interesting* (Harvard University Press, 2012)
+:::
+
+## B
+
+### Black Witnessing {#black-witnessing}
+
+A form of counter-narrative activism where African Americans use smartphones and social media to document and share experiences of racial injustice, police brutality, and systemic racism. This practice transforms citizens into journalists who bear witness to events often ignored or misrepresented by mainstream media, creating alternative news ecosystems that challenge dominant narratives about race and power in America.
+
+::: {.callout-note}
+## Sources
+- Richardson, Allissa V. *Bearing Witness While Black* (Oxford University Press, 2020)
+- Wells, Ida B. *The Light of Truth: Writings of an Anti-Lynching Crusader* (Penguin, 2014)
+- Noble, Safiya Umoja. *Algorithms of Oppression* (NYU Press, 2018)
+:::
+
+## C
+
+### Capitalist Realism {#capitalist-realism}
+
+Mark Fisher's concept describing the pervasive belief that capitalism is the only viable political and economic system, making it easier to imagine the end of the world than the end of capitalism. This ideological framework naturalizes neoliberal capitalism as inevitable and unchangeable, infiltrating education, culture, and consciousness to the point where alternatives become literally unthinkable.
+
+::: {.callout-note}
+## Sources
+- Fisher, Mark. *Capitalist Realism: Is There No Alternative?* (Zero Books, 2009)
+- Fisher, Mark. *Postcapitalist Desire: The Final Lectures* (Repeater Books, 2021)
+- Jameson, Fredric. *Postmodernism, or, The Cultural Logic of Late Capitalism* (Duke University Press, 1991)
+:::
+
+### Connotation/Denotation {#connotation-denotation}
+
+Fundamental semiotic concepts distinguishing between literal meaning (denotation) and associated cultural meanings (connotation). Denotation refers to the explicit, dictionary definition of a sign, while connotation encompasses the cultural, emotional, and ideological associations that signs carry within specific contexts. Media criticism examines how connotative meanings naturalize ideological messages.
+
+::: {.callout-note}
+## Sources
+- Barthes, Roland. *Mythologies* (Hill and Wang, 1957)
+- Hall, Stuart. "Encoding/Decoding" in *Culture, Media, Language* (Hutchinson, 1980)
+- Chandler, Daniel. *Semiotics: The Basics* (Routledge, 2017)
+:::
+
+## D
+
+### Discourse {#discourse}
+
+In Foucauldian terms, discourse refers to ways of constituting knowledge through language, social practices, and power relations. Discourses shape what can be said, who can speak, and what counts as true or false within specific historical contexts. Media discourses construct and regulate subjects, identities, and social realities through representational practices.
+
+::: {.callout-note}
+## Sources
+- Foucault, Michel. *The Archaeology of Knowledge* (Pantheon, 1972)
+- Hall, Stuart, ed. *Representation: Cultural Representations and Signifying Practices* (Sage, 1997)
+- Mills, Sara. *Discourse* (Routledge, 2004)
+:::
+
+## F
+
+### Fandom {#fandom}
+
+Organized communities of enthusiasts who actively engage with media texts through creative production, interpretation, and social interaction. Fandom represents participatory culture where audiences become producers, creating fan fiction, art, videos, and other transformative works. Digital platforms have amplified fandom's visibility and influence on media industries.
+
+::: {.callout-note}
+## Sources
+- Jenkins, Henry. *Textual Poachers: Television Fans and Participatory Culture* (Routledge, 1992)
+- Click, Melissa A. & Scott, Suzanne, eds. *The Routledge Companion to Media Fandom* (Routledge, 2018)
+- Baym, Nancy. *Playing to the Crowd: Musicians, Audiences, and the Intimate Work of Connection* (NYU Press, 2018)
+:::
+
+### Feminism/Postfeminism {#feminism-postfeminism}
+
+Feminism encompasses political movements and critical theories advocating for gender equality and analyzing patriarchal power structures. Postfeminism represents a cultural sensibility suggesting feminism's goals have been achieved while simultaneously incorporating and depoliticizing feminist ideas, often emphasizing individual empowerment, choice, and consumption over collective action.
+
+::: {.callout-note}
+## Sources
+- Negra, Diane & Tasker, Yvonne, eds. *Interrogating Postfeminism* (Duke University Press, 2007)
+- McRobbie, Angela. *The Aftermath of Feminism* (Sage, 2009)
+- hooks, bell. *Feminism Is for Everybody* (South End Press, 2000)
+:::
+
+## H
+
+### Hegemony {#hegemony}
+
+Antonio Gramsci's concept describing how dominant groups maintain power through consent rather than coercion, securing leadership through cultural and ideological means. Media functions as a key site for hegemonic struggle, where dominant meanings are contested and negotiated rather than simply imposed.
+
+::: {.callout-note}
+## Sources
+- Gramsci, Antonio. *Selections from Cultural Writings* (Harvard University Press, 1985)
+- Williams, Raymond. *Keywords: A Vocabulary of Culture and Society* (Oxford University Press, 1983)
+- Storey, John. *Cultural Theory and Popular Culture* (Pearson, 2018)
+:::
+
+## I
+
+### Ideology {#ideology}
+
+Systems of ideas, beliefs, and representations that structure our understanding of social reality. Althusser's theory emphasizes how ideology interpellates individuals as subjects through Ideological State Apparatuses (ISAs) like media, education, and religion, making dominant power relations appear natural and inevitable.
+
+::: {.callout-note}
+## Sources
+- Althusser, Louis. "Ideology and Ideological State Apparatuses" in *Lenin and Philosophy* (Monthly Review Press, 1971)
+- Eagleton, Terry. *Ideology: An Introduction* (Verso, 1991)
+- Žižek, Slavoj. *The Sublime Object of Ideology* (Verso, 1989)
+:::
+
+### Interpellation {#interpellation}
+
+Althusser's concept describing how ideology "hails" or addresses individuals, transforming them into subjects who recognize themselves in ideological representations. Media interpellates audiences through forms of address that position viewers as particular kinds of subjects with specific identities, desires, and social positions.
+
+::: {.callout-note}
+## Sources
+- Althusser, Louis. *On the Reproduction of Capitalism* (Verso, 2014)
+- Butler, Judith. *Excitable Speech: A Politics of the Performative* (Routledge, 1997)
+- Pêcheux, Michel. *Language, Semantics and Ideology* (Macmillan, 1982)
+:::
+
+## P
+
+### Paradigm/Syntagm {#paradigm-syntagm}
+
+Semiotic concepts describing two dimensions of meaning-making. Paradigmatic relations involve selection from available alternatives (choosing one sign from a set of possible signs), while syntagmatic relations involve combination (how signs are arranged in sequence). These concepts reveal how media texts generate meaning through both choice and structure.
+
+::: {.callout-note}
+## Sources
+- Saussure, Ferdinand de. *Course in General Linguistics* (Columbia University Press, 2011)
+- Jakobson, Roman. *On Language* (Harvard University Press, 1990)
+- Hodge, Robert & Kress, Gunther. *Social Semiotics* (Cornell University Press, 1988)
+:::
+
+### Pastiche {#pastiche}
+
+A postmodern aesthetic practice involving imitation without satirical intent, creating blank parody that recycles past styles without critical distance. Unlike parody's mocking stance, pastiche represents "the random cannibalization of all the styles of the past" (Jameson), reflecting capitalism's commodification of history and culture.
+
+::: {.callout-note}
+## Sources
+- Jameson, Fredric. *Postmodernism, or, The Cultural Logic of Late Capitalism* (Duke University Press, 1991)
+- Hutcheon, Linda. *A Theory of Parody* (University of Illinois Press, 2000)
+- Dyer, Richard. *Pastiche* (Routledge, 2007)
+:::
+
+### Postmodernism {#postmodernism}
+
+A cultural condition characterized by the breakdown of grand narratives, the collapse of high/low cultural distinctions, and the dominance of simulacra over reality. In media, postmodernism manifests through pastiche, intertextuality, self-reflexivity, and the hyperreal—where simulations become more real than reality itself.
+
+::: {.callout-note}
+## Sources
+- Baudrillard, Jean. *Simulacra and Simulation* (University of Michigan Press, 1994)
+- Lyotard, Jean-François. *The Postmodern Condition* (University of Minnesota Press, 1984)
+- Harvey, David. *The Condition of Postmodernity* (Blackwell, 1989)
+:::
+
+### Protest #Journalism {#protest-journalism}
+
+Citizen journalism practices using hashtags and social media to document, disseminate, and organize around social justice issues. This form of activism transforms witnesses into journalists, creating alternative news networks that bypass traditional media gatekeepers and challenge official narratives about protests and police violence.
+
+::: {.callout-note}
+## Sources
+- Richardson, Allissa V. *Bearing Witness While Black* (Oxford University Press, 2020)
+- Tufekci, Zeynep. *Twitter and Tear Gas* (Yale University Press, 2017)
+- Bonilla, Yarimar & Rosa, Jonathan. "#Ferguson: Digital Protest, Hashtag Ethnography" in *American Ethnologist* 42(1), 2015
+:::
+
+## S
+
+### Semiotics/Semiology {#semiotics}
+
+The study of signs and sign processes, examining how meaning is created, transmitted, and interpreted in communication systems. Media semiotics analyzes how visual, auditory, and textual signs combine to produce ideological meanings, revealing the constructed nature of media representations.
+
+::: {.callout-note}
+## Sources
+- Barthes, Roland. *Elements of Semiology* (Hill and Wang, 1968)
+- Eco, Umberto. *A Theory of Semiotics* (Indiana University Press, 1976)
+- Rose, Gillian. *Visual Methodologies* (Sage, 2016)
+:::
+
+### Semiological Guerrilla Warfare {#semiological-guerrilla-warfare}
+
+Umberto Eco's concept of tactical media resistance through alternative interpretation of mass media messages. Rather than controlling media production, guerrilla semiology intervenes at the point of reception, teaching audiences to decode messages critically and subvert intended meanings.
+
+::: {.callout-note}
+## Sources
+- Eco, Umberto. "Towards a Semiological Guerrilla Warfare" in *Travels in Hyperreality* (Harcourt, 1986)
+- de Certeau, Michel. *The Practice of Everyday Life* (University of California Press, 1984)
+- Dery, Mark. *Culture Jamming: Hacking, Slashing, and Sniping in the Empire of Signs* (Open Magazine, 1993)
+:::
+
+### Simulacra/Simulation {#simulacra}
+
+Baudrillard's concepts describing how copies without originals (simulacra) create a hyperreality where simulation replaces reality. In media-saturated societies, simulations become autonomous, generating their own reality effects independent of any external referent—reality TV, Instagram performances, and virtual worlds exemplify this condition.
+
+::: {.callout-note}
+## Sources
+- Baudrillard, Jean. *Simulacra and Simulation* (University of Michigan Press, 1994)
+- Baudrillard, Jean. *The Perfect Crime* (Verso, 1996)
+- Massumi, Brian. *Parables for the Virtual* (Duke University Press, 2002)
+:::
+
+### Subculture {#subculture}
+
+Social groups distinguished by specific styles, values, and practices that differentiate them from mainstream culture. Digital platforms have transformed subcultural formation, enabling new forms of aesthetic tribes and micro-communities organized around shared sensibilities, from TikTok subcultures to Discord communities.
+
+::: {.callout-note}
+## Sources
+- Hebdige, Dick. *Subculture: The Meaning of Style* (Routledge, 1979)
+- Thornton, Sarah. *Club Cultures: Music, Media, and Subcultural Capital* (Wesleyan, 1996)
+- Gelder, Ken. *Subcultures: Cultural Histories and Social Practice* (Routledge, 2007)
+:::
+
+---
+
+::: {.callout-tip}
+## Using This Glossary
+- Click on any concept in the table of contents to jump directly to its definition
+- Use `Ctrl+F` (Windows) or `Cmd+F` (Mac) to search for specific terms
+- Follow the source citations for deeper exploration of each concept
+- Terms are organized alphabetically for easy reference
+:::

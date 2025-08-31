@@ -1,0 +1,156 @@
+---
+title: "    "
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    toc-title: "Sections"
+nocite: |
+  @*
+---
+
+## Required Texts
+
+Fisher, Mark. *Capitalist Realism: Is There No Alternative?* Winchester, UK: Zero Books, 2009.
+
+Richardson, Allissa V. *Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism*. Oxford: Oxford University Press, 2020.
+
+## Week 1: Sites of Struggle
+
+Eco, Umberto. "Towards a Semiological Guerrilla Warfare." In *Travels in Hyperreality: Essays*, translated by William Weaver, 135-144. San Diego: Harcourt Brace Jovanovich, 1986.
+
+Welch, David. "The Conquest of the Masses." In *The Third Reich: Politics and Propaganda*, 2nd ed., 10-37. London and New York: Routledge, 1993.
+
+## Week 2: Ideology and the Orwellian
+
+Althusser, Louis. "Ideology and Ideological State Apparatuses (Notes towards an Investigation)." In *Lenin and Philosophy and Other Essays*, translated by Ben Brewster, 127-186. New York: Monthly Review Press, 1971.
+
+Fisher, Mark. "It's Easier to Imagine the End of the World Than the End of Capitalism." In *Capitalist Realism: Is There No Alternative?*, 1-11. Winchester, UK: Zero Books, 2009.
+
+Fisher, Mark. "Lecture 1: What Is Postcapitalist Desire?" In *Postcapitalist Desire: The Final Lectures*, edited by Matt Colquhoun, 21-48. London: Repeater Books, 2021.
+
+### Viewing
+*Squid Game*. Directed by Hwang Dong-hyuk. Netflix, 2021. Television series, 9 episodes.
+
+## Week 3: Simulation and Pastiche
+
+Friedlander, Emilie. "Social Anxiety: Why Amalia Ulman's Fake 'Middlebrow' Instagram Is No Different From Yours." *The Fader*, November 7, 2014. https://www.thefader.com/2014/11/07/social-anxiety-why-amalia-ulmans-middlebrow-instagram-feed-is-no-different-from-yours.
+
+Sooke, Alastair. "Is This The First Instagram Masterpiece?" *The Telegraph*, January 18, 2016. https://www.telegraph.co.uk/photography/what-to-see/is-this-the-first-instagram-masterpiece/.
+
+Dazed Digital. "Amalia Ulman: Meme Come True." *Dazed Digital*, 2016. https://www.dazeddigital.com/artsandculture/article/23700/1/amalia-ulman-meme-come-true.
+
+Ulman, Amalia. *Excellences & Perfections*. Instagram performance, 2014. Documentation at http://amaliaulman.eu/.
+
+### Viewing
+*El Planeta*. Directed by Amalia Ulman. Holga's Meow Pictures, 2020. Film, 79 minutes.
+
+*Inventing Anna*. Directed by Shonda Rhimes. Netflix, 2022. Television miniseries, Episode 6: Friends in Low Places.
+
+## Week 4: Feminism/Postfeminism
+
+Negra, Diane, and Yvonne Tasker. "Introduction: Feminist Politics and Postfeminist Culture." In *Interrogating Postfeminism: Gender and the Politics of Popular Culture*, edited by Diane Negra and Yvonne Tasker, 1-25. Durham, NC: Duke University Press, 2007.
+
+Roberts, Martin. "The Fashion Police: Governing the Self in *What Not To Wear*." In *Interrogating Postfeminism: Gender and the Politics of Popular Culture*, edited by Diane Negra and Yvonne Tasker, 227-248. Durham, NC: Duke University Press, 2007.
+
+## Week 5: Witnessing
+
+Richardson, Allissa V. "Looking As Rebellion: The Concept of Black Witnessing." In *Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism*, chapter 1, 18-42. Oxford: Oxford University Press, 2020.
+
+Richardson, Allissa V. "The New Protest #Journalism: Black Witnessing as Counternarrative." In *Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism*, chapter 3, 65-89. Oxford: Oxford University Press, 2020.
+
+## Week 6: Tribes - Subcultures, Lifestyles, Aesthetics
+
+Giolo, Guilherme, and Michaël Berghman. "The Aesthetics of the Self: The Meaning-Making of Internet Aesthetics." *Cultural Sociology* (2024). https://doi.org/10.1177/17499755241229570.
+
+[Aesthetics Wiki](https://aesthetics.fandom.com/wiki/Aesthetics_Wiki)
+
+## Week 7: Fandom
+
+Baym, Nancy K. "Social Media and the Struggle for Society." *Social Media + Society* 1, no. 1 (2015): 1-2. https://doi.org/10.1177/2056305115580477.
+
+Baym, Nancy K., Daniel Cavicchi, and Norma Coates. "Music Fandom in the Digital Age: A Conversation." In *The Routledge Companion to Media Fandom*, edited by Melissa A. Click and Suzanne Scott, 141-152. New York: Routledge, 2018.
+
+## Additional Recommended Readings
+
+### Semiotics and Media Theory
+Barthes, Roland. *Mythologies*. Translated by Annette Lavers. New York: Hill and Wang, 1972.
+
+Chandler, Daniel. *Semiotics: The Basics*. 3rd ed. London: Routledge, 2017.
+
+Hall, Stuart. "Encoding/Decoding." In *Culture, Media, Language: Working Papers in Cultural Studies, 1972-79*, edited by Stuart Hall, Dorothy Hobson, Andrew Lowe, and Paul Willis, 128-138. London: Hutchinson, 1980.
+
+### Ideology and Cultural Studies
+Eagleton, Terry. *Ideology: An Introduction*. 2nd ed. London: Verso, 2007.
+
+Gramsci, Antonio. *Selections from Cultural Writings*. Edited by David Forgacs and Geoffrey Nowell-Smith. Cambridge, MA: Harvard University Press, 1985.
+
+Williams, Raymond. *Keywords: A Vocabulary of Culture and Society*. Revised ed. New York: Oxford University Press, 1985.
+
+### Postmodernism and Simulation
+Baudrillard, Jean. *Simulacra and Simulation*. Translated by Sheila Faria Glaser. Ann Arbor: University of Michigan Press, 1994.
+
+Jameson, Fredric. *Postmodernism, or, The Cultural Logic of Late Capitalism*. Durham, NC: Duke University Press, 1991.
+
+Lyotard, Jean-François. *The Postmodern Condition: A Report on Knowledge*. Translated by Geoff Bennington and Brian Massumi. Minneapolis: University of Minnesota Press, 1984.
+
+### Digital Culture and Social Media
+boyd, danah. *It's Complicated: The Social Lives of Networked Teens*. New Haven: Yale University Press, 2014.
+
+Jenkins, Henry. *Participatory Culture: Interviews*. Cambridge: Polity Press, 2019.
+
+Marwick, Alice E. *Status Update: Celebrity, Publicity, and Branding in the Social Media Age*. New Haven: Yale University Press, 2013.
+
+Tufekci, Zeynep. *Twitter and Tear Gas: The Power and Fragility of Networked Protest*. New Haven: Yale University Press, 2017.
+
+### Feminism and Gender Studies
+Butler, Judith. *Gender Trouble: Feminism and the Subversion of Identity*. New York: Routledge, 1990.
+
+hooks, bell. *Feminism Is for Everybody: Passionate Politics*. Cambridge, MA: South End Press, 2000.
+
+McRobbie, Angela. *The Aftermath of Feminism: Gender, Culture and Social Change*. London: Sage, 2009.
+
+Mulvey, Laura. "Visual Pleasure and Narrative Cinema." *Screen* 16, no. 3 (1975): 6-18.
+
+### Race and Media
+Bonilla, Yarimar, and Jonathan Rosa. "#Ferguson: Digital Protest, Hashtag Ethnography, and the Racial Politics of Social Media in the United States." *American Ethnologist* 42, no. 1 (2015): 4-17.
+
+Gray, Herman. *Watching Race: Television and the Struggle for Blackness*. Minneapolis: University of Minnesota Press, 2004.
+
+Noble, Safiya Umoja. *Algorithms of Oppression: How Search Engines Reinforce Racism*. New York: NYU Press, 2018.
+
+### Subcultures and Fan Studies
+Hebdige, Dick. *Subculture: The Meaning of Style*. London: Routledge, 1979.
+
+Jenkins, Henry. *Textual Poachers: Television Fans and Participatory Culture*. 2nd ed. New York: Routledge, 2012.
+
+Thornton, Sarah. *Club Cultures: Music, Media, and Subcultural Capital*. Middletown, CT: Wesleyan University Press, 1996.
+
+---
+
+::: {.callout-note}
+## Using Citations in Your Papers
+When citing these sources in your papers, you can use the citation keys (e.g., `@fisher2009capitalist`) and Quarto will automatically format them according to your chosen citation style.
+:::
+
+::: {.callout-tip}
+## Library Access
+Most of these readings are available through:
+- Canvas course site (PDF uploads)
+- Emerson College Library databases
+- Course reserves at the Iwasaki Library
+- Open access repositories (where indicated)
+:::
+
+## Bibliography
+
+::: {#refs .bibliography-refs}
+:::
+
+## Filmography
+
+*El Planeta*. Directed by Amalia Ulman. Holga's Meow Pictures, 2020. Film, 79 minutes.
+
+*Inventing Anna*. Directed by Shonda Rhimes. Netflix, 2022. Television miniseries.
+
+*Squid Game*. Directed by Hwang Dong-hyuk. Netflix, 2021. Television series, 9 episodes.
