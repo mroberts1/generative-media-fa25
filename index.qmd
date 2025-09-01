@@ -1,5 +1,7 @@
 ---
-title: "    "
+title: "VM402-09 Generative Media"
+subtitle: "History, Theory, Practice"
+title-block-banner: false
 ---
 
 ```{r}
@@ -10,19 +12,56 @@ library(tidyverse)
 library(palmerpenguins)
 ```
 
-# VM200-2 Media Criticism & Theory
+::: {layout="[[49, 2, 29]]"}
 
-[![](img/cindy-sherman.jpg){fig-alt="Link to MOMA website about Cindy Sherman's Film Stills project"}](https://www.moma.org/interactives/exhibitions/1997/sherman/index.html)
+[![](gif/outlanders-brain-magazine.gif)](https://www.instagram.com/p/C4fu8cmMD0G/?img_index=1)
 
 [Department of Visual & Media Arts](https://emerson.edu/academics/academic-departments/visual-media-arts)\
 [Emerson College](https://emerson.edu/)\
 Summer 2025\
 Wed 2 July---Wed 20 August (7 weeks)
 Online/asynchronous\
-[Dr. Martin Roberts](http://mroberts.emerson.build/)\
+[Dr. Martin Roberts](http://mroberts.emerson.build/)<br><br>
 [{{< fa regular envelope >}}](mailto:martin_roberts@emerson.edu) \| [{{< fa brands mastodon >}}](https://merveilles.town/@dokoissho) \| [{{< fa brands github >}}](https://github.com/mroberts1/) \| [{{< fa brands twitter >}}](https://twitter.com/mroberts_vma)\
-[Canvas site](https://canvas.emerson.edu/courses/2107262)\
-[YouTube playlist](https://youtube.com/playlist?list=PL3uFXkpHLYM7HEYH2Ngow3XQibDur4Vxh&si=ECEyCSIIGVN7R0rD)\
+
+:::
+
+<small>Image credit: [Outlanders Design](https://outlandersdesign.com)</small>
+
+## Interactive Boids Simulation
+
+*Demonstrating emergent behavior and algorithmic art - a perfect example of generative media in action.*
+
+```{ojs}
+//| echo: false
+//| fig-cap: "Interactive P5.js Boids simulation showing emergent flocking behavior"
+
+// Import the boids notebook from Observable
+boids = import("https://api.observablehq.com/@harrystevens/p5-js-boids.js?v=3")
+
+// Display the main canvas with error handling
+viewof boidsCanvas = {
+  try {
+    return boids.canvas;
+  } catch (error) {
+    const div = document.createElement("div");
+    div.innerHTML = `
+      <div style="padding: 20px; border: 2px dashed #ccc; text-align: center; background: #f9f9f9;">
+        <p><strong>Interactive Boids Simulation</strong></p>
+        <p>Loading P5.js simulation... If this doesn't load, you can view it directly at:</p>
+        <p><a href="https://observablehq.com/@harrystevens/p5-js-boids" target="_blank">Observable: P5.js Boids</a></p>
+      </div>
+    `;
+    return div;
+  }
+}
+```
+
+::: {.callout-note}
+**About this simulation:** This interactive visualization demonstrates Craig Reynolds' "boids" algorithm, which simulates flocking behavior through simple rules: separation (avoid crowding neighbors), alignment (steer towards average heading of neighbors), and cohesion (steer towards average position of neighbors). The emergent complexity from these simple rules exemplifies key concepts in generative media.
+:::
+
+---
 
 Communication plan:
 
