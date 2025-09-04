@@ -29,9 +29,9 @@ website:
   navbar:
     background: "#62259d"
     search: false
-    left:
-    - text: Syllabus
-      file: index.qmd
+    # left:
+    # - text: Syllabus
+    #   file: index.qmd
     # - text: Bibliography
     #   file: bibliography.qmd
     # right:
