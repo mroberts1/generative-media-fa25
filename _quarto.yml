@@ -17,51 +17,39 @@ website:
     search: false
     style: "floating"
     # collapse-level: 1
-    contents:
-        - section: "Lectures"
-          contents:
-            - text: W1 Sites of Struggle
-              file: w1-sites-of-struggle.qmd
-            - text: W2 Ideology and the Orwellian
-              file: w2-ideology.qmd
-            - text: W3 Simulation and Pastiche
-              file: w3-simulation-pastiche.qmd
-            - text: W4 Material Girls
-              file: w4-feminism.qmd
-            - text: W5 Black Witnessing
-              file: w5-witnessing.qmd
-            - text: W6 From Subcultures to Aesthetics
-              file: w6-aesthetics.qmd
-            - text: W7 Revenge of the Nerds
-              file: w7-fandom.qmd
+    # contents:
+    #     - section: "Lectures"
+    #       contents:
+    #         - text: W1 Sites of Struggle
+    #           file: w1-sites-of-struggle.qmd
         # - section: "Resources"
         #   contents:
         #     - text: Key Concepts
         #       file: key-concepts.qmd
   navbar:
     background: "#62259d"
-    search: true
+    search: false
     left:
     - text: Syllabus
       file: index.qmd
-    - text: Bibliography
-      file: bibliography.qmd
-    right:
-    - icon: envelope
-      aria-label: envelope
-      href: mailto:martin_roberts@emerson.edu
-    - icon: mastodon
-      aria-label: mastodon
-      href: https://merveilles.town/@dokoissho
-    - icon: github
-      aria-label: github
-      href: https://github.com/mroberts1
-    - icon: facebook
-      aria-label: facebook
-      href: https://facebook.com/mr05301
-    - icon: twitter
-      aria-label: twitter
-      href: https://twitter.com/mroberts_VMA
+    # - text: Bibliography
+    #   file: bibliography.qmd
+    # right:
+    # - icon: envelope
+    #   aria-label: envelope
+    #   href: mailto:martin_roberts@emerson.edu
+    # - icon: mastodon
+    #   aria-label: mastodon
+    #   href: https://merveilles.town/@dokoissho
+    # - icon: github
+    #   aria-label: github
+    #   href: https://github.com/mroberts1
+    # - icon: facebook
+    #   aria-label: facebook
+    #   href: https://facebook.com/mr05301
+    # - icon: twitter
+    #   aria-label: twitter
+    #   href: https://twitter.com/mroberts_VMA
 format: 
   html:
     toc: false
@@ -74,16 +62,18 @@ format:
     css: custom.scss
     grid:
         #sidebar-width: 400px
-        body-width: 800px
+        body-width: 700px
         #margin-width: 300px
         gutter-width: 2em
+    # page-layout: article
     fontsize: 1em
     linestretch: 1.5
     smooth-scroll: true
     linkcolor: "#62259d"
-    page-layout: article
-    title-block-banner: true
-  PrettyPDF-pdf: default
+    title-block-banner: false
+    execute:
+    echo: false
+  # PrettyPDF-pdf: default
 fig-responsive: true
 image-alt: " "
 execute:

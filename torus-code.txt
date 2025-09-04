@@ -1,0 +1,48 @@
+```{ojs}
+
+function* createSketch(sketch) {
+  const element = DOM.element('div');
+  yield element;
+  const instance = new P5(sketch, element, true);
+  try {
+    while (true) {
+      yield element;
+    }
+  } finally {
+    instance.remove();
+  }
+}
+
+createSketch(s => {
+
+  s.setup = function() {
+    s.createCanvas(400, 400, s.WEBGL);
+    s.noStroke();
+  }
+
+  s.draw = function() {
+
+    s.background(0);
+
+    let locX = s.mouseX - s.height / 2;
+    let locY = s.mouseY - s.width / 2;  
+    
+    s.ambientLight(60, 60, 60);
+    s.pointLight(190, 80, 190, locX, locY, 100);
+    s.pointLight(80, 80, 190, 0, 0, 100);
+  
+    s.specularMaterial(255);
+    s.rotateX(s.frameCount * 0.01);
+    s.rotateY(s.frameCount * 0.01);
+    s.torus(100, 50, 40, 40);
+  }
+
+})
+
+P5 = require('https://unpkg.com/p5@0.6.0/lib/p5.js')
+
+d3 = require("d3-scale-chromatic@1");
+
+geometric = require("geometric@2");
+
+```

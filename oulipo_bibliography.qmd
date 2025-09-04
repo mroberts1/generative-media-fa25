@@ -1,0 +1,21 @@
+---
+title: "OULIPO Bibliography"
+format: pdf
+---
+
+# OULIPO Bibliography
+
+## Primary Anthologies & Introductions
+- Motte, Warren F. 1986. *Oulipo: A Primer of Potential Literature*. Lincoln: University of Nebraska Press.
+- Mathews, Harry, and Alastair Brotchie, eds. 1998. *Oulipo Compendium*. London: Atlas Press.
+- Terry, Philip, ed. 2020. *The Penguin Book of Oulipo*. London: Penguin Classics.
+
+## Critical Studies & Overviews
+- Motte, Warren F. 1995. *Oulipo: A Primer of Potential Literature, 2nd ed.* Lincoln: University of Nebraska Press.
+- Bellos, David. 1993. *Georges Perec: A Life in Words*. Boston: David R. Godine.
+- Brotchie, Alastair, ed. 2014. *Raymond Queneau: A Critical Anthology*. London: Atlas Press.
+- Baetens, Jan, and Laurent Demanze, eds. 2020. *The Oulipo and Modern Thought*. Oxford: Legenda.
+
+## Contextual & Theoretical Works
+- Calvino, Italo. 1988. *Six Memos for the Next Millennium*. Cambridge, MA: Harvard University Press.
+- Perloff, Marjorie. 2002. *21st-Century Modernism: The “New” Poetics*. Oxford: Blackwell.

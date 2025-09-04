@@ -1,0 +1,64 @@
+<!-- ```{ojs} -->
+<!-- //| echo: false -->
+
+<!-- // Import Shader Park using the working version -->
+<!-- shaderParkCore = require("shader-park-core@0.1.41") -->
+<!-- ``` -->
+
+<!-- ```{ojs} -->
+<!-- { -->
+<!--   // Create container with canvas for Shader Park - body width size -->
+<!--   const container = html`<div style="width: 700px; height: 525px; margin: 0 auto; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);"> -->
+<!--     <canvas style="width: 100%; height: 100%; display: block; border-radius: 8px;"></canvas> -->
+<!--   </div>`; -->
+
+<!--   const canvas = container.querySelector('canvas'); -->
+<!--   canvas.width = 700; -->
+<!--   canvas.height = 525; -->
+
+<!--   try { -->
+<!--     // The shader code from the Shader Park URL - original geometry -->
+<!--     const shaderCode = ` -->
+<!-- // T1 by h2ee - from Shader Park -->
+<!-- let pos = getSpace(); -->
+<!-- let col = sin(normal.z*30)+.3+normal.y*.6; -->
+<!-- blend(0.9); -->
+<!-- color(col, col, col); -->
+<!-- for(let i = 3; i < 6; i++) { -->
+
+<!--   for(let j = 1; j < 6; j++) { -->
+<!--     rotateX(time*0.1*j*i); -->
+<!--     rotateY(time*0.1*j*i); -->
+<!--     displace(.1*i - .5, .1*j - .5, 0); -->
+<!--     line(vec3(0.9, -0.3, 0.1), vec3(0.1, 0.1, 0.1), 0.02);   -->
+<!--     reset(); -->
+<!--   } -->
+<!-- } -->
+
+<!-- let oscillation = abs(sin(time)); -->
+<!-- let endSize = 0.9; -->
+<!-- sphere(endSize * oscillation); -->
+
+<!-- `; -->
+
+<!--     // Wait for shader-park-core to be ready -->
+<!--     await new Promise(resolve => setTimeout(resolve, 100)); -->
+
+<!--     // Use the sculptToMinimalRenderer function from shader-park-core -->
+<!--     if (shaderParkCore && shaderParkCore.sculptToMinimalRenderer) { -->
+<!--       shaderParkCore.sculptToMinimalRenderer(canvas, shaderCode); -->
+<!--     } else if (shaderParkCore && typeof shaderParkCore.default === 'object') { -->
+<!--       // Handle different export formats -->
+<!--       shaderParkCore.default.sculptToMinimalRenderer(canvas, shaderCode); -->
+<!--     } else { -->
+<!--       throw new Error('Shader Park API not found'); -->
+<!--     } -->
+
+<!--   } catch (error) { -->
+<!--     console.error('Shader Park error:', error); -->
+<!--     container.innerHTML = `<div style="display: flex; align-items: center; justify-content: center; height: 100%; color: #666; font-size: 14px; background: linear-gradient(45deg, #f8f9fa, #e9ecef); border-radius: 8px; font-family: system-ui, sans-serif;">Interactive Shader Park visualization<br><small style="opacity: 0.7;">Loading...</small></div>`; -->
+<!--   } -->
+
+<!--   return container; -->
+<!-- } -->
+<!-- ``` -->
