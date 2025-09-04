@@ -1,5 +1,5 @@
 ---
-title: "VM402-09 Generative Media"
+title: "Generative Media"
 subtitle: "History, Theory, Practice"
 ---
 
@@ -26,6 +26,7 @@ library(palmerpenguins)
 
 [Department of Visual & Media Arts](https://emerson.edu/academics/academic-departments/visual-media-arts)\
 [Emerson College](https://emerson.edu/)\
+VM402-09\
 Fall Semester 2025\
 Thur 4 Sept - Tues 16 Dec\
 16:00-17:45 Ansin 502\
