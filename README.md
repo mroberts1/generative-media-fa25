@@ -1,0 +1,268 @@
+VM402-08 Generative Media: History, Theory, Practice
+
+[Department of Visual & Media Arts](https://emerson.edu/academics/academic-departments/visual-media-arts)\
+[Emerson College](https://emerson.edu/)\
+Fall Semester 2025\
+Thur 4 Sept - Tues 16 Dec\
+16:00-17:45 Ansin 502\
+[Dr. Martin Roberts](http://mroberts.emerson.build/)\
+Office: TBA\
+Hours: Tues/Thur 14:30-3:30\
+[{{< fa regular envelope >}}](mailto:martin_roberts@emerson.edu) \| [{{< fa brands mastodon >}}](https://merveilles.town/@dokoissho) \| [{{< fa brands github >}}](https://github.com/mroberts1/) \| [{{< fa brands twitter >}}](https://twitter.com/mroberts_vma)\
+
+## Description
+
+Although the term “generative” is today often treated as synonymous with AI-based artistic practices, generative art and aesthetics long predates the digital era, with antecedents that include the experiments with musical chance of John Cage and Lamonte Young, the early computational art of the 1960s, fractal images and music in the 1970s,  or the ambient music of Brian Eno. The popularization of algorithmic tools that enable images, music, literary works, animation, and motion graphics to be generated from text and image prompts, however, has led to a surge in interest in code-based and algorithmic forms of creativity, along with debates about the aesthetic and ethical legitimacy of AI-generated artworks and other creative content. While computational art has been able to pass as human since the 1960s, the current explosive growth of algorithmic tools has rekindled aesthetic debates about the technological dimension of art and the relationship of art to the human more generally.
+
+This course explores the history of generative approaches in the media arts, as well as changing social attitudes towards these and the contemporary debate swirling around “AI art.” In addition to historical examples and philosophical dimensions, students are introduced to a variety of generative approaches to artistic creativity, and collaborate on producing generative artworks in a medium of their choice using a variety of tools, frameworks, and platforms.
+
+## Learning Objectives
+
+## Texts
+
+- Geeta Dayal, *Another Green World* (New York: Continuum, 2009).
+- Benedikt Gross, Hartmut Bohnacker, and Julia Laub, [*Generative Design: Visualize, Program, and Create with P5.js*](http://www.generative-gestaltung.de/2/). Princeton, NJ: Princeton Architectural Press, 2018.
+- Philip, Terry, ed., *The Penguin Book of Oulipo*. London: Penguin Classics, 2020.
+
+## Films
+
+*John Cage: Journeys in Sound* (Allan Miller and Paul Smaczny, 2012).
+
+## Evaluation
+
+Paper #1 20%
+
+Paper #2/Creative Project 20%
+
+Discussion Posts 30%
+
+Response papers (2) 30%
+
+## Class Schedule
+
+*Week 1*
+
+**Introduction: Unpromising Beginnings**
+
+Thur_04-Sept
+
+***
+
+*Week 2*
+
+**Oblique Strategies**
+
+Tues_9-Sept
+
+Geeta Dayal, *Another Green World*, chs. 1-3
+
+Thur_11-Sept
+
+Geeta Dayal, *Another Green World*, chs. 4-6
+
+***
+
+*Week 3*
+
+Tues_16-Sept
+
+Geeta Dayal, *Another Green World*, chs. 7-9
+
+Thur_18-Sept
+
+Geeta Dayal, *Another Green World*, chs. 10-12
+
+***
+
+*Week 4*
+
+**Imaginary Landscapes: John Cage and La Monte Young**
+
+Tues_23-Sept
+
+Screening: *John Cage: Journeys in Sound*
+
+Thur_25-Sept
+
+Cage, selected essays from *Silence*
+
+***
+
+*Week 5*
+
+**Phasing: Steve Reich and Terry Riley**
+
+Tues_30-Sept
+
+Steve Reich, "Music as a Gradual Process" (1968)
+
+Wim Mertens book?
+
+Thur_02-Oct
+
+Terry Riley?
+
+***
+
+*Week 6*
+
+Tues_07-Oct
+
+**Permutations**
+
+Raymond Queneau, [*A Hundred Thousand Billion Poems*](https://en.wikipedia.org/wiki/A_Hundred_Thousand_Billion_Poems)
+
+[Interactive edition](https://www.bevrowe.info/Internet/Queneau/Queneau.html)
+
+Eno, [*77 Million Paintings*](https://en.wikipedia.org/wiki/77_Million_Paintings)
+
+Watch:
+
+-   [*7 Hours in 77 Million Paintings*](https://vimeo.com/groups/chillounge/videos/751767)(420 mins. \> 35 mins. timelapse)
+
+::: {.column-margin}
+
+{{< video https://vimeo.com/638631 >}}
+
+:::
+
+-   \[*7 More Hours in 77 Million Paintings*\]([https://vimeo.com/751767](https://vimeo.com/751767?fl=pl&fe=sh)) (420 mins. \> 35 mins. timelapse)
+
+::: {.column-margin}
+
+{{< video https://vimeo.com/751767 >}}
+
+:::
+
+Thur_09-Oct
+
+***
+
+*Week 7*
+
+**Fractals**
+
+Tues_14-Oct
+
+Thur_16-Oct
+
+***
+
+*Week 8*
+
+**Ecosystems**
+
+Tues_21-Oct
+
+Conway's Game of Life
+
+Thur_23-Oct
+
+Lenia
+
+***
+
+*Week 9*
+
+**Procedural Worlds**
+
+Tues_28-Oct
+
+Simon Parkin, "[A Journey to the End of the World (of Minecraft)](https://www.newyorker.com/tech/annals-of-technology/a-journey-to-the-end-of-the-world-of-minecraft)" (*The New Yorker*, 23 January 2014)
+
+Thur_30-Oct
+
+[Wave Function Collapse](https://marian42.itch.io/wfc)
+
+::: {.column-margin}
+
+{{< video https://youtu.be/7ffT_8wViBA >}}
+
+:::
+
+***
+
+*Week 10*
+
+**Algorithmic Architecture**
+
+Tues_04-Nov
+
+Thur_06-Nov
+
+***
+
+*Week 11*
+
+Veterans Day
+
+**Generative Art & Design**
+
+Thur_13-Nov
+
+Read the interviews with [Josef Pelz](https://www.generativehut.com/post/interview-with-josef-pelz), [Étienne Jacob](https://www.generativehut.com/post/interview-with-etienne-jacob), [Shohei Fujimoto](https://www.generativehut.com/post/interview-with-shohei-fujimoto), [Giulia Cosco](https://www.generativehut.com/post/interview-with-giulia-cosco), and/or [Pierre Paslier](https://www.generativehut.com/post/interview-with-pierre-paslier)
+
+***
+
+*Week 12*
+
+Tues_18-Nov
+
+[Generative Hut](https://www.generativehut.com/) website
+
+Thur_20-Nov
+
+P5.js workshop
+
+***
+
+*Week 13*
+
+Tues_25-Nov
+
+NO CLASS?
+
+Thanksgiving
+
+***
+
+*Week 14*
+
+Tues_02-Dec Presentations
+
+Thur_04-Dec Presentations
+
+***
+
+*Week 15*
+
+Tues_09-Dec Presentations
+
+Thur_11-Dec Presentations
+
+***
+
+*Week 16*
+
+Tues_16-Dec Conclusion
+
+***
+
+## Policies & Procedures
+
+**Attendance and Participation**\
+Full participation in class discussions and timely submission of all assignments constitutes evidence of class attendance. Students are expected to allocate sufficient time to complete all the requirements for each module: reading, viewing, responding to discussion questions, submitting replies to classmates, and completing other assignments on time. Failure to keep up with the pace of the course may result in lower grades or the failure of the class.
+
+**Academic Honesty**\
+Do not plagiarize. Plagiarism is using someone else’s work without giving them fair credit. Plagiarism and cheating will result in an “F” for the assignment.
+
+**Accommodations**\
+Emerson is committed to providing equal access and support to all qualified students through the provision of reasonable accommodations, so that each student may fully participate in the Emerson experience. Student Accessibility Services (SAS) staff will be working remotely for the fall of 2020. If you have a disability that may require accommodations, please contact them at [*SAS\@emerson.edu*](mailto:SAS@emerson.edu) or at (617)824-8592 to make an appointment with an SAS staff member.
+
+Students are encouraged to contact SAS early in the semester. Please note that accommodations are not applied retroactively.
+
+**Plagiarism Statement**\
+It is the responsibility of all Emerson students to know and adhere to the College’s policy on plagiarism, which can be found at: [*http://www.emerson.edu/policy/plagiarism*](http://www.emerson.edu/policy/plagiarism)\*. If you have any question concerning the Emerson plagiarism policy or about documentation of sources in work you produce in this course, speak to your instructor.
+
+**Diversity Statement**\
+Every student in this class will be honored and respected as an individual with distinct experiences, talents, and backgrounds. Students will be treated fairly regardless of race, religion, sexual orientation, gender identification, disability, socio-economic status, or national identity. Issues of diversity may be a part of class discussion, assigned material, and projects. The instructor will make every effort to ensure that an inclusive environment exists for all students. If you have any concerns or suggestions for improving the classroom climate, please do not hesitate to speak with the course instructor or to contact the Office of Diversity and Inclusion at 617-824-8528 or by email at [*diversity*inclusion\@emerson.edu\*](mailto:diversity*inclusion@emerson.edu)

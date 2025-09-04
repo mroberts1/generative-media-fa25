@@ -1,0 +1,44 @@
+---
+title: "    "
+---
+
+```{ojs}
+//| echo: false
+
+// Import from the Observable notebook that has working Hydra
+import {Hydra} from "@magfoto/hydra-synth"
+```
+
+```{ojs}
+{
+  // Create container with canvas for Hydra - full body width
+  const container = html`<div style="width: 100%; height: 500px; margin: 0 auto; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);">
+    <canvas style="width: 100%; height: 100%; display: block; border-radius: 8px;"></canvas>
+  </div>`;
+  
+  const canvas = container.querySelector('canvas');
+  canvas.width = 960;  // Larger canvas resolution
+  canvas.height = 500; // Maintains aspect ratio
+  
+  try {
+    // Initialize Hydra with the canvas - this creates global functions
+    const hydra = new Hydra({ canvas: canvas, detectAudio: false });
+    
+    // Wait for Hydra to initialize and create global functions
+    await new Promise(resolve => setTimeout(resolve, 200));
+    
+    // The Hydra code from your URL (decoded) - using global functions created by Hydra
+    // src(o0).modulateHue(src(o0).scale(1.01), 2).layer(osc(8, 0.1, 2).mask(shape(4, 0.3, 1e-6)), 0.1).out()
+    window.src(window.o0)
+      .modulateHue(window.src(window.o0).scale(1.01), 2)
+      .layer(window.osc(8, 0.1, 2).mask(window.shape(4, 0.3, 1e-6)), 0.1)
+      .out();
+      
+  } catch (error) {
+    console.error('Hydra error:', error);
+    container.innerHTML = `<div style="display: flex; align-items: center; justify-content: center; height: 100%; color: #666; font-size: 14px; background: linear-gradient(45deg, #f8f9fa, #e9ecef); border-radius: 8px; font-family: system-ui, sans-serif;">Interactive Hydra visualization<br><small style="opacity: 0.7;">Loading...</small></div>`;
+  }
+  
+  return container;
+}
+```

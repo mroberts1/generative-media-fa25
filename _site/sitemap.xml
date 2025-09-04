@@ -1,51 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mroberts1.github.io/media-criticism-su25/w7-fandom.html</loc>
-    <lastmod>2025-08-18T01:03:35.889Z</lastmod>
+    <loc>https://mroberts1.github.io/generative-media-fa25/w7-fandom.html</loc>
+    <lastmod>2025-09-01T15:23:27.343Z</lastmod>
   </url>
   <url>
-    <loc>https://mroberts1.github.io/media-criticism-su25/w5-witnessing.html</loc>
-    <lastmod>2025-08-18T01:14:10.542Z</lastmod>
+    <loc>https://mroberts1.github.io/generative-media-fa25/w5-witnessing.html</loc>
+    <lastmod>2025-09-01T15:23:27.342Z</lastmod>
   </url>
   <url>
-    <loc>https://mroberts1.github.io/media-criticism-su25/glossary.html</loc>
-    <lastmod>2025-08-10T11:31:41.402Z</lastmod>
+    <loc>https://mroberts1.github.io/generative-media-fa25/gen-media-structure.html</loc>
+    <lastmod>2025-08-12T06:55:16.085Z</lastmod>
   </url>
   <url>
-    <loc>https://mroberts1.github.io/media-criticism-su25/key-concepts.html</loc>
-    <lastmod>2025-08-15T08:31:22.668Z</lastmod>
+    <loc>https://mroberts1.github.io/generative-media-fa25/index.html</loc>
+    <lastmod>2025-09-04T18:49:06.973Z</lastmod>
   </url>
   <url>
-    <loc>https://mroberts1.github.io/media-criticism-su25/w6-aesthetics.html</loc>
-    <lastmod>2025-08-18T01:13:52.743Z</lastmod>
+    <loc>https://mroberts1.github.io/generative-media-fa25/key-concepts.html</loc>
+    <lastmod>2025-09-01T15:23:27.275Z</lastmod>
   </url>
   <url>
-    <loc>https://mroberts1.github.io/media-criticism-su25/w2-ideology.html</loc>
-    <lastmod>2025-08-10T13:09:42.051Z</lastmod>
+    <loc>https://mroberts1.github.io/generative-media-fa25/w6-aesthetics.html</loc>
+    <lastmod>2025-09-01T15:23:27.342Z</lastmod>
   </url>
   <url>
-    <loc>https://mroberts1.github.io/media-criticism-su25/w4-feminism.html</loc>
-    <lastmod>2025-08-10T13:10:51.763Z</lastmod>
+    <loc>https://mroberts1.github.io/generative-media-fa25/w2-ideology.html</loc>
+    <lastmod>2025-09-01T15:23:27.341Z</lastmod>
   </url>
   <url>
-    <loc>https://mroberts1.github.io/media-criticism-su25/bibliography_updated.html</loc>
-    <lastmod>2025-08-13T06:50:32.079Z</lastmod>
+    <loc>https://mroberts1.github.io/generative-media-fa25/w4-feminism.html</loc>
+    <lastmod>2025-09-01T15:23:27.342Z</lastmod>
   </url>
   <url>
-    <loc>https://mroberts1.github.io/media-criticism-su25/bibliography.html</loc>
-    <lastmod>2025-08-15T08:11:40.517Z</lastmod>
+    <loc>https://mroberts1.github.io/generative-media-fa25/resources.html</loc>
+    <lastmod>2025-08-12T10:01:06.511Z</lastmod>
   </url>
   <url>
-    <loc>https://mroberts1.github.io/media-criticism-su25/index.html</loc>
-    <lastmod>2025-08-15T07:43:35.545Z</lastmod>
+    <loc>https://mroberts1.github.io/generative-media-fa25/WARP.html</loc>
+    <lastmod>2025-08-31T14:59:02.833Z</lastmod>
   </url>
   <url>
-    <loc>https://mroberts1.github.io/media-criticism-su25/w1-sites-of-struggle.html</loc>
-    <lastmod>2025-08-10T13:09:25.009Z</lastmod>
+    <loc>https://mroberts1.github.io/generative-media-fa25/bibliography_updated.html</loc>
+    <lastmod>2025-09-01T15:23:27.135Z</lastmod>
   </url>
   <url>
-    <loc>https://mroberts1.github.io/media-criticism-su25/w3-simulation-pastiche.html</loc>
-    <lastmod>2025-08-10T13:10:51.763Z</lastmod>
+    <loc>https://mroberts1.github.io/generative-media-fa25/bibliography.html</loc>
+    <lastmod>2025-08-31T11:43:29.669Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mroberts1.github.io/generative-media-fa25/generative-media2.html</loc>
+    <lastmod>2025-08-12T06:54:58.997Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mroberts1.github.io/generative-media-fa25/glossary.html</loc>
+    <lastmod>2025-09-01T15:23:27.136Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mroberts1.github.io/generative-media-fa25/w1-sites-of-struggle.html</loc>
+    <lastmod>2025-08-31T11:43:29.840Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mroberts1.github.io/generative-media-fa25/w3-simulation-pastiche.html</loc>
+    <lastmod>2025-09-01T15:23:27.341Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mroberts1.github.io/generative-media-fa25/shaderpark.html</loc>
+    <lastmod>2025-09-03T15:06:47.643Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mroberts1.github.io/generative-media-fa25/hydra-naoto-hieda.html</loc>
+    <lastmod>2025-09-04T18:03:17.621Z</lastmod>
   </url>
 </urlset>

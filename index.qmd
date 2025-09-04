@@ -1,7 +1,6 @@
 ---
 title: "VM402-09 Generative Media"
 subtitle: "History, Theory, Practice"
-title-block-banner: false
 ---
 
 ```{r}
@@ -12,239 +11,291 @@ library(tidyverse)
 library(palmerpenguins)
 ```
 
-::: {layout="[[49, 2, 29]]"}
+::: {layout="[[50, 50]]"}
 
-[![](gif/outlanders-brain-magazine.gif)](https://www.instagram.com/p/C4fu8cmMD0G/?img_index=1)
+<iframe src="https://shaderpark.com/embed/-OZ3EHXk8r1JyhqgVTCy" 
+        width="500" 
+        height="500" 
+        frameborder="0" 
+        style="display: block; margin: 0 auto; border: none;">
+</iframe>
+
+:::
+
+::: {.column-margin}
 
 [Department of Visual & Media Arts](https://emerson.edu/academics/academic-departments/visual-media-arts)\
 [Emerson College](https://emerson.edu/)\
-Summer 2025\
-Wed 2 July---Wed 20 August (7 weeks)
-Online/asynchronous\
-[Dr. Martin Roberts](http://mroberts.emerson.build/)<br><br>
+Fall Semester 2025\
+Thur 4 Sept - Tues 16 Dec\
+16:00-17:45 Ansin 502\
+[Dr. Martin Roberts](http://mroberts.emerson.build/)\
+Office: TBA\
+Hours: Tues/Thur 14:30-3:30\
 [{{< fa regular envelope >}}](mailto:martin_roberts@emerson.edu) \| [{{< fa brands mastodon >}}](https://merveilles.town/@dokoissho) \| [{{< fa brands github >}}](https://github.com/mroberts1/) \| [{{< fa brands twitter >}}](https://twitter.com/mroberts_vma)\
 
 :::
 
-<small>Image credit: [Outlanders Design](https://outlandersdesign.com)</small>
+<br>
 
-## Interactive Boids Simulation
-
-*Demonstrating emergent behavior and algorithmic art - a perfect example of generative media in action.*
-
-```{ojs}
-import {canvas} from "@harrystevens/p5-js-boids"
-canvas
-```
-
-::: {.callout-note}
-**About this simulation:** This interactive visualization demonstrates Craig Reynolds' "boids" algorithm, which simulates flocking behavior through simple rules: separation (avoid crowding neighbors), alignment (steer towards average heading of neighbors), and cohesion (steer towards average position of neighbors). The emergent complexity from these simple rules exemplifies key concepts in generative media.
-:::
-
----
-
-Communication plan:
-
-The best way to reach me is by emailing me (martin_roberts@emerson.edu) and I will respond within 12 to 24 hours upon receiving your email message.
-
-I am also available for zoom meetings. Please email me with your meeting requests and available windows.
-
-Zoom Office Hours: by appointment
-
-https://emerson.zoom.us/j/96415591363 (Passcode: 923351)
+<small>Shader: [T1 by h2ee](https://shaderpark.com/sculpture/-OZ3EHXk8r1JyhqgVTCy?hideeditor=true&hidepedestal=true) \[[Fullscreen](https://shaderpark.com/embed/-OZ3EHXk8r1JyhqgVTCy)\]</small> 
 
 ## Description
 
-This online, asynchronous course examines approaches to the analysis and criticism of contemporary media. You will learn how to become critical of the media messages you use *and* create, and how to think and write with agency.
+<!-- > <small>It’s very useful in the arts to have certain sorts of systems, \[particularly\] if you’re working with something that doesn’t have immediate limitations because you don’t have enough money. ... Sometimes not having enough money is good, because you don’t end up throwing a million dollars at a five-cent idea. But \[what\] if the idea doesn’t require any money? How do you actually stop yourself from putting too much into an idea that’s too small? You find an external system. And some of the best systems in the world come out of physics, the sciences. Math.</small> -->
+<!-- > -->
+<!-- > <small>---Judy Nylon, cited in Geeta Dayal, *Another Green Word* (23-24).</small> -->
 
-There are two components of this course: 
+Although the term “generative” is today often treated as synonymous with AI-based artistic practices, generative art and aesthetics long predates the digital era, with antecedents that include the experiments with musical chance of John Cage and Lamonte Young, the early computational art of the 1960s, fractal images and music in the 1970s,  or the ambient music of Brian Eno. The popularization of algorithmic tools that enable images, music, literary works, animation, and motion graphics to be generated from text and image prompts, however, has led to a surge in interest in code-based and algorithmic forms of creativity, along with debates about the aesthetic and ethical legitimacy of AI-generated artworks and other creative content. While computational art has been able to pass as human since the 1960s, the current explosive growth of algorithmic tools has rekindled aesthetic debates about the technological dimension of art and the relationship of art to the human more generally.
 
-1. A survey of such critical approaches/methods as semiotics [@eco1986semiological; @barthes1972mythologies], psychoanalysis, genre studies, feminist theories [@negra2007introduction], cultural studies [@hall1980encoding], and postmodernism [@baudrillard1994simulacra; @jameson1991postmodernism]; 
+This course explores the history of generative approaches in the media arts, as well as changing social attitudes towards these and the contemporary debate swirling around “AI art.” In addition to historical examples and philosophical dimensions, students are introduced to a variety of generative approaches to artistic creativity, and collaborate on producing generative artworks in a medium of their choice using a variety of tools, frameworks, and platforms.
 
-2. The application of these approaches to examining and critiquing various media forms and contents. We will spend a major part of this semester building up theoretical/methodological foundation while devoting the remaining to the critique and analysis of specific media texts and contexts.
+## Texts
 
-Through extensive reading, writing, class discussion and screening, you will begin to develop the ability to analyze and critique popular media messages and images [@mulvey1975visual], as well as develop a critical worldview informed by contemporary media theory [@fisher2009capitalist].
+- Geeta Dayal, *Another Green World* (New York: Continuum, 2009).
+- Benedikt Gross, Hartmut Bohnacker, and Julia Laub, [*Generative Design: Visualize, Program, and Create with P5.js*](http://www.generative-gestaltung.de/2/). Princeton, NJ: Princeton Architectural Press, 2018.
+- Philip, Terry, ed., *The Penguin Book of Oulipo*. London: Penguin Classics, 2020.
 
-## Learning Objectives
+## Films
 
-By the end of the course, students should be able to:
+*John Cage: Journeys in Sound* (Allan Miller and Paul Smaczny, 2012).
 
-1. Identify a variety of critical and theoretical approaches to the media
-2. Develop and refine critical reading strategies, both in terms of the media and writings about the media
-3. Cultivate a suitable academic vocabulary and the ability to write, think and create from a critical perspective
-4. Appreciate an ethically-based and de-centered global perspective on media form and function, sensitive to the work of minority critics and theorists under-represented in the canons of media criticism
-5. Apply theory to practice, and engage with contemporary media production and consumption as critically aware media artists
+## Assignments & Evaluation
 
-## Required Texts
+Reflection post (weekly, due Friday of each week, 10 required) (40%)
+Audiovisual or Textual Generative Work (20%, due at Thanksgiving)
+Research Paper (20%, due Thur 11 Dec)
+Oblique Strategies Project (20%, due mid-semester)
 
-Mark Fisher, *Capitalist Realism: Is There No Alternative?* (Winchester, UK, and Washington, USA: Zero Books, 2009).
+## Class Schedule
 
-Allissa V. Richardson, *Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism* (Oxford: Oxford University Press, 2020).
+*Week 1*
 
-Supplementary readings, available on Canvas (see bibliography).
+**Introduction: Unpromising Beginnings**
 
-## Course Structure and Requirements
+Thur_04-Sept
 
-**Schedule**\
-The course begins on Wednesday 2 July and ends on Tuesday 19 August. Each week of the course accordingly begins on a **Wednesday** and ends on the following **Tuesday**.
+***
 
-**Lectures, Discussion Forums, and Weekly Response Posts**\
-Each week, I will post a lecture, either in textual or video format, usually by **Friday** of the week in question. 
+*Week 2*
 
-In the lecture, I will assume that you have done the reading assignments for the week, so make sure to complete them before reading (or watching) the lecture. 
+**Oblique Strategies**
 
-The lecture will typically introduce some relevant examples relating to the readings that we can use as a starting point for the week's discussion. However, you are also very welcome to suggest examples of your own that may come to mind after reading the course materials and the lecture. 
+Tues_9-Sept
 
-Each week, your initial Response post is due no later than the last day of the week in question (i.e. Tuesday in this case). You are then required to post at least 2 follow-up responses to any other group members' posts (or my own) during the subsequent week. 
-The Discussion cycle for each weekly topic therefore extends over two weeks:
+Geeta Dayal, *Another Green World*, chs. 1-3
 
-- By the end of the first week (Tuesday): initial response post
-- By the end of second week (the following Tuesday): min. 2 follow-ups to other people's posts
+Thur_11-Sept
 
-Don't sweat too much about meeting exact requirements for post length and frequency! The purpose is for us to have a lively, productive discussion of each week's readings so keep that as your main goal. Forums will also stay open beyond the biweekly cycle so you can catch up with posts later if you have time.
+Geeta Dayal, *Another Green World*, chs. 4-6
 
-**Assigned Readings**\
-Plan on reading every assignment as listed on the course calendar. Since the reading will both inform and enhance material covered during class, please complete the reading assignments *prior to* watching the lecture videos.
+***
+
+*Week 3*
+
+Tues_16-Sept
+
+Geeta Dayal, *Another Green World*, chs. 7-9
+
+Thur_18-Sept
+
+Geeta Dayal, *Another Green World*, chs. 10-12
+
+***
+
+*Week 4*
+
+**Imaginary Landscapes: John Cage and La Monte Young**
+
+Tues_23-Sept
+
+Screening: *John Cage: Journeys in Sound*
+
+Thur_25-Sept
+
+Cage, selected essays from *Silence*
+
+***
+
+*Week 5*
+
+**Phasing: Steve Reich and Terry Riley**
+
+Tues_30-Sept
+
+Steve Reich, "Music as a Gradual Process" (1968)
+
+Thur_02-Oct
+
+Terry Riley, *In C*  
+
+***
+
+*Week 6*
+
+**Mondrian: Computer Graphics**
+
+Tues_07-Oct
+
+- Amy Goodchild, "[Early Computer Art in the '50s and '60s](https://www.amygoodchild.com/blog/computer-art-50s-and-60s)"
+- A. Michael Noll, "Human or Machine? A Subjective Comparison of Piet Mondrian's 'Composition With Lines' (1917) and a Computer-Generated Picture"
+- [Early 3D Computer Graphics from Bell Labs](https://youtu.be/M4nql28E_AE)  
+
+::: {.column-margin}
+
+{{< video https://youtu.be/M4nql28E_AE >}}
+
+:::
+
+Thur_09-Oct
+
+- Lev Manovich, "Who is 'An Artist' in the 'AI Era'?"
+- Processing Mondrian
+
+***
+
+*Week 7*
+
+**Fractal Worlds**
+
+Tues_14-Oct
+
+- [Mandelbulb](https://www.mandelbulb.com/)  
+- [Fractal Worlds](https://www.youtube.com/watch?v=xj_4jvSDVME&list=PL1ywvug1r6ThGOrb9vQNfqYsI5XNyV3B3&index=14&ab_channel=bib993) (YouTube channel)
+
+Thur_16-Oct
+
+***
+
+*Week 8*
+
+**Ecosystems**
+
+Tues_21-Oct
+
+Conway's Game of Life
+
+Thur_23-Oct
+
+Lenia
+
+***
+
+*Week 9*
+
+**Permutations**
+
+Tues_28-Oct
+
+- Raymond Queneau, [*A Hundred Thousand Billion Poems*](https://en.wikipedia.org/wiki/A_Hundred_Thousand_Billion_Poems)
+
+- [Interactive edition](https://www.bevrowe.info/Internet/Queneau/Queneau.html)
+
+- Eno, [*77 Million Paintings*](https://en.wikipedia.org/wiki/77_Million_Paintings)
+
+- [*7 Hours in 77 Million Paintings*](https://vimeo.com/groups/chillounge/videos/751767)(420 mins. \> 35 mins. timelapse)
+- [*7 More Hours in 77 Million Paintings*\]([https://vimeo.com/751767](https://vimeo.com/751767?fl=pl&fe=sh)) (420 mins. \> 35 mins. timelapse)
+
+
+Thur_30-Oct
+
+***
+
+*Week 10*
+
+**Language Games**
+
+Tues_04-Nov
+
+- *The Penguin Book of OULIPO*, selected chs.  
+
+Thur_06-Nov
+
+- NanoGenMo
+
+***
+
+*Week 11*
+
+Veterans Day
+
+Thur_13-Nov
+
+**Procedural Worlds**
+
+- Simon Parkin, "[A Journey to the End of the World (of Minecraft)](https://www.newyorker.com/tech/annals-of-technology/a-journey-to-the-end-of-the-world-of-minecraft)" (*The New Yorker*, 23 January 2014)
+
+- [Wave Function Collapse](https://marian42.itch.io/wfc)
+
+::: {.column-margin}
+
+{{< video https://youtu.be/7ffT_8wViBA >}}
+
+:::
+
+***
+
+*Week 12*
+
+**Generative Art & Design**
+
+Tues_18-Nov
+
+- [Generative Design](http://www.generative-gestaltung.de/2/)
+
+Thur_20-Nov
+
+- Read the interviews with [Josef Pelz](https://www.generativehut.com/post/interview-with-josef-pelz), [Étienne Jacob](https://www.generativehut.com/post/interview-with-etienne-jacob), [Shohei Fujimoto](https://www.generativehut.com/post/interview-with-shohei-fujimoto), [Giulia Cosco](https://www.generativehut.com/post/interview-with-giulia-cosco), and/or [Pierre Paslier](https://www.generativehut.com/post/interview-with-pierre-paslier)
+
+***
+
+*Week 13*
+
+Tues_25-Nov
+
+TBA
+
+Thanksgiving
+
+***
+
+*Week 14*
+
+Tues_02-Dec Presentations
+
+Thur_04-Dec Presentations
+
+***
+
+*Week 15*
+
+Tues_09-Dec Presentations
+
+Thur_11-Dec Presentations
+
+***
+
+*Week 16*
+
+Tues_16-Dec Conclusion
+
+***
+
+## Policies
 
 **Attendance and Participation**\
 Full participation in class discussions and timely submission of all assignments constitutes evidence of class attendance. Students are expected to allocate sufficient time to complete all the requirements for each module: reading, viewing, responding to discussion questions, submitting replies to classmates, and completing other assignments on time. Failure to keep up with the pace of the course may result in lower grades or the failure of the class.
 
-**Discussion Forums and Weekly Response Posts**\
-Each week you are required to post a response of approximately 100-250 words to the course readings and/or the weekly lecture. The purpose of this assignment is for you to reflect on lectures, reading assignments or media clips and to pose questions. Along with your initial post, you are also required to respond to at least two (2) of your peers’ comments. Response posts are usually due by the end of the week in question: in this case, since the course began on a Wednesday, posts will be due by the Tuesday of the following week.
-
-**Individual Papers**\
-Each of you will write two analytical  papers, which are due on June 9 and July 7 respectively. For the second paper assignment, you have the option to do a creative project (instead of a paper) using either BCS or Postmodernism concepts. Detailed instructions of the assignments are posted on Canvas. Feel free to consult with me if you have questions about an assignment or think you need extra help.
-
-**Response Papers**\
-You will write two response papers responding to assigned films (see syllabus) in the contexts of the assigned readings. Each response paper should be approximately 750-1,000 words in length (3-4 pages, double-spaced). Your grade depends on how well you analyze and critique the film and how well you incorporate the readings into your critique/analysis.
-
-The grading scale for papers is as follows:
-
-|   |   |
-|---|---|
-|A|This is excellent scholarly work that could be published in a student film or media studies journal. It displays good *structure* (i.e., a strong original thesis statement and a logical development of points to follow), *content* (sound analysis and good research when applicable), and *presentational skills* (i.e., excellence in verbal, logical, and grammatical expression, as well as care in mechanical details such as spelling, typing, bibliography and footnote preparation, etc.). It also follows style and formatting rules. (A=95).|
-|B|This is good scholarly work that could be published in a student journal with some adjustments. It has minor problems in a couple of the aforementioned areas. (B=85)|
-|C|This work exhibits problems in several of the aforementioned areas or a major problem in one. (C=75)|
-|D|This work exhibits little understanding of the subject matter or paper requirements. It fails to follow rudimentary formatting and displays sloppiness in spelling, grammar and sourcing. (D=65)|
-|F|This work exhibits no understanding of the subject matter or paper requirements. It fails to follow rudimentary formatting and displays sloppiness in spelling, grammar and sourcing. (F=55)|
-
-## Academic Honesty
-
+**Academic Honesty**\
 Do not plagiarize. Plagiarism is using someone else’s work without giving them fair credit. Plagiarism and cheating will result in an “F” for the assignment.
 
-## Accommodations for Students with Disabilities
+**Accommodations**\
+Emerson is committed to providing equal access and support to all qualified students through the provision of reasonable accommodations, so that each student may fully participate in the Emerson experience. Student Accessibility Services (SAS) staff will be working remotely for the fall of 2020. If you have a disability that may require accommodations, please contact them at [*SAS\@emerson.edu*](mailto:SAS@emerson.edu) or at (617)824-8592 to make an appointment with an SAS staff member.
 
-Emerson is committed to providing equal access and support to all qualified students through the provision of reasonable accommodations, so that each student may fully participate in the Emerson experience. Student Accessibility Services (SAS) staff will be working remotely for the fall of 2020. If you have a disability that may require accommodations, please contact them at  [*SAS@emerson.edu*](mailto:SAS@emerson.edu) or at (617)824-8592 to make an appointment with an SAS staff member.
+Students are encouraged to contact SAS early in the semester. Please note that accommodations are not applied retroactively.
 
-Students are encouraged to contact SAS early in the semester. Please be aware that accommodations are not applied retroactively.
+**Plagiarism Statement**\
+It is the responsibility of all Emerson students to know and adhere to the College’s policy on plagiarism, which can be found at: [*http://www.emerson.edu/policy/plagiarism*](http://www.emerson.edu/policy/plagiarism)\*. If you have any question concerning the Emerson plagiarism policy or about documentation of sources in work you produce in this course, speak to your instructor.
 
-## Plagiarism Statement
-
-It is the responsibility of all Emerson students to know and adhere to the College’s policy on plagiarism, which can be found at:  [*http://www.emerson.edu/policy/plagiarism*](http://www.emerson.edu/policy/plagiarism)*. If you have any question concerning the Emerson plagiarism policy or about documentation of sources in work you produce in this course, speak to your instructor.
-
-## Diversity Statement
-
-Every student in this class will be honored and respected as an individual with distinct experiences, talents, and backgrounds. Students will be treated fairly regardless of race, religion, sexual orientation, gender identification, disability, socio-economic status, or national identity. Issues of diversity may be a part of class discussion, assigned material, and projects. The instructor will make every effort to ensure that an inclusive environment exists for all students. If you have any concerns or suggestions for improving the classroom climate, please do not hesitate to speak with the course instructor or to contact the Office of Diversity and Inclusion at 617-824-8528 or by email at  [*diversity*inclusion@emerson.edu*](mailto:diversity*inclusion@emerson.edu)
-
-## Grading
-
-Paper #1 20%
-
-Paper #2/Creative Project 20%
-
-Discussion Posts 30%
-
-Response papers (2) 30%
-
-## Class Schedule
-
-*Week 1: Wed 2 July---Tues 8 July*
-
-**Introduction: Sites of Struggle**
-
-Introduction to the course (Contemporary Criticism + Discourse); Semiotics (signs, denotation, connotation, paradigm & syntagm) [@eco1986semiological]
-
-To read:
-
-- David Welch, "The Conquest of the Masses"
-- Umberto Eco, "Towards a Semiological Guerrilla Warfare"
-
-*Week 2: Wed 9 July---Tues 15 July*
-
-**Obey: Ideology and the Orwellian**
-
-Exploring how ideology shapes media representation and consumption, drawing on Althusser's concept of ideological state apparatuses [@althusser1971ideology] and Fisher's analysis of capitalist realism [@fisher2009capitalist].
-
-To read:
-
-- Louis Althusser, "Ideology and Ideological State Apparatuses"
-- Mark Fisher, "It's Easier to Imagine the End of the World Than the End of Capitalism"
-- Mark Fisher, "Lecture 1: What Is Postcapitalist Desire?"
-
-To watch (if you haven't already!): *Squid Game*
-
-*Week 3: Wed 16 July---Tues 22 July*
-
-**Simulation and Pastiche: Postmodernism**
-
-Examining postmodern media culture through the lens of simulation theory and performativity, using contemporary Instagram art as a case study [@ulman2014excellences].
-
-To read:
-
-- Amalia Ulman, "Excellences & Perfections" ([website](http://amaliaulman.eu/); [Instagram](https://www.instagram.com/amaliaulman/))
-- Alastair Sooke, "Is This The First Instagram Masterpiece?"
-- "Amalia Ulman: Meme Come True"
-- Emilie Friedlander, "Social Anxiety: Why Amalia Ulman's Fake 'Middlebrow' Instagram Is No Different From Yours"
-
-To watch: 
-
-- *El Planeta*
-- *Inventing Anna*, Episode 6: "Friends in Low Places"
-
-**DEADLINE: Tuesday 22 July: Paper 1**
-
-*Week 4: Wed 23 July---Tues 29 July*
-
-**Feminism/Postfeminism**
-
-Analyzing the shift from feminist to postfeminist media culture [@negra2007introduction] and its implications for contemporary media representation.
-
-- Diane Negra and Yvonne Tasker, "Introduction: Feminist Politics and Postfeminist Culture" [PDF](pdf/interrogating-postfeminism-intro.pdf)
-- Martin Roberts, "The Fashion Police: Governing the Self in *What Not To Wear*" [PDF](pdf/fashion-police.pdf)
-
-*Week 5: Wed 30 July---Tues 5 August*
-
-**Witnessing**
-
-Examining the role of digital media in documenting social justice and the concept of "bearing witness" in contemporary protest movements [@richardson2020bearing].
-
-Allissa V. Richardson, *Bearing Witness While Black*:
-
-- Chapter 1: "Looking As Rebellion: The Concept of Black Witnessing" [PDF](pdf/richardson-bearing-witness-ch1.pdf)
-- Chapter 3: "The New Protest #Journalism: Black Witnessing as Counternarrative" [PDF](richardson-bearing-witness-ch3.pdf)
-
-**DEADLINE: Wednesday 6 August: Response Paper 1 (**El Planeta**)**
-
-*Week 6: Wed 6 August---Tues 12 August*
-
-**Tribes: Subcultures, Lifestyles, Aesthetics**
-
-Investigating how internet aesthetics function as forms of identity construction and community building [@giolo2024aesthetics].
-
-- Guilherme Giolo and Michaël Berghman, "The Aesthetics of the Self: The Meaning-Making of Internet Aesthetics" [PDF](pdf/giolo-berghman-aesthetics.pdf)
-- [Aesthetics Wiki](https://aesthetics.fandom.com/wiki/Aesthetics_Wiki) (read all articles in the section called "What Are Aesthetics?" and explore the site)
-
-*Week 7: Wed 13 August---Tues 19 August*
-
-**Fandom**
-
-Exploring participatory culture and the social dynamics of digital fan communities [@baym2018music; @jenkins2012textual].
-
-- Nancy K. Baym, "[Social Media and the Struggle for Society](pdf/baym-social-media-society.pdf)"  
-- Nancy K. Baym, Daniel Cavicchi, and Norma Coates, "[Music Fandom in the Digital Age: A Conversation](pdf/baym-music-fandom.pdf)" 
-
-**DEADLINE: Tuesday 19 August: Response Paper 2 (film analysis)**
-
-**DEADLINE: Friday 22 August: Paper 2/Creative Project**
-
----
+**Diversity Statement**\
+Every student in this class will be honored and respected as an individual with distinct experiences, talents, and backgrounds. Students will be treated fairly regardless of race, religion, sexual orientation, gender identification, disability, socio-economic status, or national identity. Issues of diversity may be a part of class discussion, assigned material, and projects. The instructor will make every effort to ensure that an inclusive environment exists for all students. If you have any concerns or suggestions for improving the classroom climate, please do not hesitate to speak with the course instructor or to contact the Office of Diversity and Inclusion at 617-824-8528 or by email at [*diversity*inclusion\@emerson.edu\*](mailto:diversity*inclusion@emerson.edu)

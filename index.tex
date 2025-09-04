@@ -1,0 +1,903 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{241,243,245}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.40,0.45,0.13}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\ExtensionTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.28,0.35,0.67}{#1}}
+\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.00,0.46,0.62}{#1}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.07,0.07,0.07}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  % set entry spacing
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+% load packages
+\usepackage{geometry}
+\usepackage{xcolor}
+\usepackage{eso-pic}
+\usepackage{fancyhdr}
+\usepackage{sectsty}
+\usepackage{fontspec}
+\usepackage{titlesec}
+
+%% Set page size with a wider right margin
+\geometry{a4paper, total={170mm,257mm}, left=20mm, top=20mm, bottom=20mm, right=50mm}
+
+%% Let's define some colours
+\definecolor{light}{HTML}{E6E6FA}
+\definecolor{highlight}{HTML}{800080}
+\definecolor{dark}{HTML}{330033}
+
+%% Let's add the border on the right hand side 
+% \AddToShipoutPicture{% 
+%     \AtPageLowerLeft{% 
+%         \put(\LenToUnit{\dimexpr\paperwidth-3cm},0){% 
+%             \color{light}\rule{3cm}{\LenToUnit\paperheight}%
+%           }%
+%      }%
+%      % logo
+%     \AtPageLowerLeft{% start the bar at the bottom right of the page
+%         \put(\LenToUnit{\dimexpr\paperwidth-2.25cm},27.2cm){% move it to the top right
+%             \color{light}\includegraphics[width=1.5cm]{_extensions/nrennie/PrettyPDF/logo.png}
+%           }%
+%      }%
+% }
+
+%% Style the page number
+\fancypagestyle{mystyle}{
+  \fancyhf{}
+  \renewcommand\headrulewidth{0pt}
+  \fancyfoot[R]{\thepage}
+  \fancyfootoffset{3.5cm}
+}
+\setlength{\footskip}{20pt}
+
+%% style the chapter/section fonts
+\chapterfont{\color{dark}\fontsize{20}{16.8}\selectfont}
+\sectionfont{\color{dark}\fontsize{20}{16.8}\selectfont}
+\subsectionfont{\color{dark}\fontsize{14}{16.8}\selectfont}
+\titleformat{\subsection}
+  {\sffamily\Large\bfseries}{\thesection}{1em}{}[{\titlerule[0.8pt]}]
+  
+% left align title
+\makeatletter
+\renewcommand{\maketitle}{\bgroup\setlength{\parindent}{0pt}
+\begin{flushleft}
+  {\sffamily\huge\textbf{\MakeUppercase{\@title}}} \vspace{0.3cm} \newline
+  {\Large {\@subtitle}} \newline
+  \@author
+\end{flushleft}\egroup
+}
+\makeatother
+
+%% Use some custom fonts
+\setsansfont{Ubuntu}[
+    Path=_extensions/nrennie/PrettyPDF/Ubuntu/,
+    Scale=0.9,
+    Extension = .ttf,
+    UprightFont=*-Regular,
+    BoldFont=*-Bold,
+    ItalicFont=*-Italic,
+    ]
+
+\setmainfont{Ubuntu}[
+    Path=_extensions/nrennie/PrettyPDF/Ubuntu/,
+    Scale=0.9,
+    Extension = .ttf,
+    UprightFont=*-Regular,
+    BoldFont=*-Bold,
+    ItalicFont=*-Italic,
+    ]
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\makeatother
+\makeatletter
+\@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}{}
+\makeatother
+\makeatletter
+\@ifundefined{codebgcolor}{\definecolor{codebgcolor}{named}{light}}{}
+\makeatother
+\makeatletter
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[colback={codebgcolor}, boxrule=0pt, enhanced, breakable, frame hidden, sharp corners]}{\end{tcolorbox}}\fi
+\makeatother
+\makeatletter
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={VM402-09 Generative Media},
+  colorlinks=true,
+  linkcolor={highlight},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={highlight},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{VM402-09 Generative Media}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{History, Theory, Practice}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+
+\pagestyle{mystyle}
+
+
+\begin{figure}
+
+\begin{minipage}{0.61\linewidth}
+\href{https://www.instagram.com/p/C4fu8cmMD0G/?img_index=1}{\pandocbounded{\includegraphics[keepaspectratio]{gif/outlanders-brain-magazine.gif}}}\end{minipage}%
+%
+\begin{minipage}{0.03\linewidth}
+\href{https://emerson.edu/academics/academic-departments/visual-media-arts}{Department
+of Visual \& Media Arts}\\
+\href{https://emerson.edu/}{Emerson College}\\
+Summer 2025\\
+Wed 2 July---Wed 20 August (7 weeks) Online/asynchronous\\
+\href{http://mroberts.emerson.build/}{Dr.~Martin Roberts}
+\href{mailto:martin_roberts@emerson.edu}{\faIcon{envelope}} \textbar{}
+\href{https://merveilles.town/@dokoissho}{\faIcon{mastodon}} \textbar{}
+\href{https://github.com/mroberts1/}{\faIcon{github}} \textbar{}
+\href{https://twitter.com/mroberts_vma}{\faIcon{twitter}}\\
+\end{minipage}%
+
+\end{figure}%
+
+Image credit: \href{https://outlandersdesign.com}{Outlanders Design}
+
+\subsection{Interactive Boids
+Simulation}\label{interactive-boids-simulation}
+
+\emph{Demonstrating emergent behavior and algorithmic art - a perfect
+example of generative media in action.}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{import \{canvas\} from "@harrystevens/p5{-}js{-}boids"}
+\NormalTok{canvas}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{tcolorbox}[enhanced jigsaw, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Note}, colframe=quarto-callout-note-color-frame, coltitle=black, colback=white, leftrule=.75mm, opacityback=0, left=2mm, titlerule=0mm, toprule=.15mm, breakable, rightrule=.15mm, bottomtitle=1mm, toptitle=1mm, bottomrule=.15mm, colbacktitle=quarto-callout-note-color!10!white, arc=.35mm, opacitybacktitle=0.6]
+
+\textbf{About this simulation:} This interactive visualization
+demonstrates Craig Reynolds' ``boids'' algorithm, which simulates
+flocking behavior through simple rules: separation (avoid crowding
+neighbors), alignment (steer towards average heading of neighbors), and
+cohesion (steer towards average position of neighbors). The emergent
+complexity from these simple rules exemplifies key concepts in
+generative media.
+
+\end{tcolorbox}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+Communication plan:
+
+The best way to reach me is by emailing me (martin\_roberts@emerson.edu)
+and I will respond within 12 to 24 hours upon receiving your email
+message.
+
+I am also available for zoom meetings. Please email me with your meeting
+requests and available windows.
+
+Zoom Office Hours: by appointment
+
+https://emerson.zoom.us/j/96415591363 (Passcode: 923351)
+
+\subsection{Description}\label{description}
+
+This online, asynchronous course examines approaches to the analysis and
+criticism of contemporary media. You will learn how to become critical
+of the media messages you use \emph{and} create, and how to think and
+write with agency.
+
+There are two components of this course:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  A survey of such critical approaches/methods as semiotics
+  (\citeproc{ref-eco1986semiological}{Eco 1986};
+  \citeproc{ref-barthes1972mythologies}{Barthes 1972}), psychoanalysis,
+  genre studies, feminist theories
+  (\citeproc{ref-negra2007introduction}{Negra and Tasker 2007}),
+  cultural studies (\citeproc{ref-hall1980encoding}{Hall 1980}), and
+  postmodernism (\citeproc{ref-baudrillard1994simulacra}{Baudrillard
+  1994}; \citeproc{ref-jameson1991postmodernism}{Jameson 1991});
+\item
+  The application of these approaches to examining and critiquing
+  various media forms and contents. We will spend a major part of this
+  semester building up theoretical/methodological foundation while
+  devoting the remaining to the critique and analysis of specific media
+  texts and contexts.
+\end{enumerate}
+
+Through extensive reading, writing, class discussion and screening, you
+will begin to develop the ability to analyze and critique popular media
+messages and images (\citeproc{ref-mulvey1975visual}{Mulvey 1975}), as
+well as develop a critical worldview informed by contemporary media
+theory (\citeproc{ref-fisher2009capitalist}{Fisher 2009}).
+
+\subsection{Learning Objectives}\label{learning-objectives}
+
+By the end of the course, students should be able to:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Identify a variety of critical and theoretical approaches to the media
+\item
+  Develop and refine critical reading strategies, both in terms of the
+  media and writings about the media
+\item
+  Cultivate a suitable academic vocabulary and the ability to write,
+  think and create from a critical perspective
+\item
+  Appreciate an ethically-based and de-centered global perspective on
+  media form and function, sensitive to the work of minority critics and
+  theorists under-represented in the canons of media criticism
+\item
+  Apply theory to practice, and engage with contemporary media
+  production and consumption as critically aware media artists
+\end{enumerate}
+
+\subsection{Required Texts}\label{required-texts}
+
+Mark Fisher, \emph{Capitalist Realism: Is There No Alternative?}
+(Winchester, UK, and Washington, USA: Zero Books, 2009).
+
+Allissa V. Richardson, \emph{Bearing Witness While Black: African
+Americans, Smartphones, and the New Protest \#Journalism} (Oxford:
+Oxford University Press, 2020).
+
+Supplementary readings, available on Canvas (see bibliography).
+
+\subsection{Course Structure and
+Requirements}\label{course-structure-and-requirements}
+
+\textbf{Schedule}\\
+The course begins on Wednesday 2 July and ends on Tuesday 19 August.
+Each week of the course accordingly begins on a \textbf{Wednesday} and
+ends on the following \textbf{Tuesday}.
+
+\textbf{Lectures, Discussion Forums, and Weekly Response Posts}\\
+Each week, I will post a lecture, either in textual or video format,
+usually by \textbf{Friday} of the week in question.
+
+In the lecture, I will assume that you have done the reading assignments
+for the week, so make sure to complete them before reading (or watching)
+the lecture.
+
+The lecture will typically introduce some relevant examples relating to
+the readings that we can use as a starting point for the week's
+discussion. However, you are also very welcome to suggest examples of
+your own that may come to mind after reading the course materials and
+the lecture.
+
+Each week, your initial Response post is due no later than the last day
+of the week in question (i.e.~Tuesday in this case). You are then
+required to post at least 2 follow-up responses to any other group
+members' posts (or my own) during the subsequent week. The Discussion
+cycle for each weekly topic therefore extends over two weeks:
+
+\begin{itemize}
+\tightlist
+\item
+  By the end of the first week (Tuesday): initial response post
+\item
+  By the end of second week (the following Tuesday): min. 2 follow-ups
+  to other people's posts
+\end{itemize}
+
+Don't sweat too much about meeting exact requirements for post length
+and frequency! The purpose is for us to have a lively, productive
+discussion of each week's readings so keep that as your main goal.
+Forums will also stay open beyond the biweekly cycle so you can catch up
+with posts later if you have time.
+
+\textbf{Assigned Readings}\\
+Plan on reading every assignment as listed on the course calendar. Since
+the reading will both inform and enhance material covered during class,
+please complete the reading assignments \emph{prior to} watching the
+lecture videos.
+
+\textbf{Attendance and Participation}\\
+Full participation in class discussions and timely submission of all
+assignments constitutes evidence of class attendance. Students are
+expected to allocate sufficient time to complete all the requirements
+for each module: reading, viewing, responding to discussion questions,
+submitting replies to classmates, and completing other assignments on
+time. Failure to keep up with the pace of the course may result in lower
+grades or the failure of the class.
+
+\textbf{Discussion Forums and Weekly Response Posts}\\
+Each week you are required to post a response of approximately 100-250
+words to the course readings and/or the weekly lecture. The purpose of
+this assignment is for you to reflect on lectures, reading assignments
+or media clips and to pose questions. Along with your initial post, you
+are also required to respond to at least two (2) of your peers'
+comments. Response posts are usually due by the end of the week in
+question: in this case, since the course began on a Wednesday, posts
+will be due by the Tuesday of the following week.
+
+\textbf{Individual Papers}\\
+Each of you will write two analytical papers, which are due on June 9
+and July 7 respectively. For the second paper assignment, you have the
+option to do a creative project (instead of a paper) using either BCS or
+Postmodernism concepts. Detailed instructions of the assignments are
+posted on Canvas. Feel free to consult with me if you have questions
+about an assignment or think you need extra help.
+
+\textbf{Response Papers}\\
+You will write two response papers responding to assigned films (see
+syllabus) in the contexts of the assigned readings. Each response paper
+should be approximately 750-1,000 words in length (3-4 pages,
+double-spaced). Your grade depends on how well you analyze and critique
+the film and how well you incorporate the readings into your
+critique/analysis.
+
+The grading scale for papers is as follows:
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.5000}}@{}}
+\toprule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+A & This is excellent scholarly work that could be published in a
+student film or media studies journal. It displays good \emph{structure}
+(i.e., a strong original thesis statement and a logical development of
+points to follow), \emph{content} (sound analysis and good research when
+applicable), and \emph{presentational skills} (i.e., excellence in
+verbal, logical, and grammatical expression, as well as care in
+mechanical details such as spelling, typing, bibliography and footnote
+preparation, etc.). It also follows style and formatting rules.
+(A=95). \\
+B & This is good scholarly work that could be published in a student
+journal with some adjustments. It has minor problems in a couple of the
+aforementioned areas. (B=85) \\
+C & This work exhibits problems in several of the aforementioned areas
+or a major problem in one. (C=75) \\
+D & This work exhibits little understanding of the subject matter or
+paper requirements. It fails to follow rudimentary formatting and
+displays sloppiness in spelling, grammar and sourcing. (D=65) \\
+F & This work exhibits no understanding of the subject matter or paper
+requirements. It fails to follow rudimentary formatting and displays
+sloppiness in spelling, grammar and sourcing. (F=55) \\
+\end{longtable}
+
+\subsection{Academic Honesty}\label{academic-honesty}
+
+Do not plagiarize. Plagiarism is using someone else's work without
+giving them fair credit. Plagiarism and cheating will result in an ``F''
+for the assignment.
+
+\subsection{Accommodations for Students with
+Disabilities}\label{accommodations-for-students-with-disabilities}
+
+Emerson is committed to providing equal access and support to all
+qualified students through the provision of reasonable accommodations,
+so that each student may fully participate in the Emerson experience.
+Student Accessibility Services (SAS) staff will be working remotely for
+the fall of 2020. If you have a disability that may require
+accommodations, please contact them at
+\href{mailto:SAS@emerson.edu}{\emph{SAS@emerson.edu}} or at
+(617)824-8592 to make an appointment with an SAS staff member.
+
+Students are encouraged to contact SAS early in the semester. Please be
+aware that accommodations are not applied retroactively.
+
+\subsection{Plagiarism Statement}\label{plagiarism-statement}
+
+It is the responsibility of all Emerson students to know and adhere to
+the College's policy on plagiarism, which can be found at:
+\href{http://www.emerson.edu/policy/plagiarism}{\emph{http://www.emerson.edu/policy/plagiarism}}*.
+If you have any question concerning the Emerson plagiarism policy or
+about documentation of sources in work you produce in this course, speak
+to your instructor.
+
+\subsection{Diversity Statement}\label{diversity-statement}
+
+Every student in this class will be honored and respected as an
+individual with distinct experiences, talents, and backgrounds. Students
+will be treated fairly regardless of race, religion, sexual orientation,
+gender identification, disability, socio-economic status, or national
+identity. Issues of diversity may be a part of class discussion,
+assigned material, and projects. The instructor will make every effort
+to ensure that an inclusive environment exists for all students. If you
+have any concerns or suggestions for improving the classroom climate,
+please do not hesitate to speak with the course instructor or to contact
+the Office of Diversity and Inclusion at 617-824-8528 or by email at
+\href{mailto:diversity*inclusion@emerson.edu}{\emph{diversity}inclusion@emerson.edu*}
+
+\subsection{Grading}\label{grading}
+
+Paper \#1 20\%
+
+Paper \#2/Creative Project 20\%
+
+Discussion Posts 30\%
+
+Response papers (2) 30\%
+
+\subsection{Class Schedule}\label{class-schedule}
+
+\emph{Week 1: Wed 2 July---Tues 8 July}
+
+\textbf{Introduction: Sites of Struggle}
+
+Introduction to the course (Contemporary Criticism + Discourse);
+Semiotics (signs, denotation, connotation, paradigm \& syntagm)
+(\citeproc{ref-eco1986semiological}{Eco 1986})
+
+To read:
+
+\begin{itemize}
+\tightlist
+\item
+  David Welch, ``The Conquest of the Masses''
+\item
+  Umberto Eco, ``Towards a Semiological Guerrilla Warfare''
+\end{itemize}
+
+\emph{Week 2: Wed 9 July---Tues 15 July}
+
+\textbf{Obey: Ideology and the Orwellian}
+
+Exploring how ideology shapes media representation and consumption,
+drawing on Althusser's concept of ideological state apparatuses
+(\citeproc{ref-althusser1971ideology}{Althusser 1971}) and Fisher's
+analysis of capitalist realism
+(\citeproc{ref-fisher2009capitalist}{Fisher 2009}).
+
+To read:
+
+\begin{itemize}
+\tightlist
+\item
+  Louis Althusser, ``Ideology and Ideological State Apparatuses''
+\item
+  Mark Fisher, ``It's Easier to Imagine the End of the World Than the
+  End of Capitalism''
+\item
+  Mark Fisher, ``Lecture 1: What Is Postcapitalist Desire?''
+\end{itemize}
+
+To watch (if you haven't already!): \emph{Squid Game}
+
+\emph{Week 3: Wed 16 July---Tues 22 July}
+
+\textbf{Simulation and Pastiche: Postmodernism}
+
+Examining postmodern media culture through the lens of simulation theory
+and performativity, using contemporary Instagram art as a case study
+(\citeproc{ref-ulman2014excellences}{Ulman 2014}).
+
+To read:
+
+\begin{itemize}
+\tightlist
+\item
+  Amalia Ulman, ``Excellences \& Perfections''
+  (\href{http://amaliaulman.eu/}{website};
+  \href{https://www.instagram.com/amaliaulman/}{Instagram})
+\item
+  Alastair Sooke, ``Is This The First Instagram Masterpiece?''
+\item
+  ``Amalia Ulman: Meme Come True''
+\item
+  Emilie Friedlander, ``Social Anxiety: Why Amalia Ulman's Fake
+  `Middlebrow' Instagram Is No Different From Yours''
+\end{itemize}
+
+To watch:
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{El Planeta}
+\item
+  \emph{Inventing Anna}, Episode 6: ``Friends in Low Places''
+\end{itemize}
+
+\textbf{DEADLINE: Tuesday 22 July: Paper 1}
+
+\emph{Week 4: Wed 23 July---Tues 29 July}
+
+\textbf{Feminism/Postfeminism}
+
+Analyzing the shift from feminist to postfeminist media culture
+(\citeproc{ref-negra2007introduction}{Negra and Tasker 2007}) and its
+implications for contemporary media representation.
+
+\begin{itemize}
+\tightlist
+\item
+  Diane Negra and Yvonne Tasker, ``Introduction: Feminist Politics and
+  Postfeminist Culture''
+  \href{pdf/interrogating-postfeminism-intro.pdf}{PDF}
+\item
+  Martin Roberts, ``The Fashion Police: Governing the Self in \emph{What
+  Not To Wear}'' \href{pdf/fashion-police.pdf}{PDF}
+\end{itemize}
+
+\emph{Week 5: Wed 30 July---Tues 5 August}
+
+\textbf{Witnessing}
+
+Examining the role of digital media in documenting social justice and
+the concept of ``bearing witness'' in contemporary protest movements
+(\citeproc{ref-richardson2020bearing}{Richardson 2020}).
+
+Allissa V. Richardson, \emph{Bearing Witness While Black}:
+
+\begin{itemize}
+\tightlist
+\item
+  Chapter 1: ``Looking As Rebellion: The Concept of Black Witnessing''
+  \href{pdf/richardson-bearing-witness-ch1.pdf}{PDF}
+\item
+  Chapter 3: ``The New Protest \#Journalism: Black Witnessing as
+  Counternarrative'' \href{richardson-bearing-witness-ch3.pdf}{PDF}
+\end{itemize}
+
+\textbf{DEADLINE: Wednesday 6 August: Response Paper 1 (}El
+Planeta\textbf{)}
+
+\emph{Week 6: Wed 6 August---Tues 12 August}
+
+\textbf{Tribes: Subcultures, Lifestyles, Aesthetics}
+
+Investigating how internet aesthetics function as forms of identity
+construction and community building
+(\citeproc{ref-giolo2024aesthetics}{Giolo and Berghman 2024}).
+
+\begin{itemize}
+\tightlist
+\item
+  Guilherme Giolo and Michaël Berghman, ``The Aesthetics of the Self:
+  The Meaning-Making of Internet Aesthetics''
+  \href{pdf/giolo-berghman-aesthetics.pdf}{PDF}
+\item
+  \href{https://aesthetics.fandom.com/wiki/Aesthetics_Wiki}{Aesthetics
+  Wiki} (read all articles in the section called ``What Are
+  Aesthetics?'' and explore the site)
+\end{itemize}
+
+\emph{Week 7: Wed 13 August---Tues 19 August}
+
+\textbf{Fandom}
+
+Exploring participatory culture and the social dynamics of digital fan
+communities (\citeproc{ref-baym2018music}{Baym et al. 2018};
+\citeproc{ref-jenkins2012textual}{Jenkins 2012}).
+
+\begin{itemize}
+\tightlist
+\item
+  Nancy K. Baym, ``\href{pdf/baym-social-media-society.pdf}{Social Media
+  and the Struggle for Society}''\\
+\item
+  Nancy K. Baym, Daniel Cavicchi, and Norma Coates,
+  ``\href{pdf/baym-music-fandom.pdf}{Music Fandom in the Digital Age: A
+  Conversation}''
+\end{itemize}
+
+\textbf{DEADLINE: Tuesday 19 August: Response Paper 2 (film analysis)}
+
+\textbf{DEADLINE: Friday 22 August: Paper 2/Creative Project}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\phantomsection\label{refs}
+\begin{CSLReferences}{1}{1}
+\bibitem[\citeproctext]{ref-althusser1971ideology}
+Althusser, Louis. 1971. {``Ideology and Ideological State Apparatuses
+(Notes Towards an Investigation).''} In \emph{Lenin and Philosophy and
+Other Essays}, translated by Ben Brewster. Monthly Review Press.
+
+\bibitem[\citeproctext]{ref-barthes1972mythologies}
+Barthes, Roland. 1972. \emph{Mythologies}. Translated by Annette Lavers.
+Hill; Wang.
+
+\bibitem[\citeproctext]{ref-baudrillard1994simulacra}
+Baudrillard, Jean. 1994. \emph{Simulacra and Simulation}. Translated by
+Sheila Faria Glaser. University of Michigan Press.
+
+\bibitem[\citeproctext]{ref-baym2018music}
+Baym, Nancy K., Daniel Cavicchi, and Norma Coates. 2018. {``Music Fandom
+in the Digital Age: A Conversation.''} In \emph{The Routledge Companion
+to Media Fandom}, edited by Melissa A. Click and Suzanne Scott.
+Routledge.
+
+\bibitem[\citeproctext]{ref-eco1986semiological}
+Eco, Umberto. 1986. {``Towards a Semiological Guerrilla Warfare.''} In
+\emph{Travels in Hyperreality: Essays}, translated by William Weaver.
+Harcourt Brace Jovanovich.
+
+\bibitem[\citeproctext]{ref-fisher2009capitalist}
+Fisher, Mark. 2009. \emph{Capitalist Realism: Is There No Alternative?}
+Zero Books.
+
+\bibitem[\citeproctext]{ref-giolo2024aesthetics}
+Giolo, Guilherme, and Michaël Berghman. 2024. {``The Aesthetics of the
+Self: The Meaning-Making of Internet Aesthetics.''} \emph{Cultural
+Sociology}, ahead of print.
+\url{https://doi.org/10.1177/17499755241229570}.
+
+\bibitem[\citeproctext]{ref-hall1980encoding}
+Hall, Stuart. 1980. {``Encoding/Decoding.''} In \emph{Culture, Media,
+Language: Working Papers in Cultural Studies, 1972-79}, edited by Stuart
+Hall, Dorothy Hobson, Andrew Lowe, and Paul Willis. Hutchinson.
+
+\bibitem[\citeproctext]{ref-jameson1991postmodernism}
+Jameson, Fredric. 1991. \emph{Postmodernism, or, the Cultural Logic of
+Late Capitalism}. Duke University Press.
+
+\bibitem[\citeproctext]{ref-jenkins2012textual}
+Jenkins, Henry. 2012. \emph{Textual Poachers: Television Fans and
+Participatory Culture}. 2nd ed. Routledge.
+
+\bibitem[\citeproctext]{ref-mulvey1975visual}
+Mulvey, Laura. 1975. {``Visual Pleasure and Narrative Cinema.''}
+\emph{Screen} 16 (3): 6--18.
+
+\bibitem[\citeproctext]{ref-negra2007introduction}
+Negra, Diane, and Yvonne Tasker. 2007. {``Introduction: Feminist
+Politics and Postfeminist Culture.''} In \emph{Interrogating
+Postfeminism: Gender and the Politics of Popular Culture}, edited by
+Diane Negra and Yvonne Tasker. Duke University Press.
+
+\bibitem[\citeproctext]{ref-richardson2020bearing}
+Richardson, Allissa V. 2020. \emph{Bearing Witness While Black: African
+Americans, Smartphones, and the New Protest \#Journalism}. Oxford
+University Press.
+
+\bibitem[\citeproctext]{ref-ulman2014excellences}
+Ulman, Amalia. 2014. \emph{Excellences \& Perfections}. Instagram
+performance.
+
+\end{CSLReferences}
+
+
+
+
+\end{document}
