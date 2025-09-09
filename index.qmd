@@ -29,10 +29,12 @@ library(palmerpenguins)
 VM402-09\
 Fall Semester 2025\
 Thur 4 Sept - Tues 16 Dec\
-16:00-17:45 Ansin 502\
+16:00-17:45\ 
+Ansin 502\
 [Dr. Martin Roberts](http://mroberts.emerson.build/)\
 Office: TBA\
 Hours: Tues/Thur 14:30-3:30\
+[Canvas](https://canvas.emerson.edu/courses/2136023)\
 [{{< fa regular envelope >}}](mailto:martin_roberts@emerson.edu) \| [{{< fa brands mastodon >}}](https://merveilles.town/@dokoissho) \| [{{< fa brands github >}}](https://github.com/mroberts1/) \| [{{< fa brands twitter >}}](https://twitter.com/mroberts_vma)\
 
 :::
@@ -82,13 +84,22 @@ Thur_04-Sept
 
 **Oblique Strategies**
 
+::: {.column-margin}
+
+{{< video https://youtu.be/L8rBVU4gsMs>}}
+
+:::
+
 Tues_9-Sept
 
-Geeta Dayal, [*Another Green World*, chs. 1-3](pdf/another-green-world-chs1-3.pdf)  
+"Work at a different speed"
+
+- Geeta Dayal, [*Another Green World*, chs. 1-3](pdf/another-green-world-chs1-3.pdf)  
 
 Thur_11-Sept
 
-Geeta Dayal, *Another Green World*, chs. 4-6
+- Brian Eno, "[Generating and Organizing Variety in the Arts](pdf/eno-generating-organizing-arts.pdf)" (*Studio International*, 1976)
+- Geeta Dayal, *Another Green World*, chs. 4-6
 
 ***
 
@@ -96,11 +107,11 @@ Geeta Dayal, *Another Green World*, chs. 4-6
 
 Tues_16-Sept
 
-Geeta Dayal, *Another Green World*, chs. 7-9
+- Geeta Dayal, *Another Green World*, chs. 7-9
 
 Thur_18-Sept
 
-Geeta Dayal, *Another Green World*, chs. 10-12
+- Geeta Dayal, *Another Green World*, chs. 10-12
 
 ***
 
@@ -110,11 +121,11 @@ Geeta Dayal, *Another Green World*, chs. 10-12
 
 Tues_23-Sept
 
-Screening: *John Cage: Journeys in Sound*
+- Screening: *John Cage: Journeys in Sound*
 
 Thur_25-Sept
 
-Cage, selected essays from *Silence*
+- John Cage, selected essays from *Silence*
 
 ***
 
@@ -124,11 +135,11 @@ Cage, selected essays from *Silence*
 
 Tues_30-Sept
 
-Steve Reich, "Music as a Gradual Process" (1968)
+- Steve Reich, "Music as a Gradual Process" (1968)
 
 Thur_02-Oct
 
-Terry Riley, *In C*  
+- Terry Riley, *In C*  
 
 ***
 
