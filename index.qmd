@@ -43,9 +43,9 @@ Hours: Tues/Thur 14:30-3:30\
 
 ## Description
 
-<!-- > <small>It’s very useful in the arts to have certain sorts of systems, \[particularly\] if you’re working with something that doesn’t have immediate limitations because you don’t have enough money. ... Sometimes not having enough money is good, because you don’t end up throwing a million dollars at a five-cent idea. But \[what\] if the idea doesn’t require any money? How do you actually stop yourself from putting too much into an idea that’s too small? You find an external system. And some of the best systems in the world come out of physics, the sciences. Math.</small> -->
-<!-- > -->
-<!-- > <small>---Judy Nylon, cited in Geeta Dayal, *Another Green Word* (23-24).</small> -->
+> <small>It’s very useful in the arts to have certain sorts of systems, \[particularly\] if you’re working with something that doesn’t have immediate limitations because you don’t have enough money. ... Sometimes not having enough money is good, because you don’t end up throwing a million dollars at a five-cent idea. But \[what\] if the idea doesn’t require any money? How do you actually stop yourself from putting too much into an idea that’s too small? You find an external system. And some of the best systems in the world come out of physics, the sciences. Math.</small>
+>
+> <small>---Judy Nylon, cited in Geeta Dayal, *Another Green Word* (23-24).</small>
 
 Although the term “generative” is today often treated as synonymous with AI-based artistic practices, generative art and aesthetics long predates the digital era, with antecedents that include the experiments with musical chance of John Cage and Lamonte Young, the early computational art of the 1960s, fractal images and music in the 1970s,  or the ambient music of Brian Eno. The popularization of algorithmic tools that enable images, music, literary works, animation, and motion graphics to be generated from text and image prompts, however, has led to a surge in interest in code-based and algorithmic forms of creativity, along with debates about the aesthetic and ethical legitimacy of AI-generated artworks and other creative content. While computational art has been able to pass as human since the 1960s, the current explosive growth of algorithmic tools has rekindled aesthetic debates about the technological dimension of art and the relationship of art to the human more generally.
 
@@ -84,7 +84,7 @@ Thur_04-Sept
 
 Tues_9-Sept
 
-Geeta Dayal, *Another Green World*, chs. 1-3
+Geeta Dayal, [*Another Green World*, chs. 1-3](pdf/another-green-world-chs1-3.pdf)  
 
 Thur_11-Sept
 
