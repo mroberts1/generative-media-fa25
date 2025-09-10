@@ -12,7 +12,7 @@ website:
   #   card-style: summary_large_image
   favicon: "/img/cropped-cropped-flourish-1-270x270.gif"
   margin-header: |
-    ![](/img/Emerson-PrimaryLogo-Reversed-Color-400px.png)
+    ![](/img/Emerson-PrimaryLogo-Reversed-Color-400px.png){width="50%"}
   sidebar:
     search: false
     style: "floating"
