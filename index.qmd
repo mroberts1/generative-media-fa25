@@ -99,6 +99,7 @@ Tues_9-Sept
 Thur_11-Sept
 
 - Brian Eno, "[Generating and Organizing Variety in the Arts](pdf/eno-generating-organizing-arts.pdf)" (*Studio International*, 1976)
+- Brian Eno, *Music for Airports* (and other albums), [liner notes](pdf/eno-ambient.pdf)
 - Geeta Dayal, *Another Green World*, chs. 4-6
 
 ***
@@ -223,6 +224,7 @@ Tues_04-Nov
 
 Thur_06-Nov
 
+- Rob Clouth, [*The Harry Potter Book Generator*](https://robclouth.com/#projects/the-harry-potter-book-generator)
 - NanoGenMo
 
 ***
