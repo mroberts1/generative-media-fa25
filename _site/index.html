@@ -47,6 +47,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-248e9a9683569858c7e88d6e20c41e87.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -365,21 +368,28 @@ Hours: Tues/Thur 14:30-3:30<br>
 <p><strong>Oblique Strategies</strong></p>
 
 <div class="no-row-height column-margin column-container"><div class="">
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/L8rBVU4gsMs" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/L8rBVU4gsMs" width="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </div></div><p>Tues_9-Sept</p>
-<p>“Work at a different speed”</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/vNwYtllyt3Q" width="300" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</div></div><p>“Work at a different speed”</p>
 <ul>
 <li>Geeta Dayal, <a href="pdf/another-green-world-chs1-3.pdf"><em>Another Green World</em>, chs.&nbsp;1-3</a></li>
 </ul>
 <p>Thur_11-Sept</p>
 <ul>
 <li>Brian Eno, “<a href="pdf/eno-generating-organizing-arts.pdf">Generating and Organizing Variety in the Arts</a>” (<em>Studio International</em>, 1976)</li>
+<li>Brian Eno, <em>Music for Airports</em> (and other albums), <a href="pdf/eno-ambient.pdf">liner notes</a></li>
 <li>Geeta Dayal, <em>Another Green World</em>, chs.&nbsp;4-6</li>
 </ul>
 <hr>
 <p><em>Week 3</em></p>
 <p>Tues_16-Sept</p>
-<ul>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><a href="img/eno-discreet-music_loop-diagram.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img/eno-discreet-music_loop-diagram.jpg" class="img-fluid" width="300"></a></p>
+</div></div><ul>
 <li>Geeta Dayal, <em>Another Green World</em>, chs.&nbsp;7-9</li>
 </ul>
 <p>Thur_18-Sept</p>
@@ -463,6 +473,7 @@ Hours: Tues/Thur 14:30-3:30<br>
 </ul>
 <p>Thur_06-Nov</p>
 <ul>
+<li>Rob Clouth, <a href="https://robclouth.com/#projects/the-harry-potter-book-generator"><em>The Harry Potter Book Generator</em></a></li>
 <li>NanoGenMo</li>
 </ul>
 <hr>
@@ -937,6 +948,38 @@ Every student in this class will be honored and respected as an individual with 
   });
   </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
