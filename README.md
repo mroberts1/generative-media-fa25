@@ -12,11 +12,13 @@ Hours: Tues/Thur 14:30-3:30\
 
 ## Description
 
+> <small>It’s very useful in the arts to have certain sorts of systems, \[particularly\] if you’re working with something that doesn’t have immediate limitations because you don’t have enough money. ... Sometimes not having enough money is good, because you don’t end up throwing a million dollars at a five-cent idea. But \[what\] if the idea doesn’t require any money? How do you actually stop yourself from putting too much into an idea that’s too small? You find an external system. And some of the best systems in the world come out of physics, the sciences. Math.</small>
+>
+> <small>---Judy Nylon, cited in Geeta Dayal, *Another Green Word* (23-24).</small>
+
 Although the term “generative” is today often treated as synonymous with AI-based artistic practices, generative art and aesthetics long predates the digital era, with antecedents that include the experiments with musical chance of John Cage and Lamonte Young, the early computational art of the 1960s, fractal images and music in the 1970s,  or the ambient music of Brian Eno. The popularization of algorithmic tools that enable images, music, literary works, animation, and motion graphics to be generated from text and image prompts, however, has led to a surge in interest in code-based and algorithmic forms of creativity, along with debates about the aesthetic and ethical legitimacy of AI-generated artworks and other creative content. While computational art has been able to pass as human since the 1960s, the current explosive growth of algorithmic tools has rekindled aesthetic debates about the technological dimension of art and the relationship of art to the human more generally.
 
 This course explores the history of generative approaches in the media arts, as well as changing social attitudes towards these and the contemporary debate swirling around “AI art.” In addition to historical examples and philosophical dimensions, students are introduced to a variety of generative approaches to artistic creativity, and collaborate on producing generative artworks in a medium of their choice using a variety of tools, frameworks, and platforms.
-
-## Learning Objectives
 
 ## Texts
 
@@ -26,17 +28,15 @@ This course explores the history of generative approaches in the media arts, as 
 
 ## Films
 
-*John Cage: Journeys in Sound* (Allan Miller and Paul Smaczny, 2012).
+*John Cage: Journeys in Sound* (Allan Miller and Paul Smaczny, 2012).  
+[*Eno*](https://www.hustwit.com/eno) (Gary Hustwit, 2024).
 
-## Evaluation
+## Assignments & Evaluation
 
-Paper #1 20%
-
-Paper #2/Creative Project 20%
-
-Discussion Posts 30%
-
-Response papers (2) 30%
+Reflection post (weekly, due Friday of each week, 10 required) (40%)  
+Audiovisual or Textual Generative Work (20%, due at Thanksgiving)  
+Research Paper (20%, due Thur 11 Dec)  
+Oblique Strategies Project (20%, due 16 Oct)  
 
 ## Class Schedule
 
@@ -52,13 +52,29 @@ Thur_04-Sept
 
 **Oblique Strategies**
 
+::: {.column-margin}
+
+{{< video https://youtu.be/L8rBVU4gsMs width="300" >}}
+
+:::
+
 Tues_9-Sept
 
-Geeta Dayal, *Another Green World*, chs. 1-3
+::: {.column-margin}
+
+{{< video https://youtu.be/vNwYtllyt3Q width="300" >}}
+
+:::
+
+"Work at a different speed"
+
+- Geeta Dayal, [*Another Green World*, chs. 1-3](pdf/another-green-world-chs1-3.pdf)  
 
 Thur_11-Sept
 
-Geeta Dayal, *Another Green World*, chs. 4-6
+- Brian Eno, "[Generating and Organizing Variety in the Arts](pdf/eno-generating-organizing-arts.pdf)" (*Studio International*, 1976)
+- Brian Eno, *Music for Airports* (and other albums), [liner notes](pdf/eno-ambient.pdf)
+- Geeta Dayal, *Another Green World*, chs. 4-6
 
 ***
 
@@ -66,11 +82,20 @@ Geeta Dayal, *Another Green World*, chs. 4-6
 
 Tues_16-Sept
 
-Geeta Dayal, *Another Green World*, chs. 7-9
+"Interesting failure after interesting failure"
+
+::: {.column-margin}
+
+![](img/eno-discreet-music_loop-diagram.jpg){.lightbox width="300"}
+
+:::
+
+
+- Geeta Dayal, *Another Green World*, chs. 7-9
 
 Thur_18-Sept
 
-Geeta Dayal, *Another Green World*, chs. 10-12
+- Geeta Dayal, *Another Green World*, chs. 10-12
 
 ***
 
@@ -80,11 +105,11 @@ Geeta Dayal, *Another Green World*, chs. 10-12
 
 Tues_23-Sept
 
-Screening: *John Cage: Journeys in Sound*
+- Screening: *John Cage: Journeys in Sound*
 
 Thur_25-Sept
 
-Cage, selected essays from *Silence*
+- John Cage, selected essays from *Silence*
 
 ***
 
@@ -94,57 +119,51 @@ Cage, selected essays from *Silence*
 
 Tues_30-Sept
 
-Steve Reich, "Music as a Gradual Process" (1968)
-
-Wim Mertens book?
+- Steve Reich, "Music as a Gradual Process" (1968)
 
 Thur_02-Oct
 
-Terry Riley?
+- Terry Riley, *In C*  
 
 ***
 
 *Week 6*
 
+**Mondrian: Computer Graphics**
+
 Tues_07-Oct
 
-**Permutations**
-
-Raymond Queneau, [*A Hundred Thousand Billion Poems*](https://en.wikipedia.org/wiki/A_Hundred_Thousand_Billion_Poems)
-
-[Interactive edition](https://www.bevrowe.info/Internet/Queneau/Queneau.html)
-
-Eno, [*77 Million Paintings*](https://en.wikipedia.org/wiki/77_Million_Paintings)
-
-Watch:
-
--   [*7 Hours in 77 Million Paintings*](https://vimeo.com/groups/chillounge/videos/751767)(420 mins. \> 35 mins. timelapse)
+- Amy Goodchild, "[Early Computer Art in the '50s and '60s](https://www.amygoodchild.com/blog/computer-art-50s-and-60s)"
+- A. Michael Noll, "Human or Machine? A Subjective Comparison of Piet Mondrian's 'Composition With Lines' (1917) and a Computer-Generated Picture"
+- [Early 3D Computer Graphics from Bell Labs](https://youtu.be/M4nql28E_AE)  
 
 ::: {.column-margin}
 
-{{< video https://vimeo.com/638631 >}}
-
-:::
-
--   \[*7 More Hours in 77 Million Paintings*\]([https://vimeo.com/751767](https://vimeo.com/751767?fl=pl&fe=sh)) (420 mins. \> 35 mins. timelapse)
-
-::: {.column-margin}
-
-{{< video https://vimeo.com/751767 >}}
+{{< video https://youtu.be/M4nql28E_AE width="300" >}}
 
 :::
 
 Thur_09-Oct
 
+- Lev Manovich, "Who is 'An Artist' in the 'AI Era'?"
+- Processing Mondrian
+
 ***
 
 *Week 7*
 
-**Fractals**
+**Fractal Worlds**
 
 Tues_14-Oct
 
+- [Mandelbulb](https://www.mandelbulb.com/)  
+- [Fractal Worlds](https://www.youtube.com/watch?v=xj_4jvSDVME&list=PL1ywvug1r6ThGOrb9vQNfqYsI5XNyV3B3&index=14&ab_channel=bib993) (YouTube channel)
+
 Thur_16-Oct
+
+Oblique Strategies Projects
+
+**DEADLINE: Oblique Strategies Project**
 
 ***
 
@@ -164,15 +183,50 @@ Lenia
 
 *Week 9*
 
-**Procedural Worlds**
+**Permutations**
 
 Tues_28-Oct
 
-Simon Parkin, "[A Journey to the End of the World (of Minecraft)](https://www.newyorker.com/tech/annals-of-technology/a-journey-to-the-end-of-the-world-of-minecraft)" (*The New Yorker*, 23 January 2014)
+- Raymond Queneau, [*A Hundred Thousand Billion Poems*](https://en.wikipedia.org/wiki/A_Hundred_Thousand_Billion_Poems)
+
+- [Interactive edition](https://www.bevrowe.info/Internet/Queneau/Queneau.html)
+
+- Eno, [*77 Million Paintings*](https://en.wikipedia.org/wiki/77_Million_Paintings)
+
+- [*7 Hours in 77 Million Paintings*](https://vimeo.com/groups/chillounge/videos/751767)(420 mins. \> 35 mins. timelapse)
+- [*7 More Hours in 77 Million Paintings*\]([https://vimeo.com/751767](https://vimeo.com/751767?fl=pl&fe=sh)) (420 mins. \> 35 mins. timelapse)
+
 
 Thur_30-Oct
 
-[Wave Function Collapse](https://marian42.itch.io/wfc)
+***
+
+*Week 10*
+
+**Language Games**
+
+Tues_04-Nov
+
+- *The Penguin Book of OULIPO*, selected chs.  
+
+Thur_06-Nov
+
+- Rob Clouth, [*The Harry Potter Book Generator*](https://robclouth.com/#projects/the-harry-potter-book-generator)
+- NanoGenMo
+
+***
+
+*Week 11*
+
+Veterans Day
+
+Thur_13-Nov
+
+**Procedural Worlds**
+
+- Simon Parkin, "[A Journey to the End of the World (of Minecraft)](https://www.newyorker.com/tech/annals-of-technology/a-journey-to-the-end-of-the-world-of-minecraft)" (*The New Yorker*, 23 January 2014)
+
+- [Wave Function Collapse](https://marian42.itch.io/wfc)
 
 ::: {.column-margin}
 
@@ -182,37 +236,17 @@ Thur_30-Oct
 
 ***
 
-*Week 10*
-
-**Algorithmic Architecture**
-
-Tues_04-Nov
-
-Thur_06-Nov
-
-***
-
-*Week 11*
-
-Veterans Day
+*Week 12*
 
 **Generative Art & Design**
 
-Thur_13-Nov
-
-Read the interviews with [Josef Pelz](https://www.generativehut.com/post/interview-with-josef-pelz), [Étienne Jacob](https://www.generativehut.com/post/interview-with-etienne-jacob), [Shohei Fujimoto](https://www.generativehut.com/post/interview-with-shohei-fujimoto), [Giulia Cosco](https://www.generativehut.com/post/interview-with-giulia-cosco), and/or [Pierre Paslier](https://www.generativehut.com/post/interview-with-pierre-paslier)
-
-***
-
-*Week 12*
-
 Tues_18-Nov
 
-[Generative Hut](https://www.generativehut.com/) website
+- [Generative Design](http://www.generative-gestaltung.de/2/)
 
 Thur_20-Nov
 
-P5.js workshop
+- Read the interviews with [Josef Pelz](https://www.generativehut.com/post/interview-with-josef-pelz), [Étienne Jacob](https://www.generativehut.com/post/interview-with-etienne-jacob), [Shohei Fujimoto](https://www.generativehut.com/post/interview-with-shohei-fujimoto), [Giulia Cosco](https://www.generativehut.com/post/interview-with-giulia-cosco), and/or [Pierre Paslier](https://www.generativehut.com/post/interview-with-pierre-paslier)
 
 ***
 
@@ -220,7 +254,7 @@ P5.js workshop
 
 Tues_25-Nov
 
-NO CLASS?
+TBA
 
 Thanksgiving
 
@@ -248,7 +282,7 @@ Tues_16-Dec Conclusion
 
 ***
 
-## Policies & Procedures
+## Policies
 
 **Attendance and Participation**\
 Full participation in class discussions and timely submission of all assignments constitutes evidence of class attendance. Students are expected to allocate sufficient time to complete all the requirements for each module: reading, viewing, responding to discussion questions, submitting replies to classmates, and completing other assignments on time. Failure to keep up with the pace of the course may result in lower grades or the failure of the class.
