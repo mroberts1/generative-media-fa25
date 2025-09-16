@@ -61,14 +61,15 @@ This course explores the history of generative approaches in the media arts, as 
 
 ## Films
 
-*John Cage: Journeys in Sound* (Allan Miller and Paul Smaczny, 2012).
+*John Cage: Journeys in Sound* (Allan Miller and Paul Smaczny, 2012).  
+[*Eno*](https://www.hustwit.com/eno) (Gary Hustwit, 2024).
 
 ## Assignments & Evaluation
 
-Reflection post (weekly, due Friday of each week, 10 required) (40%)
-Audiovisual or Textual Generative Work (20%, due at Thanksgiving)
-Research Paper (20%, due Thur 11 Dec)
-Oblique Strategies Project (20%, due mid-semester)
+Reflection post (weekly, due Friday of each week, 10 required) (40%)\
+Audiovisual or Textual Generative Work (20%, due at Thanksgiving)\
+Research Paper (20%, due Thur 11 Dec)\
+Oblique Strategies Project (20%, due mid-semester)\
 
 ## Class Schedule
 
@@ -86,11 +87,17 @@ Thur_04-Sept
 
 ::: {.column-margin}
 
-{{< video https://youtu.be/L8rBVU4gsMs>}}
+{{< video https://youtu.be/L8rBVU4gsMs width="300" >}}
 
 :::
 
 Tues_9-Sept
+
+::: {.column-margin}
+
+{{< video https://youtu.be/vNwYtllyt3Q width="300" >}}
+
+:::
 
 "Work at a different speed"
 
@@ -107,6 +114,13 @@ Thur_11-Sept
 *Week 3*
 
 Tues_16-Sept
+
+::: {.column-margin}
+
+![](img/eno-discreet-music_loop-diagram.jpg){.lightbox width="300"}
+
+:::
+
 
 - Geeta Dayal, *Another Green World*, chs. 7-9
 
@@ -156,7 +170,7 @@ Tues_07-Oct
 
 ::: {.column-margin}
 
-{{< video https://youtu.be/M4nql28E_AE >}}
+{{< video https://youtu.be/M4nql28E_AE width="300" >}}
 
 :::
 
@@ -177,6 +191,10 @@ Tues_14-Oct
 - [Fractal Worlds](https://www.youtube.com/watch?v=xj_4jvSDVME&list=PL1ywvug1r6ThGOrb9vQNfqYsI5XNyV3B3&index=14&ab_channel=bib993) (YouTube channel)
 
 Thur_16-Oct
+
+Oblique Strategies Projects
+
+**DEADLINE: Oblique Strategies Project**
 
 ***
 
