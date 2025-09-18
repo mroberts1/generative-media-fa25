@@ -82,11 +82,15 @@ Thur_11-Sept
 
 Tues_16-Sept
 
-"Interesting failure after interesting failure"
+**Driftworks**
+
+"Interesting failure after interesting failure."
 
 ::: {.column-margin}
 
-![](img/eno-discreet-music_loop-diagram.jpg){.lightbox width="300"}
+![](img/eno-discreet-music_loop-diagram.jpg){.lightbox width="300"}<br><br>
+
+<!--{{< video https://youtu.be/PQPc3YCDSek width="300" >}}-->
 
 :::
 
@@ -101,7 +105,7 @@ Thur_18-Sept
 
 *Week 4*
 
-**Imaginary Landscapes: John Cage and La Monte Young**
+**The Golden Age of Wireless**
 
 Tues_23-Sept
 
@@ -115,7 +119,7 @@ Thur_25-Sept
 
 *Week 5*
 
-**Phasing: Steve Reich and Terry Riley**
+**Strange Loops**
 
 Tues_30-Sept
 

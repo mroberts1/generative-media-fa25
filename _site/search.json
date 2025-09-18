@@ -140,81 +140,144 @@
     "text": "// Import from the Observable notebook that has working Hydra\nimport {Hydra} from \"@magfoto/hydra-synth\"\n\n\n\n\n\n\n\n{\n  // Create container with canvas for Hydra - full body width\n  const container = html`&lt;div style=\"width: 100%; height: 500px; margin: 0 auto; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);\"&gt;\n    &lt;canvas style=\"width: 100%; height: 100%; display: block; border-radius: 8px;\"&gt;&lt;/canvas&gt;\n  &lt;/div&gt;`;\n  \n  const canvas = container.querySelector('canvas');\n  canvas.width = 960;  // Larger canvas resolution\n  canvas.height = 500; // Maintains aspect ratio\n  \n  try {\n    // Initialize Hydra with the canvas - this creates global functions\n    const hydra = new Hydra({ canvas: canvas, detectAudio: false });\n    \n    // Wait for Hydra to initialize and create global functions\n    await new Promise(resolve =&gt; setTimeout(resolve, 200));\n    \n    // The Hydra code from your URL (decoded) - using global functions created by Hydra\n    // src(o0).modulateHue(src(o0).scale(1.01), 2).layer(osc(8, 0.1, 2).mask(shape(4, 0.3, 1e-6)), 0.1).out()\n    window.src(window.o0)\n      .modulateHue(window.src(window.o0).scale(1.01), 2)\n      .layer(window.osc(8, 0.1, 2).mask(window.shape(4, 0.3, 1e-6)), 0.1)\n      .out();\n      \n  } catch (error) {\n    console.error('Hydra error:', error);\n    container.innerHTML = `&lt;div style=\"display: flex; align-items: center; justify-content: center; height: 100%; color: #666; font-size: 14px; background: linear-gradient(45deg, #f8f9fa, #e9ecef); border-radius: 8px; font-family: system-ui, sans-serif;\"&gt;Interactive Hydra visualization&lt;br&gt;&lt;small style=\"opacity: 0.7;\"&gt;Loading...&lt;/small&gt;&lt;/div&gt;`;\n  }\n  \n  return container;\n}"
   },
   {
-    "objectID": "key-concepts.html",
-    "href": "key-concepts.html",
-    "title": "Key Concepts",
+    "objectID": "bibliography.html",
+    "href": "bibliography.html",
+    "title": "    ",
     "section": "",
-    "text": "This glossary provides definitions of key theoretical concepts covered in the first six weeks of VM200 Media Criticism. Each entry includes a comprehensive definition (50-200 words) and citations to relevant sources for further reading."
+    "text": "Fisher, Mark. Capitalist Realism: Is There No Alternative? Winchester, UK: Zero Books, 2009.\nRichardson, Allissa V. Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism. Oxford: Oxford University Press, 2020."
   },
   {
-    "objectID": "key-concepts.html#introduction",
-    "href": "key-concepts.html#introduction",
-    "title": "Key Concepts",
+    "objectID": "bibliography.html#required-texts",
+    "href": "bibliography.html#required-texts",
+    "title": "    ",
     "section": "",
-    "text": "This glossary provides definitions of key theoretical concepts covered in the first six weeks of VM200 Media Criticism. Each entry includes a comprehensive definition (50-200 words) and citations to relevant sources for further reading."
+    "text": "Fisher, Mark. Capitalist Realism: Is There No Alternative? Winchester, UK: Zero Books, 2009.\nRichardson, Allissa V. Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism. Oxford: Oxford University Press, 2020."
   },
   {
-    "objectID": "key-concepts.html#a",
-    "href": "key-concepts.html#a",
-    "title": "Key Concepts",
-    "section": "A",
-    "text": "A\n\nAesthetics\nThe philosophical study of beauty, taste, and artistic value, particularly as it relates to media forms and visual culture. In digital contexts, aesthetics refers to curated visual styles and sensibilities that emerge on social media platforms (like “cottagecore” or “dark academia”), serving as identity markers and forms of cultural expression. These internet aesthetics function as vernacular theories of taste that help individuals construct and communicate their identities online.\n\n\n\n\n\n\nSources\n\n\n\n\nGiolo, G. & Berghman, M. “The Aesthetics of the Self: The Meaning-Making of Internet Aesthetics”\nAesthetics Wiki\nNgai, Sianne. Our Aesthetic Categories: Zany, Cute, Interesting (Harvard University Press, 2012)"
+    "objectID": "bibliography.html#week-1-sites-of-struggle",
+    "href": "bibliography.html#week-1-sites-of-struggle",
+    "title": "    ",
+    "section": "Week 1: Sites of Struggle",
+    "text": "Week 1: Sites of Struggle\nEco, Umberto. “Towards a Semiological Guerrilla Warfare.” In Travels in Hyperreality: Essays, translated by William Weaver, 135-144. San Diego: Harcourt Brace Jovanovich, 1986.\nWelch, David. “The Conquest of the Masses.” In The Third Reich: Politics and Propaganda, 2nd ed., 10-37. London and New York: Routledge, 1993."
   },
   {
-    "objectID": "key-concepts.html#b",
-    "href": "key-concepts.html#b",
-    "title": "Key Concepts",
-    "section": "B",
-    "text": "B\n\nBlack Witnessing\nA form of counter-narrative activism where African Americans use smartphones and social media to document and share experiences of racial injustice, police brutality, and systemic racism. This practice transforms citizens into journalists who bear witness to events often ignored or misrepresented by mainstream media, creating alternative news ecosystems that challenge dominant narratives about race and power in America.\n\n\n\n\n\n\nSources\n\n\n\n\nRichardson, Allissa V. Bearing Witness While Black (Oxford University Press, 2020)\nWells, Ida B. The Light of Truth: Writings of an Anti-Lynching Crusader (Penguin, 2014)\nNoble, Safiya Umoja. Algorithms of Oppression (NYU Press, 2018)"
+    "objectID": "bibliography.html#week-2-ideology-and-the-orwellian",
+    "href": "bibliography.html#week-2-ideology-and-the-orwellian",
+    "title": "    ",
+    "section": "Week 2: Ideology and the Orwellian",
+    "text": "Week 2: Ideology and the Orwellian\nAlthusser, Louis. “Ideology and Ideological State Apparatuses (Notes towards an Investigation).” In Lenin and Philosophy and Other Essays, translated by Ben Brewster, 127-186. New York: Monthly Review Press, 1971.\nFisher, Mark. “It’s Easier to Imagine the End of the World Than the End of Capitalism.” In Capitalist Realism: Is There No Alternative?, 1-11. Winchester, UK: Zero Books, 2009.\nFisher, Mark. “Lecture 1: What Is Postcapitalist Desire?” In Postcapitalist Desire: The Final Lectures, edited by Matt Colquhoun, 21-48. London: Repeater Books, 2021.\n\nViewing\nSquid Game. Directed by Hwang Dong-hyuk. Netflix, 2021. Television series, 9 episodes."
   },
   {
-    "objectID": "key-concepts.html#c",
-    "href": "key-concepts.html#c",
-    "title": "Key Concepts",
-    "section": "C",
-    "text": "C\n\nCapitalist Realism\nMark Fisher’s concept describing the pervasive belief that capitalism is the only viable political and economic system, making it easier to imagine the end of the world than the end of capitalism. This ideological framework naturalizes neoliberal capitalism as inevitable and unchangeable, infiltrating education, culture, and consciousness to the point where alternatives become literally unthinkable.\n\n\n\n\n\n\nSources\n\n\n\n\nFisher, Mark. Capitalist Realism: Is There No Alternative? (Zero Books, 2009)\nFisher, Mark. Postcapitalist Desire: The Final Lectures (Repeater Books, 2021)\nJameson, Fredric. Postmodernism, or, The Cultural Logic of Late Capitalism (Duke University Press, 1991)\n\n\n\n\n\nConnotation/Denotation\nFundamental semiotic concepts distinguishing between literal meaning (denotation) and associated cultural meanings (connotation). Denotation refers to the explicit, dictionary definition of a sign, while connotation encompasses the cultural, emotional, and ideological associations that signs carry within specific contexts. Media criticism examines how connotative meanings naturalize ideological messages.\n\n\n\n\n\n\nSources\n\n\n\n\nBarthes, Roland. Mythologies (Hill and Wang, 1957)\nHall, Stuart. “Encoding/Decoding” in Culture, Media, Language (Hutchinson, 1980)\nChandler, Daniel. Semiotics: The Basics (Routledge, 2017)"
+    "objectID": "bibliography.html#week-3-simulation-and-pastiche",
+    "href": "bibliography.html#week-3-simulation-and-pastiche",
+    "title": "    ",
+    "section": "Week 3: Simulation and Pastiche",
+    "text": "Week 3: Simulation and Pastiche\nFriedlander, Emilie. “Social Anxiety: Why Amalia Ulman’s Fake ‘Middlebrow’ Instagram Is No Different From Yours.” The Fader, November 7, 2014. https://www.thefader.com/2014/11/07/social-anxiety-why-amalia-ulmans-middlebrow-instagram-feed-is-no-different-from-yours.\nSooke, Alastair. “Is This The First Instagram Masterpiece?” The Telegraph, January 18, 2016. https://www.telegraph.co.uk/photography/what-to-see/is-this-the-first-instagram-masterpiece/.\nDazed Digital. “Amalia Ulman: Meme Come True.” Dazed Digital, 2016. https://www.dazeddigital.com/artsandculture/article/23700/1/amalia-ulman-meme-come-true.\nUlman, Amalia. Excellences & Perfections. Instagram performance, 2014. Documentation at http://amaliaulman.eu/.\n\nViewing\nEl Planeta. Directed by Amalia Ulman. Holga’s Meow Pictures, 2020. Film, 79 minutes.\nInventing Anna. Directed by Shonda Rhimes. Netflix, 2022. Television miniseries, Episode 6: Friends in Low Places."
   },
   {
-    "objectID": "key-concepts.html#d",
-    "href": "key-concepts.html#d",
-    "title": "Key Concepts",
-    "section": "D",
-    "text": "D\n\nDiscourse\nIn Foucauldian terms, discourse refers to ways of constituting knowledge through language, social practices, and power relations. Discourses shape what can be said, who can speak, and what counts as true or false within specific historical contexts. Media discourses construct and regulate subjects, identities, and social realities through representational practices.\n\n\n\n\n\n\nSources\n\n\n\n\nFoucault, Michel. The Archaeology of Knowledge (Pantheon, 1972)\nHall, Stuart, ed. Representation: Cultural Representations and Signifying Practices (Sage, 1997)\nMills, Sara. Discourse (Routledge, 2004)"
+    "objectID": "bibliography.html#week-4-feminismpostfeminism",
+    "href": "bibliography.html#week-4-feminismpostfeminism",
+    "title": "    ",
+    "section": "Week 4: Feminism/Postfeminism",
+    "text": "Week 4: Feminism/Postfeminism\nNegra, Diane, and Yvonne Tasker. “Introduction: Feminist Politics and Postfeminist Culture.” In Interrogating Postfeminism: Gender and the Politics of Popular Culture, edited by Diane Negra and Yvonne Tasker, 1-25. Durham, NC: Duke University Press, 2007.\nRoberts, Martin. “The Fashion Police: Governing the Self in What Not To Wear.” In Interrogating Postfeminism: Gender and the Politics of Popular Culture, edited by Diane Negra and Yvonne Tasker, 227-248. Durham, NC: Duke University Press, 2007."
   },
   {
-    "objectID": "key-concepts.html#f",
-    "href": "key-concepts.html#f",
-    "title": "Key Concepts",
-    "section": "F",
-    "text": "F\n\nFandom\nOrganized communities of enthusiasts who actively engage with media texts through creative production, interpretation, and social interaction. Fandom represents participatory culture where audiences become producers, creating fan fiction, art, videos, and other transformative works. Digital platforms have amplified fandom’s visibility and influence on media industries.\n\n\n\n\n\n\nSources\n\n\n\n\nJenkins, Henry. Textual Poachers: Television Fans and Participatory Culture (Routledge, 1992)\nClick, Melissa A. & Scott, Suzanne, eds. The Routledge Companion to Media Fandom (Routledge, 2018)\nBaym, Nancy. Playing to the Crowd: Musicians, Audiences, and the Intimate Work of Connection (NYU Press, 2018)\n\n\n\n\n\nFeminism/Postfeminism\nFeminism encompasses political movements and critical theories advocating for gender equality and analyzing patriarchal power structures. Postfeminism represents a cultural sensibility suggesting feminism’s goals have been achieved while simultaneously incorporating and depoliticizing feminist ideas, often emphasizing individual empowerment, choice, and consumption over collective action.\n\n\n\n\n\n\nSources\n\n\n\n\nNegra, Diane & Tasker, Yvonne, eds. Interrogating Postfeminism (Duke University Press, 2007)\nMcRobbie, Angela. The Aftermath of Feminism (Sage, 2009)\nhooks, bell. Feminism Is for Everybody (South End Press, 2000)"
+    "objectID": "bibliography.html#week-5-witnessing",
+    "href": "bibliography.html#week-5-witnessing",
+    "title": "    ",
+    "section": "Week 5: Witnessing",
+    "text": "Week 5: Witnessing\nRichardson, Allissa V. “Looking As Rebellion: The Concept of Black Witnessing.” In Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism, chapter 1, 18-42. Oxford: Oxford University Press, 2020.\nRichardson, Allissa V. “The New Protest #Journalism: Black Witnessing as Counternarrative.” In Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism, chapter 3, 65-89. Oxford: Oxford University Press, 2020."
   },
   {
-    "objectID": "key-concepts.html#h",
-    "href": "key-concepts.html#h",
-    "title": "Key Concepts",
-    "section": "H",
-    "text": "H\n\nHegemony\nAntonio Gramsci’s concept describing how dominant groups maintain power through consent rather than coercion, securing leadership through cultural and ideological means. Media functions as a key site for hegemonic struggle, where dominant meanings are contested and negotiated rather than simply imposed.\n\n\n\n\n\n\nSources\n\n\n\n\nGramsci, Antonio. Selections from Cultural Writings (Harvard University Press, 1985)\nWilliams, Raymond. Keywords: A Vocabulary of Culture and Society (Oxford University Press, 1983)\nStorey, John. Cultural Theory and Popular Culture (Pearson, 2018)"
+    "objectID": "bibliography.html#week-6-tribes---subcultures-lifestyles-aesthetics",
+    "href": "bibliography.html#week-6-tribes---subcultures-lifestyles-aesthetics",
+    "title": "    ",
+    "section": "Week 6: Tribes - Subcultures, Lifestyles, Aesthetics",
+    "text": "Week 6: Tribes - Subcultures, Lifestyles, Aesthetics\nGiolo, Guilherme, and Michaël Berghman. “The Aesthetics of the Self: The Meaning-Making of Internet Aesthetics.” Cultural Sociology (2024). https://doi.org/10.1177/17499755241229570.\nAesthetics Wiki"
   },
   {
-    "objectID": "key-concepts.html#i",
-    "href": "key-concepts.html#i",
-    "title": "Key Concepts",
-    "section": "I",
-    "text": "I\n\nIdeology\nSystems of ideas, beliefs, and representations that structure our understanding of social reality. Althusser’s theory emphasizes how ideology interpellates individuals as subjects through Ideological State Apparatuses (ISAs) like media, education, and religion, making dominant power relations appear natural and inevitable.\n\n\n\n\n\n\nSources\n\n\n\n\nAlthusser, Louis. “Ideology and Ideological State Apparatuses” in Lenin and Philosophy (Monthly Review Press, 1971)\nEagleton, Terry. Ideology: An Introduction (Verso, 1991)\nŽižek, Slavoj. The Sublime Object of Ideology (Verso, 1989)\n\n\n\n\n\nInterpellation\nAlthusser’s concept describing how ideology “hails” or addresses individuals, transforming them into subjects who recognize themselves in ideological representations. Media interpellates audiences through forms of address that position viewers as particular kinds of subjects with specific identities, desires, and social positions.\n\n\n\n\n\n\nSources\n\n\n\n\nAlthusser, Louis. On the Reproduction of Capitalism (Verso, 2014)\nButler, Judith. Excitable Speech: A Politics of the Performative (Routledge, 1997)\nPêcheux, Michel. Language, Semantics and Ideology (Macmillan, 1982)"
+    "objectID": "bibliography.html#week-7-fandom",
+    "href": "bibliography.html#week-7-fandom",
+    "title": "    ",
+    "section": "Week 7: Fandom",
+    "text": "Week 7: Fandom\nBaym, Nancy K. “Social Media and the Struggle for Society.” Social Media + Society 1, no. 1 (2015): 1-2. https://doi.org/10.1177/2056305115580477.\nBaym, Nancy K., Daniel Cavicchi, and Norma Coates. “Music Fandom in the Digital Age: A Conversation.” In The Routledge Companion to Media Fandom, edited by Melissa A. Click and Suzanne Scott, 141-152. New York: Routledge, 2018."
   },
   {
-    "objectID": "key-concepts.html#p",
-    "href": "key-concepts.html#p",
-    "title": "Key Concepts",
-    "section": "P",
-    "text": "P\n\nParadigm/Syntagm\nSemiotic concepts describing two dimensions of meaning-making. Paradigmatic relations involve selection from available alternatives (choosing one sign from a set of possible signs), while syntagmatic relations involve combination (how signs are arranged in sequence). These concepts reveal how media texts generate meaning through both choice and structure.\n\n\n\n\n\n\nSources\n\n\n\n\nSaussure, Ferdinand de. Course in General Linguistics (Columbia University Press, 2011)\nJakobson, Roman. On Language (Harvard University Press, 1990)\nHodge, Robert & Kress, Gunther. Social Semiotics (Cornell University Press, 1988)\n\n\n\n\n\nPastiche\nA postmodern aesthetic practice involving imitation without satirical intent, creating blank parody that recycles past styles without critical distance. Unlike parody’s mocking stance, pastiche represents “the random cannibalization of all the styles of the past” (Jameson), reflecting capitalism’s commodification of history and culture.\n\n\n\n\n\n\nSources\n\n\n\n\nJameson, Fredric. Postmodernism, or, The Cultural Logic of Late Capitalism (Duke University Press, 1991)\nHutcheon, Linda. A Theory of Parody (University of Illinois Press, 2000)\nDyer, Richard. Pastiche (Routledge, 2007)\n\n\n\n\n\nPostmodernism\nA cultural condition characterized by the breakdown of grand narratives, the collapse of high/low cultural distinctions, and the dominance of simulacra over reality. In media, postmodernism manifests through pastiche, intertextuality, self-reflexivity, and the hyperreal—where simulations become more real than reality itself.\n\n\n\n\n\n\nSources\n\n\n\n\nBaudrillard, Jean. Simulacra and Simulation (University of Michigan Press, 1994)\nLyotard, Jean-François. The Postmodern Condition (University of Minnesota Press, 1984)\nHarvey, David. The Condition of Postmodernity (Blackwell, 1989)\n\n\n\n\n\nProtest #Journalism\nCitizen journalism practices using hashtags and social media to document, disseminate, and organize around social justice issues. This form of activism transforms witnesses into journalists, creating alternative news networks that bypass traditional media gatekeepers and challenge official narratives about protests and police violence.\n\n\n\n\n\n\nSources\n\n\n\n\nRichardson, Allissa V. Bearing Witness While Black (Oxford University Press, 2020)\nTufekci, Zeynep. Twitter and Tear Gas (Yale University Press, 2017)\nBonilla, Yarimar & Rosa, Jonathan. “#Ferguson: Digital Protest, Hashtag Ethnography” in American Ethnologist 42(1), 2015"
+    "objectID": "bibliography.html#additional-recommended-readings",
+    "href": "bibliography.html#additional-recommended-readings",
+    "title": "    ",
+    "section": "Additional Recommended Readings",
+    "text": "Additional Recommended Readings\n\nSemiotics and Media Theory\nBarthes, Roland. Mythologies. Translated by Annette Lavers. New York: Hill and Wang, 1972.\nChandler, Daniel. Semiotics: The Basics. 3rd ed. London: Routledge, 2017.\nHall, Stuart. “Encoding/Decoding.” In Culture, Media, Language: Working Papers in Cultural Studies, 1972-79, edited by Stuart Hall, Dorothy Hobson, Andrew Lowe, and Paul Willis, 128-138. London: Hutchinson, 1980.\n\n\nIdeology and Cultural Studies\nEagleton, Terry. Ideology: An Introduction. 2nd ed. London: Verso, 2007.\nGramsci, Antonio. Selections from Cultural Writings. Edited by David Forgacs and Geoffrey Nowell-Smith. Cambridge, MA: Harvard University Press, 1985.\nWilliams, Raymond. Keywords: A Vocabulary of Culture and Society. Revised ed. New York: Oxford University Press, 1985.\n\n\nPostmodernism and Simulation\nBaudrillard, Jean. Simulacra and Simulation. Translated by Sheila Faria Glaser. Ann Arbor: University of Michigan Press, 1994.\nJameson, Fredric. Postmodernism, or, The Cultural Logic of Late Capitalism. Durham, NC: Duke University Press, 1991.\nLyotard, Jean-François. The Postmodern Condition: A Report on Knowledge. Translated by Geoff Bennington and Brian Massumi. Minneapolis: University of Minnesota Press, 1984.\n\n\nDigital Culture and Social Media\nboyd, danah. It’s Complicated: The Social Lives of Networked Teens. New Haven: Yale University Press, 2014.\nJenkins, Henry. Participatory Culture: Interviews. Cambridge: Polity Press, 2019.\nMarwick, Alice E. Status Update: Celebrity, Publicity, and Branding in the Social Media Age. New Haven: Yale University Press, 2013.\nTufekci, Zeynep. Twitter and Tear Gas: The Power and Fragility of Networked Protest. New Haven: Yale University Press, 2017.\n\n\nFeminism and Gender Studies\nButler, Judith. Gender Trouble: Feminism and the Subversion of Identity. New York: Routledge, 1990.\nhooks, bell. Feminism Is for Everybody: Passionate Politics. Cambridge, MA: South End Press, 2000.\nMcRobbie, Angela. The Aftermath of Feminism: Gender, Culture and Social Change. London: Sage, 2009.\nMulvey, Laura. “Visual Pleasure and Narrative Cinema.” Screen 16, no. 3 (1975): 6-18.\n\n\nRace and Media\nBonilla, Yarimar, and Jonathan Rosa. “#Ferguson: Digital Protest, Hashtag Ethnography, and the Racial Politics of Social Media in the United States.” American Ethnologist 42, no. 1 (2015): 4-17.\nGray, Herman. Watching Race: Television and the Struggle for Blackness. Minneapolis: University of Minnesota Press, 2004.\nNoble, Safiya Umoja. Algorithms of Oppression: How Search Engines Reinforce Racism. New York: NYU Press, 2018.\n\n\nSubcultures and Fan Studies\nHebdige, Dick. Subculture: The Meaning of Style. London: Routledge, 1979.\nJenkins, Henry. Textual Poachers: Television Fans and Participatory Culture. 2nd ed. New York: Routledge, 2012.\nThornton, Sarah. Club Cultures: Music, Media, and Subcultural Capital. Middletown, CT: Wesleyan University Press, 1996."
   },
   {
-    "objectID": "key-concepts.html#s",
-    "href": "key-concepts.html#s",
-    "title": "Key Concepts",
-    "section": "S",
-    "text": "S\n\nSemiotics/Semiology\nThe study of signs and sign processes, examining how meaning is created, transmitted, and interpreted in communication systems. Media semiotics analyzes how visual, auditory, and textual signs combine to produce ideological meanings, revealing the constructed nature of media representations.\n\n\n\n\n\n\nSources\n\n\n\n\nBarthes, Roland. Elements of Semiology (Hill and Wang, 1968)\nEco, Umberto. A Theory of Semiotics (Indiana University Press, 1976)\nRose, Gillian. Visual Methodologies (Sage, 2016)\n\n\n\n\n\nSemiological Guerrilla Warfare\nUmberto Eco’s concept of tactical media resistance through alternative interpretation of mass media messages. Rather than controlling media production, guerrilla semiology intervenes at the point of reception, teaching audiences to decode messages critically and subvert intended meanings.\n\n\n\n\n\n\nSources\n\n\n\n\nEco, Umberto. “Towards a Semiological Guerrilla Warfare” in Travels in Hyperreality (Harcourt, 1986)\nde Certeau, Michel. The Practice of Everyday Life (University of California Press, 1984)\nDery, Mark. Culture Jamming: Hacking, Slashing, and Sniping in the Empire of Signs (Open Magazine, 1993)\n\n\n\n\n\nSimulacra/Simulation\nBaudrillard’s concepts describing how copies without originals (simulacra) create a hyperreality where simulation replaces reality. In media-saturated societies, simulations become autonomous, generating their own reality effects independent of any external referent—reality TV, Instagram performances, and virtual worlds exemplify this condition.\n\n\n\n\n\n\nSources\n\n\n\n\nBaudrillard, Jean. Simulacra and Simulation (University of Michigan Press, 1994)\nBaudrillard, Jean. The Perfect Crime (Verso, 1996)\nMassumi, Brian. Parables for the Virtual (Duke University Press, 2002)\n\n\n\n\n\nSubculture\nSocial groups distinguished by specific styles, values, and practices that differentiate them from mainstream culture. Digital platforms have transformed subcultural formation, enabling new forms of aesthetic tribes and micro-communities organized around shared sensibilities, from TikTok subcultures to Discord communities.\n\n\n\n\n\n\nSources\n\n\n\n\nHebdige, Dick. Subculture: The Meaning of Style (Routledge, 1979)\nThornton, Sarah. Club Cultures: Music, Media, and Subcultural Capital (Wesleyan, 1996)\nGelder, Ken. Subcultures: Cultural Histories and Social Practice (Routledge, 2007)\n\n\n\n\n\n\n\n\n\n\nUsing This Glossary\n\n\n\n\nClick on any concept in the table of contents to jump directly to its definition\nUse Ctrl+F (Windows) or Cmd+F (Mac) to search for specific terms\nFollow the source citations for deeper exploration of each concept\nTerms are organized alphabetically for easy reference"
+    "objectID": "bibliography.html#filmography",
+    "href": "bibliography.html#filmography",
+    "title": "    ",
+    "section": "Filmography",
+    "text": "Filmography\nEl Planeta. Directed by Amalia Ulman. Holga’s Meow Pictures, 2020. Film, 79 minutes.\nInventing Anna. Directed by Shonda Rhimes. Netflix, 2022. Television miniseries.\nSquid Game. Directed by Hwang Dong-hyuk. Netflix, 2021. Television series, 9 episodes."
+  },
+  {
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "    ",
+    "section": "",
+    "text": "Generative Media: Resources\n\nArtists\nNobody and the Computer\nDor Brothers\nKerim Safa (nullMachines) Outlanders (Tameem Sankari and Anja Dalby)\n\n\nNon-Euclidean Dreamer (Laura Kuttnig)\n\n\n3D Fractals/Artificial Life\nMandelbulb\nGallivanting Around Cellular Automata (playlist by Non-Euclidean Dreamer, 94 videos)\n3D Fractal Worlds (playlist)\n\n\nGenerative Design & Architecture\n\n“How Generative Design is Shaping the Future of Architecture” - Great overview of current applications\n“10 Books Related to Generative Architecture Everyone Should Read” - RTF comprehensive book list\n\n\n\nGenerative Web Comics\nGenerative AI is Reshaping South Korea’s Web Comics Industry\nTooToon"
+  },
+  {
+    "objectID": "WARP.html",
+    "href": "WARP.html",
+    "title": "WARP.md",
+    "section": "",
+    "text": "This file provides guidance to WARP (warp.dev) when working with code in this repository.\n\n\nThis is a Quarto website project for an academic course VM402-09 Generative Media: History, Theory, Practice taught at Emerson College. The website serves as a course syllabus and resource hub, built with Quarto and deployed via GitHub Pages.\nKey Technologies: - Quarto (website generation and publishing) - R (for data processing, though minimal usage) - SCSS/CSS (custom theming) - GitHub Pages (hosting) - Chicago Author-Date citation style\n\n\n\n\n\n# Render the website locally\nquarto render\n\n# Preview the website with live reload\nquarto preview\n\n# Check Quarto version\nquarto --version\n\n\n\n# Standard publishing command\nquarto publish gh-pages\n\n# If you encounter git worktree issues (common with this project)\nquarto publish gh-pages --no-prompt --no-browser\n\n# Force publish (if worktree conflicts persist)\nquarto publish gh-pages --force\n\n\n\n\n\n\n\nMain config: _quarto.yml - defines website structure, theming, and publishing settings\nSite URL: https://mroberts1.github.io/generative-media-fa25/\nNavigation: Simple navbar with Syllabus and Bibliography\nTheme: Custom theme based on ember.scss with additional custom.scss overrides\n\n\n\n\n├── index.qmd                 # Main syllabus page\n├── bibliography.qmd          # Course bibliography\n├── references.bib            # BibTeX references\n├── pdf/                      # Academic PDFs and readings\n├── gif/                      # Animated images (course visuals)\n├── img/                      # Static images (logos, portraits)\n├── fonts/                    # Custom web fonts\n├── outlanders/               # Specific media assets folder\n└── _site/                    # Generated website (do not edit)\n\n\n\n\nDuration: 7-week online/asynchronous summer course\nWeekly Topics: From furniture music to AI performance\nAssessment Types: Discussion posts, response papers, analytical papers\nAcademic Year: Summer 2025 (note: may need updating for future iterations)\n\n\n\n\n\n\n\n\nEdit .qmd files using Quarto markdown syntax\nAdd new references to references.bib for citations\nPlace media assets in appropriate folders (pdf/, gif/, img/)\nUse R code chunks sparingly (mainly for package loading)\n\n\n\n\n\nUses Chicago Author-Date style (chicago-author-date.csl)\nCitations are handled via references.bib\nFormat: [@author2020title] for in-text citations\nBibliography automatically generated from references.bib\n\n\n\n\n\nPDF readings: Store in pdf/ directory, reference with relative paths\nVisual content: Use gif/ for animated content, img/ for static images\nAnimations: Project includes educational/artistic GIFs (e.g., outlanders-brain-magazine.gif)\n\n\n\n\n# Always render before committing\nquarto render\n\n# Check for rendering errors\n# Look for any failed file processing in terminal output\n\n# Verify links work locally\nquarto preview\n\n\n\n\n\n\n# From the project root directory\nquarto publish gh-pages\n\n\n\nThis project has historically had git worktree conflicts. If you encounter errors:\n\nFirst, try the no-prompt option:\n\nquarto publish gh-pages --no-prompt --no-browser\n\nIf worktree issues persist, clean up git worktrees:\n\n# Remove problematic worktree directories\nrm -rf .git/worktrees/quarto-publish-worktree*\n\n# Prune git worktree references\ngit worktree prune\n\n# Then retry publishing\nquarto publish gh-pages\n\nNuclear option for persistent issues:\n\n# Force publish (overwrites existing gh-pages branch)\nquarto publish gh-pages --force\n\n\n\n\nCheck the live site: https://mroberts1.github.io/generative-media-fa25/\nVerify all links and media load correctly\nTest navigation between syllabus and bibliography pages\n\n\n\n\n\n\n\n\nCourse is scheduled for Summer 2025 (7 weeks: July 2 - August 19)\nWeekly structure: Wednesday to Tuesday cycles\nUpdate dates annually for course reruns\n\n\n\n\n\nUses official Emerson logo (Emerson-PrimaryLogo-Reversed-Color-400px.png)\nPurple color scheme (#62259d) matches institutional branding\nFaculty contact info integrated into navigation\n\n\n\n\n\nInstructor contact via multiple platforms: email, Mastodon, GitHub, Twitter, Facebook\nFontAwesome icons used for social links\nProfessional academic presence maintained\n\n\n\n\n\nGit worktrees: This project frequently encounters git worktree conflicts during publishing\nLarge media files: Video files (.mp4) are gitignored due to size constraints\nR dependency: Minimal R usage, mainly for tidyverse/palmerpenguins (example content)\n\n\n\n\n\n\n\n\n_quarto.yml - Website configuration, theming, publishing settings\nreferences.bib - Bibliography database\nchicago-author-date.csl - Citation style\n.gitignore - Excludes large media files and sensitive content\n\n\n\n\n\nember.scss - Primary theme file\ncustom.scss - Additional styling overrides\nfonts/ - Custom web font files (Avenir, Helvetica, etc.)\n\n\n\n\n\nindex.qmd - Main syllabus (course description, schedule, assignments)\nbibliography.qmd - Course readings and references\npdf/ - Academic readings and course materials\n\n\n\n\n\ncomprehensive-fix.sh - Full git worktree cleanup procedure\nfinal-fix.sh - Simplified worktree cleanup\ncorrect-publish.sh - Publishing command reference\n\nThese scripts exist due to historical publishing issues but document the solutions that work for this project."
+  },
+  {
+    "objectID": "WARP.html#project-overview",
+    "href": "WARP.html#project-overview",
+    "title": "WARP.md",
+    "section": "",
+    "text": "This is a Quarto website project for an academic course VM402-09 Generative Media: History, Theory, Practice taught at Emerson College. The website serves as a course syllabus and resource hub, built with Quarto and deployed via GitHub Pages.\nKey Technologies: - Quarto (website generation and publishing) - R (for data processing, though minimal usage) - SCSS/CSS (custom theming) - GitHub Pages (hosting) - Chicago Author-Date citation style"
+  },
+  {
+    "objectID": "WARP.html#quick-start-commands",
+    "href": "WARP.html#quick-start-commands",
+    "title": "WARP.md",
+    "section": "",
+    "text": "# Render the website locally\nquarto render\n\n# Preview the website with live reload\nquarto preview\n\n# Check Quarto version\nquarto --version\n\n\n\n# Standard publishing command\nquarto publish gh-pages\n\n# If you encounter git worktree issues (common with this project)\nquarto publish gh-pages --no-prompt --no-browser\n\n# Force publish (if worktree conflicts persist)\nquarto publish gh-pages --force"
+  },
+  {
+    "objectID": "WARP.html#architecture-structure",
+    "href": "WARP.html#architecture-structure",
+    "title": "WARP.md",
+    "section": "",
+    "text": "Main config: _quarto.yml - defines website structure, theming, and publishing settings\nSite URL: https://mroberts1.github.io/generative-media-fa25/\nNavigation: Simple navbar with Syllabus and Bibliography\nTheme: Custom theme based on ember.scss with additional custom.scss overrides\n\n\n\n\n├── index.qmd                 # Main syllabus page\n├── bibliography.qmd          # Course bibliography\n├── references.bib            # BibTeX references\n├── pdf/                      # Academic PDFs and readings\n├── gif/                      # Animated images (course visuals)\n├── img/                      # Static images (logos, portraits)\n├── fonts/                    # Custom web fonts\n├── outlanders/               # Specific media assets folder\n└── _site/                    # Generated website (do not edit)\n\n\n\n\nDuration: 7-week online/asynchronous summer course\nWeekly Topics: From furniture music to AI performance\nAssessment Types: Discussion posts, response papers, analytical papers\nAcademic Year: Summer 2025 (note: may need updating for future iterations)"
+  },
+  {
+    "objectID": "WARP.html#development-workflow",
+    "href": "WARP.html#development-workflow",
+    "title": "WARP.md",
+    "section": "",
+    "text": "Edit .qmd files using Quarto markdown syntax\nAdd new references to references.bib for citations\nPlace media assets in appropriate folders (pdf/, gif/, img/)\nUse R code chunks sparingly (mainly for package loading)\n\n\n\n\n\nUses Chicago Author-Date style (chicago-author-date.csl)\nCitations are handled via references.bib\nFormat: [@author2020title] for in-text citations\nBibliography automatically generated from references.bib\n\n\n\n\n\nPDF readings: Store in pdf/ directory, reference with relative paths\nVisual content: Use gif/ for animated content, img/ for static images\nAnimations: Project includes educational/artistic GIFs (e.g., outlanders-brain-magazine.gif)\n\n\n\n\n# Always render before committing\nquarto render\n\n# Check for rendering errors\n# Look for any failed file processing in terminal output\n\n# Verify links work locally\nquarto preview"
+  },
+  {
+    "objectID": "WARP.html#publishing-deployment",
+    "href": "WARP.html#publishing-deployment",
+    "title": "WARP.md",
+    "section": "",
+    "text": "# From the project root directory\nquarto publish gh-pages\n\n\n\nThis project has historically had git worktree conflicts. If you encounter errors:\n\nFirst, try the no-prompt option:\n\nquarto publish gh-pages --no-prompt --no-browser\n\nIf worktree issues persist, clean up git worktrees:\n\n# Remove problematic worktree directories\nrm -rf .git/worktrees/quarto-publish-worktree*\n\n# Prune git worktree references\ngit worktree prune\n\n# Then retry publishing\nquarto publish gh-pages\n\nNuclear option for persistent issues:\n\n# Force publish (overwrites existing gh-pages branch)\nquarto publish gh-pages --force\n\n\n\n\nCheck the live site: https://mroberts1.github.io/generative-media-fa25/\nVerify all links and media load correctly\nTest navigation between syllabus and bibliography pages"
+  },
+  {
+    "objectID": "WARP.html#project-specific-context",
+    "href": "WARP.html#project-specific-context",
+    "title": "WARP.md",
+    "section": "",
+    "text": "Course is scheduled for Summer 2025 (7 weeks: July 2 - August 19)\nWeekly structure: Wednesday to Tuesday cycles\nUpdate dates annually for course reruns\n\n\n\n\n\nUses official Emerson logo (Emerson-PrimaryLogo-Reversed-Color-400px.png)\nPurple color scheme (#62259d) matches institutional branding\nFaculty contact info integrated into navigation\n\n\n\n\n\nInstructor contact via multiple platforms: email, Mastodon, GitHub, Twitter, Facebook\nFontAwesome icons used for social links\nProfessional academic presence maintained\n\n\n\n\n\nGit worktrees: This project frequently encounters git worktree conflicts during publishing\nLarge media files: Video files (.mp4) are gitignored due to size constraints\nR dependency: Minimal R usage, mainly for tidyverse/palmerpenguins (example content)"
+  },
+  {
+    "objectID": "WARP.html#important-files-locations",
+    "href": "WARP.html#important-files-locations",
+    "title": "WARP.md",
+    "section": "",
+    "text": "_quarto.yml - Website configuration, theming, publishing settings\nreferences.bib - Bibliography database\nchicago-author-date.csl - Citation style\n.gitignore - Excludes large media files and sensitive content\n\n\n\n\n\nember.scss - Primary theme file\ncustom.scss - Additional styling overrides\nfonts/ - Custom web font files (Avenir, Helvetica, etc.)\n\n\n\n\n\nindex.qmd - Main syllabus (course description, schedule, assignments)\nbibliography.qmd - Course readings and references\npdf/ - Academic readings and course materials\n\n\n\n\n\ncomprehensive-fix.sh - Full git worktree cleanup procedure\nfinal-fix.sh - Simplified worktree cleanup\ncorrect-publish.sh - Publishing command reference\n\nThese scripts exist due to historical publishing issues but document the solutions that work for this project."
   },
   {
     "objectID": "bibliography_updated.html",
@@ -301,146 +364,6 @@
     "text": "Filmography\nEl Planeta. Directed by Amalia Ulman. Holga’s Meow Pictures, 2020. Film, 79 minutes.\nInventing Anna. Directed by Shonda Rhimes. Netflix, 2022. Television miniseries.\nSquid Game. Directed by Hwang Dong-hyuk. Netflix, 2021. Television series, 9 episodes."
   },
   {
-    "objectID": "WARP.html",
-    "href": "WARP.html",
-    "title": "WARP.md",
-    "section": "",
-    "text": "This file provides guidance to WARP (warp.dev) when working with code in this repository.\n\n\nThis is a Quarto website project for an academic course VM402-09 Generative Media: History, Theory, Practice taught at Emerson College. The website serves as a course syllabus and resource hub, built with Quarto and deployed via GitHub Pages.\nKey Technologies: - Quarto (website generation and publishing) - R (for data processing, though minimal usage) - SCSS/CSS (custom theming) - GitHub Pages (hosting) - Chicago Author-Date citation style\n\n\n\n\n\n# Render the website locally\nquarto render\n\n# Preview the website with live reload\nquarto preview\n\n# Check Quarto version\nquarto --version\n\n\n\n# Standard publishing command\nquarto publish gh-pages\n\n# If you encounter git worktree issues (common with this project)\nquarto publish gh-pages --no-prompt --no-browser\n\n# Force publish (if worktree conflicts persist)\nquarto publish gh-pages --force\n\n\n\n\n\n\n\nMain config: _quarto.yml - defines website structure, theming, and publishing settings\nSite URL: https://mroberts1.github.io/generative-media-fa25/\nNavigation: Simple navbar with Syllabus and Bibliography\nTheme: Custom theme based on ember.scss with additional custom.scss overrides\n\n\n\n\n├── index.qmd                 # Main syllabus page\n├── bibliography.qmd          # Course bibliography\n├── references.bib            # BibTeX references\n├── pdf/                      # Academic PDFs and readings\n├── gif/                      # Animated images (course visuals)\n├── img/                      # Static images (logos, portraits)\n├── fonts/                    # Custom web fonts\n├── outlanders/               # Specific media assets folder\n└── _site/                    # Generated website (do not edit)\n\n\n\n\nDuration: 7-week online/asynchronous summer course\nWeekly Topics: From furniture music to AI performance\nAssessment Types: Discussion posts, response papers, analytical papers\nAcademic Year: Summer 2025 (note: may need updating for future iterations)\n\n\n\n\n\n\n\n\nEdit .qmd files using Quarto markdown syntax\nAdd new references to references.bib for citations\nPlace media assets in appropriate folders (pdf/, gif/, img/)\nUse R code chunks sparingly (mainly for package loading)\n\n\n\n\n\nUses Chicago Author-Date style (chicago-author-date.csl)\nCitations are handled via references.bib\nFormat: [@author2020title] for in-text citations\nBibliography automatically generated from references.bib\n\n\n\n\n\nPDF readings: Store in pdf/ directory, reference with relative paths\nVisual content: Use gif/ for animated content, img/ for static images\nAnimations: Project includes educational/artistic GIFs (e.g., outlanders-brain-magazine.gif)\n\n\n\n\n# Always render before committing\nquarto render\n\n# Check for rendering errors\n# Look for any failed file processing in terminal output\n\n# Verify links work locally\nquarto preview\n\n\n\n\n\n\n# From the project root directory\nquarto publish gh-pages\n\n\n\nThis project has historically had git worktree conflicts. If you encounter errors:\n\nFirst, try the no-prompt option:\n\nquarto publish gh-pages --no-prompt --no-browser\n\nIf worktree issues persist, clean up git worktrees:\n\n# Remove problematic worktree directories\nrm -rf .git/worktrees/quarto-publish-worktree*\n\n# Prune git worktree references\ngit worktree prune\n\n# Then retry publishing\nquarto publish gh-pages\n\nNuclear option for persistent issues:\n\n# Force publish (overwrites existing gh-pages branch)\nquarto publish gh-pages --force\n\n\n\n\nCheck the live site: https://mroberts1.github.io/generative-media-fa25/\nVerify all links and media load correctly\nTest navigation between syllabus and bibliography pages\n\n\n\n\n\n\n\n\nCourse is scheduled for Summer 2025 (7 weeks: July 2 - August 19)\nWeekly structure: Wednesday to Tuesday cycles\nUpdate dates annually for course reruns\n\n\n\n\n\nUses official Emerson logo (Emerson-PrimaryLogo-Reversed-Color-400px.png)\nPurple color scheme (#62259d) matches institutional branding\nFaculty contact info integrated into navigation\n\n\n\n\n\nInstructor contact via multiple platforms: email, Mastodon, GitHub, Twitter, Facebook\nFontAwesome icons used for social links\nProfessional academic presence maintained\n\n\n\n\n\nGit worktrees: This project frequently encounters git worktree conflicts during publishing\nLarge media files: Video files (.mp4) are gitignored due to size constraints\nR dependency: Minimal R usage, mainly for tidyverse/palmerpenguins (example content)\n\n\n\n\n\n\n\n\n_quarto.yml - Website configuration, theming, publishing settings\nreferences.bib - Bibliography database\nchicago-author-date.csl - Citation style\n.gitignore - Excludes large media files and sensitive content\n\n\n\n\n\nember.scss - Primary theme file\ncustom.scss - Additional styling overrides\nfonts/ - Custom web font files (Avenir, Helvetica, etc.)\n\n\n\n\n\nindex.qmd - Main syllabus (course description, schedule, assignments)\nbibliography.qmd - Course readings and references\npdf/ - Academic readings and course materials\n\n\n\n\n\ncomprehensive-fix.sh - Full git worktree cleanup procedure\nfinal-fix.sh - Simplified worktree cleanup\ncorrect-publish.sh - Publishing command reference\n\nThese scripts exist due to historical publishing issues but document the solutions that work for this project."
-  },
-  {
-    "objectID": "WARP.html#project-overview",
-    "href": "WARP.html#project-overview",
-    "title": "WARP.md",
-    "section": "",
-    "text": "This is a Quarto website project for an academic course VM402-09 Generative Media: History, Theory, Practice taught at Emerson College. The website serves as a course syllabus and resource hub, built with Quarto and deployed via GitHub Pages.\nKey Technologies: - Quarto (website generation and publishing) - R (for data processing, though minimal usage) - SCSS/CSS (custom theming) - GitHub Pages (hosting) - Chicago Author-Date citation style"
-  },
-  {
-    "objectID": "WARP.html#quick-start-commands",
-    "href": "WARP.html#quick-start-commands",
-    "title": "WARP.md",
-    "section": "",
-    "text": "# Render the website locally\nquarto render\n\n# Preview the website with live reload\nquarto preview\n\n# Check Quarto version\nquarto --version\n\n\n\n# Standard publishing command\nquarto publish gh-pages\n\n# If you encounter git worktree issues (common with this project)\nquarto publish gh-pages --no-prompt --no-browser\n\n# Force publish (if worktree conflicts persist)\nquarto publish gh-pages --force"
-  },
-  {
-    "objectID": "WARP.html#architecture-structure",
-    "href": "WARP.html#architecture-structure",
-    "title": "WARP.md",
-    "section": "",
-    "text": "Main config: _quarto.yml - defines website structure, theming, and publishing settings\nSite URL: https://mroberts1.github.io/generative-media-fa25/\nNavigation: Simple navbar with Syllabus and Bibliography\nTheme: Custom theme based on ember.scss with additional custom.scss overrides\n\n\n\n\n├── index.qmd                 # Main syllabus page\n├── bibliography.qmd          # Course bibliography\n├── references.bib            # BibTeX references\n├── pdf/                      # Academic PDFs and readings\n├── gif/                      # Animated images (course visuals)\n├── img/                      # Static images (logos, portraits)\n├── fonts/                    # Custom web fonts\n├── outlanders/               # Specific media assets folder\n└── _site/                    # Generated website (do not edit)\n\n\n\n\nDuration: 7-week online/asynchronous summer course\nWeekly Topics: From furniture music to AI performance\nAssessment Types: Discussion posts, response papers, analytical papers\nAcademic Year: Summer 2025 (note: may need updating for future iterations)"
-  },
-  {
-    "objectID": "WARP.html#development-workflow",
-    "href": "WARP.html#development-workflow",
-    "title": "WARP.md",
-    "section": "",
-    "text": "Edit .qmd files using Quarto markdown syntax\nAdd new references to references.bib for citations\nPlace media assets in appropriate folders (pdf/, gif/, img/)\nUse R code chunks sparingly (mainly for package loading)\n\n\n\n\n\nUses Chicago Author-Date style (chicago-author-date.csl)\nCitations are handled via references.bib\nFormat: [@author2020title] for in-text citations\nBibliography automatically generated from references.bib\n\n\n\n\n\nPDF readings: Store in pdf/ directory, reference with relative paths\nVisual content: Use gif/ for animated content, img/ for static images\nAnimations: Project includes educational/artistic GIFs (e.g., outlanders-brain-magazine.gif)\n\n\n\n\n# Always render before committing\nquarto render\n\n# Check for rendering errors\n# Look for any failed file processing in terminal output\n\n# Verify links work locally\nquarto preview"
-  },
-  {
-    "objectID": "WARP.html#publishing-deployment",
-    "href": "WARP.html#publishing-deployment",
-    "title": "WARP.md",
-    "section": "",
-    "text": "# From the project root directory\nquarto publish gh-pages\n\n\n\nThis project has historically had git worktree conflicts. If you encounter errors:\n\nFirst, try the no-prompt option:\n\nquarto publish gh-pages --no-prompt --no-browser\n\nIf worktree issues persist, clean up git worktrees:\n\n# Remove problematic worktree directories\nrm -rf .git/worktrees/quarto-publish-worktree*\n\n# Prune git worktree references\ngit worktree prune\n\n# Then retry publishing\nquarto publish gh-pages\n\nNuclear option for persistent issues:\n\n# Force publish (overwrites existing gh-pages branch)\nquarto publish gh-pages --force\n\n\n\n\nCheck the live site: https://mroberts1.github.io/generative-media-fa25/\nVerify all links and media load correctly\nTest navigation between syllabus and bibliography pages"
-  },
-  {
-    "objectID": "WARP.html#project-specific-context",
-    "href": "WARP.html#project-specific-context",
-    "title": "WARP.md",
-    "section": "",
-    "text": "Course is scheduled for Summer 2025 (7 weeks: July 2 - August 19)\nWeekly structure: Wednesday to Tuesday cycles\nUpdate dates annually for course reruns\n\n\n\n\n\nUses official Emerson logo (Emerson-PrimaryLogo-Reversed-Color-400px.png)\nPurple color scheme (#62259d) matches institutional branding\nFaculty contact info integrated into navigation\n\n\n\n\n\nInstructor contact via multiple platforms: email, Mastodon, GitHub, Twitter, Facebook\nFontAwesome icons used for social links\nProfessional academic presence maintained\n\n\n\n\n\nGit worktrees: This project frequently encounters git worktree conflicts during publishing\nLarge media files: Video files (.mp4) are gitignored due to size constraints\nR dependency: Minimal R usage, mainly for tidyverse/palmerpenguins (example content)"
-  },
-  {
-    "objectID": "WARP.html#important-files-locations",
-    "href": "WARP.html#important-files-locations",
-    "title": "WARP.md",
-    "section": "",
-    "text": "_quarto.yml - Website configuration, theming, publishing settings\nreferences.bib - Bibliography database\nchicago-author-date.csl - Citation style\n.gitignore - Excludes large media files and sensitive content\n\n\n\n\n\nember.scss - Primary theme file\ncustom.scss - Additional styling overrides\nfonts/ - Custom web font files (Avenir, Helvetica, etc.)\n\n\n\n\n\nindex.qmd - Main syllabus (course description, schedule, assignments)\nbibliography.qmd - Course readings and references\npdf/ - Academic readings and course materials\n\n\n\n\n\ncomprehensive-fix.sh - Full git worktree cleanup procedure\nfinal-fix.sh - Simplified worktree cleanup\ncorrect-publish.sh - Publishing command reference\n\nThese scripts exist due to historical publishing issues but document the solutions that work for this project."
-  },
-  {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "    ",
-    "section": "",
-    "text": "Generative Media: Resources\n\nArtists\nNobody and the Computer\nDor Brothers\nKerim Safa (nullMachines) Outlanders (Tameem Sankari and Anja Dalby)\n\n\nNon-Euclidean Dreamer (Laura Kuttnig)\n\n\n3D Fractals/Artificial Life\nMandelbulb\nGallivanting Around Cellular Automata (playlist by Non-Euclidean Dreamer, 94 videos)\n3D Fractal Worlds (playlist)\n\n\nGenerative Design & Architecture\n\n“How Generative Design is Shaping the Future of Architecture” - Great overview of current applications\n“10 Books Related to Generative Architecture Everyone Should Read” - RTF comprehensive book list\n\n\n\nGenerative Web Comics\nGenerative AI is Reshaping South Korea’s Web Comics Industry\nTooToon"
-  },
-  {
-    "objectID": "bibliography.html",
-    "href": "bibliography.html",
-    "title": "    ",
-    "section": "",
-    "text": "Fisher, Mark. Capitalist Realism: Is There No Alternative? Winchester, UK: Zero Books, 2009.\nRichardson, Allissa V. Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism. Oxford: Oxford University Press, 2020."
-  },
-  {
-    "objectID": "bibliography.html#required-texts",
-    "href": "bibliography.html#required-texts",
-    "title": "    ",
-    "section": "",
-    "text": "Fisher, Mark. Capitalist Realism: Is There No Alternative? Winchester, UK: Zero Books, 2009.\nRichardson, Allissa V. Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism. Oxford: Oxford University Press, 2020."
-  },
-  {
-    "objectID": "bibliography.html#week-1-sites-of-struggle",
-    "href": "bibliography.html#week-1-sites-of-struggle",
-    "title": "    ",
-    "section": "Week 1: Sites of Struggle",
-    "text": "Week 1: Sites of Struggle\nEco, Umberto. “Towards a Semiological Guerrilla Warfare.” In Travels in Hyperreality: Essays, translated by William Weaver, 135-144. San Diego: Harcourt Brace Jovanovich, 1986.\nWelch, David. “The Conquest of the Masses.” In The Third Reich: Politics and Propaganda, 2nd ed., 10-37. London and New York: Routledge, 1993."
-  },
-  {
-    "objectID": "bibliography.html#week-2-ideology-and-the-orwellian",
-    "href": "bibliography.html#week-2-ideology-and-the-orwellian",
-    "title": "    ",
-    "section": "Week 2: Ideology and the Orwellian",
-    "text": "Week 2: Ideology and the Orwellian\nAlthusser, Louis. “Ideology and Ideological State Apparatuses (Notes towards an Investigation).” In Lenin and Philosophy and Other Essays, translated by Ben Brewster, 127-186. New York: Monthly Review Press, 1971.\nFisher, Mark. “It’s Easier to Imagine the End of the World Than the End of Capitalism.” In Capitalist Realism: Is There No Alternative?, 1-11. Winchester, UK: Zero Books, 2009.\nFisher, Mark. “Lecture 1: What Is Postcapitalist Desire?” In Postcapitalist Desire: The Final Lectures, edited by Matt Colquhoun, 21-48. London: Repeater Books, 2021.\n\nViewing\nSquid Game. Directed by Hwang Dong-hyuk. Netflix, 2021. Television series, 9 episodes."
-  },
-  {
-    "objectID": "bibliography.html#week-3-simulation-and-pastiche",
-    "href": "bibliography.html#week-3-simulation-and-pastiche",
-    "title": "    ",
-    "section": "Week 3: Simulation and Pastiche",
-    "text": "Week 3: Simulation and Pastiche\nFriedlander, Emilie. “Social Anxiety: Why Amalia Ulman’s Fake ‘Middlebrow’ Instagram Is No Different From Yours.” The Fader, November 7, 2014. https://www.thefader.com/2014/11/07/social-anxiety-why-amalia-ulmans-middlebrow-instagram-feed-is-no-different-from-yours.\nSooke, Alastair. “Is This The First Instagram Masterpiece?” The Telegraph, January 18, 2016. https://www.telegraph.co.uk/photography/what-to-see/is-this-the-first-instagram-masterpiece/.\nDazed Digital. “Amalia Ulman: Meme Come True.” Dazed Digital, 2016. https://www.dazeddigital.com/artsandculture/article/23700/1/amalia-ulman-meme-come-true.\nUlman, Amalia. Excellences & Perfections. Instagram performance, 2014. Documentation at http://amaliaulman.eu/.\n\nViewing\nEl Planeta. Directed by Amalia Ulman. Holga’s Meow Pictures, 2020. Film, 79 minutes.\nInventing Anna. Directed by Shonda Rhimes. Netflix, 2022. Television miniseries, Episode 6: Friends in Low Places."
-  },
-  {
-    "objectID": "bibliography.html#week-4-feminismpostfeminism",
-    "href": "bibliography.html#week-4-feminismpostfeminism",
-    "title": "    ",
-    "section": "Week 4: Feminism/Postfeminism",
-    "text": "Week 4: Feminism/Postfeminism\nNegra, Diane, and Yvonne Tasker. “Introduction: Feminist Politics and Postfeminist Culture.” In Interrogating Postfeminism: Gender and the Politics of Popular Culture, edited by Diane Negra and Yvonne Tasker, 1-25. Durham, NC: Duke University Press, 2007.\nRoberts, Martin. “The Fashion Police: Governing the Self in What Not To Wear.” In Interrogating Postfeminism: Gender and the Politics of Popular Culture, edited by Diane Negra and Yvonne Tasker, 227-248. Durham, NC: Duke University Press, 2007."
-  },
-  {
-    "objectID": "bibliography.html#week-5-witnessing",
-    "href": "bibliography.html#week-5-witnessing",
-    "title": "    ",
-    "section": "Week 5: Witnessing",
-    "text": "Week 5: Witnessing\nRichardson, Allissa V. “Looking As Rebellion: The Concept of Black Witnessing.” In Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism, chapter 1, 18-42. Oxford: Oxford University Press, 2020.\nRichardson, Allissa V. “The New Protest #Journalism: Black Witnessing as Counternarrative.” In Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism, chapter 3, 65-89. Oxford: Oxford University Press, 2020."
-  },
-  {
-    "objectID": "bibliography.html#week-6-tribes---subcultures-lifestyles-aesthetics",
-    "href": "bibliography.html#week-6-tribes---subcultures-lifestyles-aesthetics",
-    "title": "    ",
-    "section": "Week 6: Tribes - Subcultures, Lifestyles, Aesthetics",
-    "text": "Week 6: Tribes - Subcultures, Lifestyles, Aesthetics\nGiolo, Guilherme, and Michaël Berghman. “The Aesthetics of the Self: The Meaning-Making of Internet Aesthetics.” Cultural Sociology (2024). https://doi.org/10.1177/17499755241229570.\nAesthetics Wiki"
-  },
-  {
-    "objectID": "bibliography.html#week-7-fandom",
-    "href": "bibliography.html#week-7-fandom",
-    "title": "    ",
-    "section": "Week 7: Fandom",
-    "text": "Week 7: Fandom\nBaym, Nancy K. “Social Media and the Struggle for Society.” Social Media + Society 1, no. 1 (2015): 1-2. https://doi.org/10.1177/2056305115580477.\nBaym, Nancy K., Daniel Cavicchi, and Norma Coates. “Music Fandom in the Digital Age: A Conversation.” In The Routledge Companion to Media Fandom, edited by Melissa A. Click and Suzanne Scott, 141-152. New York: Routledge, 2018."
-  },
-  {
-    "objectID": "bibliography.html#additional-recommended-readings",
-    "href": "bibliography.html#additional-recommended-readings",
-    "title": "    ",
-    "section": "Additional Recommended Readings",
-    "text": "Additional Recommended Readings\n\nSemiotics and Media Theory\nBarthes, Roland. Mythologies. Translated by Annette Lavers. New York: Hill and Wang, 1972.\nChandler, Daniel. Semiotics: The Basics. 3rd ed. London: Routledge, 2017.\nHall, Stuart. “Encoding/Decoding.” In Culture, Media, Language: Working Papers in Cultural Studies, 1972-79, edited by Stuart Hall, Dorothy Hobson, Andrew Lowe, and Paul Willis, 128-138. London: Hutchinson, 1980.\n\n\nIdeology and Cultural Studies\nEagleton, Terry. Ideology: An Introduction. 2nd ed. London: Verso, 2007.\nGramsci, Antonio. Selections from Cultural Writings. Edited by David Forgacs and Geoffrey Nowell-Smith. Cambridge, MA: Harvard University Press, 1985.\nWilliams, Raymond. Keywords: A Vocabulary of Culture and Society. Revised ed. New York: Oxford University Press, 1985.\n\n\nPostmodernism and Simulation\nBaudrillard, Jean. Simulacra and Simulation. Translated by Sheila Faria Glaser. Ann Arbor: University of Michigan Press, 1994.\nJameson, Fredric. Postmodernism, or, The Cultural Logic of Late Capitalism. Durham, NC: Duke University Press, 1991.\nLyotard, Jean-François. The Postmodern Condition: A Report on Knowledge. Translated by Geoff Bennington and Brian Massumi. Minneapolis: University of Minnesota Press, 1984.\n\n\nDigital Culture and Social Media\nboyd, danah. It’s Complicated: The Social Lives of Networked Teens. New Haven: Yale University Press, 2014.\nJenkins, Henry. Participatory Culture: Interviews. Cambridge: Polity Press, 2019.\nMarwick, Alice E. Status Update: Celebrity, Publicity, and Branding in the Social Media Age. New Haven: Yale University Press, 2013.\nTufekci, Zeynep. Twitter and Tear Gas: The Power and Fragility of Networked Protest. New Haven: Yale University Press, 2017.\n\n\nFeminism and Gender Studies\nButler, Judith. Gender Trouble: Feminism and the Subversion of Identity. New York: Routledge, 1990.\nhooks, bell. Feminism Is for Everybody: Passionate Politics. Cambridge, MA: South End Press, 2000.\nMcRobbie, Angela. The Aftermath of Feminism: Gender, Culture and Social Change. London: Sage, 2009.\nMulvey, Laura. “Visual Pleasure and Narrative Cinema.” Screen 16, no. 3 (1975): 6-18.\n\n\nRace and Media\nBonilla, Yarimar, and Jonathan Rosa. “#Ferguson: Digital Protest, Hashtag Ethnography, and the Racial Politics of Social Media in the United States.” American Ethnologist 42, no. 1 (2015): 4-17.\nGray, Herman. Watching Race: Television and the Struggle for Blackness. Minneapolis: University of Minnesota Press, 2004.\nNoble, Safiya Umoja. Algorithms of Oppression: How Search Engines Reinforce Racism. New York: NYU Press, 2018.\n\n\nSubcultures and Fan Studies\nHebdige, Dick. Subculture: The Meaning of Style. London: Routledge, 1979.\nJenkins, Henry. Textual Poachers: Television Fans and Participatory Culture. 2nd ed. New York: Routledge, 2012.\nThornton, Sarah. Club Cultures: Music, Media, and Subcultural Capital. Middletown, CT: Wesleyan University Press, 1996."
-  },
-  {
-    "objectID": "bibliography.html#filmography",
-    "href": "bibliography.html#filmography",
-    "title": "    ",
-    "section": "Filmography",
-    "text": "Filmography\nEl Planeta. Directed by Amalia Ulman. Holga’s Meow Pictures, 2020. Film, 79 minutes.\nInventing Anna. Directed by Shonda Rhimes. Netflix, 2022. Television miniseries.\nSquid Game. Directed by Hwang Dong-hyuk. Netflix, 2021. Television series, 9 episodes."
-  },
-  {
     "objectID": "generative-media2.html",
     "href": "generative-media2.html",
     "title": "    ",
@@ -480,7 +403,7 @@
     "href": "index.html#assignments-evaluation",
     "title": "Generative Media",
     "section": "Assignments & Evaluation",
-    "text": "Assignments & Evaluation\nReflection post (weekly, due Friday of each week, 10 required) (40%)\nAudiovisual or Textual Generative Work (20%, due at Thanksgiving)\nResearch Paper (20%, due Thur 11 Dec)\nOblique Strategies Project (20%, due mid-semester)"
+    "text": "Assignments & Evaluation\nReflection post (weekly, due Friday of each week, 10 required) (40%)\nAudiovisual or Textual Generative Work (20%, due at Thanksgiving)\nResearch Paper (20%, due Thur 11 Dec)\nOblique Strategies Project (20%, due 16 Oct)"
   },
   {
     "objectID": "index.html#class-schedule",
