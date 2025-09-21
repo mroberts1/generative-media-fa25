@@ -1,227 +1,171 @@
 [
   {
-    "objectID": "shaderpark.html",
-    "href": "shaderpark.html",
-    "title": "VM402-09 Generative Media",
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Oblique Strategies (card deck designed by Brian Eno and Peter Schmidt)"
+  },
+  {
+    "objectID": "resources.html#oblique-strategies",
+    "href": "resources.html#oblique-strategies",
+    "title": "Resources",
+    "section": "",
+    "text": "Oblique Strategies (card deck designed by Brian Eno and Peter Schmidt)"
+  },
+  {
+    "objectID": "resources.html#generative-music",
+    "href": "resources.html#generative-music",
+    "title": "Resources",
+    "section": "Generative Music",
+    "text": "Generative Music\nmeleyal, Generative Music With Javascript. A guide to creating generative music with Javascript\nmeleyal, Definition of Generative Music"
+  },
+  {
+    "objectID": "resources.html#artists",
+    "href": "resources.html#artists",
+    "title": "Resources",
+    "section": "Artists",
+    "text": "Artists\nHolly Herndon\nNobody and the Computer\nDor Brothers\nKerim Safa (nullMachines)\nOutlanders (Tameem Sankari and Anja Dalby)\nNon-Euclidean Dreamer (Laura Kuttnig)"
+  },
+  {
+    "objectID": "resources.html#fractals-artificial-life",
+    "href": "resources.html#fractals-artificial-life",
+    "title": "Resources",
+    "section": "Fractals & Artificial Life",
+    "text": "Fractals & Artificial Life\nMandelbulb\nGallivanting Around Cellular Automata (playlist by Non-Euclidean Dreamer, 94 videos)\n3D Fractal Worlds (playlist)"
+  },
+  {
+    "objectID": "resources.html#architecture-design",
+    "href": "resources.html#architecture-design",
+    "title": "Resources",
+    "section": "Architecture & Design",
+    "text": "Architecture & Design\n“How Generative Design is Shaping the Future of Architecture” - Great overview of current applications\n“10 Books Related to Generative Architecture Everyone Should Read” - RTF comprehensive book list"
+  },
+  {
+    "objectID": "resources.html#web-comics",
+    "href": "resources.html#web-comics",
+    "title": "Resources",
+    "section": "Web Comics",
+    "text": "Web Comics\nGenerative AI is Reshaping South Korea’s Web Comics Industry\nTooToon"
+  },
+  {
+    "objectID": "resources.html#ecosystems-generative-ecologies",
+    "href": "resources.html#ecosystems-generative-ecologies",
+    "title": "Resources",
+    "section": "Ecosystems: Generative Ecologies",
+    "text": "Ecosystems: Generative Ecologies\nPlantWave"
+  },
+  {
+    "objectID": "gen-media-structure.html",
+    "href": "gen-media-structure.html",
+    "title": "    ",
+    "section": "",
+    "text": "Gen Media - course structure\nTopics\n\nIntro: Furniture Music: Satie (Vexations) + Nobody & The Computer\nMusic of Changes: Cage/Young\nOULIPO and Computational Literature\nComputer Art\nFractals - art, movies, 3D\nAmbient music\nAmbient TV and Cinema (Eno, 77 Million Paintings, the recent documentary)\nProcedural Media: Videogames (Minecraft)\nAI\nAI\nPresentations Conclusion"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Generative Media",
     "section": "",
     "text": "&lt;/div&gt;\n&lt;div class=\"quarto-layout-cell\" style=\"flex-basis: 50.0%;justify-content: flex-start;\"&gt;\nShader: T1 by h2ee [Fullscreen]"
   },
   {
-    "objectID": "shaderpark.html#description",
-    "href": "shaderpark.html#description",
-    "title": "VM402-09 Generative Media",
+    "objectID": "index.html#description",
+    "href": "index.html#description",
+    "title": "Generative Media",
     "section": "Description",
-    "text": "Description\n\nIt’s very uSseful in the arts to have certain sorts of systems, [particularly] if you’re working with something that doesn’t have immediate limitations because you don’t have enough money. … Sometimes not having enough money is good, because you don’t end up throwing a million dollars at a five-cent idea. But [what] if the idea doesn’t require any money? How do you actually stop yourself from putting too much into an idea that’s too small? You find an external system. And some of the best systems in the world come out of physics, the sciences. Math.\n—Judy Nylon, cited in Geeta Dayal, Another Green Word (23-24).\n\nThis online, asynchronous course examines approaches to the analysis and criticism of contemporary media. You will learn how to become critical of the media messages you use and create, and how to think and write with agency."
+    "text": "Description\n\nIt’s very useful in the arts to have certain sorts of systems, [particularly] if you’re working with something that doesn’t have immediate limitations because you don’t have enough money. … Sometimes not having enough money is good, because you don’t end up throwing a million dollars at a five-cent idea. But [what] if the idea doesn’t require any money? How do you actually stop yourself from putting too much into an idea that’s too small? You find an external system. And some of the best systems in the world come out of physics, the sciences. Math.\n—Judy Nylon, cited in Geeta Dayal, Another Green Word (23-24).\n\nAlthough the term “generative” is today often treated as synonymous with AI-based artistic practices, generative art and aesthetics long predates the digital era, with antecedents that include the experiments with musical chance of John Cage and Lamonte Young, the early computational art of the 1960s, fractal images and music in the 1970s, or the ambient music of Brian Eno. The popularization of algorithmic tools that enable images, music, literary works, animation, and motion graphics to be generated from text and image prompts, however, has led to a surge in interest in code-based and algorithmic forms of creativity, along with debates about the aesthetic and ethical legitimacy of AI-generated artworks and other creative content. While computational art has been able to pass as human since the 1960s, the current explosive growth of algorithmic tools has rekindled aesthetic debates about the technological dimension of art and the relationship of art to the human more generally.\nThis course explores the history of generative approaches in the media arts, as well as changing social attitudes towards these and the contemporary debate swirling around “AI art.” In addition to historical examples and philosophical dimensions, students are introduced to a variety of generative approaches to artistic creativity, and collaborate on producing generative artworks in a medium of their choice using a variety of tools, frameworks, and platforms."
   },
   {
-    "objectID": "shaderpark.html#learning-objectives",
-    "href": "shaderpark.html#learning-objectives",
-    "title": "VM402-09 Generative Media",
-    "section": "Learning Objectives",
-    "text": "Learning Objectives"
-  },
-  {
-    "objectID": "shaderpark.html#texts",
-    "href": "shaderpark.html#texts",
-    "title": "VM402-09 Generative Media",
+    "objectID": "index.html#texts",
+    "href": "index.html#texts",
+    "title": "Generative Media",
     "section": "Texts",
     "text": "Texts\n\nGeeta Dayal, Another Green World (New York: Continuum, 2009).\nBenedikt Gross, Hartmut Bohnacker, and Julia Laub, Generative Design: Visualize, Program, and Create with P5.js. Princeton, NJ: Princeton Architectural Press, 2018.\nPhilip, Terry, ed., The Penguin Book of Oulipo. London: Penguin Classics, 2020."
   },
   {
-    "objectID": "shaderpark.html#films",
-    "href": "shaderpark.html#films",
-    "title": "VM402-09 Generative Media",
+    "objectID": "index.html#films",
+    "href": "index.html#films",
+    "title": "Generative Media",
     "section": "Films",
-    "text": "Films\nJohn Cage: Journeys in Sound (Allan Miller and Paul Smaczny, 2012)."
+    "text": "Films\n\nJohn Cage: Journeys in Sound (Allan Miller and Paul Smaczny, 2012).\n\nEno (Gary Hustwit, 2024)."
   },
   {
-    "objectID": "shaderpark.html#evaluation",
-    "href": "shaderpark.html#evaluation",
-    "title": "VM402-09 Generative Media",
-    "section": "Evaluation",
-    "text": "Evaluation\nPaper #1 20%\nPaper #2/Creative Project 20%\nDiscussion Posts 30%\nResponse papers (2) 30%"
+    "objectID": "index.html#assignments-evaluation",
+    "href": "index.html#assignments-evaluation",
+    "title": "Generative Media",
+    "section": "Assignments & Evaluation",
+    "text": "Assignments & Evaluation\nReflection post (weekly, due Friday of each week, 10 required) (40%)\nAudiovisual or Textual Generative Work (20%, due at Thanksgiving)\nResearch Paper (20%, due Thur 11 Dec)\nOblique Strategies Project (20%, due 16 Oct)"
   },
   {
-    "objectID": "shaderpark.html#class-schedule",
-    "href": "shaderpark.html#class-schedule",
-    "title": "VM402-09 Generative Media",
+    "objectID": "index.html#class-schedule",
+    "href": "index.html#class-schedule",
+    "title": "Generative Media",
     "section": "Class Schedule",
-    "text": "Class Schedule\nWeek 1\nIntroduction: Unpromising Beginnings\nThur_04-Sept\n\nWeek 2\nOblique Strategies\nTues_9-Sept\nGeeta Dayal, Another Green World, chs. 1-3\nThur_11-Sept\nGeeta Dayal, Another Green World, chs. 4-6\n\nWeek 3\nTues_16-Sept\nGeeta Dayal, Another Green World, chs. 7-9\nThur_18-Sept\nGeeta Dayal, Another Green World, chs. 10-12\n\nWeek 4\nImaginary Landscapes: John Cage and La Monte Young\nTues_23-Sept\nScreening: John Cage: Journeys in Sound\nThur_25-Sept\nCage, selected essays from Silence\n\nWeek 5\nPhasing: Steve Reich and Terry Riley\nTues_30-Sept\nSteve Reich, “Music as a Gradual Process” (1968)\nWim Mertens book?\nThur_02-Oct\nTerry Riley?\n\nWeek 6\nTues_07-Oct\nNumbers\nRaymond Queneau, A Hundred Thousand Billion Poems\nInteractive edition\nEno, 77 Million Paintings\nWatch:\n\n7 Hours in 77 Million Paintings(420 mins. &gt; 35 mins. timelapse)\n\n\n\n\n\n[7 More Hours in 77 Million Paintings](https://vimeo.com/751767) (420 mins. &gt; 35 mins. timelapse)\n\n\n\n\nThur_09-Oct\n\nWeek 7\nFractals\nTues_14-Oct\nThur_16-Oct\n\nWeek 8\nEcosystems\nTues_21-Oct\nConway’s Game of Life\nThur_23-Oct\nLenia\n\nWeek 9\nProcedural Worlds\nTues_28-Oct\nSimon Parkin, “A Journey to the End of the World (of Minecraft)” (The New Yorker, 23 January 2014)\nThur_30-Oct\nWave Function Collapse\n\n\n\n\nWeek 10\nAlgorithmic Architecture\nTues_04-Nov\nThur_06-Nov\n\nWeek 11\nVeterans Day\nGenerative Art & Design\nThur_13-Nov\nRead the interviews with Josef Pelz, Étienne Jacob, Shohei Fujimoto, Giulia Cosco, and/or Pierre Paslier\n\nWeek 12\nTues_18-Nov\nGenerative Hut website\nThur_20-Nov\nP5.js workshop\n\nWeek 13\nTues_25-Nov\nNO CLASS?\nThanksgiving\n\nWeek 14\nTues_02-Dec Presentations\nThur_04-Dec Presentations\n\nWeek 15\nTues_09-Dec Presentations\nThur_11-Dec Presentations\n\nWeek 16\nTues_16-Dec Conclusion"
+    "text": "Class Schedule\nWeek 1\nIntroduction: Unpromising Beginnings\nThur_04-Sept\n\nWeek 2\nOblique Strategies\n\n\n\nTues_9-Sept\n\n\n\n“Work at a different speed”\n\nGeeta Dayal, Another Green World, chs. 1-3\n\nThur_11-Sept\n\nBrian Eno, “Generating and Organizing Variety in the Arts” (Studio International, 1976)\nBrian Eno, Music for Airports (and other albums), liner notes\nGeeta Dayal, Another Green World, chs. 4-6\n\n\nWeek 3\nTues_16-Sept\n“Interesting failure after interesting failure”\n\n\n\n\nGeeta Dayal, Another Green World, chs. 7-9\n\nThur_18-Sept\n\nGeeta Dayal, Another Green World, chs. 10-12\n“How Brian Eno Created ‘Discreet Music’”\n\n\nWeek 4\nImaginary Landscapes: John Cage and La Monte Young\nTues_23-Sept\n\nScreening: John Cage: Journeys in Sound\n\nThur_25-Sept\n\nJohn Cage, selected essays from Silence\n\n\nWeek 5\nPhasing: Steve Reich and Terry Riley\nTues_30-Sept\n\nSteve Reich, “Music as a Gradual Process” (1968)\n\nThur_02-Oct\n\nTerry Riley, In C\n\n\nWeek 6\nMondrian: Computer Graphics\nTues_07-Oct\n\nAmy Goodchild, “Early Computer Art in the ’50s and ’60s”\nA. Michael Noll, “Human or Machine? A Subjective Comparison of Piet Mondrian’s ‘Composition With Lines’ (1917) and a Computer-Generated Picture”\nEarly 3D Computer Graphics from Bell Labs\n\n\n\n\nThur_09-Oct\n\nLev Manovich, “Who is ‘An Artist’ in the ‘AI Era’?”\nProcessing Mondrian\n\n\nWeek 7\nFractal Worlds\nTues_14-Oct\n\nMandelbulb\n\nFractal Worlds (YouTube channel)\n\nThur_16-Oct\nOblique Strategies Projects\nDEADLINE: Oblique Strategies Project\n\nWeek 8\nEcosystems\nTues_21-Oct\nConway’s Game of Life\nThur_23-Oct\nLenia\n\nWeek 9\nPermutations\nTues_28-Oct\n\nRaymond Queneau, A Hundred Thousand Billion Poems\nInteractive edition\nEno, 77 Million Paintings\n7 Hours in 77 Million Paintings(420 mins. &gt; 35 mins. timelapse)\n[7 More Hours in 77 Million Paintings](https://vimeo.com/751767) (420 mins. &gt; 35 mins. timelapse)\n\nThur_30-Oct\n\nWeek 10\nLanguage Games\nTues_04-Nov\n\nThe Penguin Book of OULIPO, selected chs. \n\nThur_06-Nov\n\nRob Clouth, The Harry Potter Book Generator\nNanoGenMo\n\n\nWeek 11\nVeterans Day\nThur_13-Nov\nProcedural Worlds\n\nSimon Parkin, “A Journey to the End of the World (of Minecraft)” (The New Yorker, 23 January 2014)\nWave Function Collapse\n\n\n\n\n\nWeek 12\nGenerative Art & Design\nTues_18-Nov\n\nGenerative Design\n\nThur_20-Nov\n\nRead the interviews with Josef Pelz, Étienne Jacob, Shohei Fujimoto, Giulia Cosco, and/or Pierre Paslier\n\n\nWeek 13\nTues_25-Nov\nTBA\nThanksgiving\n\nWeek 14\nTues_02-Dec Presentations\nThur_04-Dec Presentations\n\nWeek 15\nTues_09-Dec Presentations\nThur_11-Dec Presentations\n\nWeek 16\nTues_16-Dec Conclusion"
   },
   {
-    "objectID": "shaderpark.html#policies-procedures",
-    "href": "shaderpark.html#policies-procedures",
-    "title": "VM402-09 Generative Media",
-    "section": "Policies & Procedures",
-    "text": "Policies & Procedures\nAttendance and Participation\nFull participation in class discussions and timely submission of all assignments constitutes evidence of class attendance. Students are expected to allocate sufficient time to complete all the requirements for each module: reading, viewing, responding to discussion questions, submitting replies to classmates, and completing other assignments on time. Failure to keep up with the pace of the course may result in lower grades or the failure of the class.\nAcademic Honesty\nDo not plagiarize. Plagiarism is using someone else’s work without giving them fair credit. Plagiarism and cheating will result in an “F” for the assignment.\nAccommodations\nEmerson is committed to providing equal access and support to all qualified students through the provision of reasonable accommodations, so that each student may fully participate in the Emerson experience. Student Accessibility Services (SAS) staff will be working remotely for the fall of 2020. If you have a disability that may require accommodations, please contact them at SAS@emerson.edu or at (617)824-8592 to make an appointment with an SAS staff member.\nStudents are encouraged to contact SAS early in the semester. Please note that accommodations are not applied retroactively.\nPlagiarism Statement\nIt is the responsibility of all Emerson students to know and adhere to the College’s policy on plagiarism, which can be found at: http://www.emerson.edu/policy/plagiarism*. If you have any question concerning the Emerson plagiarism policy or about documentation of sources in work you produce in this course, speak to your instructor.\nDiversity Statement\nEvery student in this class will be honored and respected as an individual with distinct experiences, talents, and backgrounds. Students will be treated fairly regardless of race, religion, sexual orientation, gender identification, disability, socio-economic status, or national identity. Issues of diversity may be a part of class discussion, assigned material, and projects. The instructor will make every effort to ensure that an inclusive environment exists for all students. If you have any concerns or suggestions for improving the classroom climate, please do not hesitate to speak with the course instructor or to contact the Office of Diversity and Inclusion at 617-824-8528 or by email at diversityinclusion@emerson.edu*"
-  },
-  {
-    "objectID": "glossary.html",
-    "href": "glossary.html",
-    "title": "Key Concepts",
-    "section": "",
-    "text": "This glossary provides definitions of key theoretical concepts covered in the first six weeks of VM200 Media Criticism. Each entry includes a comprehensive definition (50-200 words) and citations to relevant sources for further reading."
-  },
-  {
-    "objectID": "glossary.html#introduction",
-    "href": "glossary.html#introduction",
-    "title": "Key Concepts",
-    "section": "",
-    "text": "This glossary provides definitions of key theoretical concepts covered in the first six weeks of VM200 Media Criticism. Each entry includes a comprehensive definition (50-200 words) and citations to relevant sources for further reading."
-  },
-  {
-    "objectID": "glossary.html#a",
-    "href": "glossary.html#a",
-    "title": "Key Concepts",
-    "section": "A",
-    "text": "A\n\nAesthetics\nThe philosophical study of beauty, taste, and artistic value, particularly as it relates to media forms and visual culture. In digital contexts, aesthetics refers to curated visual styles and sensibilities that emerge on social media platforms (like “cottagecore” or “dark academia”), serving as identity markers and forms of cultural expression. These internet aesthetics function as vernacular theories of taste that help individuals construct and communicate their identities online.\n\n\n\n\n\n\nSources\n\n\n\n\nGiolo, G. & Berghman, M. “The Aesthetics of the Self: The Meaning-Making of Internet Aesthetics”\nAesthetics Wiki\nNgai, Sianne. Our Aesthetic Categories: Zany, Cute, Interesting (Harvard University Press, 2012)"
-  },
-  {
-    "objectID": "glossary.html#b",
-    "href": "glossary.html#b",
-    "title": "Key Concepts",
-    "section": "B",
-    "text": "B\n\nBlack Witnessing\nA form of counter-narrative activism where African Americans use smartphones and social media to document and share experiences of racial injustice, police brutality, and systemic racism. This practice transforms citizens into journalists who bear witness to events often ignored or misrepresented by mainstream media, creating alternative news ecosystems that challenge dominant narratives about race and power in America.\n\n\n\n\n\n\nSources\n\n\n\n\nRichardson, Allissa V. Bearing Witness While Black (Oxford University Press, 2020)\nWells, Ida B. The Light of Truth: Writings of an Anti-Lynching Crusader (Penguin, 2014)\nNoble, Safiya Umoja. Algorithms of Oppression (NYU Press, 2018)"
-  },
-  {
-    "objectID": "glossary.html#c",
-    "href": "glossary.html#c",
-    "title": "Key Concepts",
-    "section": "C",
-    "text": "C\n\nCapitalist Realism\nMark Fisher’s concept describing the pervasive belief that capitalism is the only viable political and economic system, making it easier to imagine the end of the world than the end of capitalism. This ideological framework naturalizes neoliberal capitalism as inevitable and unchangeable, infiltrating education, culture, and consciousness to the point where alternatives become literally unthinkable.\n\n\n\n\n\n\nSources\n\n\n\n\nFisher, Mark. Capitalist Realism: Is There No Alternative? (Zero Books, 2009)\nFisher, Mark. Postcapitalist Desire: The Final Lectures (Repeater Books, 2021)\nJameson, Fredric. Postmodernism, or, The Cultural Logic of Late Capitalism (Duke University Press, 1991)\n\n\n\n\n\nConnotation/Denotation\nFundamental semiotic concepts distinguishing between literal meaning (denotation) and associated cultural meanings (connotation). Denotation refers to the explicit, dictionary definition of a sign, while connotation encompasses the cultural, emotional, and ideological associations that signs carry within specific contexts. Media criticism examines how connotative meanings naturalize ideological messages.\n\n\n\n\n\n\nSources\n\n\n\n\nBarthes, Roland. Mythologies (Hill and Wang, 1957)\nHall, Stuart. “Encoding/Decoding” in Culture, Media, Language (Hutchinson, 1980)\nChandler, Daniel. Semiotics: The Basics (Routledge, 2017)"
-  },
-  {
-    "objectID": "glossary.html#d",
-    "href": "glossary.html#d",
-    "title": "Key Concepts",
-    "section": "D",
-    "text": "D\n\nDiscourse\nIn Foucauldian terms, discourse refers to ways of constituting knowledge through language, social practices, and power relations. Discourses shape what can be said, who can speak, and what counts as true or false within specific historical contexts. Media discourses construct and regulate subjects, identities, and social realities through representational practices.\n\n\n\n\n\n\nSources\n\n\n\n\nFoucault, Michel. The Archaeology of Knowledge (Pantheon, 1972)\nHall, Stuart, ed. Representation: Cultural Representations and Signifying Practices (Sage, 1997)\nMills, Sara. Discourse (Routledge, 2004)"
-  },
-  {
-    "objectID": "glossary.html#f",
-    "href": "glossary.html#f",
-    "title": "Key Concepts",
-    "section": "F",
-    "text": "F\n\nFandom\nOrganized communities of enthusiasts who actively engage with media texts through creative production, interpretation, and social interaction. Fandom represents participatory culture where audiences become producers, creating fan fiction, art, videos, and other transformative works. Digital platforms have amplified fandom’s visibility and influence on media industries.\n\n\n\n\n\n\nSources\n\n\n\n\nJenkins, Henry. Textual Poachers: Television Fans and Participatory Culture (Routledge, 1992)\nClick, Melissa A. & Scott, Suzanne, eds. The Routledge Companion to Media Fandom (Routledge, 2018)\nBaym, Nancy. Playing to the Crowd: Musicians, Audiences, and the Intimate Work of Connection (NYU Press, 2018)\n\n\n\n\n\nFeminism/Postfeminism\nFeminism encompasses political movements and critical theories advocating for gender equality and analyzing patriarchal power structures. Postfeminism represents a cultural sensibility suggesting feminism’s goals have been achieved while simultaneously incorporating and depoliticizing feminist ideas, often emphasizing individual empowerment, choice, and consumption over collective action.\n\n\n\n\n\n\nSources\n\n\n\n\nNegra, Diane & Tasker, Yvonne, eds. Interrogating Postfeminism (Duke University Press, 2007)\nMcRobbie, Angela. The Aftermath of Feminism (Sage, 2009)\nhooks, bell. Feminism Is for Everybody (South End Press, 2000)"
-  },
-  {
-    "objectID": "glossary.html#h",
-    "href": "glossary.html#h",
-    "title": "Key Concepts",
-    "section": "H",
-    "text": "H\n\nHegemony\nAntonio Gramsci’s concept describing how dominant groups maintain power through consent rather than coercion, securing leadership through cultural and ideological means. Media functions as a key site for hegemonic struggle, where dominant meanings are contested and negotiated rather than simply imposed.\n\n\n\n\n\n\nSources\n\n\n\n\nGramsci, Antonio. Selections from Cultural Writings (Harvard University Press, 1985)\nWilliams, Raymond. Keywords: A Vocabulary of Culture and Society (Oxford University Press, 1983)\nStorey, John. Cultural Theory and Popular Culture (Pearson, 2018)"
-  },
-  {
-    "objectID": "glossary.html#i",
-    "href": "glossary.html#i",
-    "title": "Key Concepts",
-    "section": "I",
-    "text": "I\n\nIdeology\nSystems of ideas, beliefs, and representations that structure our understanding of social reality. Althusser’s theory emphasizes how ideology interpellates individuals as subjects through Ideological State Apparatuses (ISAs) like media, education, and religion, making dominant power relations appear natural and inevitable.\n\n\n\n\n\n\nSources\n\n\n\n\nAlthusser, Louis. “Ideology and Ideological State Apparatuses” in Lenin and Philosophy (Monthly Review Press, 1971)\nEagleton, Terry. Ideology: An Introduction (Verso, 1991)\nŽižek, Slavoj. The Sublime Object of Ideology (Verso, 1989)\n\n\n\n\n\nInterpellation\nAlthusser’s concept describing how ideology “hails” or addresses individuals, transforming them into subjects who recognize themselves in ideological representations. Media interpellates audiences through forms of address that position viewers as particular kinds of subjects with specific identities, desires, and social positions.\n\n\n\n\n\n\nSources\n\n\n\n\nAlthusser, Louis. On the Reproduction of Capitalism (Verso, 2014)\nButler, Judith. Excitable Speech: A Politics of the Performative (Routledge, 1997)\nPêcheux, Michel. Language, Semantics and Ideology (Macmillan, 1982)"
-  },
-  {
-    "objectID": "glossary.html#p",
-    "href": "glossary.html#p",
-    "title": "Key Concepts",
-    "section": "P",
-    "text": "P\n\nParadigm/Syntagm\nSemiotic concepts describing two dimensions of meaning-making. Paradigmatic relations involve selection from available alternatives (choosing one sign from a set of possible signs), while syntagmatic relations involve combination (how signs are arranged in sequence). These concepts reveal how media texts generate meaning through both choice and structure.\n\n\n\n\n\n\nSources\n\n\n\n\nSaussure, Ferdinand de. Course in General Linguistics (Columbia University Press, 2011)\nJakobson, Roman. On Language (Harvard University Press, 1990)\nHodge, Robert & Kress, Gunther. Social Semiotics (Cornell University Press, 1988)\n\n\n\n\n\nPastiche\nA postmodern aesthetic practice involving imitation without satirical intent, creating blank parody that recycles past styles without critical distance. Unlike parody’s mocking stance, pastiche represents “the random cannibalization of all the styles of the past” (Jameson), reflecting capitalism’s commodification of history and culture.\n\n\n\n\n\n\nSources\n\n\n\n\nJameson, Fredric. Postmodernism, or, The Cultural Logic of Late Capitalism (Duke University Press, 1991)\nHutcheon, Linda. A Theory of Parody (University of Illinois Press, 2000)\nDyer, Richard. Pastiche (Routledge, 2007)\n\n\n\n\n\nPostmodernism\nA cultural condition characterized by the breakdown of grand narratives, the collapse of high/low cultural distinctions, and the dominance of simulacra over reality. In media, postmodernism manifests through pastiche, intertextuality, self-reflexivity, and the hyperreal—where simulations become more real than reality itself.\n\n\n\n\n\n\nSources\n\n\n\n\nBaudrillard, Jean. Simulacra and Simulation (University of Michigan Press, 1994)\nLyotard, Jean-François. The Postmodern Condition (University of Minnesota Press, 1984)\nHarvey, David. The Condition of Postmodernity (Blackwell, 1989)\n\n\n\n\n\nProtest #Journalism\nCitizen journalism practices using hashtags and social media to document, disseminate, and organize around social justice issues. This form of activism transforms witnesses into journalists, creating alternative news networks that bypass traditional media gatekeepers and challenge official narratives about protests and police violence.\n\n\n\n\n\n\nSources\n\n\n\n\nRichardson, Allissa V. Bearing Witness While Black (Oxford University Press, 2020)\nTufekci, Zeynep. Twitter and Tear Gas (Yale University Press, 2017)\nBonilla, Yarimar & Rosa, Jonathan. “#Ferguson: Digital Protest, Hashtag Ethnography” in American Ethnologist 42(1), 2015"
-  },
-  {
-    "objectID": "glossary.html#s",
-    "href": "glossary.html#s",
-    "title": "Key Concepts",
-    "section": "S",
-    "text": "S\n\nSemiotics/Semiology\nThe study of signs and sign processes, examining how meaning is created, transmitted, and interpreted in communication systems. Media semiotics analyzes how visual, auditory, and textual signs combine to produce ideological meanings, revealing the constructed nature of media representations.\n\n\n\n\n\n\nSources\n\n\n\n\nBarthes, Roland. Elements of Semiology (Hill and Wang, 1968)\nEco, Umberto. A Theory of Semiotics (Indiana University Press, 1976)\nRose, Gillian. Visual Methodologies (Sage, 2016)\n\n\n\n\n\nSemiological Guerrilla Warfare\nUmberto Eco’s concept of tactical media resistance through alternative interpretation of mass media messages. Rather than controlling media production, guerrilla semiology intervenes at the point of reception, teaching audiences to decode messages critically and subvert intended meanings.\n\n\n\n\n\n\nSources\n\n\n\n\nEco, Umberto. “Towards a Semiological Guerrilla Warfare” in Travels in Hyperreality (Harcourt, 1986)\nde Certeau, Michel. The Practice of Everyday Life (University of California Press, 1984)\nDery, Mark. Culture Jamming: Hacking, Slashing, and Sniping in the Empire of Signs (Open Magazine, 1993)\n\n\n\n\n\nSimulacra/Simulation\nBaudrillard’s concepts describing how copies without originals (simulacra) create a hyperreality where simulation replaces reality. In media-saturated societies, simulations become autonomous, generating their own reality effects independent of any external referent—reality TV, Instagram performances, and virtual worlds exemplify this condition.\n\n\n\n\n\n\nSources\n\n\n\n\nBaudrillard, Jean. Simulacra and Simulation (University of Michigan Press, 1994)\nBaudrillard, Jean. The Perfect Crime (Verso, 1996)\nMassumi, Brian. Parables for the Virtual (Duke University Press, 2002)\n\n\n\n\n\nSubculture\nSocial groups distinguished by specific styles, values, and practices that differentiate them from mainstream culture. Digital platforms have transformed subcultural formation, enabling new forms of aesthetic tribes and micro-communities organized around shared sensibilities, from TikTok subcultures to Discord communities.\n\n\n\n\n\n\nSources\n\n\n\n\nHebdige, Dick. Subculture: The Meaning of Style (Routledge, 1979)\nThornton, Sarah. Club Cultures: Music, Media, and Subcultural Capital (Wesleyan, 1996)\nGelder, Ken. Subcultures: Cultural Histories and Social Practice (Routledge, 2007)\n\n\n\n\n\n\n\n\n\n\nUsing This Glossary\n\n\n\n\nClick on any concept in the table of contents to jump directly to its definition\nUse Ctrl+F (Windows) or Cmd+F (Mac) to search for specific terms\nFollow the source citations for deeper exploration of each concept\nTerms are organized alphabetically for easy reference"
-  },
-  {
-    "objectID": "hydra-naoto-hieda.html",
-    "href": "hydra-naoto-hieda.html",
-    "title": "    ",
-    "section": "",
-    "text": "// Import from the Observable notebook that has working Hydra\nimport {Hydra} from \"@magfoto/hydra-synth\"\n\n\n\n\n\n\n\n{\n  // Create container with canvas for Hydra - full body width\n  const container = html`&lt;div style=\"width: 100%; height: 500px; margin: 0 auto; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);\"&gt;\n    &lt;canvas style=\"width: 100%; height: 100%; display: block; border-radius: 8px;\"&gt;&lt;/canvas&gt;\n  &lt;/div&gt;`;\n  \n  const canvas = container.querySelector('canvas');\n  canvas.width = 960;  // Larger canvas resolution\n  canvas.height = 500; // Maintains aspect ratio\n  \n  try {\n    // Initialize Hydra with the canvas - this creates global functions\n    const hydra = new Hydra({ canvas: canvas, detectAudio: false });\n    \n    // Wait for Hydra to initialize and create global functions\n    await new Promise(resolve =&gt; setTimeout(resolve, 200));\n    \n    // The Hydra code from your URL (decoded) - using global functions created by Hydra\n    // src(o0).modulateHue(src(o0).scale(1.01), 2).layer(osc(8, 0.1, 2).mask(shape(4, 0.3, 1e-6)), 0.1).out()\n    window.src(window.o0)\n      .modulateHue(window.src(window.o0).scale(1.01), 2)\n      .layer(window.osc(8, 0.1, 2).mask(window.shape(4, 0.3, 1e-6)), 0.1)\n      .out();\n      \n  } catch (error) {\n    console.error('Hydra error:', error);\n    container.innerHTML = `&lt;div style=\"display: flex; align-items: center; justify-content: center; height: 100%; color: #666; font-size: 14px; background: linear-gradient(45deg, #f8f9fa, #e9ecef); border-radius: 8px; font-family: system-ui, sans-serif;\"&gt;Interactive Hydra visualization&lt;br&gt;&lt;small style=\"opacity: 0.7;\"&gt;Loading...&lt;/small&gt;&lt;/div&gt;`;\n  }\n  \n  return container;\n}"
+    "objectID": "index.html#policies",
+    "href": "index.html#policies",
+    "title": "Generative Media",
+    "section": "Policies",
+    "text": "Policies\nAttendance and Participation\nFull participation in class discussions and timely submission of all assignments constitutes evidence of class attendance. Students are expected to allocate sufficient time to complete all the requirements for each module: reading, viewing, responding to discussion questions, submitting replies to classmates, and completing other assignments on time. Failure to keep up with the pace of the course may result in lower grades or the failure of the class.\nAcademic Honesty\nDo not plagiarize. Plagiarism is using someone else’s work without giving them fair credit. Plagiarism and cheating will result in an “F” for the assignment.\nAccommodations\nEmerson is committed to providing equal access and support to all qualified students through the provision of reasonable accommodations, so that each student may fully participate in the Emerson experience. Student Accessibility Services (SAS) staff will be working remotely for the fall of 2020. If you have a disability that may require accommodations, please contact them at SAS@emerson.edu or at (617)824-8592 to make an appointment with an SAS staff member.\nStudents are encouraged to contact SAS early in the semester. Please note that accommodations are not applied retroactively.\nPlagiarism Statement\nIt is the responsibility of all Emerson students to know and adhere to the College’s policy on plagiarism, which can be found at: http://www.emerson.edu/policy/plagiarism*. If you have any question concerning the Emerson plagiarism policy or about documentation of sources in work you produce in this course, speak to your instructor.\nDiversity Statement\nEvery student in this class will be honored and respected as an individual with distinct experiences, talents, and backgrounds. Students will be treated fairly regardless of race, religion, sexual orientation, gender identification, disability, socio-economic status, or national identity. Issues of diversity may be a part of class discussion, assigned material, and projects. The instructor will make every effort to ensure that an inclusive environment exists for all students. If you have any concerns or suggestions for improving the classroom climate, please do not hesitate to speak with the course instructor or to contact the Office of Diversity and Inclusion at 617-824-8528 or by email at diversityinclusion@emerson.edu*"
   },
   {
     "objectID": "bibliography.html",
     "href": "bibliography.html",
-    "title": "    ",
+    "title": "Bibliography",
     "section": "",
-    "text": "Fisher, Mark. Capitalist Realism: Is There No Alternative? Winchester, UK: Zero Books, 2009.\nRichardson, Allissa V. Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism. Oxford: Oxford University Press, 2020."
+    "text": "Dayal, Geeta. Another Green World. New York: Continuum, 2009.\nGross, Benedikt, Hartmut Bohnacker, and Julia Laub. Generative Design: Visualize, Program, and Create with P5.js. Princeton, NJ: Princeton Architectural Press, 2018.\nPhilip, Terry, editor. The Penguin Book of Oulipo. London: Penguin Classics, 2020."
   },
   {
-    "objectID": "bibliography.html#required-texts",
-    "href": "bibliography.html#required-texts",
-    "title": "    ",
+    "objectID": "bibliography.html#course-texts",
+    "href": "bibliography.html#course-texts",
+    "title": "Bibliography",
     "section": "",
-    "text": "Fisher, Mark. Capitalist Realism: Is There No Alternative? Winchester, UK: Zero Books, 2009.\nRichardson, Allissa V. Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism. Oxford: Oxford University Press, 2020."
+    "text": "Dayal, Geeta. Another Green World. New York: Continuum, 2009.\nGross, Benedikt, Hartmut Bohnacker, and Julia Laub. Generative Design: Visualize, Program, and Create with P5.js. Princeton, NJ: Princeton Architectural Press, 2018.\nPhilip, Terry, editor. The Penguin Book of Oulipo. London: Penguin Classics, 2020."
   },
   {
-    "objectID": "bibliography.html#week-1-sites-of-struggle",
-    "href": "bibliography.html#week-1-sites-of-struggle",
-    "title": "    ",
-    "section": "Week 1: Sites of Struggle",
-    "text": "Week 1: Sites of Struggle\nEco, Umberto. “Towards a Semiological Guerrilla Warfare.” In Travels in Hyperreality: Essays, translated by William Weaver, 135-144. San Diego: Harcourt Brace Jovanovich, 1986.\nWelch, David. “The Conquest of the Masses.” In The Third Reich: Politics and Propaganda, 2nd ed., 10-37. London and New York: Routledge, 1993."
+    "objectID": "bibliography.html#films-documentaries",
+    "href": "bibliography.html#films-documentaries",
+    "title": "Bibliography",
+    "section": "Films & Documentaries",
+    "text": "Films & Documentaries\n\nMiller, Allan, and Paul Smaczny, directors. John Cage: Journeys in Sound. 2012.\nHustwit, Gary, director. Eno. 2024."
   },
   {
-    "objectID": "bibliography.html#week-2-ideology-and-the-orwellian",
-    "href": "bibliography.html#week-2-ideology-and-the-orwellian",
-    "title": "    ",
-    "section": "Week 2: Ideology and the Orwellian",
-    "text": "Week 2: Ideology and the Orwellian\nAlthusser, Louis. “Ideology and Ideological State Apparatuses (Notes towards an Investigation).” In Lenin and Philosophy and Other Essays, translated by Ben Brewster, 127-186. New York: Monthly Review Press, 1971.\nFisher, Mark. “It’s Easier to Imagine the End of the World Than the End of Capitalism.” In Capitalist Realism: Is There No Alternative?, 1-11. Winchester, UK: Zero Books, 2009.\nFisher, Mark. “Lecture 1: What Is Postcapitalist Desire?” In Postcapitalist Desire: The Final Lectures, edited by Matt Colquhoun, 21-48. London: Repeater Books, 2021.\n\nViewing\nSquid Game. Directed by Hwang Dong-hyuk. Netflix, 2021. Television series, 9 episodes."
+    "objectID": "bibliography.html#articles-essays",
+    "href": "bibliography.html#articles-essays",
+    "title": "Bibliography",
+    "section": "Articles & Essays",
+    "text": "Articles & Essays\n\nEno, Brian. “Generating and Organizing Variety in the Arts.” Studio International, 1976.\nReich, Steve. “Music as a Gradual Process.” 1968.\nNoll, A. Michael. “Human or Machine? A Subjective Comparison of Piet Mondrian’s ‘Composition With Lines’ (1917) and a Computer-Generated Picture.” The Psychological Record, vol. 16, no. 1, 1966, pp. 1-10.\nManovich, Lev. “Who is ‘An Artist’ in the ‘AI Era’?” 2023.\nParkin, Simon. “A Journey to the End of the World (of Minecraft).” The New Yorker, 23 Jan. 2014."
   },
   {
-    "objectID": "bibliography.html#week-3-simulation-and-pastiche",
-    "href": "bibliography.html#week-3-simulation-and-pastiche",
-    "title": "    ",
-    "section": "Week 3: Simulation and Pastiche",
-    "text": "Week 3: Simulation and Pastiche\nFriedlander, Emilie. “Social Anxiety: Why Amalia Ulman’s Fake ‘Middlebrow’ Instagram Is No Different From Yours.” The Fader, November 7, 2014. https://www.thefader.com/2014/11/07/social-anxiety-why-amalia-ulmans-middlebrow-instagram-feed-is-no-different-from-yours.\nSooke, Alastair. “Is This The First Instagram Masterpiece?” The Telegraph, January 18, 2016. https://www.telegraph.co.uk/photography/what-to-see/is-this-the-first-instagram-masterpiece/.\nDazed Digital. “Amalia Ulman: Meme Come True.” Dazed Digital, 2016. https://www.dazeddigital.com/artsandculture/article/23700/1/amalia-ulman-meme-come-true.\nUlman, Amalia. Excellences & Perfections. Instagram performance, 2014. Documentation at http://amaliaulman.eu/.\n\nViewing\nEl Planeta. Directed by Amalia Ulman. Holga’s Meow Pictures, 2020. Film, 79 minutes.\nInventing Anna. Directed by Shonda Rhimes. Netflix, 2022. Television miniseries, Episode 6: Friends in Low Places."
+    "objectID": "bibliography.html#music-audio",
+    "href": "bibliography.html#music-audio",
+    "title": "Bibliography",
+    "section": "Music & Audio",
+    "text": "Music & Audio\n\nEno, Brian. Music for Airports. Album liner notes. 1978.\nRiley, Terry. In C. Musical composition. 1964.\nEno, Brian. 77 Million Paintings. Generative art installation. 2006."
   },
   {
-    "objectID": "bibliography.html#week-4-feminismpostfeminism",
-    "href": "bibliography.html#week-4-feminismpostfeminism",
-    "title": "    ",
-    "section": "Week 4: Feminism/Postfeminism",
-    "text": "Week 4: Feminism/Postfeminism\nNegra, Diane, and Yvonne Tasker. “Introduction: Feminist Politics and Postfeminist Culture.” In Interrogating Postfeminism: Gender and the Politics of Popular Culture, edited by Diane Negra and Yvonne Tasker, 1-25. Durham, NC: Duke University Press, 2007.\nRoberts, Martin. “The Fashion Police: Governing the Self in What Not To Wear.” In Interrogating Postfeminism: Gender and the Politics of Popular Culture, edited by Diane Negra and Yvonne Tasker, 227-248. Durham, NC: Duke University Press, 2007."
+    "objectID": "bibliography.html#online-articles",
+    "href": "bibliography.html#online-articles",
+    "title": "Bibliography",
+    "section": "Online Articles",
+    "text": "Online Articles\n\nGoodchild, Amy. “Early Computer Art in the ’50s and ’60s.” 2020.\nReverb Machine. “How Brian Eno Created ‘Discreet Music’.” 2019.\n“Mandelbulb.” 2024.\nQueneau, Raymond. “A Hundred Thousand Billion Poems - Interactive Edition.” Original work 1961, interactive edition by Bev Rowe.\nClouth, Rob. “The Harry Potter Book Generator.” 2020.\nMarian42. “Wave Function Collapse.” 2019."
   },
   {
-    "objectID": "bibliography.html#week-5-witnessing",
-    "href": "bibliography.html#week-5-witnessing",
-    "title": "    ",
-    "section": "Week 5: Witnessing",
-    "text": "Week 5: Witnessing\nRichardson, Allissa V. “Looking As Rebellion: The Concept of Black Witnessing.” In Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism, chapter 1, 18-42. Oxford: Oxford University Press, 2020.\nRichardson, Allissa V. “The New Protest #Journalism: Black Witnessing as Counternarrative.” In Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism, chapter 3, 65-89. Oxford: Oxford University Press, 2020."
+    "objectID": "bibliography.html#media",
+    "href": "bibliography.html#media",
+    "title": "Bibliography",
+    "section": "Media",
+    "text": "Media\n\n“Early 3D Computer Graphics from Bell Labs.” YouTube, 1963.\nbib993. “3D Fractal Worlds.” YouTube playlist, 2020.\n“7 Hours in 77 Million Paintings.” Vimeo, 2014. 420 mins. &gt; 35 mins. timelapse.\nh2ee. “T1 Shader.” ShaderPark, 2024."
   },
   {
-    "objectID": "bibliography.html#week-6-tribes---subcultures-lifestyles-aesthetics",
-    "href": "bibliography.html#week-6-tribes---subcultures-lifestyles-aesthetics",
-    "title": "    ",
-    "section": "Week 6: Tribes - Subcultures, Lifestyles, Aesthetics",
-    "text": "Week 6: Tribes - Subcultures, Lifestyles, Aesthetics\nGiolo, Guilherme, and Michaël Berghman. “The Aesthetics of the Self: The Meaning-Making of Internet Aesthetics.” Cultural Sociology (2024). https://doi.org/10.1177/17499755241229570.\nAesthetics Wiki"
-  },
-  {
-    "objectID": "bibliography.html#week-7-fandom",
-    "href": "bibliography.html#week-7-fandom",
-    "title": "    ",
-    "section": "Week 7: Fandom",
-    "text": "Week 7: Fandom\nBaym, Nancy K. “Social Media and the Struggle for Society.” Social Media + Society 1, no. 1 (2015): 1-2. https://doi.org/10.1177/2056305115580477.\nBaym, Nancy K., Daniel Cavicchi, and Norma Coates. “Music Fandom in the Digital Age: A Conversation.” In The Routledge Companion to Media Fandom, edited by Melissa A. Click and Suzanne Scott, 141-152. New York: Routledge, 2018."
-  },
-  {
-    "objectID": "bibliography.html#additional-recommended-readings",
-    "href": "bibliography.html#additional-recommended-readings",
-    "title": "    ",
-    "section": "Additional Recommended Readings",
-    "text": "Additional Recommended Readings\n\nSemiotics and Media Theory\nBarthes, Roland. Mythologies. Translated by Annette Lavers. New York: Hill and Wang, 1972.\nChandler, Daniel. Semiotics: The Basics. 3rd ed. London: Routledge, 2017.\nHall, Stuart. “Encoding/Decoding.” In Culture, Media, Language: Working Papers in Cultural Studies, 1972-79, edited by Stuart Hall, Dorothy Hobson, Andrew Lowe, and Paul Willis, 128-138. London: Hutchinson, 1980.\n\n\nIdeology and Cultural Studies\nEagleton, Terry. Ideology: An Introduction. 2nd ed. London: Verso, 2007.\nGramsci, Antonio. Selections from Cultural Writings. Edited by David Forgacs and Geoffrey Nowell-Smith. Cambridge, MA: Harvard University Press, 1985.\nWilliams, Raymond. Keywords: A Vocabulary of Culture and Society. Revised ed. New York: Oxford University Press, 1985.\n\n\nPostmodernism and Simulation\nBaudrillard, Jean. Simulacra and Simulation. Translated by Sheila Faria Glaser. Ann Arbor: University of Michigan Press, 1994.\nJameson, Fredric. Postmodernism, or, The Cultural Logic of Late Capitalism. Durham, NC: Duke University Press, 1991.\nLyotard, Jean-François. The Postmodern Condition: A Report on Knowledge. Translated by Geoff Bennington and Brian Massumi. Minneapolis: University of Minnesota Press, 1984.\n\n\nDigital Culture and Social Media\nboyd, danah. It’s Complicated: The Social Lives of Networked Teens. New Haven: Yale University Press, 2014.\nJenkins, Henry. Participatory Culture: Interviews. Cambridge: Polity Press, 2019.\nMarwick, Alice E. Status Update: Celebrity, Publicity, and Branding in the Social Media Age. New Haven: Yale University Press, 2013.\nTufekci, Zeynep. Twitter and Tear Gas: The Power and Fragility of Networked Protest. New Haven: Yale University Press, 2017.\n\n\nFeminism and Gender Studies\nButler, Judith. Gender Trouble: Feminism and the Subversion of Identity. New York: Routledge, 1990.\nhooks, bell. Feminism Is for Everybody: Passionate Politics. Cambridge, MA: South End Press, 2000.\nMcRobbie, Angela. The Aftermath of Feminism: Gender, Culture and Social Change. London: Sage, 2009.\nMulvey, Laura. “Visual Pleasure and Narrative Cinema.” Screen 16, no. 3 (1975): 6-18.\n\n\nRace and Media\nBonilla, Yarimar, and Jonathan Rosa. “#Ferguson: Digital Protest, Hashtag Ethnography, and the Racial Politics of Social Media in the United States.” American Ethnologist 42, no. 1 (2015): 4-17.\nGray, Herman. Watching Race: Television and the Struggle for Blackness. Minneapolis: University of Minnesota Press, 2004.\nNoble, Safiya Umoja. Algorithms of Oppression: How Search Engines Reinforce Racism. New York: NYU Press, 2018.\n\n\nSubcultures and Fan Studies\nHebdige, Dick. Subculture: The Meaning of Style. London: Routledge, 1979.\nJenkins, Henry. Textual Poachers: Television Fans and Participatory Culture. 2nd ed. New York: Routledge, 2012.\nThornton, Sarah. Club Cultures: Music, Media, and Subcultural Capital. Middletown, CT: Wesleyan University Press, 1996."
-  },
-  {
-    "objectID": "bibliography.html#filmography",
-    "href": "bibliography.html#filmography",
-    "title": "    ",
-    "section": "Filmography",
-    "text": "Filmography\nEl Planeta. Directed by Amalia Ulman. Holga’s Meow Pictures, 2020. Film, 79 minutes.\nInventing Anna. Directed by Shonda Rhimes. Netflix, 2022. Television miniseries.\nSquid Game. Directed by Hwang Dong-hyuk. Netflix, 2021. Television series, 9 episodes."
-  },
-  {
-    "objectID": "resources.html",
-    "href": "resources.html",
-    "title": "    ",
-    "section": "",
-    "text": "Generative Media: Resources\n\nArtists\nNobody and the Computer\nDor Brothers\nKerim Safa (nullMachines) Outlanders (Tameem Sankari and Anja Dalby)\n\n\nNon-Euclidean Dreamer (Laura Kuttnig)\n\n\n3D Fractals/Artificial Life\nMandelbulb\nGallivanting Around Cellular Automata (playlist by Non-Euclidean Dreamer, 94 videos)\n3D Fractal Worlds (playlist)\n\n\nGenerative Design & Architecture\n\n“How Generative Design is Shaping the Future of Architecture” - Great overview of current applications\n“10 Books Related to Generative Architecture Everyone Should Read” - RTF comprehensive book list\n\n\n\nGenerative Web Comics\nGenerative AI is Reshaping South Korea’s Web Comics Industry\nTooToon"
+    "objectID": "bibliography.html#interviews",
+    "href": "bibliography.html#interviews",
+    "title": "Bibliography",
+    "section": "Interviews",
+    "text": "Interviews\n\nJosef Pelz\nÉtienne Jacob\nShohei Fujimoto\nGiulia Cosco\nPierre Paslier"
   },
   {
     "objectID": "WARP.html",
@@ -280,150 +224,143 @@
     "text": "_quarto.yml - Website configuration, theming, publishing settings\nreferences.bib - Bibliography database\nchicago-author-date.csl - Citation style\n.gitignore - Excludes large media files and sensitive content\n\n\n\n\n\nember.scss - Primary theme file\ncustom.scss - Additional styling overrides\nfonts/ - Custom web font files (Avenir, Helvetica, etc.)\n\n\n\n\n\nindex.qmd - Main syllabus (course description, schedule, assignments)\nbibliography.qmd - Course readings and references\npdf/ - Academic readings and course materials\n\n\n\n\n\ncomprehensive-fix.sh - Full git worktree cleanup procedure\nfinal-fix.sh - Simplified worktree cleanup\ncorrect-publish.sh - Publishing command reference\n\nThese scripts exist due to historical publishing issues but document the solutions that work for this project."
   },
   {
-    "objectID": "bibliography_updated.html",
-    "href": "bibliography_updated.html",
+    "objectID": "hydra-naoto-hieda.html",
+    "href": "hydra-naoto-hieda.html",
     "title": "    ",
     "section": "",
-    "text": "Fisher, Mark. Capitalist Realism: Is There No Alternative? Winchester, UK: Zero Books, 2009.\nRichardson, Allissa V. Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism. Oxford: Oxford University Press, 2020."
+    "text": "// Import from the Observable notebook that has working Hydra\nimport {Hydra} from \"@magfoto/hydra-synth\"\n\n\n\n\n\n\n\n{\n  // Create container with canvas for Hydra - full body width\n  const container = html`&lt;div style=\"width: 100%; height: 500px; margin: 0 auto; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);\"&gt;\n    &lt;canvas style=\"width: 100%; height: 100%; display: block; border-radius: 8px;\"&gt;&lt;/canvas&gt;\n  &lt;/div&gt;`;\n  \n  const canvas = container.querySelector('canvas');\n  canvas.width = 960;  // Larger canvas resolution\n  canvas.height = 500; // Maintains aspect ratio\n  \n  try {\n    // Initialize Hydra with the canvas - this creates global functions\n    const hydra = new Hydra({ canvas: canvas, detectAudio: false });\n    \n    // Wait for Hydra to initialize and create global functions\n    await new Promise(resolve =&gt; setTimeout(resolve, 200));\n    \n    // The Hydra code from your URL (decoded) - using global functions created by Hydra\n    // src(o0).modulateHue(src(o0).scale(1.01), 2).layer(osc(8, 0.1, 2).mask(shape(4, 0.3, 1e-6)), 0.1).out()\n    window.src(window.o0)\n      .modulateHue(window.src(window.o0).scale(1.01), 2)\n      .layer(window.osc(8, 0.1, 2).mask(window.shape(4, 0.3, 1e-6)), 0.1)\n      .out();\n      \n  } catch (error) {\n    console.error('Hydra error:', error);\n    container.innerHTML = `&lt;div style=\"display: flex; align-items: center; justify-content: center; height: 100%; color: #666; font-size: 14px; background: linear-gradient(45deg, #f8f9fa, #e9ecef); border-radius: 8px; font-family: system-ui, sans-serif;\"&gt;Interactive Hydra visualization&lt;br&gt;&lt;small style=\"opacity: 0.7;\"&gt;Loading...&lt;/small&gt;&lt;/div&gt;`;\n  }\n  \n  return container;\n}"
   },
   {
-    "objectID": "bibliography_updated.html#required-texts",
-    "href": "bibliography_updated.html#required-texts",
-    "title": "    ",
+    "objectID": "glossary.html",
+    "href": "glossary.html",
+    "title": "Key Concepts",
     "section": "",
-    "text": "Fisher, Mark. Capitalist Realism: Is There No Alternative? Winchester, UK: Zero Books, 2009.\nRichardson, Allissa V. Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism. Oxford: Oxford University Press, 2020."
+    "text": "This glossary provides definitions of key theoretical concepts covered in the first six weeks of VM200 Media Criticism. Each entry includes a comprehensive definition (50-200 words) and citations to relevant sources for further reading."
   },
   {
-    "objectID": "bibliography_updated.html#week-1-sites-of-struggle",
-    "href": "bibliography_updated.html#week-1-sites-of-struggle",
-    "title": "    ",
-    "section": "Week 1: Sites of Struggle",
-    "text": "Week 1: Sites of Struggle\nEco, Umberto. “Towards a Semiological Guerrilla Warfare.” In Travels in Hyperreality: Essays, translated by William Weaver, 135-144. San Diego: Harcourt Brace Jovanovich, 1986.\nWelch, David. “The Conquest of the Masses.” In The Third Reich: Politics and Propaganda, 2nd ed., 10-37. London and New York: Routledge, 1993."
-  },
-  {
-    "objectID": "bibliography_updated.html#week-2-ideology-and-the-orwellian",
-    "href": "bibliography_updated.html#week-2-ideology-and-the-orwellian",
-    "title": "    ",
-    "section": "Week 2: Ideology and the Orwellian",
-    "text": "Week 2: Ideology and the Orwellian\nAlthusser, Louis. “Ideology and Ideological State Apparatuses (Notes towards an Investigation).” In Lenin and Philosophy and Other Essays, translated by Ben Brewster, 127-186. New York: Monthly Review Press, 1971.\nFisher, Mark. “It’s Easier to Imagine the End of the World Than the End of Capitalism.” In Capitalist Realism: Is There No Alternative?, 1-11. Winchester, UK: Zero Books, 2009.\nFisher, Mark. “Lecture 1: What Is Postcapitalist Desire?” In Postcapitalist Desire: The Final Lectures, edited by Matt Colquhoun, 21-48. London: Repeater Books, 2021.\n\nViewing\nSquid Game. Directed by Hwang Dong-hyuk. Netflix, 2021. Television series, 9 episodes."
-  },
-  {
-    "objectID": "bibliography_updated.html#week-3-simulation-and-pastiche",
-    "href": "bibliography_updated.html#week-3-simulation-and-pastiche",
-    "title": "    ",
-    "section": "Week 3: Simulation and Pastiche",
-    "text": "Week 3: Simulation and Pastiche\nFriedlander, Emilie. “Social Anxiety: Why Amalia Ulman’s Fake ‘Middlebrow’ Instagram Is No Different From Yours.” The Fader, November 7, 2014. https://www.thefader.com/2014/11/07/social-anxiety-why-amalia-ulmans-middlebrow-instagram-feed-is-no-different-from-yours.\nSooke, Alastair. “Is This The First Instagram Masterpiece?” The Telegraph, January 18, 2016. https://www.telegraph.co.uk/photography/what-to-see/is-this-the-first-instagram-masterpiece/.\nDazed Digital. “Amalia Ulman: Meme Come True.” Dazed Digital, 2016. https://www.dazeddigital.com/artsandculture/article/23700/1/amalia-ulman-meme-come-true.\nUlman, Amalia. Excellences & Perfections. Instagram performance, 2014. Documentation at http://amaliaulman.eu/.\n\nViewing\nEl Planeta. Directed by Amalia Ulman. Holga’s Meow Pictures, 2020. Film, 79 minutes.\nInventing Anna. Directed by Shonda Rhimes. Netflix, 2022. Television miniseries, Episode 6: Friends in Low Places."
-  },
-  {
-    "objectID": "bibliography_updated.html#week-4-feminismpostfeminism",
-    "href": "bibliography_updated.html#week-4-feminismpostfeminism",
-    "title": "    ",
-    "section": "Week 4: Feminism/Postfeminism",
-    "text": "Week 4: Feminism/Postfeminism\nNegra, Diane, and Yvonne Tasker. “Introduction: Feminist Politics and Postfeminist Culture.” In Interrogating Postfeminism: Gender and the Politics of Popular Culture, edited by Diane Negra and Yvonne Tasker, 1-25. Durham, NC: Duke University Press, 2007.\nRoberts, Martin. “The Fashion Police: Governing the Self in What Not To Wear.” In Interrogating Postfeminism: Gender and the Politics of Popular Culture, edited by Diane Negra and Yvonne Tasker, 227-248. Durham, NC: Duke University Press, 2007."
-  },
-  {
-    "objectID": "bibliography_updated.html#week-5-witnessing",
-    "href": "bibliography_updated.html#week-5-witnessing",
-    "title": "    ",
-    "section": "Week 5: Witnessing",
-    "text": "Week 5: Witnessing\nRichardson, Allissa V. “Looking As Rebellion: The Concept of Black Witnessing.” In Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism, chapter 1, 18-42. Oxford: Oxford University Press, 2020.\nRichardson, Allissa V. “The New Protest #Journalism: Black Witnessing as Counternarrative.” In Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism, chapter 3, 65-89. Oxford: Oxford University Press, 2020."
-  },
-  {
-    "objectID": "bibliography_updated.html#week-6-tribes---subcultures-lifestyles-aesthetics",
-    "href": "bibliography_updated.html#week-6-tribes---subcultures-lifestyles-aesthetics",
-    "title": "    ",
-    "section": "Week 6: Tribes - Subcultures, Lifestyles, Aesthetics",
-    "text": "Week 6: Tribes - Subcultures, Lifestyles, Aesthetics\nGiolo, Guilherme, and Michaël Berghman. “The Aesthetics of the Self: The Meaning-Making of Internet Aesthetics.” Cultural Sociology (2024). https://doi.org/10.1177/17499755241229570.\nAesthetics Wiki"
-  },
-  {
-    "objectID": "bibliography_updated.html#week-7-fandom",
-    "href": "bibliography_updated.html#week-7-fandom",
-    "title": "    ",
-    "section": "Week 7: Fandom",
-    "text": "Week 7: Fandom\nBaym, Nancy K. “Social Media and the Struggle for Society.” Social Media + Society 1, no. 1 (2015): 1-2. https://doi.org/10.1177/2056305115580477.\nBaym, Nancy K., Daniel Cavicchi, and Norma Coates. “Music Fandom in the Digital Age: A Conversation.” In The Routledge Companion to Media Fandom, edited by Melissa A. Click and Suzanne Scott, 141-152. New York: Routledge, 2018."
-  },
-  {
-    "objectID": "bibliography_updated.html#additional-recommended-readings",
-    "href": "bibliography_updated.html#additional-recommended-readings",
-    "title": "    ",
-    "section": "Additional Recommended Readings",
-    "text": "Additional Recommended Readings\n\nSemiotics and Media Theory\nBarthes, Roland. Mythologies. Translated by Annette Lavers. New York: Hill and Wang, 1972.\nChandler, Daniel. Semiotics: The Basics. 3rd ed. London: Routledge, 2017.\nHall, Stuart. “Encoding/Decoding.” In Culture, Media, Language: Working Papers in Cultural Studies, 1972-79, edited by Stuart Hall, Dorothy Hobson, Andrew Lowe, and Paul Willis, 128-138. London: Hutchinson, 1980.\n\n\nIdeology and Cultural Studies\nEagleton, Terry. Ideology: An Introduction. 2nd ed. London: Verso, 2007.\nGramsci, Antonio. Selections from Cultural Writings. Edited by David Forgacs and Geoffrey Nowell-Smith. Cambridge, MA: Harvard University Press, 1985.\nWilliams, Raymond. Keywords: A Vocabulary of Culture and Society. Revised ed. New York: Oxford University Press, 1985.\n\n\nPostmodernism and Simulation\nBaudrillard, Jean. Simulacra and Simulation. Translated by Sheila Faria Glaser. Ann Arbor: University of Michigan Press, 1994.\nJameson, Fredric. Postmodernism, or, The Cultural Logic of Late Capitalism. Durham, NC: Duke University Press, 1991.\nLyotard, Jean-François. The Postmodern Condition: A Report on Knowledge. Translated by Geoff Bennington and Brian Massumi. Minneapolis: University of Minnesota Press, 1984.\n\n\nDigital Culture and Social Media\nboyd, danah. It’s Complicated: The Social Lives of Networked Teens. New Haven: Yale University Press, 2014.\nJenkins, Henry. Participatory Culture: Interviews. Cambridge: Polity Press, 2019.\nMarwick, Alice E. Status Update: Celebrity, Publicity, and Branding in the Social Media Age. New Haven: Yale University Press, 2013.\nTufekci, Zeynep. Twitter and Tear Gas: The Power and Fragility of Networked Protest. New Haven: Yale University Press, 2017.\n\n\nFeminism and Gender Studies\nButler, Judith. Gender Trouble: Feminism and the Subversion of Identity. New York: Routledge, 1990.\nhooks, bell. Feminism Is for Everybody: Passionate Politics. Cambridge, MA: South End Press, 2000.\nMcRobbie, Angela. The Aftermath of Feminism: Gender, Culture and Social Change. London: Sage, 2009.\nMulvey, Laura. “Visual Pleasure and Narrative Cinema.” Screen 16, no. 3 (1975): 6-18.\n\n\nRace and Media\nBonilla, Yarimar, and Jonathan Rosa. “#Ferguson: Digital Protest, Hashtag Ethnography, and the Racial Politics of Social Media in the United States.” American Ethnologist 42, no. 1 (2015): 4-17.\nGray, Herman. Watching Race: Television and the Struggle for Blackness. Minneapolis: University of Minnesota Press, 2004.\nNoble, Safiya Umoja. Algorithms of Oppression: How Search Engines Reinforce Racism. New York: NYU Press, 2018.\n\n\nSubcultures and Fan Studies\nHebdige, Dick. Subculture: The Meaning of Style. London: Routledge, 1979.\nJenkins, Henry. Textual Poachers: Television Fans and Participatory Culture. 2nd ed. New York: Routledge, 2012.\nThornton, Sarah. Club Cultures: Music, Media, and Subcultural Capital. Middletown, CT: Wesleyan University Press, 1996.\n\n\n\n\n\n\n\nUsing Citations in Your Papers\n\n\n\nWhen citing these sources in your papers, you can use the citation keys (e.g., @fisher2009capitalist) and Quarto will automatically format them according to your chosen citation style.\n\n\n\n\n\n\n\n\nLibrary Access\n\n\n\nMost of these readings are available through: - Canvas course site (PDF uploads) - Emerson College Library databases - Course reserves at the Iwasaki Library - Open access repositories (where indicated)"
-  },
-  {
-    "objectID": "bibliography_updated.html#bibliography",
-    "href": "bibliography_updated.html#bibliography",
-    "title": "    ",
-    "section": "Bibliography",
-    "text": "Bibliography\n\n\nAlthusser, Louis. 1971. “Ideology and Ideological State Apparatuses (Notes Towards an Investigation).” In Lenin and Philosophy and Other Essays, translated by Ben Brewster. Monthly Review Press.\n\n\nAmalia Ulman, dir. 2020. El Planeta. Film. Holga’s Meow Pictures.\n\n\nBarthes, Roland. 1972. Mythologies. Translated by Annette Lavers. Hill; Wang.\n\n\nBaudrillard, Jean. 1994. Simulacra and Simulation. Translated by Sheila Faria Glaser. University of Michigan Press.\n\n\nBaym, Nancy K. 2015. “Social Media and the Struggle for Society.” Social Media + Society 1 (1): 1–2. https://doi.org/10.1177/2056305115580477.\n\n\nBaym, Nancy K., Daniel Cavicchi, and Norma Coates. 2018. “Music Fandom in the Digital Age: A Conversation.” In The Routledge Companion to Media Fandom, edited by Melissa A. Click and Suzanne Scott. Routledge.\n\n\nBonilla, Yarimar, and Jonathan Rosa. 2015. “#Ferguson: Digital Protest, Hashtag Ethnography, and the Racial Politics of Social Media in the United States.” American Ethnologist 42 (1): 4–17.\n\n\nboyd, danah. 2014. It’s Complicated: The Social Lives of Networked Teens. Yale University Press.\n\n\nButler, Judith. 1990. Gender Trouble: Feminism and the Subversion of Identity. Routledge.\n\n\nChandler, Daniel. 2017. Semiotics: The Basics. 3rd ed. Routledge.\n\n\nChin, Bertha, and Lori Hitchcock Morimoto. 2015. “Introduction: Fan and Fan Studies in Transcultural Context.” Participations: Journal of Audience and Reception Studies 12 (2): 174–79. https://www.participations.org/12-02-10-chin.pdf.\n\n\nCondry, Ian. 2006. Hip-Hop Japan: Rap and the Paths of Cultural Globalization. Duke University Press.\n\n\nDazed Digital. 2016. “Amalia Ulman: Meme Come True.” Dazed Digital. https://www.dazeddigital.com/artsandculture/article/23700/1/amalia-ulman-meme-come-true.\n\n\nDenis Villeneuve, dir. 2017. Blade Runner 2049. Warner Bros. Pictures.\n\n\nEagleton, Terry. 2007. Ideology: An Introduction. 2nd ed. Verso.\n\n\nEco, Umberto. 1986. “Towards a Semiological Guerrilla Warfare.” In Travels in Hyperreality: Essays, translated by William Weaver. Harcourt Brace Jovanovich.\n\n\nFisher, Mark. 2009a. Capitalist Realism: Is There No Alternative? Zero Books.\n\n\nFisher, Mark. 2009b. “It’s Easier to Imagine the End of the World Than the End of Capitalism.” In Capitalist Realism: Is There No Alternative? Zero Books.\n\n\nFisher, Mark. 2021. “Lecture 1: What Is Postcapitalist Desire?” In Postcapitalist Desire: The Final Lectures, edited by Matt Colquhoun. Repeater Books.\n\n\nFriedlander, Emilie. 2014. “Social Anxiety: Why Amalia Ulman’s Fake ’Middlebrow’ Instagram Is No Different from Yours.” The Fader, November 7. https://www.thefader.com/2014/11/07/social-anxiety-why-amalia-ulmans-middlebrow-instagram-feed-is-no-different-from-yours.\n\n\nGiolo, Guilherme, and Michaël Berghman. 2024. “The Aesthetics of the Self: The Meaning-Making of Internet Aesthetics.” Cultural Sociology, ahead of print. https://doi.org/10.1177/17499755241229570.\n\n\nGramsci, Antonio. 1985. Selections from Cultural Writings. Edited by David Forgacs and Geoffrey Nowell-Smith. Harvard University Press.\n\n\nGray, Herman. 2004. Watching Race: Television and the Struggle for Blackness. University of Minnesota Press.\n\n\nHall, Stuart. 1980. “Encoding/Decoding.” In Culture, Media, Language: Working Papers in Cultural Studies, 1972-79, edited by Stuart Hall, Dorothy Hobson, Andrew Lowe, and Paul Willis. Hutchinson.\n\n\n“Hallyu! The Korean Wave.” 2023. Victoria; Albert Museum. https://www.vam.ac.uk/exhibitions/hallyu-the-korean-wave.\n\n\n“Hallyu! The Korean Wave.” 2024. Museum of Fine Arts, Boston. https://www.mfa.org/exhibition/hallyu-the-korean-wave.\n\n\nHebdige, Dick. 1979. Subculture: The Meaning of Style. Routledge.\n\n\nhooks, bell. 2000. Feminism Is for Everybody: Passionate Politics. South End Press.\n\n\nHwang, Dong-hyuk, dir. 2021. Squid Game. Television series. Netflix.\n\n\nJameson, Fredric. 1991. Postmodernism, or, the Cultural Logic of Late Capitalism. Duke University Press.\n\n\nJenkins, Henry. 1992. Textual Poachers: Television Fans and Participatory Culture. Routledge.\n\n\nJenkins, Henry. 2012. Textual Poachers: Television Fans and Participatory Culture. 2nd ed. Routledge.\n\n\nJenkins, Henry. 2019. Participatory Culture: Interviews. Polity Press.\n\n\nKelts, Roland. 2006. Japanamerica: How Japanese Pop Culture Has Invaded the u.s. Palgrave Macmillan.\n\n\nK-Pop Demon Hunters. 2025. 3D animation movie. Netflix. https://www.netflix.com/latest?jbv=81498621.\n\n\nLyotard, Jean-François. 1984. The Postmodern Condition: A Report on Knowledge. Translated by Geoff Bennington and Brian Massumi. University of Minnesota Press.\n\n\nMarwick, Alice E. 2013. Status Update: Celebrity, Publicity, and Branding in the Social Media Age. Yale University Press.\n\n\nMayberry, Lauren. 2013. “Chvrches’ Lauren Mayberry: ’I Will Not Accept Online Misogyny’.” The Guardian, September 30. https://www.theguardian.com/music/musicblog/2013/sep/30/chvrches-lauren-mayberry-online-misogyny.\n\n\nMcRobbie, Angela. 2009. The Aftermath of Feminism: Gender, Culture and Social Change. Sage.\n\n\nMulvey, Laura. 1975. “Visual Pleasure and Narrative Cinema.” Screen 16 (3): 6–18.\n\n\nNegra, Diane, and Yvonne Tasker. 2007. “Introduction: Feminist Politics and Postfeminist Culture.” In Interrogating Postfeminism: Gender and the Politics of Popular Culture, edited by Diane Negra and Yvonne Tasker. Duke University Press.\n\n\nNoble, Safiya Umoja. 2018. Algorithms of Oppression: How Search Engines Reinforce Racism. NYU Press.\n\n\nPenley, Constance. 1997. NASA/Trek: Popular Science and Sex in America. Verso.\n\n\nRhimes, Shonda, dir. 2022. Inventing Anna. Television miniseries. Netflix.\n\n\nRichardson, Allissa V. 2020a. Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism. Oxford University Press.\n\n\nRichardson, Allissa V. 2020b. “Looking as Rebellion: The Concept of Black Witnessing.” 1 in Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism. Oxford University Press.\n\n\nRichardson, Allissa V. 2020c. “The New Protest #Journalism: Black Witnessing as Counternarrative.” 3 in Bearing Witness While Black: African Americans, Smartphones, and the New Protest #Journalism. Oxford University Press.\n\n\nRidley Scott, dir. 1982. Blade Runner. Warner Bros. Pictures.\n\n\nRoberts, Martin. 2007. “The Fashion Police: Governing the Self in What Not to Wear.” In Interrogating Postfeminism: Gender and the Politics of Popular Culture, edited by Diane Negra and Yvonne Tasker. Duke University Press.\n\n\nSooke, Alastair. 2016. “Is This the First Instagram Masterpiece?” The Telegraph, January 18. https://www.telegraph.co.uk/photography/what-to-see/is-this-the-first-instagram-masterpiece/.\n\n\nSpooner, James, dir. 2003. Afro-Punk. Documentary film. https://www.spoonersnofun.com/afropunk.\n\n\nThornton, Sarah. 1996. Club Cultures: Music, Media, and Subcultural Capital. Wesleyan University Press.\n\n\nTiffany, Kaitlyn. 2022. Everything i Need i Get from You: How Fangirls Created the Internet as We Know It. Farrar, Strauss; Giroux.\n\n\nTufekci, Zeynep. 2017. Twitter and Tear Gas: The Power and Fragility of Networked Protest. Yale University Press.\n\n\nUlman, Amalia. 2014. Excellences & Perfections. Instagram performance.\n\n\nWelch, David. 1993. “The Conquest of the Masses.” In The Third Reich: Politics and Propaganda, 2nd ed. Routledge.\n\n\n“What Are Aesthetics?” 2025. Aesthetics Wiki. https://aesthetics.fandom.com/wiki/Aesthetics_Wiki.\n\n\nWilliams, Raymond. 1985. Keywords: A Vocabulary of Culture and Society. Revised. Oxford University Press."
-  },
-  {
-    "objectID": "bibliography_updated.html#filmography",
-    "href": "bibliography_updated.html#filmography",
-    "title": "    ",
-    "section": "Filmography",
-    "text": "Filmography\nEl Planeta. Directed by Amalia Ulman. Holga’s Meow Pictures, 2020. Film, 79 minutes.\nInventing Anna. Directed by Shonda Rhimes. Netflix, 2022. Television miniseries.\nSquid Game. Directed by Hwang Dong-hyuk. Netflix, 2021. Television series, 9 episodes."
-  },
-  {
-    "objectID": "generative-media2.html",
-    "href": "generative-media2.html",
-    "title": "    ",
+    "objectID": "glossary.html#introduction",
+    "href": "glossary.html#introduction",
+    "title": "Key Concepts",
     "section": "",
-    "text": "Generative Media: History, Theory, Practice\nThe concept of “generative” media has today become synonymous with generative AI, from chatbots to image and music synthesis.\nAlthough the term “generative” is today often treated as synonymous with AI-based artistic practices, generative art and aesthetics long predates the digital era, with antecedents that include the experiments with musical chance of John Cage and Lamonte Young, the early computational art of the 1960s, fractal images and music in the 1970s, or the ambient music of Brian Eno. The popularization of algorithmic tools that enable images, music, literary works, animation, and motion graphics to be generated from text and image prompts, however, has led to a surge in interest in code-based and algorithmic forms of creativity, along with debates about the aesthetic and ethical legitimacy of AI-generated artworks and other creative content. While computational art has been able to pass as human since the 1960s, the current explosive growth of algorithmic tools has rekindled aesthetic debates about the technological dimension of art and the relationship of art to the human more generally.\nThis course explores the history of generative approaches in the media arts, as well as changing social attitudes towards these and the contemporary debate swirling around “AI art.” In addition to historical examples and philosophical dimensions, students are introduced to a variety of generative approaches to artistic creativity, and collaborate on producing generative artworks in a medium of their choice using a variety of tools, frameworks, and platforms.\nTopic 1: Why Generative Media?\nTopic 2: Furniture Music\nTopic 3: John Cage and Lamonte Young\nTopic 4: From OULIPO to NaNoGenMo\nTopic 5: Computer Art\nTopic 6: Fractal Images, Music, Movies\nTopic 7: Oblique Strategies (Brian Eno) (including the movie)\nTopic 8: Procedural Videogames (Minecraft)\nTopic 9: Generative AI: Image\nTopic 10: Generative: AI Music\nTopic 11: Generative AI: Movies\nTopic 12: Faces: From Deepfakes to LivePortrait\nTopic 13: Generative AI: Realtime Performance\nTopic 14: Presentations"
+    "text": "This glossary provides definitions of key theoretical concepts covered in the first six weeks of VM200 Media Criticism. Each entry includes a comprehensive definition (50-200 words) and citations to relevant sources for further reading."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Generative Media",
+    "objectID": "glossary.html#a",
+    "href": "glossary.html#a",
+    "title": "Key Concepts",
+    "section": "A",
+    "text": "A\n\nAesthetics\nThe philosophical study of beauty, taste, and artistic value, particularly as it relates to media forms and visual culture. In digital contexts, aesthetics refers to curated visual styles and sensibilities that emerge on social media platforms (like “cottagecore” or “dark academia”), serving as identity markers and forms of cultural expression. These internet aesthetics function as vernacular theories of taste that help individuals construct and communicate their identities online.\n\n\n\n\n\n\nNoteSources\n\n\n\n\nGiolo, G. & Berghman, M. “The Aesthetics of the Self: The Meaning-Making of Internet Aesthetics”\nAesthetics Wiki\nNgai, Sianne. Our Aesthetic Categories: Zany, Cute, Interesting (Harvard University Press, 2012)"
+  },
+  {
+    "objectID": "glossary.html#b",
+    "href": "glossary.html#b",
+    "title": "Key Concepts",
+    "section": "B",
+    "text": "B\n\nBlack Witnessing\nA form of counter-narrative activism where African Americans use smartphones and social media to document and share experiences of racial injustice, police brutality, and systemic racism. This practice transforms citizens into journalists who bear witness to events often ignored or misrepresented by mainstream media, creating alternative news ecosystems that challenge dominant narratives about race and power in America.\n\n\n\n\n\n\nNoteSources\n\n\n\n\nRichardson, Allissa V. Bearing Witness While Black (Oxford University Press, 2020)\nWells, Ida B. The Light of Truth: Writings of an Anti-Lynching Crusader (Penguin, 2014)\nNoble, Safiya Umoja. Algorithms of Oppression (NYU Press, 2018)"
+  },
+  {
+    "objectID": "glossary.html#c",
+    "href": "glossary.html#c",
+    "title": "Key Concepts",
+    "section": "C",
+    "text": "C\n\nCapitalist Realism\nMark Fisher’s concept describing the pervasive belief that capitalism is the only viable political and economic system, making it easier to imagine the end of the world than the end of capitalism. This ideological framework naturalizes neoliberal capitalism as inevitable and unchangeable, infiltrating education, culture, and consciousness to the point where alternatives become literally unthinkable.\n\n\n\n\n\n\nNoteSources\n\n\n\n\nFisher, Mark. Capitalist Realism: Is There No Alternative? (Zero Books, 2009)\nFisher, Mark. Postcapitalist Desire: The Final Lectures (Repeater Books, 2021)\nJameson, Fredric. Postmodernism, or, The Cultural Logic of Late Capitalism (Duke University Press, 1991)\n\n\n\n\n\nConnotation/Denotation\nFundamental semiotic concepts distinguishing between literal meaning (denotation) and associated cultural meanings (connotation). Denotation refers to the explicit, dictionary definition of a sign, while connotation encompasses the cultural, emotional, and ideological associations that signs carry within specific contexts. Media criticism examines how connotative meanings naturalize ideological messages.\n\n\n\n\n\n\nNoteSources\n\n\n\n\nBarthes, Roland. Mythologies (Hill and Wang, 1957)\nHall, Stuart. “Encoding/Decoding” in Culture, Media, Language (Hutchinson, 1980)\nChandler, Daniel. Semiotics: The Basics (Routledge, 2017)"
+  },
+  {
+    "objectID": "glossary.html#d",
+    "href": "glossary.html#d",
+    "title": "Key Concepts",
+    "section": "D",
+    "text": "D\n\nDiscourse\nIn Foucauldian terms, discourse refers to ways of constituting knowledge through language, social practices, and power relations. Discourses shape what can be said, who can speak, and what counts as true or false within specific historical contexts. Media discourses construct and regulate subjects, identities, and social realities through representational practices.\n\n\n\n\n\n\nNoteSources\n\n\n\n\nFoucault, Michel. The Archaeology of Knowledge (Pantheon, 1972)\nHall, Stuart, ed. Representation: Cultural Representations and Signifying Practices (Sage, 1997)\nMills, Sara. Discourse (Routledge, 2004)"
+  },
+  {
+    "objectID": "glossary.html#f",
+    "href": "glossary.html#f",
+    "title": "Key Concepts",
+    "section": "F",
+    "text": "F\n\nFandom\nOrganized communities of enthusiasts who actively engage with media texts through creative production, interpretation, and social interaction. Fandom represents participatory culture where audiences become producers, creating fan fiction, art, videos, and other transformative works. Digital platforms have amplified fandom’s visibility and influence on media industries.\n\n\n\n\n\n\nNoteSources\n\n\n\n\nJenkins, Henry. Textual Poachers: Television Fans and Participatory Culture (Routledge, 1992)\nClick, Melissa A. & Scott, Suzanne, eds. The Routledge Companion to Media Fandom (Routledge, 2018)\nBaym, Nancy. Playing to the Crowd: Musicians, Audiences, and the Intimate Work of Connection (NYU Press, 2018)\n\n\n\n\n\nFeminism/Postfeminism\nFeminism encompasses political movements and critical theories advocating for gender equality and analyzing patriarchal power structures. Postfeminism represents a cultural sensibility suggesting feminism’s goals have been achieved while simultaneously incorporating and depoliticizing feminist ideas, often emphasizing individual empowerment, choice, and consumption over collective action.\n\n\n\n\n\n\nNoteSources\n\n\n\n\nNegra, Diane & Tasker, Yvonne, eds. Interrogating Postfeminism (Duke University Press, 2007)\nMcRobbie, Angela. The Aftermath of Feminism (Sage, 2009)\nhooks, bell. Feminism Is for Everybody (South End Press, 2000)"
+  },
+  {
+    "objectID": "glossary.html#h",
+    "href": "glossary.html#h",
+    "title": "Key Concepts",
+    "section": "H",
+    "text": "H\n\nHegemony\nAntonio Gramsci’s concept describing how dominant groups maintain power through consent rather than coercion, securing leadership through cultural and ideological means. Media functions as a key site for hegemonic struggle, where dominant meanings are contested and negotiated rather than simply imposed.\n\n\n\n\n\n\nNoteSources\n\n\n\n\nGramsci, Antonio. Selections from Cultural Writings (Harvard University Press, 1985)\nWilliams, Raymond. Keywords: A Vocabulary of Culture and Society (Oxford University Press, 1983)\nStorey, John. Cultural Theory and Popular Culture (Pearson, 2018)"
+  },
+  {
+    "objectID": "glossary.html#i",
+    "href": "glossary.html#i",
+    "title": "Key Concepts",
+    "section": "I",
+    "text": "I\n\nIdeology\nSystems of ideas, beliefs, and representations that structure our understanding of social reality. Althusser’s theory emphasizes how ideology interpellates individuals as subjects through Ideological State Apparatuses (ISAs) like media, education, and religion, making dominant power relations appear natural and inevitable.\n\n\n\n\n\n\nNoteSources\n\n\n\n\nAlthusser, Louis. “Ideology and Ideological State Apparatuses” in Lenin and Philosophy (Monthly Review Press, 1971)\nEagleton, Terry. Ideology: An Introduction (Verso, 1991)\nŽižek, Slavoj. The Sublime Object of Ideology (Verso, 1989)\n\n\n\n\n\nInterpellation\nAlthusser’s concept describing how ideology “hails” or addresses individuals, transforming them into subjects who recognize themselves in ideological representations. Media interpellates audiences through forms of address that position viewers as particular kinds of subjects with specific identities, desires, and social positions.\n\n\n\n\n\n\nNoteSources\n\n\n\n\nAlthusser, Louis. On the Reproduction of Capitalism (Verso, 2014)\nButler, Judith. Excitable Speech: A Politics of the Performative (Routledge, 1997)\nPêcheux, Michel. Language, Semantics and Ideology (Macmillan, 1982)"
+  },
+  {
+    "objectID": "glossary.html#p",
+    "href": "glossary.html#p",
+    "title": "Key Concepts",
+    "section": "P",
+    "text": "P\n\nParadigm/Syntagm\nSemiotic concepts describing two dimensions of meaning-making. Paradigmatic relations involve selection from available alternatives (choosing one sign from a set of possible signs), while syntagmatic relations involve combination (how signs are arranged in sequence). These concepts reveal how media texts generate meaning through both choice and structure.\n\n\n\n\n\n\nNoteSources\n\n\n\n\nSaussure, Ferdinand de. Course in General Linguistics (Columbia University Press, 2011)\nJakobson, Roman. On Language (Harvard University Press, 1990)\nHodge, Robert & Kress, Gunther. Social Semiotics (Cornell University Press, 1988)\n\n\n\n\n\nPastiche\nA postmodern aesthetic practice involving imitation without satirical intent, creating blank parody that recycles past styles without critical distance. Unlike parody’s mocking stance, pastiche represents “the random cannibalization of all the styles of the past” (Jameson), reflecting capitalism’s commodification of history and culture.\n\n\n\n\n\n\nNoteSources\n\n\n\n\nJameson, Fredric. Postmodernism, or, The Cultural Logic of Late Capitalism (Duke University Press, 1991)\nHutcheon, Linda. A Theory of Parody (University of Illinois Press, 2000)\nDyer, Richard. Pastiche (Routledge, 2007)\n\n\n\n\n\nPostmodernism\nA cultural condition characterized by the breakdown of grand narratives, the collapse of high/low cultural distinctions, and the dominance of simulacra over reality. In media, postmodernism manifests through pastiche, intertextuality, self-reflexivity, and the hyperreal—where simulations become more real than reality itself.\n\n\n\n\n\n\nNoteSources\n\n\n\n\nBaudrillard, Jean. Simulacra and Simulation (University of Michigan Press, 1994)\nLyotard, Jean-François. The Postmodern Condition (University of Minnesota Press, 1984)\nHarvey, David. The Condition of Postmodernity (Blackwell, 1989)\n\n\n\n\n\nProtest #Journalism\nCitizen journalism practices using hashtags and social media to document, disseminate, and organize around social justice issues. This form of activism transforms witnesses into journalists, creating alternative news networks that bypass traditional media gatekeepers and challenge official narratives about protests and police violence.\n\n\n\n\n\n\nNoteSources\n\n\n\n\nRichardson, Allissa V. Bearing Witness While Black (Oxford University Press, 2020)\nTufekci, Zeynep. Twitter and Tear Gas (Yale University Press, 2017)\nBonilla, Yarimar & Rosa, Jonathan. “#Ferguson: Digital Protest, Hashtag Ethnography” in American Ethnologist 42(1), 2015"
+  },
+  {
+    "objectID": "glossary.html#s",
+    "href": "glossary.html#s",
+    "title": "Key Concepts",
+    "section": "S",
+    "text": "S\n\nSemiotics/Semiology\nThe study of signs and sign processes, examining how meaning is created, transmitted, and interpreted in communication systems. Media semiotics analyzes how visual, auditory, and textual signs combine to produce ideological meanings, revealing the constructed nature of media representations.\n\n\n\n\n\n\nNoteSources\n\n\n\n\nBarthes, Roland. Elements of Semiology (Hill and Wang, 1968)\nEco, Umberto. A Theory of Semiotics (Indiana University Press, 1976)\nRose, Gillian. Visual Methodologies (Sage, 2016)\n\n\n\n\n\nSemiological Guerrilla Warfare\nUmberto Eco’s concept of tactical media resistance through alternative interpretation of mass media messages. Rather than controlling media production, guerrilla semiology intervenes at the point of reception, teaching audiences to decode messages critically and subvert intended meanings.\n\n\n\n\n\n\nNoteSources\n\n\n\n\nEco, Umberto. “Towards a Semiological Guerrilla Warfare” in Travels in Hyperreality (Harcourt, 1986)\nde Certeau, Michel. The Practice of Everyday Life (University of California Press, 1984)\nDery, Mark. Culture Jamming: Hacking, Slashing, and Sniping in the Empire of Signs (Open Magazine, 1993)\n\n\n\n\n\nSimulacra/Simulation\nBaudrillard’s concepts describing how copies without originals (simulacra) create a hyperreality where simulation replaces reality. In media-saturated societies, simulations become autonomous, generating their own reality effects independent of any external referent—reality TV, Instagram performances, and virtual worlds exemplify this condition.\n\n\n\n\n\n\nNoteSources\n\n\n\n\nBaudrillard, Jean. Simulacra and Simulation (University of Michigan Press, 1994)\nBaudrillard, Jean. The Perfect Crime (Verso, 1996)\nMassumi, Brian. Parables for the Virtual (Duke University Press, 2002)\n\n\n\n\n\nSubculture\nSocial groups distinguished by specific styles, values, and practices that differentiate them from mainstream culture. Digital platforms have transformed subcultural formation, enabling new forms of aesthetic tribes and micro-communities organized around shared sensibilities, from TikTok subcultures to Discord communities.\n\n\n\n\n\n\nNoteSources\n\n\n\n\nHebdige, Dick. Subculture: The Meaning of Style (Routledge, 1979)\nThornton, Sarah. Club Cultures: Music, Media, and Subcultural Capital (Wesleyan, 1996)\nGelder, Ken. Subcultures: Cultural Histories and Social Practice (Routledge, 2007)\n\n\n\n\n\n\n\n\n\n\nTipUsing This Glossary\n\n\n\n\nClick on any concept in the table of contents to jump directly to its definition\nUse Ctrl+F (Windows) or Cmd+F (Mac) to search for specific terms\nFollow the source citations for deeper exploration of each concept\nTerms are organized alphabetically for easy reference"
+  },
+  {
+    "objectID": "shaderpark.html",
+    "href": "shaderpark.html",
+    "title": "VM402-09 Generative Media",
     "section": "",
     "text": "&lt;/div&gt;\n&lt;div class=\"quarto-layout-cell\" style=\"flex-basis: 50.0%;justify-content: flex-start;\"&gt;\nShader: T1 by h2ee [Fullscreen]"
   },
   {
-    "objectID": "index.html#description",
-    "href": "index.html#description",
-    "title": "Generative Media",
+    "objectID": "shaderpark.html#description",
+    "href": "shaderpark.html#description",
+    "title": "VM402-09 Generative Media",
     "section": "Description",
-    "text": "Description\n\nIt’s very useful in the arts to have certain sorts of systems, [particularly] if you’re working with something that doesn’t have immediate limitations because you don’t have enough money. … Sometimes not having enough money is good, because you don’t end up throwing a million dollars at a five-cent idea. But [what] if the idea doesn’t require any money? How do you actually stop yourself from putting too much into an idea that’s too small? You find an external system. And some of the best systems in the world come out of physics, the sciences. Math.\n—Judy Nylon, cited in Geeta Dayal, Another Green Word (23-24).\n\nAlthough the term “generative” is today often treated as synonymous with AI-based artistic practices, generative art and aesthetics long predates the digital era, with antecedents that include the experiments with musical chance of John Cage and Lamonte Young, the early computational art of the 1960s, fractal images and music in the 1970s, or the ambient music of Brian Eno. The popularization of algorithmic tools that enable images, music, literary works, animation, and motion graphics to be generated from text and image prompts, however, has led to a surge in interest in code-based and algorithmic forms of creativity, along with debates about the aesthetic and ethical legitimacy of AI-generated artworks and other creative content. While computational art has been able to pass as human since the 1960s, the current explosive growth of algorithmic tools has rekindled aesthetic debates about the technological dimension of art and the relationship of art to the human more generally.\nThis course explores the history of generative approaches in the media arts, as well as changing social attitudes towards these and the contemporary debate swirling around “AI art.” In addition to historical examples and philosophical dimensions, students are introduced to a variety of generative approaches to artistic creativity, and collaborate on producing generative artworks in a medium of their choice using a variety of tools, frameworks, and platforms."
+    "text": "Description\n\nIt’s very uSseful in the arts to have certain sorts of systems, [particularly] if you’re working with something that doesn’t have immediate limitations because you don’t have enough money. … Sometimes not having enough money is good, because you don’t end up throwing a million dollars at a five-cent idea. But [what] if the idea doesn’t require any money? How do you actually stop yourself from putting too much into an idea that’s too small? You find an external system. And some of the best systems in the world come out of physics, the sciences. Math.\n—Judy Nylon, cited in Geeta Dayal, Another Green Word (23-24).\n\nThis online, asynchronous course examines approaches to the analysis and criticism of contemporary media. You will learn how to become critical of the media messages you use and create, and how to think and write with agency."
   },
   {
-    "objectID": "index.html#texts",
-    "href": "index.html#texts",
-    "title": "Generative Media",
+    "objectID": "shaderpark.html#learning-objectives",
+    "href": "shaderpark.html#learning-objectives",
+    "title": "VM402-09 Generative Media",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives"
+  },
+  {
+    "objectID": "shaderpark.html#texts",
+    "href": "shaderpark.html#texts",
+    "title": "VM402-09 Generative Media",
     "section": "Texts",
     "text": "Texts\n\nGeeta Dayal, Another Green World (New York: Continuum, 2009).\nBenedikt Gross, Hartmut Bohnacker, and Julia Laub, Generative Design: Visualize, Program, and Create with P5.js. Princeton, NJ: Princeton Architectural Press, 2018.\nPhilip, Terry, ed., The Penguin Book of Oulipo. London: Penguin Classics, 2020."
   },
   {
-    "objectID": "index.html#films",
-    "href": "index.html#films",
-    "title": "Generative Media",
+    "objectID": "shaderpark.html#films",
+    "href": "shaderpark.html#films",
+    "title": "VM402-09 Generative Media",
     "section": "Films",
-    "text": "Films\nJohn Cage: Journeys in Sound (Allan Miller and Paul Smaczny, 2012).\nEno (Gary Hustwit, 2024)."
+    "text": "Films\nJohn Cage: Journeys in Sound (Allan Miller and Paul Smaczny, 2012)."
   },
   {
-    "objectID": "index.html#assignments-evaluation",
-    "href": "index.html#assignments-evaluation",
-    "title": "Generative Media",
-    "section": "Assignments & Evaluation",
-    "text": "Assignments & Evaluation\nReflection post (weekly, due Friday of each week, 10 required) (40%)\nAudiovisual or Textual Generative Work (20%, due at Thanksgiving)\nResearch Paper (20%, due Thur 11 Dec)\nOblique Strategies Project (20%, due 16 Oct)"
+    "objectID": "shaderpark.html#evaluation",
+    "href": "shaderpark.html#evaluation",
+    "title": "VM402-09 Generative Media",
+    "section": "Evaluation",
+    "text": "Evaluation\nPaper #1 20%\nPaper #2/Creative Project 20%\nDiscussion Posts 30%\nResponse papers (2) 30%"
   },
   {
-    "objectID": "index.html#class-schedule",
-    "href": "index.html#class-schedule",
-    "title": "Generative Media",
+    "objectID": "shaderpark.html#class-schedule",
+    "href": "shaderpark.html#class-schedule",
+    "title": "VM402-09 Generative Media",
     "section": "Class Schedule",
-    "text": "Class Schedule\nWeek 1\nIntroduction: Unpromising Beginnings\nThur_04-Sept\n\nWeek 2\nOblique Strategies\n\n\n\nTues_9-Sept\n\n\n\n“Work at a different speed”\n\nGeeta Dayal, Another Green World, chs. 1-3\n\nThur_11-Sept\n\nBrian Eno, “Generating and Organizing Variety in the Arts” (Studio International, 1976)\nBrian Eno, Music for Airports (and other albums), liner notes\nGeeta Dayal, Another Green World, chs. 4-6\n\n\nWeek 3\nTues_16-Sept\n“Interesting failure after interesting failure”\n\n\n\n\nGeeta Dayal, Another Green World, chs. 7-9\n\nThur_18-Sept\n\nGeeta Dayal, Another Green World, chs. 10-12\n“How Brian Eno Created ‘Discreet Music’”\n\n\nWeek 4\nImaginary Landscapes: John Cage and La Monte Young\nTues_23-Sept\n\nScreening: John Cage: Journeys in Sound\n\nThur_25-Sept\n\nJohn Cage, selected essays from Silence\n\n\nWeek 5\nPhasing: Steve Reich and Terry Riley\nTues_30-Sept\n\nSteve Reich, “Music as a Gradual Process” (1968)\n\nThur_02-Oct\n\nTerry Riley, In C\n\n\nWeek 6\nMondrian: Computer Graphics\nTues_07-Oct\n\nAmy Goodchild, “Early Computer Art in the ’50s and ’60s”\nA. Michael Noll, “Human or Machine? A Subjective Comparison of Piet Mondrian’s ‘Composition With Lines’ (1917) and a Computer-Generated Picture”\nEarly 3D Computer Graphics from Bell Labs\n\n\n\n\nThur_09-Oct\n\nLev Manovich, “Who is ‘An Artist’ in the ‘AI Era’?”\nProcessing Mondrian\n\n\nWeek 7\nFractal Worlds\nTues_14-Oct\n\nMandelbulb\n\nFractal Worlds (YouTube channel)\n\nThur_16-Oct\nOblique Strategies Projects\nDEADLINE: Oblique Strategies Project\n\nWeek 8\nEcosystems\nTues_21-Oct\nConway’s Game of Life\nThur_23-Oct\nLenia\n\nWeek 9\nPermutations\nTues_28-Oct\n\nRaymond Queneau, A Hundred Thousand Billion Poems\nInteractive edition\nEno, 77 Million Paintings\n7 Hours in 77 Million Paintings(420 mins. &gt; 35 mins. timelapse)\n[7 More Hours in 77 Million Paintings](https://vimeo.com/751767) (420 mins. &gt; 35 mins. timelapse)\n\nThur_30-Oct\n\nWeek 10\nLanguage Games\nTues_04-Nov\n\nThe Penguin Book of OULIPO, selected chs. \n\nThur_06-Nov\n\nRob Clouth, The Harry Potter Book Generator\nNanoGenMo\n\n\nWeek 11\nVeterans Day\nThur_13-Nov\nProcedural Worlds\n\nSimon Parkin, “A Journey to the End of the World (of Minecraft)” (The New Yorker, 23 January 2014)\nWave Function Collapse\n\n\n\n\n\nWeek 12\nGenerative Art & Design\nTues_18-Nov\n\nGenerative Design\n\nThur_20-Nov\n\nRead the interviews with Josef Pelz, Étienne Jacob, Shohei Fujimoto, Giulia Cosco, and/or Pierre Paslier\n\n\nWeek 13\nTues_25-Nov\nTBA\nThanksgiving\n\nWeek 14\nTues_02-Dec Presentations\nThur_04-Dec Presentations\n\nWeek 15\nTues_09-Dec Presentations\nThur_11-Dec Presentations\n\nWeek 16\nTues_16-Dec Conclusion"
+    "text": "Class Schedule\nWeek 1\nIntroduction: Unpromising Beginnings\nThur_04-Sept\n\nWeek 2\nOblique Strategies\nTues_9-Sept\nGeeta Dayal, Another Green World, chs. 1-3\nThur_11-Sept\nGeeta Dayal, Another Green World, chs. 4-6\n\nWeek 3\nTues_16-Sept\nGeeta Dayal, Another Green World, chs. 7-9\nThur_18-Sept\nGeeta Dayal, Another Green World, chs. 10-12\n\nWeek 4\nImaginary Landscapes: John Cage and La Monte Young\nTues_23-Sept\nScreening: John Cage: Journeys in Sound\nThur_25-Sept\nCage, selected essays from Silence\n\nWeek 5\nPhasing: Steve Reich and Terry Riley\nTues_30-Sept\nSteve Reich, “Music as a Gradual Process” (1968)\nWim Mertens book?\nThur_02-Oct\nTerry Riley?\n\nWeek 6\nTues_07-Oct\nNumbers\nRaymond Queneau, A Hundred Thousand Billion Poems\nInteractive edition\nEno, 77 Million Paintings\nWatch:\n\n7 Hours in 77 Million Paintings(420 mins. &gt; 35 mins. timelapse)\n\n\n\n\n\n[7 More Hours in 77 Million Paintings](https://vimeo.com/751767) (420 mins. &gt; 35 mins. timelapse)\n\n\n\n\nThur_09-Oct\n\nWeek 7\nFractals\nTues_14-Oct\nThur_16-Oct\n\nWeek 8\nEcosystems\nTues_21-Oct\nConway’s Game of Life\nThur_23-Oct\nLenia\n\nWeek 9\nProcedural Worlds\nTues_28-Oct\nSimon Parkin, “A Journey to the End of the World (of Minecraft)” (The New Yorker, 23 January 2014)\nThur_30-Oct\nWave Function Collapse\n\n\n\n\nWeek 10\nAlgorithmic Architecture\nTues_04-Nov\nThur_06-Nov\n\nWeek 11\nVeterans Day\nGenerative Art & Design\nThur_13-Nov\nRead the interviews with Josef Pelz, Étienne Jacob, Shohei Fujimoto, Giulia Cosco, and/or Pierre Paslier\n\nWeek 12\nTues_18-Nov\nGenerative Hut website\nThur_20-Nov\nP5.js workshop\n\nWeek 13\nTues_25-Nov\nNO CLASS?\nThanksgiving\n\nWeek 14\nTues_02-Dec Presentations\nThur_04-Dec Presentations\n\nWeek 15\nTues_09-Dec Presentations\nThur_11-Dec Presentations\n\nWeek 16\nTues_16-Dec Conclusion"
   },
   {
-    "objectID": "index.html#policies",
-    "href": "index.html#policies",
-    "title": "Generative Media",
-    "section": "Policies",
-    "text": "Policies\nAttendance and Participation\nFull participation in class discussions and timely submission of all assignments constitutes evidence of class attendance. Students are expected to allocate sufficient time to complete all the requirements for each module: reading, viewing, responding to discussion questions, submitting replies to classmates, and completing other assignments on time. Failure to keep up with the pace of the course may result in lower grades or the failure of the class.\nAcademic Honesty\nDo not plagiarize. Plagiarism is using someone else’s work without giving them fair credit. Plagiarism and cheating will result in an “F” for the assignment.\nAccommodations\nEmerson is committed to providing equal access and support to all qualified students through the provision of reasonable accommodations, so that each student may fully participate in the Emerson experience. Student Accessibility Services (SAS) staff will be working remotely for the fall of 2020. If you have a disability that may require accommodations, please contact them at SAS@emerson.edu or at (617)824-8592 to make an appointment with an SAS staff member.\nStudents are encouraged to contact SAS early in the semester. Please note that accommodations are not applied retroactively.\nPlagiarism Statement\nIt is the responsibility of all Emerson students to know and adhere to the College’s policy on plagiarism, which can be found at: http://www.emerson.edu/policy/plagiarism*. If you have any question concerning the Emerson plagiarism policy or about documentation of sources in work you produce in this course, speak to your instructor.\nDiversity Statement\nEvery student in this class will be honored and respected as an individual with distinct experiences, talents, and backgrounds. Students will be treated fairly regardless of race, religion, sexual orientation, gender identification, disability, socio-economic status, or national identity. Issues of diversity may be a part of class discussion, assigned material, and projects. The instructor will make every effort to ensure that an inclusive environment exists for all students. If you have any concerns or suggestions for improving the classroom climate, please do not hesitate to speak with the course instructor or to contact the Office of Diversity and Inclusion at 617-824-8528 or by email at diversityinclusion@emerson.edu*"
-  },
-  {
-    "objectID": "gen-media-structure.html",
-    "href": "gen-media-structure.html",
-    "title": "    ",
-    "section": "",
-    "text": "Gen Media - course structure\nTopics\n\nIntro: Furniture Music: Satie (Vexations) + Nobody & The Computer\nMusic of Changes: Cage/Young\nOULIPO and Computational Literature\nComputer Art\nFractals - art, movies, 3D\nAmbient music\nAmbient TV and Cinema (Eno, 77 Million Paintings, the recent documentary)\nProcedural Media: Videogames (Minecraft)\nAI\nAI\nPresentations Conclusion"
+    "objectID": "shaderpark.html#policies-procedures",
+    "href": "shaderpark.html#policies-procedures",
+    "title": "VM402-09 Generative Media",
+    "section": "Policies & Procedures",
+    "text": "Policies & Procedures\nAttendance and Participation\nFull participation in class discussions and timely submission of all assignments constitutes evidence of class attendance. Students are expected to allocate sufficient time to complete all the requirements for each module: reading, viewing, responding to discussion questions, submitting replies to classmates, and completing other assignments on time. Failure to keep up with the pace of the course may result in lower grades or the failure of the class.\nAcademic Honesty\nDo not plagiarize. Plagiarism is using someone else’s work without giving them fair credit. Plagiarism and cheating will result in an “F” for the assignment.\nAccommodations\nEmerson is committed to providing equal access and support to all qualified students through the provision of reasonable accommodations, so that each student may fully participate in the Emerson experience. Student Accessibility Services (SAS) staff will be working remotely for the fall of 2020. If you have a disability that may require accommodations, please contact them at SAS@emerson.edu or at (617)824-8592 to make an appointment with an SAS staff member.\nStudents are encouraged to contact SAS early in the semester. Please note that accommodations are not applied retroactively.\nPlagiarism Statement\nIt is the responsibility of all Emerson students to know and adhere to the College’s policy on plagiarism, which can be found at: http://www.emerson.edu/policy/plagiarism*. If you have any question concerning the Emerson plagiarism policy or about documentation of sources in work you produce in this course, speak to your instructor.\nDiversity Statement\nEvery student in this class will be honored and respected as an individual with distinct experiences, talents, and backgrounds. Students will be treated fairly regardless of race, religion, sexual orientation, gender identification, disability, socio-economic status, or national identity. Issues of diversity may be a part of class discussion, assigned material, and projects. The instructor will make every effort to ensure that an inclusive environment exists for all students. If you have any concerns or suggestions for improving the classroom climate, please do not hesitate to speak with the course instructor or to contact the Office of Diversity and Inclusion at 617-824-8528 or by email at diversityinclusion@emerson.edu*"
   }
 ]
