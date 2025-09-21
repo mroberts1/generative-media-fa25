@@ -119,8 +119,8 @@
     "text": "Dayal, Geeta. Another Green World. New York: Continuum, 2009.\nGross, Benedikt, Hartmut Bohnacker, and Julia Laub. Generative Design: Visualize, Program, and Create with P5.js. Princeton, NJ: Princeton Architectural Press, 2018.\nPhilip, Terry, editor. The Penguin Book of Oulipo. London: Penguin Classics, 2020."
   },
   {
-    "objectID": "bibliography.html#required-texts",
-    "href": "bibliography.html#required-texts",
+    "objectID": "bibliography.html#course-texts",
+    "href": "bibliography.html#course-texts",
     "title": "Bibliography",
     "section": "",
     "text": "Dayal, Geeta. Another Green World. New York: Continuum, 2009.\nGross, Benedikt, Hartmut Bohnacker, and Julia Laub. Generative Design: Visualize, Program, and Create with P5.js. Princeton, NJ: Princeton Architectural Press, 2018.\nPhilip, Terry, editor. The Penguin Book of Oulipo. London: Penguin Classics, 2020."
@@ -133,53 +133,39 @@
     "text": "Films & Documentaries\n\nMiller, Allan, and Paul Smaczny, directors. John Cage: Journeys in Sound. 2012.\nHustwit, Gary, director. Eno. 2024."
   },
   {
-    "objectID": "bibliography.html#journal-articles-essays",
-    "href": "bibliography.html#journal-articles-essays",
+    "objectID": "bibliography.html#articles-essays",
+    "href": "bibliography.html#articles-essays",
     "title": "Bibliography",
-    "section": "Journal Articles & Essays",
-    "text": "Journal Articles & Essays\n\nEno, Brian. “Generating and Organizing Variety in the Arts.” Studio International, 1976.\nReich, Steve. “Music as a Gradual Process.” 1968.\nNoll, A. Michael. “Human or Machine? A Subjective Comparison of Piet Mondrian’s ‘Composition With Lines’ (1917) and a Computer-Generated Picture.” The Psychological Record, vol. 16, no. 1, 1966, pp. 1-10.\nManovich, Lev. “Who is ‘An Artist’ in the ‘AI Era’?” 2023.\nParkin, Simon. “A Journey to the End of the World (of Minecraft).” The New Yorker, 23 Jan. 2014."
+    "section": "Articles & Essays",
+    "text": "Articles & Essays\n\nEno, Brian. “Generating and Organizing Variety in the Arts.” Studio International, 1976.\nReich, Steve. “Music as a Gradual Process.” 1968.\nNoll, A. Michael. “Human or Machine? A Subjective Comparison of Piet Mondrian’s ‘Composition With Lines’ (1917) and a Computer-Generated Picture.” The Psychological Record, vol. 16, no. 1, 1966, pp. 1-10.\nManovich, Lev. “Who is ‘An Artist’ in the ‘AI Era’?” 2023.\nParkin, Simon. “A Journey to the End of the World (of Minecraft).” The New Yorker, 23 Jan. 2014."
   },
   {
-    "objectID": "bibliography.html#music-audio-works",
-    "href": "bibliography.html#music-audio-works",
+    "objectID": "bibliography.html#music-audio",
+    "href": "bibliography.html#music-audio",
     "title": "Bibliography",
-    "section": "Music & Audio Works",
-    "text": "Music & Audio Works\n\nEno, Brian. Music for Airports. Album liner notes. 1978.\nRiley, Terry. In C. Musical composition. 1964.\nEno, Brian. 77 Million Paintings. Generative art installation. 2006."
+    "section": "Music & Audio",
+    "text": "Music & Audio\n\nEno, Brian. Music for Airports. Album liner notes. 1978.\nRiley, Terry. In C. Musical composition. 1964.\nEno, Brian. 77 Million Paintings. Generative art installation. 2006."
   },
   {
-    "objectID": "bibliography.html#online-articles-resources",
-    "href": "bibliography.html#online-articles-resources",
+    "objectID": "bibliography.html#online-articles",
+    "href": "bibliography.html#online-articles",
     "title": "Bibliography",
-    "section": "Online Articles & Resources",
-    "text": "Online Articles & Resources\n\nGoodchild, Amy. “Early Computer Art in the ’50s and ’60s.” 2020.\nReverb Machine. “How Brian Eno Created ‘Discreet Music’.” 2019.\n“Mandelbulb.” 2024.\nQueneau, Raymond. “A Hundred Thousand Billion Poems - Interactive Edition.” Original work 1961, interactive edition by Bev Rowe.\nClouth, Rob. “The Harry Potter Book Generator.” 2020.\nMarian42. “Wave Function Collapse.” 2019."
+    "section": "Online Articles",
+    "text": "Online Articles\n\nGoodchild, Amy. “Early Computer Art in the ’50s and ’60s.” 2020.\nReverb Machine. “How Brian Eno Created ‘Discreet Music’.” 2019.\n“Mandelbulb.” 2024.\nQueneau, Raymond. “A Hundred Thousand Billion Poems - Interactive Edition.” Original work 1961, interactive edition by Bev Rowe.\nClouth, Rob. “The Harry Potter Book Generator.” 2020.\nMarian42. “Wave Function Collapse.” 2019."
   },
   {
-    "objectID": "bibliography.html#multimedia-interactive-works",
-    "href": "bibliography.html#multimedia-interactive-works",
+    "objectID": "bibliography.html#media",
+    "href": "bibliography.html#media",
     "title": "Bibliography",
-    "section": "Multimedia & Interactive Works",
-    "text": "Multimedia & Interactive Works\n\n“Early 3D Computer Graphics from Bell Labs.” YouTube, 1963.\nbib993. “3D Fractal Worlds.” YouTube playlist, 2020.\n“7 Hours in 77 Million Paintings.” Vimeo, 2014. 420 mins. &gt; 35 mins. timelapse.\nh2ee. “T1 Shader.” ShaderPark, 2024."
+    "section": "Media",
+    "text": "Media\n\n“Early 3D Computer Graphics from Bell Labs.” YouTube, 1963.\nbib993. “3D Fractal Worlds.” YouTube playlist, 2020.\n“7 Hours in 77 Million Paintings.” Vimeo, 2014. 420 mins. &gt; 35 mins. timelapse.\nh2ee. “T1 Shader.” ShaderPark, 2024."
   },
   {
-    "objectID": "bibliography.html#artist-interviews",
-    "href": "bibliography.html#artist-interviews",
+    "objectID": "bibliography.html#interviews",
+    "href": "bibliography.html#interviews",
     "title": "Bibliography",
-    "section": "Artist Interviews",
-    "text": "Artist Interviews\n\n“Interview with Josef Pelz.” Generative Hut, 2023.\n“Interview with Étienne Jacob.” Generative Hut, 2023.\n“Interview with Shohei Fujimoto.” Generative Hut, 2023.\n“Interview with Giulia Cosco.” Generative Hut, 2023.\n“Interview with Pierre Paslier.” Generative Hut, 2023."
-  },
-  {
-    "objectID": "bibliography.html#complete-bibliography",
-    "href": "bibliography.html#complete-bibliography",
-    "title": "Bibliography",
-    "section": "Complete Bibliography",
-    "text": "Complete Bibliography\nThe following is a complete bibliography of all sources referenced in this course, formatted in MLA style:\nBooks: - Cage, John. Silence: Lectures and Writings. Middletown, CT: Wesleyan University Press, 1961. - Dayal, Geeta. Another Green World. New York: Continuum, 2009. - Gross, Benedikt, Hartmut Bohnacker, and Julia Laub. Generative Design: Visualize, Program, and Create with P5.js. Princeton, NJ: Princeton Architectural Press, 2018. - Philip, Terry, editor. The Penguin Book of Oulipo. London: Penguin Classics, 2020.\nFilms & Documentaries: - Hustwit, Gary, director. Eno. 2024. - Miller, Allan, and Paul Smaczny, directors. John Cage: Journeys in Sound. 2012.\nArticles & Essays: - Eno, Brian. “Generating and Organizing Variety in the Arts.” Studio International, 1976. - Manovich, Lev. “Who is ‘An Artist’ in the ‘AI Era’?” 2023. - Noll, A. Michael. “Human or Machine? A Subjective Comparison of Piet Mondrian’s ‘Composition With Lines’ (1917) and a Computer-Generated Picture.” The Psychological Record, vol. 16, no. 1, 1966, pp. 1-10. - Parkin, Simon. “A Journey to the End of the World (of Minecraft).” The New Yorker, 23 Jan. 2014. - Reich, Steve. “Music as a Gradual Process.” 1968.\nOnline Resources: - bib993. “3D Fractal Worlds.” YouTube playlist, 2020. - Clouth, Rob. “The Harry Potter Book Generator.” 2020. - “Early 3D Computer Graphics from Bell Labs.” YouTube, 1963. - Eno, Brian. 77 Million Paintings. Generative art installation. 2006. - Eno, Brian. Music for Airports. Album liner notes. 1978. - Goodchild, Amy. “Early Computer Art in the ’50s and ’60s.” 2020. - h2ee. “T1 Shader.” ShaderPark, 2024. - “Interview with Giulia Cosco.” Generative Hut, 2023. - “Interview with Josef Pelz.” Generative Hut, 2023. - “Interview with Pierre Paslier.” Generative Hut, 2023. - “Interview with Shohei Fujimoto.” Generative Hut, 2023. - “Interview with Étienne Jacob.” Generative Hut, 2023. - “Mandelbulb.” 2024. - Marian42. “Wave Function Collapse.” 2019. - Queneau, Raymond. “A Hundred Thousand Billion Poems - Interactive Edition.” Original work 1961, interactive edition by Bev Rowe. - Reverb Machine. “How Brian Eno Created ‘Discreet Music’.” 2019. - Riley, Terry. In C. Musical composition. 1964. - “7 Hours in 77 Million Paintings.” Vimeo, 2014. 420 mins. &gt; 35 mins. timelapse.\n\nThis bibliography includes all primary and secondary sources, multimedia works, online resources, and interactive materials referenced in VM402-08 Generative Media: History, Theory, Practice, Fall 2025."
-  },
-  {
-    "objectID": "bibliography.html#references-by-week",
-    "href": "bibliography.html#references-by-week",
-    "title": "Bibliography",
-    "section": "References by Week",
-    "text": "References by Week\n\nWeek 2: Oblique Strategies\n\nDayal, Geeta. Another Green World [chapters 1-6]. New York: Continuum, 2009.\nEno, Brian. “Generating and Organizing Variety in the Arts.” Studio International, 1976.\nEno, Brian. Music for Airports. Album liner notes. 1978.\n\n\n\nWeek 3: Interesting Failures\n\nDayal, Geeta. Another Green World [chapters 7-12]. New York: Continuum, 2009.\nReverb Machine. “How Brian Eno Created ‘Discreet Music’.” 2019. Web. https://reverbmachine.com/blog/deconstructing-brian-enos-discreet-music/.\n\n\n\nWeek 4: Imaginary Landscapes\n\nMiller, Allan, and Paul Smaczny, directors. John Cage: Journeys in Sound. 2012.\nCage, John. Silence: Lectures and Writings. Middletown, CT: Wesleyan University Press, 1961.\n\n\n\nWeek 5: Phasing\n\nReich, Steve. “Music as a Gradual Process.” 1968.\nRiley, Terry. In C. Musical composition. 1964.\n\n\n\nWeek 6: Computer Graphics\n\nGoodchild, Amy. “Early Computer Art in the ’50s and ’60s.” 2020. Web. https://www.amygoodchild.com/blog/computer-art-50s-and-60s.\nNoll, A. Michael. “Human or Machine? A Subjective Comparison of Piet Mondrian’s ‘Composition With Lines’ (1917) and a Computer-Generated Picture.” The Psychological Record, vol. 16, no. 1, 1966, pp. 1-10.\n“Early 3D Computer Graphics from Bell Labs.” YouTube, 1963. Web. https://youtu.be/M4nql28E_AE.\nManovich, Lev. “Who is ‘An Artist’ in the ‘AI Era’?” 2023.\n\n\n\nWeek 7: Fractal Worlds\n\n“Mandelbulb.” 2024. Web. https://www.mandelbulb.com/.\nbib993. “3D Fractal Worlds.” YouTube playlist, 2020. Web. https://www.youtube.com/watch?v=xj_4jvSDVME&list=PL1ywvug1r6ThGOrb9vQNfqYsI5XNyV3B3.\n\n\n\nWeek 9: Permutations\n\nQueneau, Raymond. “A Hundred Thousand Billion Poems - Interactive Edition.” Original work 1961, interactive edition by Bev Rowe. Web. https://www.bevrowe.info/Internet/Queneau/Queneau.html.\nEno, Brian. 77 Million Paintings. Generative art installation. 2006. Web. https://en.wikipedia.org/wiki/77_Million_Paintings.\n“7 Hours in 77 Million Paintings.” Vimeo, 2014. 420 mins. &gt; 35 mins. timelapse. Web. https://vimeo.com/groups/chillounge/videos/751767.\n\n\n\nWeek 10: Language Games\n\nPhilip, Terry, editor. The Penguin Book of Oulipo. London: Penguin Classics, 2020.\nClouth, Rob. “The Harry Potter Book Generator.” 2020. Web. https://robclouth.com/#projects/the-harry-potter-book-generator.\n\n\n\nWeek 11: Procedural Worlds\n\nParkin, Simon. “A Journey to the End of the World (of Minecraft).” The New Yorker, 23 Jan. 2014. Web. https://www.newyorker.com/tech/annals-of-technology/a-journey-to-the-end-of-the-world-of-minecraft.\nMarian42. “Wave Function Collapse.” 2019. Web. https://marian42.itch.io/wfc.\n\n\n\nWeek 12: Generative Art & Design\n\nGross, Benedikt, Hartmut Bohnacker, and Julia Laub. Generative Design: Visualize, Program, and Create with P5.js. Princeton, NJ: Princeton Architectural Press, 2018. Web. http://www.generative-gestaltung.de/2/.\n“Interview with Josef Pelz.” Generative Hut, 2023. Web. https://www.generativehut.com/post/interview-with-josef-pelz.\n“Interview with Étienne Jacob.” Generative Hut, 2023. Web. https://www.generativehut.com/post/interview-with-etienne-jacob.\n“Interview with Shohei Fujimoto.” Generative Hut, 2023. Web. https://www.generativehut.com/post/interview-with-shohei-fujimoto.\n“Interview with Giulia Cosco.” Generative Hut, 2023. Web. https://www.generativehut.com/post/interview-with-giulia-cosco.\n“Interview with Pierre Paslier.” Generative Hut, 2023. Web. https://www.generativehut.com/post/interview-with-pierre-paslier.\n\n\nThis bibliography includes all primary and secondary sources, multimedia works, online resources, and interactive materials referenced in VM402-08 Generative Media: History, Theory, Practice, Fall 2025."
+    "section": "Interviews",
+    "text": "Interviews\n\nJosef Pelz\nÉtienne Jacob\nShohei Fujimoto\nGiulia Cosco\nPierre Paslier"
   },
   {
     "objectID": "WARP.html",
@@ -376,75 +362,5 @@
     "title": "VM402-09 Generative Media",
     "section": "Policies & Procedures",
     "text": "Policies & Procedures\nAttendance and Participation\nFull participation in class discussions and timely submission of all assignments constitutes evidence of class attendance. Students are expected to allocate sufficient time to complete all the requirements for each module: reading, viewing, responding to discussion questions, submitting replies to classmates, and completing other assignments on time. Failure to keep up with the pace of the course may result in lower grades or the failure of the class.\nAcademic Honesty\nDo not plagiarize. Plagiarism is using someone else’s work without giving them fair credit. Plagiarism and cheating will result in an “F” for the assignment.\nAccommodations\nEmerson is committed to providing equal access and support to all qualified students through the provision of reasonable accommodations, so that each student may fully participate in the Emerson experience. Student Accessibility Services (SAS) staff will be working remotely for the fall of 2020. If you have a disability that may require accommodations, please contact them at SAS@emerson.edu or at (617)824-8592 to make an appointment with an SAS staff member.\nStudents are encouraged to contact SAS early in the semester. Please note that accommodations are not applied retroactively.\nPlagiarism Statement\nIt is the responsibility of all Emerson students to know and adhere to the College’s policy on plagiarism, which can be found at: http://www.emerson.edu/policy/plagiarism*. If you have any question concerning the Emerson plagiarism policy or about documentation of sources in work you produce in this course, speak to your instructor.\nDiversity Statement\nEvery student in this class will be honored and respected as an individual with distinct experiences, talents, and backgrounds. Students will be treated fairly regardless of race, religion, sexual orientation, gender identification, disability, socio-economic status, or national identity. Issues of diversity may be a part of class discussion, assigned material, and projects. The instructor will make every effort to ensure that an inclusive environment exists for all students. If you have any concerns or suggestions for improving the classroom climate, please do not hesitate to speak with the course instructor or to contact the Office of Diversity and Inclusion at 617-824-8528 or by email at diversityinclusion@emerson.edu*"
-  },
-  {
-    "objectID": "sources.html",
-    "href": "sources.html",
-    "title": "Sources",
-    "section": "",
-    "text": "Dayal, Geeta. Another Green World. New York: Continuum, 2009.\nGross, Benedikt, Hartmut Bohnacker, and Julia Laub. Generative Design: Visualize, Program, and Create with P5.js. Princeton, NJ: Princeton Architectural Press, 2018.\nPhilip, Terry, editor. The Penguin Book of Oulipo. London: Penguin Classics, 2020."
-  },
-  {
-    "objectID": "sources.html#required-texts",
-    "href": "sources.html#required-texts",
-    "title": "Sources",
-    "section": "",
-    "text": "Dayal, Geeta. Another Green World. New York: Continuum, 2009.\nGross, Benedikt, Hartmut Bohnacker, and Julia Laub. Generative Design: Visualize, Program, and Create with P5.js. Princeton, NJ: Princeton Architectural Press, 2018.\nPhilip, Terry, editor. The Penguin Book of Oulipo. London: Penguin Classics, 2020."
-  },
-  {
-    "objectID": "sources.html#films-documentaries",
-    "href": "sources.html#films-documentaries",
-    "title": "Sources",
-    "section": "Films & Documentaries",
-    "text": "Films & Documentaries\n\nMiller, Allan, and Paul Smaczny, directors. John Cage: Journeys in Sound. 2012.\nHustwit, Gary, director. Eno. 2024."
-  },
-  {
-    "objectID": "sources.html#articles-essays",
-    "href": "sources.html#articles-essays",
-    "title": "Sources",
-    "section": "Articles & Essays",
-    "text": "Articles & Essays\n\nEno, Brian. “Generating and Organizing Variety in the Arts.” Studio International, 1976.\nReich, Steve. “Music as a Gradual Process.” 1968.\nNoll, A. Michael. “Human or Machine? A Subjective Comparison of Piet Mondrian’s ‘Composition With Lines’ (1917) and a Computer-Generated Picture.” The Psychological Record, vol. 16, no. 1, 1966, pp. 1-10.\nManovich, Lev. “Who is ‘An Artist’ in the ‘AI Era’?” 2023.\nParkin, Simon. “A Journey to the End of the World (of Minecraft).” The New Yorker, 23 Jan. 2014."
-  },
-  {
-    "objectID": "sources.html#music-audio",
-    "href": "sources.html#music-audio",
-    "title": "Sources",
-    "section": "Music & Audio",
-    "text": "Music & Audio\n\nEno, Brian. Music for Airports. Album liner notes. 1978.\nRiley, Terry. In C. Musical composition. 1964.\nEno, Brian. 77 Million Paintings. Generative art installation. 2006."
-  },
-  {
-    "objectID": "sources.html#online-articles",
-    "href": "sources.html#online-articles",
-    "title": "Sources",
-    "section": "Online Articles",
-    "text": "Online Articles\n\nGoodchild, Amy. “Early Computer Art in the ’50s and ’60s.” 2020.\nReverb Machine. “How Brian Eno Created ‘Discreet Music’.” 2019.\n“Mandelbulb.” 2024.\nQueneau, Raymond. “A Hundred Thousand Billion Poems - Interactive Edition.” Original work 1961, interactive edition by Bev Rowe.\nClouth, Rob. “The Harry Potter Book Generator.” 2020.\nMarian42. “Wave Function Collapse.” 2019."
-  },
-  {
-    "objectID": "sources.html#media",
-    "href": "sources.html#media",
-    "title": "Sources",
-    "section": "Media",
-    "text": "Media\n\n“Early 3D Computer Graphics from Bell Labs.” YouTube, 1963.\nbib993. “3D Fractal Worlds.” YouTube playlist, 2020.\n“7 Hours in 77 Million Paintings.” Vimeo, 2014. 420 mins. &gt; 35 mins. timelapse.\nh2ee. “T1 Shader.” ShaderPark, 2024."
-  },
-  {
-    "objectID": "sources.html#artist-interviews",
-    "href": "sources.html#artist-interviews",
-    "title": "Sources",
-    "section": "Artist Interviews",
-    "text": "Artist Interviews\n\nJosef Pelz. Generative Hut, 2023.\nÉtienne Jacob. Generative Hut, 2023.\nShohei Fujimoto. Generative Hut, 2023.\nGiulia Cosco. Generative Hut, 2023.\nPierre Paslier. Generative Hut, 2023."
-  },
-  {
-    "objectID": "sources.html#course-texts",
-    "href": "sources.html#course-texts",
-    "title": "Sources",
-    "section": "",
-    "text": "Dayal, Geeta. Another Green World. New York: Continuum, 2009.\nGross, Benedikt, Hartmut Bohnacker, and Julia Laub. Generative Design: Visualize, Program, and Create with P5.js. Princeton, NJ: Princeton Architectural Press, 2018.\nPhilip, Terry, editor. The Penguin Book of Oulipo. London: Penguin Classics, 2020."
-  },
-  {
-    "objectID": "sources.html#interviews",
-    "href": "sources.html#interviews",
-    "title": "Sources",
-    "section": "Interviews",
-    "text": "Interviews\n\nJosef Pelz\nÉtienne Jacob\nShohei Fujimoto\nGiulia Cosco\nPierre Paslier"
   }
 ]
