@@ -3,14 +3,6 @@ title: "Generative Media"
 subtitle: "History, Theory, Practice"
 ---
 
-```{r}
-#| label: load-packages
-#| include: false
-
-library(tidyverse)
-library(palmerpenguins)
-```
-
 ::: {layout="[[50, 50]]"}
 
 <iframe src="https://shaderpark.com/embed/-OZ3EHXk8r1JyhqgVTCy" 
@@ -61,8 +53,8 @@ This course explores the history of generative approaches in the media arts, as 
 
 ## Films
 
-*John Cage: Journeys in Sound* (Allan Miller and Paul Smaczny, 2012).  
-[*Eno*](https://www.hustwit.com/eno) (Gary Hustwit, 2024).
+- *John Cage: Journeys in Sound* (Allan Miller and Paul Smaczny, 2012).  
+- [*Eno*](https://www.hustwit.com/eno) (Gary Hustwit, 2024).
 
 ## Assignments & Evaluation
 

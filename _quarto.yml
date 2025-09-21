@@ -29,27 +29,29 @@ website:
   navbar:
     background: "#62259d"
     search: false
-    # left:
-    # - text: Syllabus
-    #   file: index.qmd
-    # - text: Bibliography
-    #   file: bibliography.qmd
-    # right:
-    # - icon: envelope
-    #   aria-label: envelope
-    #   href: mailto:martin_roberts@emerson.edu
-    # - icon: mastodon
-    #   aria-label: mastodon
-    #   href: https://merveilles.town/@dokoissho
-    # - icon: github
-    #   aria-label: github
-    #   href: https://github.com/mroberts1
+    left:
+    - text: Home
+      file: index.qmd
+    - text: Resources
+      file: resources.qmd
+    - text: Bibliography
+      file: bibliography.qmd
+    right:
+    - icon: envelope
+      aria-label: envelope
+      href: mailto:martin_roberts@emerson.edu
+    - icon: mastodon
+      aria-label: mastodon
+      href: https://merveilles.town/@dokoissho
+    - icon: github
+      aria-label: github
+      href: https://github.com/mroberts1/generative-media-fa25
     # - icon: facebook
     #   aria-label: facebook
     #   href: https://facebook.com/mr05301
-    # - icon: twitter
-    #   aria-label: twitter
-    #   href: https://twitter.com/mroberts_VMA
+    - icon: twitter
+      aria-label: twitter
+      href: https://twitter.com/mroberts_VMA
 format: 
   html:
     toc: false
