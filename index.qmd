@@ -130,15 +130,15 @@ Thur_18-Sept
 
 **Imaginary Landscapes: John Cage**
 
-Tues_23-Sept
-
-- Screening: *John Cage: Journeys in Sound*
-
 ::: {.column-margin}
 
 {{< video https://youtu.be/eNqeE5c4W-s width="300" >}}
 
 :::
+
+Tues_23-Sept
+
+- Screening: *John Cage: Journeys in Sound*
 
 Thur_25-Sept
 
