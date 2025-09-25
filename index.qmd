@@ -144,7 +144,11 @@ Thur_25-Sept
 
 **Phasing: Steve Reich**
 
+::: {.column-margin}
+
 {{< video https://youtu.be/X1zuX6nRHNk width="300" >}}
+
+:::
 
 - Steve Reich, "[Music as a Gradual Process](http://www.bussigel.com/systemsforplay/wp-content/uploads/2014/02/Reich_Gradual-Process.pdf)" (1968)
 - Terry Riley, *In C*  
