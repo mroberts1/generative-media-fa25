@@ -55,6 +55,7 @@ This course explores the history of generative approaches in the media arts, as 
 
 - *John Cage: Journeys in Sound* (Allan Miller and Paul Smaczny, 2012).  
 - [*Eno*](https://www.hustwit.com/eno) (Gary Hustwit, 2024).
+- [*Sisters With Transistors*](https://sisterswithtransistors.com/) (Lisa Rovner, 2022)
 
 ## Assignments & Evaluation
 
@@ -127,29 +128,38 @@ Thur_18-Sept
 
 *Week 4*
 
-**Imaginary Landscapes: John Cage and La Monte Young**
+**Imaginary Landscapes: John Cage**
 
 Tues_23-Sept
 
 - Screening: *John Cage: Journeys in Sound*
 
+::: {.column-margin}
+
+{{< video https://youtu.be/eNqeE5c4W-s width="300" >}}
+
+:::
+
 Thur_25-Sept
 
-- John Cage, selected essays from *Silence*
+**Phasing: Steve Reich**
+
+- Steve Reich, "[Music as a Gradual Process](http://www.bussigel.com/systemsforplay/wp-content/uploads/2014/02/Reich_Gradual-Process.pdf)" (1968)
+- Terry Riley, *In C*  
 
 ***
 
 *Week 5*
 
-**Phasing: Steve Reich and Terry Riley**
+**Waveforms: Women and Generative Music**
 
 Tues_30-Sept
 
-- Steve Reich, "Music as a Gradual Process" (1968)
+Excerpts from *Sisters With Transistors* (documentary) (Lisa Rovner, 2022)
 
 Thur_02-Oct
 
-- Terry Riley, *In C*  
+TBA
 
 ***
 
