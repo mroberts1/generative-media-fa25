@@ -64,9 +64,9 @@ format:
     css: custom.scss
     grid:
         sidebar-width: 300px
-        body-width: 700px
-        margin-width: 400px
-        gutter-width: 2em
+        body-width: 800px
+        margin-width: 300px
+        gutter-width: 1em
     # page-layout: article
     fontsize: 1em
     linestretch: 1.5

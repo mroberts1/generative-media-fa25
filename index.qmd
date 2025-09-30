@@ -159,13 +159,25 @@ Thur_25-Sept
 
 **Waveforms: Women and Generative Music**
 
+::: {.column-margin}
+
+{{< video https://youtu.be/fNodsrQhQ28 width="300" >}}
+
+{{< video  https://youtu.be/95UvPlhjbE4 width="300" >}}
+
+{{< video https://vimeo.com/8983993 width="300" >}}
+
+:::
+
 Tues_30-Sept
 
-- Excerpts from *Sisters With Transistors* (documentary) (Lisa Rovner, 2022)
+- *Sisters With Transistors* (Lisa Rovner, 2022) (excerpts)
 
 Thur_02-Oct
 
-TBA
+- Mandel Cabrera, "[Precarious Sound, Precarious Being: Éliane Radigue's Feedback Works](https://mandelcabrera.com/2019/06/17/precarious-sound-precarious-being-eliane-radigues-feedback-works/)" (*Empassive* (blog), 17 June 2019)
+- Mandel Cabrera, "[Feedback](pdf/mandel-cabrera-feedback.pdf)," in Sharon Jane Mee and Luke Robinson, *Sound Affects: A User's Guide* (New York: Bloomsbury Academic, 2023)
+- "[A Portrait of Éliane Radigue](https://vimeo.com/8983993)" (Institute for Media Archaeology, 2009)
 
 ***
 
