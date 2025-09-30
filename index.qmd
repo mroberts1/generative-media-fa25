@@ -183,39 +183,34 @@ Thur_02-Oct
 
 *Week 6*
 
-**Mondrian: Computer Graphics**
+**Permuations**
 
 Tues_07-Oct
 
-- Amy Goodchild, "[Early Computer Art in the '50s and '60s](https://www.amygoodchild.com/blog/computer-art-50s-and-60s)"
-- A. Michael Noll, "Human or Machine? A Subjective Comparison of Piet Mondrian's 'Composition With Lines' (1917) and a Computer-Generated Picture"
-- [Early 3D Computer Graphics from Bell Labs](https://youtu.be/M4nql28E_AE)  
-
-::: {.column-margin}
-
-{{< video https://youtu.be/M4nql28E_AE width="300" >}}
-
-:::
+- Raymond Queneau, [*A Hundred Thousand Billion Poems*](https://en.wikipedia.org/wiki/A_Hundred_Thousand_Billion_Poems)
+- [Interactive edition](https://www.bevrowe.info/Internet/Queneau/Queneau.html)
+- Eno, [*77 Million Paintings*](https://en.wikipedia.org/wiki/77_Million_Paintings)
+- [*7 Hours in 77 Million Paintings*](https://vimeo.com/groups/chillounge/videos/751767)(420 mins. \> 35 mins. timelapse)
+- [*7 More Hours in 77 Million Paintings*\]([https://vimeo.com/751767](https://vimeo.com/751767?fl=pl&fe=sh)) (420 mins. \> 35 mins. timelapse)
 
 Thur_09-Oct
 
-- Lev Manovich, "Who is 'An Artist' in the 'AI Era'?"
-- Processing Mondrian
+Guest speaker: Geeta Dayal
 
 ***
 
 *Week 7*
 
-**Fractal Worlds**
+**Language Games**
 
 Tues_14-Oct
 
-- [Mandelbulb](https://www.mandelbulb.com/)  
-- [Fractal Worlds](https://www.youtube.com/watch?v=xj_4jvSDVME&list=PL1ywvug1r6ThGOrb9vQNfqYsI5XNyV3B3&index=14&ab_channel=bib993) (YouTube channel)
+- *The Penguin Book of OULIPO*, selected chs.
 
 Thur_16-Oct
 
-Oblique Strategies Projects
+- Rob Clouth, [*The Harry Potter Book Generator*](https://robclouth.com/#projects/the-harry-potter-book-generator)
+- NanoGenMo
 
 **DEADLINE: Oblique Strategies Project**
 
@@ -223,50 +218,53 @@ Oblique Strategies Projects
 
 *Week 8*
 
-**Ecosystems**
+**Fractal Worlds**
 
 Tues_21-Oct
 
-Conway's Game of Life
-
+- [Mandelbulb](https://www.mandelbulb.com/)  
+- [Fractal Worlds](https://www.youtube.com/watch?v=xj_4jvSDVME&list=PL1ywvug1r6ThGOrb9vQNfqYsI5XNyV3B3&index=14&ab_channel=bib993) (YouTube channel)
+  
 Thur_23-Oct
 
-Lenia
+Oblique Strategies Projects
 
 ***
 
 *Week 9*
 
-**Permutations**
+**Mondrian: Computer Graphics**
+
+::: {.column-margin}
+
+{{< video https://youtu.be/M4nql28E_AE width="300" >}}
+
+:::
 
 Tues_28-Oct
 
-- Raymond Queneau, [*A Hundred Thousand Billion Poems*](https://en.wikipedia.org/wiki/A_Hundred_Thousand_Billion_Poems)
-
-- [Interactive edition](https://www.bevrowe.info/Internet/Queneau/Queneau.html)
-
-- Eno, [*77 Million Paintings*](https://en.wikipedia.org/wiki/77_Million_Paintings)
-
-- [*7 Hours in 77 Million Paintings*](https://vimeo.com/groups/chillounge/videos/751767)(420 mins. \> 35 mins. timelapse)
-- [*7 More Hours in 77 Million Paintings*\]([https://vimeo.com/751767](https://vimeo.com/751767?fl=pl&fe=sh)) (420 mins. \> 35 mins. timelapse)
-
+- Amy Goodchild, "[Early Computer Art in the '50s and '60s](https://www.amygoodchild.com/blog/computer-art-50s-and-60s)"
+- A. Michael Noll, "Human or Machine? A Subjective Comparison of Piet Mondrian's 'Composition With Lines' (1917) and a Computer-Generated Picture"
+- [Early 3D Computer Graphics from Bell Labs](https://youtu.be/M4nql28E_AE) 
 
 Thur_30-Oct
+
+- Lev Manovich, "Who is 'An Artist' in the 'AI Era'?"
+- Processing Mondrian
 
 ***
 
 *Week 10*
 
-**Language Games**
+**Ecosystems**
 
 Tues_04-Nov
 
-- *The Penguin Book of OULIPO*, selected chs.  
+Conway's Game of Life
 
 Thur_06-Nov
 
-- Rob Clouth, [*The Harry Potter Book Generator*](https://robclouth.com/#projects/the-harry-potter-book-generator)
-- NanoGenMo
+Lenia
 
 ***
 
