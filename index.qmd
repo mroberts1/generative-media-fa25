@@ -27,6 +27,15 @@ subtitle: "History, Theory, Practice"
     const prefersReduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const SPEED = prefersReduced ? 0.25 : 1.0;
 
+    function getRenderer() {
+      const w = window;
+      if (w.shaderParkCore && typeof w.shaderParkCore.sculptToMinimalRenderer === 'function') return w.shaderParkCore.sculptToMinimalRenderer;
+      if (w.shaderParkCore && w.shaderParkCore.default && typeof w.shaderParkCore.default.sculptToMinimalRenderer === 'function') return w.shaderParkCore.default.sculptToMinimalRenderer;
+      if (w.ShaderPark && typeof w.ShaderPark.sculptToMinimalRenderer === 'function') return w.ShaderPark.sculptToMinimalRenderer;
+      if (typeof w.sculptToMinimalRenderer === 'function') return w.sculptToMinimalRenderer;
+      return null;
+    }
+
     const init = () => {
       sizeCanvas();
       window.addEventListener('resize', sizeCanvas);
@@ -53,10 +62,11 @@ sphere(endSize * oscillation);
 `;
 
       try {
-        if (window.shaderParkCore && window.shaderParkCore.sculptToMinimalRenderer) {
-          window.shaderParkCore.sculptToMinimalRenderer(canvas, code);
-        } else if (window.shaderParkCore && window.shaderParkCore.default && window.shaderParkCore.default.sculptToMinimalRenderer) {
-          window.shaderParkCore.default.sculptToMinimalRenderer(canvas, code);
+        const render = getRenderer();
+        if (render) {
+          render(canvas, code);
+        } else {
+          console.error('Shader Park renderer not found');
         }
       } catch (e) {
         console.error('Shader Park init error:', e);
