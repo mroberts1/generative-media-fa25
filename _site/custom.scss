@@ -24,3 +24,10 @@ canvas[style*="background: transparent"] {
   background-color: transparent !important;
 }
 
+/* Responsive container for homepage shader */
+.shader-wrap {
+  max-width: 100%;
+  aspect-ratio: 1 / 1; /* square canvas */
+  margin: 0 auto;
+}
+
