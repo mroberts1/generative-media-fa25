@@ -1,0 +1,72 @@
+---
+title: "Video Archive"
+---
+
+# Course Video Collection
+
+*All videos are embedded from YouTube. Backup copies are available on Google Drive if needed.*
+
+---
+
+## Electronic Music & Sound Art
+
+### Brian Eno - Ambient 1: Music for Airports (Full Album)
+{{< video https://youtu.be/vNwYtllyt3Q >}}
+[📁 Backup Copy](https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view)
+
+### Roxy Music - Virginia Plain (Time-stretched Version)
+{{< video https://youtu.be/L8rBVU4gsMs >}}
+[📁 Backup Copy](https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view)
+
+### Kaitlyn Aurelia Smith - In The Studio
+{{< video https://youtu.be/95UvPlhjbE4 >}}
+[📁 Backup Copy](https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view)
+
+---
+
+## Algorithmic & Generative Systems
+
+### I Ching Oracle Tutorial for Complete Beginners
+{{< video https://youtu.be/eNqeE5c4W-s >}}
+[📁 Backup Copy](https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view)
+
+### Infinite City - Wave Function Collapse Algorithm
+{{< video https://youtu.be/7ffT_8wViBA >}}
+[📁 Backup Copy](https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view)
+
+---
+
+## Historical Context
+
+### Steve Reich - It's Gonna Rain, Pt. I (1965)
+{{< video https://youtu.be/X1zuX6nRHNk >}}
+[📁 Backup Copy](https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view)
+
+### Early 3D Computer Graphics From Bell Labs - AT&T Archives
+{{< video https://youtu.be/M4nql28E_AE >}}
+[📁 Backup Copy](https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view)
+
+### Bells Of Atlantis - Ian Hugo (1952)
+{{< video https://youtu.be/fNodsrQhQ28 >}}
+[📁 Backup Copy](https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view)
+
+---
+
+## 3D Fractals & Computational Visualization
+
+### 3D Fractal - Sierpinski/SierpHilbert zoom out
+{{< video https://www.youtube.com/watch?v=xj_4jvSDVME >}}
+[📁 Backup Copy](https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view)
+
+*Additional fractal animations available in backup folder*
+
+---
+
+## About This Archive
+
+- **Primary Source**: YouTube (embedded above for best streaming experience)
+- **Backup Storage**: Google Drive (Emerson College account)
+- **Purpose**: Educational use in VM402-09 Generative Media course
+- **Access**: Links will be updated if YouTube sources become unavailable
+
+*Note: Backup links require Emerson College authentication*
