@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>quarto-input901d1331bd321ece</title>
+<title>Video Archive –</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,41 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -109,8 +74,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-<script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
-<link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="custom.scss">
@@ -343,7 +306,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title"></h1>
+          <h1 class="quarto-secondary-nav-title">Video Archive</h1>
         </a>     
     </div>
   </nav>
@@ -364,74 +327,100 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div></div>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
 
 
-
-
-
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="6" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 5;"><span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="co">// Import from the Observable notebook that has working Hydra</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> {Hydra} <span class="im">from</span> <span class="st">"@magfoto/hydra-synth"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display">
-<div id="ojs-cell-1" data-nodetype="declaration">
-
-</div>
-</div>
-</div>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb2" data-startfrom="12" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 11;"><span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>{</span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  <span class="co">// Create container with canvas for Hydra - full body width</span></span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> container <span class="op">=</span> <span class="fu">html</span><span class="vs">`&lt;div style="width: 100%; height: 500px; margin: 0 auto; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);"&gt;</span></span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="vs">    &lt;canvas style="width: 100%; height: 100%; display: block; border-radius: 8px;"&gt;&lt;/canvas&gt;</span></span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="vs">  &lt;/div&gt;`</span><span class="op">;</span></span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> canvas <span class="op">=</span> container<span class="op">.</span><span class="fu">querySelector</span>(<span class="st">'canvas'</span>)<span class="op">;</span></span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>  canvas<span class="op">.</span><span class="at">width</span> <span class="op">=</span> <span class="dv">960</span><span class="op">;</span>  <span class="co">// Larger canvas resolution</span></span>
-<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>  canvas<span class="op">.</span><span class="at">height</span> <span class="op">=</span> <span class="dv">500</span><span class="op">;</span> <span class="co">// Maintains aspect ratio</span></span>
-<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>  <span class="cf">try</span> {</span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>    <span class="co">// Initialize Hydra with the canvas - this creates global functions</span></span>
-<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> hydra <span class="op">=</span> <span class="kw">new</span> <span class="fu">Hydra</span>({ <span class="dt">canvas</span><span class="op">:</span> canvas<span class="op">,</span> <span class="dt">detectAudio</span><span class="op">:</span> <span class="kw">false</span> })<span class="op">;</span></span>
-<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a>    <span class="co">// Wait for Hydra to initialize and create global functions</span></span>
-<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>    <span class="cf">await</span> <span class="kw">new</span> <span class="bu">Promise</span>(resolve <span class="kw">=&gt;</span> <span class="pp">setTimeout</span>(resolve<span class="op">,</span> <span class="dv">200</span>))<span class="op">;</span></span>
-<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>    </span>
-<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>    <span class="co">// The Hydra code from your URL (decoded) - using global functions created by Hydra</span></span>
-<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>    <span class="co">// src(o0).modulateHue(src(o0).scale(1.01), 2).layer(osc(8, 0.1, 2).mask(shape(4, 0.3, 1e-6)), 0.1).out()</span></span>
-<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>    <span class="bu">window</span><span class="op">.</span><span class="fu">src</span>(<span class="bu">window</span><span class="op">.</span><span class="at">o0</span>)</span>
-<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">modulateHue</span>(<span class="bu">window</span><span class="op">.</span><span class="fu">src</span>(<span class="bu">window</span><span class="op">.</span><span class="at">o0</span>)<span class="op">.</span><span class="fu">scale</span>(<span class="fl">1.01</span>)<span class="op">,</span> <span class="dv">2</span>)</span>
-<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">layer</span>(<span class="bu">window</span><span class="op">.</span><span class="fu">osc</span>(<span class="dv">8</span><span class="op">,</span> <span class="fl">0.1</span><span class="op">,</span> <span class="dv">2</span>)<span class="op">.</span><span class="fu">mask</span>(<span class="bu">window</span><span class="op">.</span><span class="at">shape</span>(<span class="dv">4</span><span class="op">,</span> <span class="fl">0.3</span><span class="op">,</span> <span class="fl">1e-6</span>))<span class="op">,</span> <span class="fl">0.1</span>)</span>
-<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">out</span>()<span class="op">;</span></span>
-<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>      </span>
-<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">catch</span> (error) {</span>
-<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>    <span class="bu">console</span><span class="op">.</span><span class="fu">error</span>(<span class="st">'Hydra error:'</span><span class="op">,</span> error)<span class="op">;</span></span>
-<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a>    container<span class="op">.</span><span class="at">innerHTML</span> <span class="op">=</span> <span class="vs">`&lt;div style="display: flex; align-items: center; justify-content: center; height: 100%; color: #666; font-size: 14px; background: linear-gradient(45deg, #f8f9fa, #e9ecef); border-radius: 8px; font-family: system-ui, sans-serif;"&gt;Interactive Hydra visualization&lt;br&gt;&lt;small style="opacity: 0.7;"&gt;Loading...&lt;/small&gt;&lt;/div&gt;`</span><span class="op">;</span></span>
-<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>  }</span>
-<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>  </span>
-<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> container<span class="op">;</span></span>
-<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output cell-output-display">
-<div id="ojs-cell-2" data-nodetype="expression">
-
-</div>
-</div>
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Video Archive</h1>
 </div>
 
 
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="course-video-collection" class="level1">
+<h1>Course Video Collection</h1>
+<p><em>All videos are embedded from YouTube. Backup copies are available on Google Drive if needed.</em></p>
+<hr>
+<section id="electronic-music-sound-art" class="level2">
+<h2 class="anchored" data-anchor-id="electronic-music-sound-art">Electronic Music &amp; Sound Art</h2>
+<section id="brian-eno---ambient-1-music-for-airports-full-album" class="level3">
+<h3 class="anchored" data-anchor-id="brian-eno---ambient-1-music-for-airports-full-album">Brian Eno - Ambient 1: Music for Airports (Full Album)</h3>
+<p></p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/vNwYtllyt3Q" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <a href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view">📁 Backup Copy</a><p></p>
+</section>
+<section id="roxy-music---virginia-plain-time-stretched-version" class="level3">
+<h3 class="anchored" data-anchor-id="roxy-music---virginia-plain-time-stretched-version">Roxy Music - Virginia Plain (Time-stretched Version)</h3>
+<p></p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/L8rBVU4gsMs" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <a href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view">📁 Backup Copy</a><p></p>
+</section>
+<section id="kaitlyn-aurelia-smith---in-the-studio" class="level3">
+<h3 class="anchored" data-anchor-id="kaitlyn-aurelia-smith---in-the-studio">Kaitlyn Aurelia Smith - In The Studio</h3>
+<p></p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/95UvPlhjbE4" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <a href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view">📁 Backup Copy</a><p></p>
+<hr>
+</section>
+</section>
+<section id="algorithmic-generative-systems" class="level2">
+<h2 class="anchored" data-anchor-id="algorithmic-generative-systems">Algorithmic &amp; Generative Systems</h2>
+<section id="i-ching-oracle-tutorial-for-complete-beginners" class="level3">
+<h3 class="anchored" data-anchor-id="i-ching-oracle-tutorial-for-complete-beginners">I Ching Oracle Tutorial for Complete Beginners</h3>
+<p></p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/eNqeE5c4W-s" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <a href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view">📁 Backup Copy</a><p></p>
+</section>
+<section id="infinite-city---wave-function-collapse-algorithm" class="level3">
+<h3 class="anchored" data-anchor-id="infinite-city---wave-function-collapse-algorithm">Infinite City - Wave Function Collapse Algorithm</h3>
+<p></p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/7ffT_8wViBA" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <a href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view">📁 Backup Copy</a><p></p>
+<hr>
+</section>
+</section>
+<section id="historical-context" class="level2">
+<h2 class="anchored" data-anchor-id="historical-context">Historical Context</h2>
+<section id="steve-reich---its-gonna-rain-pt.-i-1965" class="level3">
+<h3 class="anchored" data-anchor-id="steve-reich---its-gonna-rain-pt.-i-1965">Steve Reich - It’s Gonna Rain, Pt. I (1965)</h3>
+<p></p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/X1zuX6nRHNk" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <a href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view">📁 Backup Copy</a><p></p>
+</section>
+<section id="early-3d-computer-graphics-from-bell-labs---att-archives" class="level3">
+<h3 class="anchored" data-anchor-id="early-3d-computer-graphics-from-bell-labs---att-archives">Early 3D Computer Graphics From Bell Labs - AT&amp;T Archives</h3>
+<p></p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/M4nql28E_AE" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <a href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view">📁 Backup Copy</a><p></p>
+</section>
+<section id="bells-of-atlantis---ian-hugo-1952" class="level3">
+<h3 class="anchored" data-anchor-id="bells-of-atlantis---ian-hugo-1952">Bells Of Atlantis - Ian Hugo (1952)</h3>
+<p></p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/fNodsrQhQ28" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <a href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view">📁 Backup Copy</a><p></p>
+<hr>
+</section>
+</section>
+<section id="d-fractals-computational-visualization" class="level2">
+<h2 class="anchored" data-anchor-id="d-fractals-computational-visualization">3D Fractals &amp; Computational Visualization</h2>
+<section id="d-fractal---sierpinskisierphilbert-zoom-out" class="level3">
+<h3 class="anchored" data-anchor-id="d-fractal---sierpinskisierphilbert-zoom-out">3D Fractal - Sierpinski/SierpHilbert zoom out</h3>
+<p></p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/xj_4jvSDVME" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <a href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view">📁 Backup Copy</a><p></p>
+<p><em>Additional fractal animations available in backup folder</em></p>
+<hr>
+</section>
+</section>
+<section id="about-this-archive" class="level2">
+<h2 class="anchored" data-anchor-id="about-this-archive">About This Archive</h2>
+<ul>
+<li><strong>Primary Source</strong>: YouTube (embedded above for best streaming experience)</li>
+<li><strong>Backup Storage</strong>: Google Drive (Emerson College account)</li>
+<li><strong>Purpose</strong>: Educational use in VM402-09 Generative Media course</li>
+<li><strong>Access</strong>: Links will be updated if YouTube sources become unavailable</li>
+</ul>
+<p><em>Note: Backup links require Emerson College authentication</em></p>
+
+
+</section>
+</section>
 
 </main> <!-- /main -->
-<script type="ojs-module-contents">
-eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxuLy8gSW1wb3J0IGZyb20gdGhlIE9ic2VydmFibGUgbm90ZWJvb2sgdGhhdCBoYXMgd29ya2luZyBIeWRyYVxuaW1wb3J0IHtIeWRyYX0gZnJvbSBcIkBtYWdmb3RvL2h5ZHJhLXN5bnRoXCJcbiJ9LHsibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMiIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IntcbiAgLy8gQ3JlYXRlIGNvbnRhaW5lciB3aXRoIGNhbnZhcyBmb3IgSHlkcmEgLSBmdWxsIGJvZHkgd2lkdGhcbiAgY29uc3QgY29udGFpbmVyID0gaHRtbGA8ZGl2IHN0eWxlPVwid2lkdGg6IDEwMCU7IGhlaWdodDogNTAwcHg7IG1hcmdpbjogMCBhdXRvOyBib3JkZXItcmFkaXVzOiA4cHg7IG92ZXJmbG93OiBoaWRkZW47IGJveC1zaGFkb3c6IDAgMnB4IDhweCByZ2JhKDAsIDAsIDAsIDAuMSk7XCI+XG4gICAgPGNhbnZhcyBzdHlsZT1cIndpZHRoOiAxMDAlOyBoZWlnaHQ6IDEwMCU7IGRpc3BsYXk6IGJsb2NrOyBib3JkZXItcmFkaXVzOiA4cHg7XCI+PC9jYW52YXM+XG4gIDwvZGl2PmA7XG4gIFxuICBjb25zdCBjYW52YXMgPSBjb250YWluZXIucXVlcnlTZWxlY3RvcignY2FudmFzJyk7XG4gIGNhbnZhcy53aWR0aCA9IDk2MDsgIC8vIExhcmdlciBjYW52YXMgcmVzb2x1dGlvblxuICBjYW52YXMuaGVpZ2h0ID0gNTAwOyAvLyBNYWludGFpbnMgYXNwZWN0IHJhdGlvXG4gIFxuICB0cnkge1xuICAgIC8vIEluaXRpYWxpemUgSHlkcmEgd2l0aCB0aGUgY2FudmFzIC0gdGhpcyBjcmVhdGVzIGdsb2JhbCBmdW5jdGlvbnNcbiAgICBjb25zdCBoeWRyYSA9IG5ldyBIeWRyYSh7IGNhbnZhczogY2FudmFzLCBkZXRlY3RBdWRpbzogZmFsc2UgfSk7XG4gICAgXG4gICAgLy8gV2FpdCBmb3IgSHlkcmEgdG8gaW5pdGlhbGl6ZSBhbmQgY3JlYXRlIGdsb2JhbCBmdW5jdGlvbnNcbiAgICBhd2FpdCBuZXcgUHJvbWlzZShyZXNvbHZlID0+IHNldFRpbWVvdXQocmVzb2x2ZSwgMjAwKSk7XG4gICAgXG4gICAgLy8gVGhlIEh5ZHJhIGNvZGUgZnJvbSB5b3VyIFVSTCAoZGVjb2RlZCkgLSB1c2luZyBnbG9iYWwgZnVuY3Rpb25zIGNyZWF0ZWQgYnkgSHlkcmFcbiAgICAvLyBzcmMobzApLm1vZHVsYXRlSHVlKHNyYyhvMCkuc2NhbGUoMS4wMSksIDIpLmxheWVyKG9zYyg4LCAwLjEsIDIpLm1hc2soc2hhcGUoNCwgMC4zLCAxZS02KSksIDAuMSkub3V0KClcbiAgICB3aW5kb3cuc3JjKHdpbmRvdy5vMClcbiAgICAgIC5tb2R1bGF0ZUh1ZSh3aW5kb3cuc3JjKHdpbmRvdy5vMCkuc2NhbGUoMS4wMSksIDIpXG4gICAgICAubGF5ZXIod2luZG93Lm9zYyg4LCAwLjEsIDIpLm1hc2sod2luZG93LnNoYXBlKDQsIDAuMywgMWUtNikpLCAwLjEpXG4gICAgICAub3V0KCk7XG4gICAgICBcbiAgfSBjYXRjaCAoZXJyb3IpIHtcbiAgICBjb25zb2xlLmVycm9yKCdIeWRyYSBlcnJvcjonLCBlcnJvcik7XG4gICAgY29udGFpbmVyLmlubmVySFRNTCA9IGA8ZGl2IHN0eWxlPVwiZGlzcGxheTogZmxleDsgYWxpZ24taXRlbXM6IGNlbnRlcjsganVzdGlmeS1jb250ZW50OiBjZW50ZXI7IGhlaWdodDogMTAwJTsgY29sb3I6ICM2NjY7IGZvbnQtc2l6ZTogMTRweDsgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KDQ1ZGVnLCAjZjhmOWZhLCAjZTllY2VmKTsgYm9yZGVyLXJhZGl1czogOHB4OyBmb250LWZhbWlseTogc3lzdGVtLXVpLCBzYW5zLXNlcmlmO1wiPkludGVyYWN0aXZlIEh5ZHJhIHZpc3VhbGl6YXRpb248YnI+PHNtYWxsIHN0eWxlPVwib3BhY2l0eTogMC43O1wiPkxvYWRpbmcuLi48L3NtYWxsPjwvZGl2PmA7XG4gIH1cbiAgXG4gIHJldHVybiBjb250YWluZXI7XG59XG4ifV19
-</script>
-<script type="module">
-if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
-window._ojs.paths.runtimeToDoc = "../..";
-window._ojs.paths.runtimeToRoot = "../..";
-window._ojs.paths.docToRoot = "";
-window._ojs.selfContained = false;
-window._ojs.runtime.interpretFromScriptTags();
-</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right

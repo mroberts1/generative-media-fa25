@@ -203,6 +203,48 @@
     "text": "_quarto.yml - Website configuration, theming, publishing settings\nreferences.bib - Bibliography database\nchicago-author-date.csl - Citation style\n.gitignore - Excludes large media files and sensitive content\n\n\n\n\n\nember.scss - Primary theme file\ncustom.scss - Additional styling overrides\nfonts/ - Custom web font files (Avenir, Helvetica, etc.)\n\n\n\n\n\nindex.qmd - Main syllabus (course description, schedule, assignments)\nbibliography.qmd - Course readings and references\npdf/ - Academic readings and course materials\n\n\n\n\n\ncomprehensive-fix.sh - Full git worktree cleanup procedure\nfinal-fix.sh - Simplified worktree cleanup\ncorrect-publish.sh - Publishing command reference\n\nThese scripts exist due to historical publishing issues but document the solutions that work for this project."
   },
   {
+    "objectID": "video-archive.html",
+    "href": "video-archive.html",
+    "title": "Video Archive",
+    "section": "",
+    "text": "All videos are embedded from YouTube. Backup copies are available on Google Drive if needed.\n\n\n\n\n\n 📁 Backup Copy\n\n\n\n 📁 Backup Copy\n\n\n\n 📁 Backup Copy\n\n\n\n\n\n\n\n 📁 Backup Copy\n\n\n\n 📁 Backup Copy\n\n\n\n\n\n\n\n 📁 Backup Copy\n\n\n\n 📁 Backup Copy\n\n\n\n 📁 Backup Copy\n\n\n\n\n\n\n\n 📁 Backup Copy\nAdditional fractal animations available in backup folder\n\n\n\n\n\n\nPrimary Source: YouTube (embedded above for best streaming experience)\nBackup Storage: Google Drive (Emerson College account)\nPurpose: Educational use in VM402-09 Generative Media course\nAccess: Links will be updated if YouTube sources become unavailable\n\nNote: Backup links require Emerson College authentication"
+  },
+  {
+    "objectID": "video-archive.html#electronic-music-sound-art",
+    "href": "video-archive.html#electronic-music-sound-art",
+    "title": "Video Archive",
+    "section": "",
+    "text": "📁 Backup Copy\n\n\n\n 📁 Backup Copy\n\n\n\n 📁 Backup Copy"
+  },
+  {
+    "objectID": "video-archive.html#algorithmic-generative-systems",
+    "href": "video-archive.html#algorithmic-generative-systems",
+    "title": "Video Archive",
+    "section": "",
+    "text": "📁 Backup Copy\n\n\n\n 📁 Backup Copy"
+  },
+  {
+    "objectID": "video-archive.html#historical-context",
+    "href": "video-archive.html#historical-context",
+    "title": "Video Archive",
+    "section": "",
+    "text": "📁 Backup Copy\n\n\n\n 📁 Backup Copy\n\n\n\n 📁 Backup Copy"
+  },
+  {
+    "objectID": "video-archive.html#d-fractals-computational-visualization",
+    "href": "video-archive.html#d-fractals-computational-visualization",
+    "title": "Video Archive",
+    "section": "",
+    "text": "📁 Backup Copy\nAdditional fractal animations available in backup folder"
+  },
+  {
+    "objectID": "video-archive.html#about-this-archive",
+    "href": "video-archive.html#about-this-archive",
+    "title": "Video Archive",
+    "section": "",
+    "text": "Primary Source: YouTube (embedded above for best streaming experience)\nBackup Storage: Google Drive (Emerson College account)\nPurpose: Educational use in VM402-09 Generative Media course\nAccess: Links will be updated if YouTube sources become unavailable\n\nNote: Backup links require Emerson College authentication"
+  },
+  {
     "objectID": "bibliography.html",
     "href": "bibliography.html",
     "title": "Bibliography",
