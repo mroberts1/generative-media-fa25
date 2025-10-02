@@ -5,14 +5,12 @@ subtitle: "History, Theory, Practice"
 
 ::: {layout="[[50, 50]]"}
 
-<div>
 <iframe src="https://shaderpark.com/embed/-OZ3EHXk8r1JyhqgVTCy" 
         width="500" 
         height="500" 
         frameborder="0" 
         style="display: block; margin: 0 auto; border: none;">
 </iframe>
-</div>
 
 :::
 
