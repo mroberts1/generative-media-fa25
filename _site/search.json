@@ -63,174 +63,6 @@
     "text": "Gen Media - course structure\nTopics\n\nIntro: Furniture Music: Satie (Vexations) + Nobody & The Computer\nMusic of Changes: Cage/Young\nOULIPO and Computational Literature\nComputer Art\nFractals - art, movies, 3D\nAmbient music\nAmbient TV and Cinema (Eno, 77 Million Paintings, the recent documentary)\nProcedural Media: Videogames (Minecraft)\nAI\nAI\nPresentations Conclusion"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Generative Media",
-    "section": "",
-    "text": "&lt;/div&gt;\n&lt;div class=\"quarto-layout-cell\" style=\"flex-basis: 50.0%;justify-content: flex-start;\"&gt;\nShader: T1 by h2ee [Fullscreen]"
-  },
-  {
-    "objectID": "index.html#description",
-    "href": "index.html#description",
-    "title": "Generative Media",
-    "section": "Description",
-    "text": "Description\n\nIt’s very useful in the arts to have certain sorts of systems, [particularly] if you’re working with something that doesn’t have immediate limitations because you don’t have enough money. … Sometimes not having enough money is good, because you don’t end up throwing a million dollars at a five-cent idea. But [what] if the idea doesn’t require any money? How do you actually stop yourself from putting too much into an idea that’s too small? You find an external system. And some of the best systems in the world come out of physics, the sciences. Math.\n—Judy Nylon, cited in Geeta Dayal, Another Green Word (23-24).\n\nAlthough the term “generative” is today often treated as synonymous with AI-based artistic practices, generative art and aesthetics long predates the digital era, with antecedents that include the experiments with musical chance of John Cage and Lamonte Young, the early computational art of the 1960s, fractal images and music in the 1970s, or the ambient music of Brian Eno. The popularization of algorithmic tools that enable images, music, literary works, animation, and motion graphics to be generated from text and image prompts, however, has led to a surge in interest in code-based and algorithmic forms of creativity, along with debates about the aesthetic and ethical legitimacy of AI-generated artworks and other creative content. While computational art has been able to pass as human since the 1960s, the current explosive growth of algorithmic tools has rekindled aesthetic debates about the technological dimension of art and the relationship of art to the human more generally.\nThis course explores the history of generative approaches in the media arts, as well as changing social attitudes towards these and the contemporary debate swirling around “AI art.” In addition to historical examples and philosophical dimensions, students are introduced to a variety of generative approaches to artistic creativity, and collaborate on producing generative artworks in a medium of their choice using a variety of tools, frameworks, and platforms."
-  },
-  {
-    "objectID": "index.html#texts",
-    "href": "index.html#texts",
-    "title": "Generative Media",
-    "section": "Texts",
-    "text": "Texts\n\nGeeta Dayal, Another Green World (New York: Continuum, 2009).\nBenedikt Gross, Hartmut Bohnacker, and Julia Laub, Generative Design: Visualize, Program, and Create with P5.js. Princeton, NJ: Princeton Architectural Press, 2018.\nPhilip, Terry, ed., The Penguin Book of Oulipo. London: Penguin Classics, 2020."
-  },
-  {
-    "objectID": "index.html#films",
-    "href": "index.html#films",
-    "title": "Generative Media",
-    "section": "Films",
-    "text": "Films\n\nJohn Cage: Journeys in Sound (Allan Miller and Paul Smaczny, 2012).\n\nEno (Gary Hustwit, 2024).\nSisters With Transistors (Lisa Rovner, 2022)"
-  },
-  {
-    "objectID": "index.html#assignments-evaluation",
-    "href": "index.html#assignments-evaluation",
-    "title": "Generative Media",
-    "section": "Assignments & Evaluation",
-    "text": "Assignments & Evaluation\nReflection post (weekly, due Friday of each week, 10 required) (40%)\nAudiovisual or Textual Generative Work (20%, due at Thanksgiving)\nResearch Paper (20%, due Thur 11 Dec)\nOblique Strategies Project (20%, due 16 Oct)"
-  },
-  {
-    "objectID": "index.html#class-schedule",
-    "href": "index.html#class-schedule",
-    "title": "Generative Media",
-    "section": "Class Schedule",
-    "text": "Class Schedule\nWeek 1\nIntroduction: Unpromising Beginnings\nThur_04-Sept\n\nWeek 2\nOblique Strategies\n\n\n\nTues_9-Sept\n\n\n\n“Work at a different speed”\n\nGeeta Dayal, Another Green World, chs. 1-3\n\nThur_11-Sept\n\nBrian Eno, “Generating and Organizing Variety in the Arts” (Studio International, 1976)\nBrian Eno, Music for Airports (and other albums), liner notes\nGeeta Dayal, Another Green World, chs. 4-6\n\n\nWeek 3\nTues_16-Sept\n“Interesting failure after interesting failure”\n\n\n\n\nGeeta Dayal, Another Green World, chs. 7-9\n\nThur_18-Sept\n\nGeeta Dayal, Another Green World, chs. 10-12\n“How Brian Eno Created ‘Discreet Music’”\n\n\nWeek 4\nImaginary Landscapes: John Cage\n\n\n\nTues_23-Sept\n\nScreening: John Cage: Journeys in Sound\n\nThur_25-Sept\nPhasing: Steve Reich\n\n\n\n\nSteve Reich, “Music as a Gradual Process” (1968)\nTerry Riley, In C\n\n\nWeek 5\nWaveforms: Women and Generative Music\n\n\n\n\n\nTues_30-Sept\n\nSisters With Transistors (Lisa Rovner, 2022) (excerpts)\n\nThur_02-Oct\n\nMandel Cabrera, “Precarious Sound, Precarious Being: Éliane Radigue’s Feedback Works” (Empassive (blog), 17 June 2019)\nMandel Cabrera, “Feedback,” in Sharon Jane Mee and Luke Robinson, Sound Affects: A User’s Guide (New York: Bloomsbury Academic, 2023)\n“A Portrait of Éliane Radigue” (Institute for Media Archaeology, 2009)\n\n\nWeek 6\nPermuations\nTues_07-Oct\n\nRaymond Queneau, A Hundred Thousand Billion Poems\nInteractive edition\nEno, 77 Million Paintings\n7 Hours in 77 Million Paintings(420 mins. &gt; 35 mins. timelapse)\n[7 More Hours in 77 Million Paintings](https://vimeo.com/751767) (420 mins. &gt; 35 mins. timelapse)\n\nThur_09-Oct\nGuest speaker: Geeta Dayal\n\nWeek 7\nLanguage Games\nTues_14-Oct\n\nThe Penguin Book of OULIPO, selected chs.\n\nThur_16-Oct\n\nRob Clouth, The Harry Potter Book Generator\nNanoGenMo\n\nDEADLINE: Oblique Strategies Project\n\nWeek 8\nFractal Worlds\nTues_21-Oct\n\nMandelbulb\n\nFractal Worlds (YouTube channel)\n\nThur_23-Oct\nOblique Strategies Projects\n\nWeek 9\nMondrian: Computer Graphics\n\n\n\nTues_28-Oct\n\nAmy Goodchild, “Early Computer Art in the ’50s and ’60s”\nA. Michael Noll, “Human or Machine? A Subjective Comparison of Piet Mondrian’s ‘Composition With Lines’ (1917) and a Computer-Generated Picture”\nEarly 3D Computer Graphics from Bell Labs\n\nThur_30-Oct\n\nLev Manovich, “Who is ‘An Artist’ in the ‘AI Era’?”\nProcessing Mondrian\n\n\nWeek 10\nEcosystems\nTues_04-Nov\nConway’s Game of Life\nThur_06-Nov\nLenia\n\nWeek 11\nVeterans Day\nThur_13-Nov\nProcedural Worlds\n\nSimon Parkin, “A Journey to the End of the World (of Minecraft)” (The New Yorker, 23 January 2014)\nWave Function Collapse\n\n\n\n\n\nWeek 12\nGenerative Art & Design\nTues_18-Nov\n\nGenerative Design\n\nThur_20-Nov\n\nRead the interviews with Josef Pelz, Étienne Jacob, Shohei Fujimoto, Giulia Cosco, and/or Pierre Paslier\n\n\nWeek 13\nTues_25-Nov\nTBA\nThanksgiving\n\nWeek 14\nTues_02-Dec Presentations\nThur_04-Dec Presentations\n\nWeek 15\nTues_09-Dec Presentations\nThur_11-Dec Presentations\n\nWeek 16\nTues_16-Dec Conclusion"
-  },
-  {
-    "objectID": "index.html#policies",
-    "href": "index.html#policies",
-    "title": "Generative Media",
-    "section": "Policies",
-    "text": "Policies\nAttendance and Participation\nFull participation in class discussions and timely submission of all assignments constitutes evidence of class attendance. Students are expected to allocate sufficient time to complete all the requirements for each module: reading, viewing, responding to discussion questions, submitting replies to classmates, and completing other assignments on time. Failure to keep up with the pace of the course may result in lower grades or the failure of the class.\nAcademic Honesty\nDo not plagiarize. Plagiarism is using someone else’s work without giving them fair credit. Plagiarism and cheating will result in an “F” for the assignment.\nAccommodations\nEmerson is committed to providing equal access and support to all qualified students through the provision of reasonable accommodations, so that each student may fully participate in the Emerson experience. Student Accessibility Services (SAS) staff will be working remotely for the fall of 2020. If you have a disability that may require accommodations, please contact them at SAS@emerson.edu or at (617)824-8592 to make an appointment with an SAS staff member.\nStudents are encouraged to contact SAS early in the semester. Please note that accommodations are not applied retroactively.\nPlagiarism Statement\nIt is the responsibility of all Emerson students to know and adhere to the College’s policy on plagiarism, which can be found at: http://www.emerson.edu/policy/plagiarism*. If you have any question concerning the Emerson plagiarism policy or about documentation of sources in work you produce in this course, speak to your instructor.\nDiversity Statement\nEvery student in this class will be honored and respected as an individual with distinct experiences, talents, and backgrounds. Students will be treated fairly regardless of race, religion, sexual orientation, gender identification, disability, socio-economic status, or national identity. Issues of diversity may be a part of class discussion, assigned material, and projects. The instructor will make every effort to ensure that an inclusive environment exists for all students. If you have any concerns or suggestions for improving the classroom climate, please do not hesitate to speak with the course instructor or to contact the Office of Diversity and Inclusion at 617-824-8528 or by email at diversityinclusion@emerson.edu*"
-  },
-  {
-    "objectID": "bibliography.html",
-    "href": "bibliography.html",
-    "title": "Bibliography",
-    "section": "",
-    "text": "Dayal, Geeta. Another Green World. New York: Continuum, 2009.\nGross, Benedikt, Hartmut Bohnacker, and Julia Laub. Generative Design: Visualize, Program, and Create with P5.js. Princeton, NJ: Princeton Architectural Press, 2018.\nPhilip, Terry, editor. The Penguin Book of Oulipo. London: Penguin Classics, 2020."
-  },
-  {
-    "objectID": "bibliography.html#course-texts",
-    "href": "bibliography.html#course-texts",
-    "title": "Bibliography",
-    "section": "",
-    "text": "Dayal, Geeta. Another Green World. New York: Continuum, 2009.\nGross, Benedikt, Hartmut Bohnacker, and Julia Laub. Generative Design: Visualize, Program, and Create with P5.js. Princeton, NJ: Princeton Architectural Press, 2018.\nPhilip, Terry, editor. The Penguin Book of Oulipo. London: Penguin Classics, 2020."
-  },
-  {
-    "objectID": "bibliography.html#films-documentaries",
-    "href": "bibliography.html#films-documentaries",
-    "title": "Bibliography",
-    "section": "Films & Documentaries",
-    "text": "Films & Documentaries\n\nMiller, Allan, and Paul Smaczny, directors. John Cage: Journeys in Sound. 2012.\nHustwit, Gary, director. Eno. 2024."
-  },
-  {
-    "objectID": "bibliography.html#articles-essays",
-    "href": "bibliography.html#articles-essays",
-    "title": "Bibliography",
-    "section": "Articles & Essays",
-    "text": "Articles & Essays\n\nEno, Brian. “Generating and Organizing Variety in the Arts.” Studio International, 1976.\nReich, Steve. “Music as a Gradual Process.” 1968.\nNoll, A. Michael. “Human or Machine? A Subjective Comparison of Piet Mondrian’s ‘Composition With Lines’ (1917) and a Computer-Generated Picture.” The Psychological Record, vol. 16, no. 1, 1966, pp. 1-10.\nManovich, Lev. “Who is ‘An Artist’ in the ‘AI Era’?” 2023.\nParkin, Simon. “A Journey to the End of the World (of Minecraft).” The New Yorker, 23 Jan. 2014."
-  },
-  {
-    "objectID": "bibliography.html#music-audio",
-    "href": "bibliography.html#music-audio",
-    "title": "Bibliography",
-    "section": "Music & Audio",
-    "text": "Music & Audio\n\nEno, Brian. Music for Airports. Album liner notes. 1978.\nRiley, Terry. In C. Musical composition. 1964.\nEno, Brian. 77 Million Paintings. Generative art installation. 2006."
-  },
-  {
-    "objectID": "bibliography.html#online-articles",
-    "href": "bibliography.html#online-articles",
-    "title": "Bibliography",
-    "section": "Online Articles",
-    "text": "Online Articles\n\nGoodchild, Amy. “Early Computer Art in the ’50s and ’60s.” 2020.\nReverb Machine. “How Brian Eno Created ‘Discreet Music’.” 2019.\n“Mandelbulb.” 2024.\nQueneau, Raymond. “A Hundred Thousand Billion Poems - Interactive Edition.” Original work 1961, interactive edition by Bev Rowe.\nClouth, Rob. “The Harry Potter Book Generator.” 2020.\nMarian42. “Wave Function Collapse.” 2019."
-  },
-  {
-    "objectID": "bibliography.html#media",
-    "href": "bibliography.html#media",
-    "title": "Bibliography",
-    "section": "Media",
-    "text": "Media\n\n“Early 3D Computer Graphics from Bell Labs.” YouTube, 1963.\nbib993. “3D Fractal Worlds.” YouTube playlist, 2020.\n“7 Hours in 77 Million Paintings.” Vimeo, 2014. 420 mins. &gt; 35 mins. timelapse.\nh2ee. “T1 Shader.” ShaderPark, 2024."
-  },
-  {
-    "objectID": "bibliography.html#interviews",
-    "href": "bibliography.html#interviews",
-    "title": "Bibliography",
-    "section": "Interviews",
-    "text": "Interviews\n\nJosef Pelz\nÉtienne Jacob\nShohei Fujimoto\nGiulia Cosco\nPierre Paslier"
-  },
-  {
-    "objectID": "WARP.html",
-    "href": "WARP.html",
-    "title": "WARP.md",
-    "section": "",
-    "text": "This file provides guidance to WARP (warp.dev) when working with code in this repository.\n\n\nThis is a Quarto website project for an academic course VM402-09 Generative Media: History, Theory, Practice taught at Emerson College. The website serves as a course syllabus and resource hub, built with Quarto and deployed via GitHub Pages.\nKey Technologies: - Quarto (website generation and publishing) - R (for data processing, though minimal usage) - SCSS/CSS (custom theming) - GitHub Pages (hosting) - Chicago Author-Date citation style\n\n\n\n\n\n# Render the website locally\nquarto render\n\n# Preview the website with live reload\nquarto preview\n\n# Check Quarto version\nquarto --version\n\n\n\n# Standard publishing command\nquarto publish gh-pages\n\n# If you encounter git worktree issues (common with this project)\nquarto publish gh-pages --no-prompt --no-browser\n\n# Force publish (if worktree conflicts persist)\nquarto publish gh-pages --force\n\n\n\n\n\n\n\nMain config: _quarto.yml - defines website structure, theming, and publishing settings\nSite URL: https://mroberts1.github.io/generative-media-fa25/\nNavigation: Simple navbar with Syllabus and Bibliography\nTheme: Custom theme based on ember.scss with additional custom.scss overrides\n\n\n\n\n├── index.qmd                 # Main syllabus page\n├── bibliography.qmd          # Course bibliography\n├── references.bib            # BibTeX references\n├── pdf/                      # Academic PDFs and readings\n├── gif/                      # Animated images (course visuals)\n├── img/                      # Static images (logos, portraits)\n├── fonts/                    # Custom web fonts\n├── outlanders/               # Specific media assets folder\n└── _site/                    # Generated website (do not edit)\n\n\n\n\nDuration: 7-week online/asynchronous summer course\nWeekly Topics: From furniture music to AI performance\nAssessment Types: Discussion posts, response papers, analytical papers\nAcademic Year: Summer 2025 (note: may need updating for future iterations)\n\n\n\n\n\n\n\n\nEdit .qmd files using Quarto markdown syntax\nAdd new references to references.bib for citations\nPlace media assets in appropriate folders (pdf/, gif/, img/)\nUse R code chunks sparingly (mainly for package loading)\n\n\n\n\n\nUses Chicago Author-Date style (chicago-author-date.csl)\nCitations are handled via references.bib\nFormat: [@author2020title] for in-text citations\nBibliography automatically generated from references.bib\n\n\n\n\n\nPDF readings: Store in pdf/ directory, reference with relative paths\nVisual content: Use gif/ for animated content, img/ for static images\nAnimations: Project includes educational/artistic GIFs (e.g., outlanders-brain-magazine.gif)\n\n\n\n\n# Always render before committing\nquarto render\n\n# Check for rendering errors\n# Look for any failed file processing in terminal output\n\n# Verify links work locally\nquarto preview\n\n\n\n\n\n\n# From the project root directory\nquarto publish gh-pages\n\n\n\nThis project has historically had git worktree conflicts. If you encounter errors:\n\nFirst, try the no-prompt option:\n\nquarto publish gh-pages --no-prompt --no-browser\n\nIf worktree issues persist, clean up git worktrees:\n\n# Remove problematic worktree directories\nrm -rf .git/worktrees/quarto-publish-worktree*\n\n# Prune git worktree references\ngit worktree prune\n\n# Then retry publishing\nquarto publish gh-pages\n\nNuclear option for persistent issues:\n\n# Force publish (overwrites existing gh-pages branch)\nquarto publish gh-pages --force\n\n\n\n\nCheck the live site: https://mroberts1.github.io/generative-media-fa25/\nVerify all links and media load correctly\nTest navigation between syllabus and bibliography pages\n\n\n\n\n\n\n\n\nCourse is scheduled for Summer 2025 (7 weeks: July 2 - August 19)\nWeekly structure: Wednesday to Tuesday cycles\nUpdate dates annually for course reruns\n\n\n\n\n\nUses official Emerson logo (Emerson-PrimaryLogo-Reversed-Color-400px.png)\nPurple color scheme (#62259d) matches institutional branding\nFaculty contact info integrated into navigation\n\n\n\n\n\nInstructor contact via multiple platforms: email, Mastodon, GitHub, Twitter, Facebook\nFontAwesome icons used for social links\nProfessional academic presence maintained\n\n\n\n\n\nGit worktrees: This project frequently encounters git worktree conflicts during publishing\nLarge media files: Video files (.mp4) are gitignored due to size constraints\nR dependency: Minimal R usage, mainly for tidyverse/palmerpenguins (example content)\n\n\n\n\n\n\n\n\n_quarto.yml - Website configuration, theming, publishing settings\nreferences.bib - Bibliography database\nchicago-author-date.csl - Citation style\n.gitignore - Excludes large media files and sensitive content\n\n\n\n\n\nember.scss - Primary theme file\ncustom.scss - Additional styling overrides\nfonts/ - Custom web font files (Avenir, Helvetica, etc.)\n\n\n\n\n\nindex.qmd - Main syllabus (course description, schedule, assignments)\nbibliography.qmd - Course readings and references\npdf/ - Academic readings and course materials\n\n\n\n\n\ncomprehensive-fix.sh - Full git worktree cleanup procedure\nfinal-fix.sh - Simplified worktree cleanup\ncorrect-publish.sh - Publishing command reference\n\nThese scripts exist due to historical publishing issues but document the solutions that work for this project."
-  },
-  {
-    "objectID": "WARP.html#project-overview",
-    "href": "WARP.html#project-overview",
-    "title": "WARP.md",
-    "section": "",
-    "text": "This is a Quarto website project for an academic course VM402-09 Generative Media: History, Theory, Practice taught at Emerson College. The website serves as a course syllabus and resource hub, built with Quarto and deployed via GitHub Pages.\nKey Technologies: - Quarto (website generation and publishing) - R (for data processing, though minimal usage) - SCSS/CSS (custom theming) - GitHub Pages (hosting) - Chicago Author-Date citation style"
-  },
-  {
-    "objectID": "WARP.html#quick-start-commands",
-    "href": "WARP.html#quick-start-commands",
-    "title": "WARP.md",
-    "section": "",
-    "text": "# Render the website locally\nquarto render\n\n# Preview the website with live reload\nquarto preview\n\n# Check Quarto version\nquarto --version\n\n\n\n# Standard publishing command\nquarto publish gh-pages\n\n# If you encounter git worktree issues (common with this project)\nquarto publish gh-pages --no-prompt --no-browser\n\n# Force publish (if worktree conflicts persist)\nquarto publish gh-pages --force"
-  },
-  {
-    "objectID": "WARP.html#architecture-structure",
-    "href": "WARP.html#architecture-structure",
-    "title": "WARP.md",
-    "section": "",
-    "text": "Main config: _quarto.yml - defines website structure, theming, and publishing settings\nSite URL: https://mroberts1.github.io/generative-media-fa25/\nNavigation: Simple navbar with Syllabus and Bibliography\nTheme: Custom theme based on ember.scss with additional custom.scss overrides\n\n\n\n\n├── index.qmd                 # Main syllabus page\n├── bibliography.qmd          # Course bibliography\n├── references.bib            # BibTeX references\n├── pdf/                      # Academic PDFs and readings\n├── gif/                      # Animated images (course visuals)\n├── img/                      # Static images (logos, portraits)\n├── fonts/                    # Custom web fonts\n├── outlanders/               # Specific media assets folder\n└── _site/                    # Generated website (do not edit)\n\n\n\n\nDuration: 7-week online/asynchronous summer course\nWeekly Topics: From furniture music to AI performance\nAssessment Types: Discussion posts, response papers, analytical papers\nAcademic Year: Summer 2025 (note: may need updating for future iterations)"
-  },
-  {
-    "objectID": "WARP.html#development-workflow",
-    "href": "WARP.html#development-workflow",
-    "title": "WARP.md",
-    "section": "",
-    "text": "Edit .qmd files using Quarto markdown syntax\nAdd new references to references.bib for citations\nPlace media assets in appropriate folders (pdf/, gif/, img/)\nUse R code chunks sparingly (mainly for package loading)\n\n\n\n\n\nUses Chicago Author-Date style (chicago-author-date.csl)\nCitations are handled via references.bib\nFormat: [@author2020title] for in-text citations\nBibliography automatically generated from references.bib\n\n\n\n\n\nPDF readings: Store in pdf/ directory, reference with relative paths\nVisual content: Use gif/ for animated content, img/ for static images\nAnimations: Project includes educational/artistic GIFs (e.g., outlanders-brain-magazine.gif)\n\n\n\n\n# Always render before committing\nquarto render\n\n# Check for rendering errors\n# Look for any failed file processing in terminal output\n\n# Verify links work locally\nquarto preview"
-  },
-  {
-    "objectID": "WARP.html#publishing-deployment",
-    "href": "WARP.html#publishing-deployment",
-    "title": "WARP.md",
-    "section": "",
-    "text": "# From the project root directory\nquarto publish gh-pages\n\n\n\nThis project has historically had git worktree conflicts. If you encounter errors:\n\nFirst, try the no-prompt option:\n\nquarto publish gh-pages --no-prompt --no-browser\n\nIf worktree issues persist, clean up git worktrees:\n\n# Remove problematic worktree directories\nrm -rf .git/worktrees/quarto-publish-worktree*\n\n# Prune git worktree references\ngit worktree prune\n\n# Then retry publishing\nquarto publish gh-pages\n\nNuclear option for persistent issues:\n\n# Force publish (overwrites existing gh-pages branch)\nquarto publish gh-pages --force\n\n\n\n\nCheck the live site: https://mroberts1.github.io/generative-media-fa25/\nVerify all links and media load correctly\nTest navigation between syllabus and bibliography pages"
-  },
-  {
-    "objectID": "WARP.html#project-specific-context",
-    "href": "WARP.html#project-specific-context",
-    "title": "WARP.md",
-    "section": "",
-    "text": "Course is scheduled for Summer 2025 (7 weeks: July 2 - August 19)\nWeekly structure: Wednesday to Tuesday cycles\nUpdate dates annually for course reruns\n\n\n\n\n\nUses official Emerson logo (Emerson-PrimaryLogo-Reversed-Color-400px.png)\nPurple color scheme (#62259d) matches institutional branding\nFaculty contact info integrated into navigation\n\n\n\n\n\nInstructor contact via multiple platforms: email, Mastodon, GitHub, Twitter, Facebook\nFontAwesome icons used for social links\nProfessional academic presence maintained\n\n\n\n\n\nGit worktrees: This project frequently encounters git worktree conflicts during publishing\nLarge media files: Video files (.mp4) are gitignored due to size constraints\nR dependency: Minimal R usage, mainly for tidyverse/palmerpenguins (example content)"
-  },
-  {
-    "objectID": "WARP.html#important-files-locations",
-    "href": "WARP.html#important-files-locations",
-    "title": "WARP.md",
-    "section": "",
-    "text": "_quarto.yml - Website configuration, theming, publishing settings\nreferences.bib - Bibliography database\nchicago-author-date.csl - Citation style\n.gitignore - Excludes large media files and sensitive content\n\n\n\n\n\nember.scss - Primary theme file\ncustom.scss - Additional styling overrides\nfonts/ - Custom web font files (Avenir, Helvetica, etc.)\n\n\n\n\n\nindex.qmd - Main syllabus (course description, schedule, assignments)\nbibliography.qmd - Course readings and references\npdf/ - Academic readings and course materials\n\n\n\n\n\ncomprehensive-fix.sh - Full git worktree cleanup procedure\nfinal-fix.sh - Simplified worktree cleanup\ncorrect-publish.sh - Publishing command reference\n\nThese scripts exist due to historical publishing issues but document the solutions that work for this project."
-  },
-  {
-    "objectID": "hydra-naoto-hieda.html",
-    "href": "hydra-naoto-hieda.html",
-    "title": "    ",
-    "section": "",
-    "text": "// Import from the Observable notebook that has working Hydra\nimport {Hydra} from \"@magfoto/hydra-synth\"\n\n\n\n\n\n\n\n{\n  // Create container with canvas for Hydra - full body width\n  const container = html`&lt;div style=\"width: 100%; height: 500px; margin: 0 auto; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);\"&gt;\n    &lt;canvas style=\"width: 100%; height: 100%; display: block; border-radius: 8px;\"&gt;&lt;/canvas&gt;\n  &lt;/div&gt;`;\n  \n  const canvas = container.querySelector('canvas');\n  canvas.width = 960;  // Larger canvas resolution\n  canvas.height = 500; // Maintains aspect ratio\n  \n  try {\n    // Initialize Hydra with the canvas - this creates global functions\n    const hydra = new Hydra({ canvas: canvas, detectAudio: false });\n    \n    // Wait for Hydra to initialize and create global functions\n    await new Promise(resolve =&gt; setTimeout(resolve, 200));\n    \n    // The Hydra code from your URL (decoded) - using global functions created by Hydra\n    // src(o0).modulateHue(src(o0).scale(1.01), 2).layer(osc(8, 0.1, 2).mask(shape(4, 0.3, 1e-6)), 0.1).out()\n    window.src(window.o0)\n      .modulateHue(window.src(window.o0).scale(1.01), 2)\n      .layer(window.osc(8, 0.1, 2).mask(window.shape(4, 0.3, 1e-6)), 0.1)\n      .out();\n      \n  } catch (error) {\n    console.error('Hydra error:', error);\n    container.innerHTML = `&lt;div style=\"display: flex; align-items: center; justify-content: center; height: 100%; color: #666; font-size: 14px; background: linear-gradient(45deg, #f8f9fa, #e9ecef); border-radius: 8px; font-family: system-ui, sans-serif;\"&gt;Interactive Hydra visualization&lt;br&gt;&lt;small style=\"opacity: 0.7;\"&gt;Loading...&lt;/small&gt;&lt;/div&gt;`;\n  }\n  \n  return container;\n}"
-  },
-  {
     "objectID": "glossary.html",
     "href": "glossary.html",
     "title": "Key Concepts",
@@ -308,6 +140,223 @@
     "text": "S\n\nSemiotics/Semiology\nThe study of signs and sign processes, examining how meaning is created, transmitted, and interpreted in communication systems. Media semiotics analyzes how visual, auditory, and textual signs combine to produce ideological meanings, revealing the constructed nature of media representations.\n\n\n\n\n\n\nNoteSources\n\n\n\n\nBarthes, Roland. Elements of Semiology (Hill and Wang, 1968)\nEco, Umberto. A Theory of Semiotics (Indiana University Press, 1976)\nRose, Gillian. Visual Methodologies (Sage, 2016)\n\n\n\n\n\nSemiological Guerrilla Warfare\nUmberto Eco’s concept of tactical media resistance through alternative interpretation of mass media messages. Rather than controlling media production, guerrilla semiology intervenes at the point of reception, teaching audiences to decode messages critically and subvert intended meanings.\n\n\n\n\n\n\nNoteSources\n\n\n\n\nEco, Umberto. “Towards a Semiological Guerrilla Warfare” in Travels in Hyperreality (Harcourt, 1986)\nde Certeau, Michel. The Practice of Everyday Life (University of California Press, 1984)\nDery, Mark. Culture Jamming: Hacking, Slashing, and Sniping in the Empire of Signs (Open Magazine, 1993)\n\n\n\n\n\nSimulacra/Simulation\nBaudrillard’s concepts describing how copies without originals (simulacra) create a hyperreality where simulation replaces reality. In media-saturated societies, simulations become autonomous, generating their own reality effects independent of any external referent—reality TV, Instagram performances, and virtual worlds exemplify this condition.\n\n\n\n\n\n\nNoteSources\n\n\n\n\nBaudrillard, Jean. Simulacra and Simulation (University of Michigan Press, 1994)\nBaudrillard, Jean. The Perfect Crime (Verso, 1996)\nMassumi, Brian. Parables for the Virtual (Duke University Press, 2002)\n\n\n\n\n\nSubculture\nSocial groups distinguished by specific styles, values, and practices that differentiate them from mainstream culture. Digital platforms have transformed subcultural formation, enabling new forms of aesthetic tribes and micro-communities organized around shared sensibilities, from TikTok subcultures to Discord communities.\n\n\n\n\n\n\nNoteSources\n\n\n\n\nHebdige, Dick. Subculture: The Meaning of Style (Routledge, 1979)\nThornton, Sarah. Club Cultures: Music, Media, and Subcultural Capital (Wesleyan, 1996)\nGelder, Ken. Subcultures: Cultural Histories and Social Practice (Routledge, 2007)\n\n\n\n\n\n\n\n\n\n\nTipUsing This Glossary\n\n\n\n\nClick on any concept in the table of contents to jump directly to its definition\nUse Ctrl+F (Windows) or Cmd+F (Mac) to search for specific terms\nFollow the source citations for deeper exploration of each concept\nTerms are organized alphabetically for easy reference"
   },
   {
+    "objectID": "hydra-naoto-hieda.html",
+    "href": "hydra-naoto-hieda.html",
+    "title": "    ",
+    "section": "",
+    "text": "// Import from the Observable notebook that has working Hydra\nimport {Hydra} from \"@magfoto/hydra-synth\"\n\n\n\n\n\n\n\n{\n  // Create container with canvas for Hydra - full body width\n  const container = html`&lt;div style=\"width: 100%; height: 500px; margin: 0 auto; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);\"&gt;\n    &lt;canvas style=\"width: 100%; height: 100%; display: block; border-radius: 8px;\"&gt;&lt;/canvas&gt;\n  &lt;/div&gt;`;\n  \n  const canvas = container.querySelector('canvas');\n  canvas.width = 960;  // Larger canvas resolution\n  canvas.height = 500; // Maintains aspect ratio\n  \n  try {\n    // Initialize Hydra with the canvas - this creates global functions\n    const hydra = new Hydra({ canvas: canvas, detectAudio: false });\n    \n    // Wait for Hydra to initialize and create global functions\n    await new Promise(resolve =&gt; setTimeout(resolve, 200));\n    \n    // The Hydra code from your URL (decoded) - using global functions created by Hydra\n    // src(o0).modulateHue(src(o0).scale(1.01), 2).layer(osc(8, 0.1, 2).mask(shape(4, 0.3, 1e-6)), 0.1).out()\n    window.src(window.o0)\n      .modulateHue(window.src(window.o0).scale(1.01), 2)\n      .layer(window.osc(8, 0.1, 2).mask(window.shape(4, 0.3, 1e-6)), 0.1)\n      .out();\n      \n  } catch (error) {\n    console.error('Hydra error:', error);\n    container.innerHTML = `&lt;div style=\"display: flex; align-items: center; justify-content: center; height: 100%; color: #666; font-size: 14px; background: linear-gradient(45deg, #f8f9fa, #e9ecef); border-radius: 8px; font-family: system-ui, sans-serif;\"&gt;Interactive Hydra visualization&lt;br&gt;&lt;small style=\"opacity: 0.7;\"&gt;Loading...&lt;/small&gt;&lt;/div&gt;`;\n  }\n  \n  return container;\n}"
+  },
+  {
+    "objectID": "WARP.html",
+    "href": "WARP.html",
+    "title": "WARP.md",
+    "section": "",
+    "text": "This file provides guidance to WARP (warp.dev) when working with code in this repository.\n\n\nThis is a Quarto website project for an academic course VM402-09 Generative Media: History, Theory, Practice taught at Emerson College. The website serves as a course syllabus and resource hub, built with Quarto and deployed via GitHub Pages.\nKey Technologies: - Quarto (website generation and publishing) - R (for data processing, though minimal usage) - SCSS/CSS (custom theming) - GitHub Pages (hosting) - Chicago Author-Date citation style\n\n\n\n\n\n# Render the website locally\nquarto render\n\n# Preview the website with live reload\nquarto preview\n\n# Check Quarto version\nquarto --version\n\n\n\n# Standard publishing command\nquarto publish gh-pages\n\n# If you encounter git worktree issues (common with this project)\nquarto publish gh-pages --no-prompt --no-browser\n\n# Force publish (if worktree conflicts persist)\nquarto publish gh-pages --force\n\n\n\n\n\n\n\nMain config: _quarto.yml - defines website structure, theming, and publishing settings\nSite URL: https://mroberts1.github.io/generative-media-fa25/\nNavigation: Simple navbar with Syllabus and Bibliography\nTheme: Custom theme based on ember.scss with additional custom.scss overrides\n\n\n\n\n├── index.qmd                 # Main syllabus page\n├── bibliography.qmd          # Course bibliography\n├── references.bib            # BibTeX references\n├── pdf/                      # Academic PDFs and readings\n├── gif/                      # Animated images (course visuals)\n├── img/                      # Static images (logos, portraits)\n├── fonts/                    # Custom web fonts\n├── outlanders/               # Specific media assets folder\n└── _site/                    # Generated website (do not edit)\n\n\n\n\nDuration: 7-week online/asynchronous summer course\nWeekly Topics: From furniture music to AI performance\nAssessment Types: Discussion posts, response papers, analytical papers\nAcademic Year: Summer 2025 (note: may need updating for future iterations)\n\n\n\n\n\n\n\n\nEdit .qmd files using Quarto markdown syntax\nAdd new references to references.bib for citations\nPlace media assets in appropriate folders (pdf/, gif/, img/)\nUse R code chunks sparingly (mainly for package loading)\n\n\n\n\n\nUses Chicago Author-Date style (chicago-author-date.csl)\nCitations are handled via references.bib\nFormat: [@author2020title] for in-text citations\nBibliography automatically generated from references.bib\n\n\n\n\n\nPDF readings: Store in pdf/ directory, reference with relative paths\nVisual content: Use gif/ for animated content, img/ for static images\nAnimations: Project includes educational/artistic GIFs (e.g., outlanders-brain-magazine.gif)\n\n\n\n\n# Always render before committing\nquarto render\n\n# Check for rendering errors\n# Look for any failed file processing in terminal output\n\n# Verify links work locally\nquarto preview\n\n\n\n\n\n\n# From the project root directory\nquarto publish gh-pages\n\n\n\nThis project has historically had git worktree conflicts. If you encounter errors:\n\nFirst, try the no-prompt option:\n\nquarto publish gh-pages --no-prompt --no-browser\n\nIf worktree issues persist, clean up git worktrees:\n\n# Remove problematic worktree directories\nrm -rf .git/worktrees/quarto-publish-worktree*\n\n# Prune git worktree references\ngit worktree prune\n\n# Then retry publishing\nquarto publish gh-pages\n\nNuclear option for persistent issues:\n\n# Force publish (overwrites existing gh-pages branch)\nquarto publish gh-pages --force\n\n\n\n\nCheck the live site: https://mroberts1.github.io/generative-media-fa25/\nVerify all links and media load correctly\nTest navigation between syllabus and bibliography pages\n\n\n\n\n\n\n\n\nCourse is scheduled for Summer 2025 (7 weeks: July 2 - August 19)\nWeekly structure: Wednesday to Tuesday cycles\nUpdate dates annually for course reruns\n\n\n\n\n\nUses official Emerson logo (Emerson-PrimaryLogo-Reversed-Color-400px.png)\nPurple color scheme (#62259d) matches institutional branding\nFaculty contact info integrated into navigation\n\n\n\n\n\nInstructor contact via multiple platforms: email, Mastodon, GitHub, Twitter, Facebook\nFontAwesome icons used for social links\nProfessional academic presence maintained\n\n\n\n\n\nGit worktrees: This project frequently encounters git worktree conflicts during publishing\nLarge media files: Video files (.mp4) are gitignored due to size constraints\nR dependency: Minimal R usage, mainly for tidyverse/palmerpenguins (example content)\n\n\n\n\n\n\n\n\n_quarto.yml - Website configuration, theming, publishing settings\nreferences.bib - Bibliography database\nchicago-author-date.csl - Citation style\n.gitignore - Excludes large media files and sensitive content\n\n\n\n\n\nember.scss - Primary theme file\ncustom.scss - Additional styling overrides\nfonts/ - Custom web font files (Avenir, Helvetica, etc.)\n\n\n\n\n\nindex.qmd - Main syllabus (course description, schedule, assignments)\nbibliography.qmd - Course readings and references\npdf/ - Academic readings and course materials\n\n\n\n\n\ncomprehensive-fix.sh - Full git worktree cleanup procedure\nfinal-fix.sh - Simplified worktree cleanup\ncorrect-publish.sh - Publishing command reference\n\nThese scripts exist due to historical publishing issues but document the solutions that work for this project."
+  },
+  {
+    "objectID": "WARP.html#project-overview",
+    "href": "WARP.html#project-overview",
+    "title": "WARP.md",
+    "section": "",
+    "text": "This is a Quarto website project for an academic course VM402-09 Generative Media: History, Theory, Practice taught at Emerson College. The website serves as a course syllabus and resource hub, built with Quarto and deployed via GitHub Pages.\nKey Technologies: - Quarto (website generation and publishing) - R (for data processing, though minimal usage) - SCSS/CSS (custom theming) - GitHub Pages (hosting) - Chicago Author-Date citation style"
+  },
+  {
+    "objectID": "WARP.html#quick-start-commands",
+    "href": "WARP.html#quick-start-commands",
+    "title": "WARP.md",
+    "section": "",
+    "text": "# Render the website locally\nquarto render\n\n# Preview the website with live reload\nquarto preview\n\n# Check Quarto version\nquarto --version\n\n\n\n# Standard publishing command\nquarto publish gh-pages\n\n# If you encounter git worktree issues (common with this project)\nquarto publish gh-pages --no-prompt --no-browser\n\n# Force publish (if worktree conflicts persist)\nquarto publish gh-pages --force"
+  },
+  {
+    "objectID": "WARP.html#architecture-structure",
+    "href": "WARP.html#architecture-structure",
+    "title": "WARP.md",
+    "section": "",
+    "text": "Main config: _quarto.yml - defines website structure, theming, and publishing settings\nSite URL: https://mroberts1.github.io/generative-media-fa25/\nNavigation: Simple navbar with Syllabus and Bibliography\nTheme: Custom theme based on ember.scss with additional custom.scss overrides\n\n\n\n\n├── index.qmd                 # Main syllabus page\n├── bibliography.qmd          # Course bibliography\n├── references.bib            # BibTeX references\n├── pdf/                      # Academic PDFs and readings\n├── gif/                      # Animated images (course visuals)\n├── img/                      # Static images (logos, portraits)\n├── fonts/                    # Custom web fonts\n├── outlanders/               # Specific media assets folder\n└── _site/                    # Generated website (do not edit)\n\n\n\n\nDuration: 7-week online/asynchronous summer course\nWeekly Topics: From furniture music to AI performance\nAssessment Types: Discussion posts, response papers, analytical papers\nAcademic Year: Summer 2025 (note: may need updating for future iterations)"
+  },
+  {
+    "objectID": "WARP.html#development-workflow",
+    "href": "WARP.html#development-workflow",
+    "title": "WARP.md",
+    "section": "",
+    "text": "Edit .qmd files using Quarto markdown syntax\nAdd new references to references.bib for citations\nPlace media assets in appropriate folders (pdf/, gif/, img/)\nUse R code chunks sparingly (mainly for package loading)\n\n\n\n\n\nUses Chicago Author-Date style (chicago-author-date.csl)\nCitations are handled via references.bib\nFormat: [@author2020title] for in-text citations\nBibliography automatically generated from references.bib\n\n\n\n\n\nPDF readings: Store in pdf/ directory, reference with relative paths\nVisual content: Use gif/ for animated content, img/ for static images\nAnimations: Project includes educational/artistic GIFs (e.g., outlanders-brain-magazine.gif)\n\n\n\n\n# Always render before committing\nquarto render\n\n# Check for rendering errors\n# Look for any failed file processing in terminal output\n\n# Verify links work locally\nquarto preview"
+  },
+  {
+    "objectID": "WARP.html#publishing-deployment",
+    "href": "WARP.html#publishing-deployment",
+    "title": "WARP.md",
+    "section": "",
+    "text": "# From the project root directory\nquarto publish gh-pages\n\n\n\nThis project has historically had git worktree conflicts. If you encounter errors:\n\nFirst, try the no-prompt option:\n\nquarto publish gh-pages --no-prompt --no-browser\n\nIf worktree issues persist, clean up git worktrees:\n\n# Remove problematic worktree directories\nrm -rf .git/worktrees/quarto-publish-worktree*\n\n# Prune git worktree references\ngit worktree prune\n\n# Then retry publishing\nquarto publish gh-pages\n\nNuclear option for persistent issues:\n\n# Force publish (overwrites existing gh-pages branch)\nquarto publish gh-pages --force\n\n\n\n\nCheck the live site: https://mroberts1.github.io/generative-media-fa25/\nVerify all links and media load correctly\nTest navigation between syllabus and bibliography pages"
+  },
+  {
+    "objectID": "WARP.html#project-specific-context",
+    "href": "WARP.html#project-specific-context",
+    "title": "WARP.md",
+    "section": "",
+    "text": "Course is scheduled for Summer 2025 (7 weeks: July 2 - August 19)\nWeekly structure: Wednesday to Tuesday cycles\nUpdate dates annually for course reruns\n\n\n\n\n\nUses official Emerson logo (Emerson-PrimaryLogo-Reversed-Color-400px.png)\nPurple color scheme (#62259d) matches institutional branding\nFaculty contact info integrated into navigation\n\n\n\n\n\nInstructor contact via multiple platforms: email, Mastodon, GitHub, Twitter, Facebook\nFontAwesome icons used for social links\nProfessional academic presence maintained\n\n\n\n\n\nGit worktrees: This project frequently encounters git worktree conflicts during publishing\nLarge media files: Video files (.mp4) are gitignored due to size constraints\nR dependency: Minimal R usage, mainly for tidyverse/palmerpenguins (example content)"
+  },
+  {
+    "objectID": "WARP.html#important-files-locations",
+    "href": "WARP.html#important-files-locations",
+    "title": "WARP.md",
+    "section": "",
+    "text": "_quarto.yml - Website configuration, theming, publishing settings\nreferences.bib - Bibliography database\nchicago-author-date.csl - Citation style\n.gitignore - Excludes large media files and sensitive content\n\n\n\n\n\nember.scss - Primary theme file\ncustom.scss - Additional styling overrides\nfonts/ - Custom web font files (Avenir, Helvetica, etc.)\n\n\n\n\n\nindex.qmd - Main syllabus (course description, schedule, assignments)\nbibliography.qmd - Course readings and references\npdf/ - Academic readings and course materials\n\n\n\n\n\ncomprehensive-fix.sh - Full git worktree cleanup procedure\nfinal-fix.sh - Simplified worktree cleanup\ncorrect-publish.sh - Publishing command reference\n\nThese scripts exist due to historical publishing issues but document the solutions that work for this project."
+  },
+  {
+    "objectID": "bibliography.html",
+    "href": "bibliography.html",
+    "title": "Bibliography",
+    "section": "",
+    "text": "Dayal, Geeta. Another Green World. New York: Continuum, 2009.\nGross, Benedikt, Hartmut Bohnacker, and Julia Laub. Generative Design: Visualize, Program, and Create with P5.js. Princeton, NJ: Princeton Architectural Press, 2018.\nPhilip, Terry, editor. The Penguin Book of Oulipo. London: Penguin Classics, 2020."
+  },
+  {
+    "objectID": "bibliography.html#course-texts",
+    "href": "bibliography.html#course-texts",
+    "title": "Bibliography",
+    "section": "",
+    "text": "Dayal, Geeta. Another Green World. New York: Continuum, 2009.\nGross, Benedikt, Hartmut Bohnacker, and Julia Laub. Generative Design: Visualize, Program, and Create with P5.js. Princeton, NJ: Princeton Architectural Press, 2018.\nPhilip, Terry, editor. The Penguin Book of Oulipo. London: Penguin Classics, 2020."
+  },
+  {
+    "objectID": "bibliography.html#films-documentaries",
+    "href": "bibliography.html#films-documentaries",
+    "title": "Bibliography",
+    "section": "Films & Documentaries",
+    "text": "Films & Documentaries\n\nMiller, Allan, and Paul Smaczny, directors. John Cage: Journeys in Sound. 2012.\nHustwit, Gary, director. Eno. 2024."
+  },
+  {
+    "objectID": "bibliography.html#articles-essays",
+    "href": "bibliography.html#articles-essays",
+    "title": "Bibliography",
+    "section": "Articles & Essays",
+    "text": "Articles & Essays\n\nEno, Brian. “Generating and Organizing Variety in the Arts.” Studio International, 1976.\nReich, Steve. “Music as a Gradual Process.” 1968.\nNoll, A. Michael. “Human or Machine? A Subjective Comparison of Piet Mondrian’s ‘Composition With Lines’ (1917) and a Computer-Generated Picture.” The Psychological Record, vol. 16, no. 1, 1966, pp. 1-10.\nManovich, Lev. “Who is ‘An Artist’ in the ‘AI Era’?” 2023.\nParkin, Simon. “A Journey to the End of the World (of Minecraft).” The New Yorker, 23 Jan. 2014."
+  },
+  {
+    "objectID": "bibliography.html#music-audio",
+    "href": "bibliography.html#music-audio",
+    "title": "Bibliography",
+    "section": "Music & Audio",
+    "text": "Music & Audio\n\nEno, Brian. Music for Airports. Album liner notes. 1978.\nRiley, Terry. In C. Musical composition. 1964.\nEno, Brian. 77 Million Paintings. Generative art installation. 2006."
+  },
+  {
+    "objectID": "bibliography.html#online-articles",
+    "href": "bibliography.html#online-articles",
+    "title": "Bibliography",
+    "section": "Online Articles",
+    "text": "Online Articles\n\nGoodchild, Amy. “Early Computer Art in the ’50s and ’60s.” 2020.\nReverb Machine. “How Brian Eno Created ‘Discreet Music’.” 2019.\n“Mandelbulb.” 2024.\nQueneau, Raymond. “A Hundred Thousand Billion Poems - Interactive Edition.” Original work 1961, interactive edition by Bev Rowe.\nClouth, Rob. “The Harry Potter Book Generator.” 2020.\nMarian42. “Wave Function Collapse.” 2019."
+  },
+  {
+    "objectID": "bibliography.html#media",
+    "href": "bibliography.html#media",
+    "title": "Bibliography",
+    "section": "Media",
+    "text": "Media\n\n“Early 3D Computer Graphics from Bell Labs.” YouTube, 1963.\nbib993. “3D Fractal Worlds.” YouTube playlist, 2020.\n“7 Hours in 77 Million Paintings.” Vimeo, 2014. 420 mins. &gt; 35 mins. timelapse.\nh2ee. “T1 Shader.” ShaderPark, 2024."
+  },
+  {
+    "objectID": "bibliography.html#interviews",
+    "href": "bibliography.html#interviews",
+    "title": "Bibliography",
+    "section": "Interviews",
+    "text": "Interviews\n\nJosef Pelz\nÉtienne Jacob\nShohei Fujimoto\nGiulia Cosco\nPierre Paslier"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Generative Media",
+    "section": "",
+    "text": "&lt;/div&gt;\n&lt;div class=\"quarto-layout-cell\" style=\"flex-basis: 50.0%;justify-content: flex-start;\"&gt;\nShader: T1 by h2ee [Fullscreen]"
+  },
+  {
+    "objectID": "index.html#description",
+    "href": "index.html#description",
+    "title": "Generative Media",
+    "section": "Description",
+    "text": "Description\n\nIt’s very useful in the arts to have certain sorts of systems, [particularly] if you’re working with something that doesn’t have immediate limitations because you don’t have enough money. … Sometimes not having enough money is good, because you don’t end up throwing a million dollars at a five-cent idea. But [what] if the idea doesn’t require any money? How do you actually stop yourself from putting too much into an idea that’s too small? You find an external system. And some of the best systems in the world come out of physics, the sciences. Math.\n—Judy Nylon, cited in Geeta Dayal, Another Green Word (23-24).\n\nAlthough the term “generative” is today often treated as synonymous with AI-based artistic practices, generative art and aesthetics long predates the digital era, with antecedents that include the experiments with musical chance of John Cage and Lamonte Young, the early computational art of the 1960s, fractal images and music in the 1970s, or the ambient music of Brian Eno. The popularization of algorithmic tools that enable images, music, literary works, animation, and motion graphics to be generated from text and image prompts, however, has led to a surge in interest in code-based and algorithmic forms of creativity, along with debates about the aesthetic and ethical legitimacy of AI-generated artworks and other creative content. While computational art has been able to pass as human since the 1960s, the current explosive growth of algorithmic tools has rekindled aesthetic debates about the technological dimension of art and the relationship of art to the human more generally.\nThis course explores the history of generative approaches in the media arts, as well as changing social attitudes towards these and the contemporary debate swirling around “AI art.” In addition to historical examples and philosophical dimensions, students are introduced to a variety of generative approaches to artistic creativity, and collaborate on producing generative artworks in a medium of their choice using a variety of tools, frameworks, and platforms."
+  },
+  {
+    "objectID": "index.html#texts",
+    "href": "index.html#texts",
+    "title": "Generative Media",
+    "section": "Texts",
+    "text": "Texts\n\nGeeta Dayal, Another Green World (New York: Continuum, 2009).\nBenedikt Gross, Hartmut Bohnacker, and Julia Laub, Generative Design: Visualize, Program, and Create with P5.js. Princeton, NJ: Princeton Architectural Press, 2018.\nPhilip, Terry, ed., The Penguin Book of Oulipo. London: Penguin Classics, 2020."
+  },
+  {
+    "objectID": "index.html#films",
+    "href": "index.html#films",
+    "title": "Generative Media",
+    "section": "Films",
+    "text": "Films\n\nJohn Cage: Journeys in Sound (Allan Miller and Paul Smaczny, 2012).\n\nEno (Gary Hustwit, 2024).\nSisters With Transistors (Lisa Rovner, 2022)"
+  },
+  {
+    "objectID": "index.html#assignments-evaluation",
+    "href": "index.html#assignments-evaluation",
+    "title": "Generative Media",
+    "section": "Assignments & Evaluation",
+    "text": "Assignments & Evaluation\nReflection post (weekly, due Friday of each week, 10 required) (40%)\nAudiovisual or Textual Generative Work (20%, due at Thanksgiving)\nResearch Paper (20%, due Thur 11 Dec)\nOblique Strategies Project (20%, due 16 Oct)"
+  },
+  {
+    "objectID": "index.html#class-schedule",
+    "href": "index.html#class-schedule",
+    "title": "Generative Media",
+    "section": "Class Schedule",
+    "text": "Class Schedule\nWeek 1\nIntroduction: Unpromising Beginnings\nThur_04-Sept\n\nWeek 2\nOblique Strategies\n\n\n\nTues_9-Sept\n\n\n\n“Work at a different speed”\n\nGeeta Dayal, Another Green World, chs. 1-3\n\nThur_11-Sept\n\nBrian Eno, “Generating and Organizing Variety in the Arts” (Studio International, 1976)\nBrian Eno, Music for Airports (and other albums), liner notes\nGeeta Dayal, Another Green World, chs. 4-6\n\n\nWeek 3\nTues_16-Sept\n“Interesting failure after interesting failure”\n\n\n\n\nGeeta Dayal, Another Green World, chs. 7-9\n\nThur_18-Sept\n\nGeeta Dayal, Another Green World, chs. 10-12\n“How Brian Eno Created ‘Discreet Music’”\n\n\nWeek 4\nImaginary Landscapes: John Cage\n\n\n\nTues_23-Sept\n\nScreening: John Cage: Journeys in Sound\n\nThur_25-Sept\nPhasing: Steve Reich\n\n\n\n\nSteve Reich, “Music as a Gradual Process” (1968)\nTerry Riley, In C\n\n\nWeek 5\nWaveforms: Women and Generative Music\n\n\n\n\n\nTues_30-Sept\n\nSisters With Transistors (Lisa Rovner, 2022) (excerpts)\n\nThur_02-Oct\n\nMandel Cabrera, “Precarious Sound, Precarious Being: Éliane Radigue’s Feedback Works” (Empassive (blog), 17 June 2019)\nMandel Cabrera, “Feedback,” in Sharon Jane Mee and Luke Robinson, Sound Affects: A User’s Guide (New York: Bloomsbury Academic, 2023)\n“A Portrait of Éliane Radigue” (Institute for Media Archaeology, 2009)\n\n\nWeek 6\nPermuations\nTues_07-Oct\n\nRaymond Queneau, A Hundred Thousand Billion Poems\nInteractive edition\nEno, 77 Million Paintings\n7 Hours in 77 Million Paintings(420 mins. &gt; 35 mins. timelapse)\n[7 More Hours in 77 Million Paintings](https://vimeo.com/751767) (420 mins. &gt; 35 mins. timelapse)\n\nThur_09-Oct\nGuest speaker: Geeta Dayal\n\nWeek 7\nLanguage Games\nTues_14-Oct\n\nThe Penguin Book of OULIPO, selected chs.\n\nThur_16-Oct\n\nRob Clouth, The Harry Potter Book Generator\nNanoGenMo\n\nDEADLINE: Oblique Strategies Project\n\nWeek 8\nFractal Worlds\nTues_21-Oct\n\nMandelbulb\n\nFractal Worlds (YouTube channel)\n\nThur_23-Oct\nOblique Strategies Projects\n\nWeek 9\nMondrian: Computer Graphics\n\n\n\nTues_28-Oct\n\nAmy Goodchild, “Early Computer Art in the ’50s and ’60s”\nA. Michael Noll, “Human or Machine? A Subjective Comparison of Piet Mondrian’s ‘Composition With Lines’ (1917) and a Computer-Generated Picture”\nEarly 3D Computer Graphics from Bell Labs\n\nThur_30-Oct\n\nLev Manovich, “Who is ‘An Artist’ in the ‘AI Era’?”\nProcessing Mondrian\n\n\nWeek 10\nEcosystems\nTues_04-Nov\nConway’s Game of Life\nThur_06-Nov\nLenia\n\nWeek 11\nVeterans Day\nThur_13-Nov\nProcedural Worlds\n\nSimon Parkin, “A Journey to the End of the World (of Minecraft)” (The New Yorker, 23 January 2014)\nWave Function Collapse\n\n\n\n\n\nWeek 12\nGenerative Art & Design\nTues_18-Nov\n\nGenerative Design\n\nThur_20-Nov\n\nRead the interviews with Josef Pelz, Étienne Jacob, Shohei Fujimoto, Giulia Cosco, and/or Pierre Paslier\n\n\nWeek 13\nTues_25-Nov\nTBA\nThanksgiving\n\nWeek 14\nTues_02-Dec Presentations\nThur_04-Dec Presentations\n\nWeek 15\nTues_09-Dec Presentations\nThur_11-Dec Presentations\n\nWeek 16\nTues_16-Dec Conclusion"
+  },
+  {
+    "objectID": "index.html#policies",
+    "href": "index.html#policies",
+    "title": "Generative Media",
+    "section": "Policies",
+    "text": "Policies\nAttendance and Participation\nFull participation in class discussions and timely submission of all assignments constitutes evidence of class attendance. Students are expected to allocate sufficient time to complete all the requirements for each module: reading, viewing, responding to discussion questions, submitting replies to classmates, and completing other assignments on time. Failure to keep up with the pace of the course may result in lower grades or the failure of the class.\nAcademic Honesty\nDo not plagiarize. Plagiarism is using someone else’s work without giving them fair credit. Plagiarism and cheating will result in an “F” for the assignment.\nAccommodations\nEmerson is committed to providing equal access and support to all qualified students through the provision of reasonable accommodations, so that each student may fully participate in the Emerson experience. Student Accessibility Services (SAS) staff will be working remotely for the fall of 2020. If you have a disability that may require accommodations, please contact them at SAS@emerson.edu or at (617)824-8592 to make an appointment with an SAS staff member.\nStudents are encouraged to contact SAS early in the semester. Please note that accommodations are not applied retroactively.\nPlagiarism Statement\nIt is the responsibility of all Emerson students to know and adhere to the College’s policy on plagiarism, which can be found at: http://www.emerson.edu/policy/plagiarism*. If you have any question concerning the Emerson plagiarism policy or about documentation of sources in work you produce in this course, speak to your instructor.\nDiversity Statement\nEvery student in this class will be honored and respected as an individual with distinct experiences, talents, and backgrounds. Students will be treated fairly regardless of race, religion, sexual orientation, gender identification, disability, socio-economic status, or national identity. Issues of diversity may be a part of class discussion, assigned material, and projects. The instructor will make every effort to ensure that an inclusive environment exists for all students. If you have any concerns or suggestions for improving the classroom climate, please do not hesitate to speak with the course instructor or to contact the Office of Diversity and Inclusion at 617-824-8528 or by email at diversityinclusion@emerson.edu*"
+  },
+  {
+    "objectID": "DEPLOYMENT.html",
+    "href": "DEPLOYMENT.html",
+    "title": "Deployment Setup",
+    "section": "",
+    "text": "This site now uses GitHub Actions for automatic deployment to GitHub Pages.\n\n\n\nAutomatic Deployment: When you push changes to the main or master branch, GitHub Actions automatically:\n\nBuilds the Quarto website\nDeploys it to GitHub Pages\n\nManual Deployment: You can also trigger deployment manually from the GitHub Actions tab\n\n\n\n\n\n\nYou need to configure your GitHub repository settings once:\n\nGo to your repository on GitHub\nNavigate to Settings → Pages\nUnder Source, select GitHub Actions\nSave the settings\n\n\n\n\nAfter pushing the workflow file:\n\nThe first GitHub Actions run will create the deployment\nSubsequent pushes will automatically update the site\nYour site will be available at: https://mroberts1.github.io/generative-media-fa25/\n\n\n\n\n\n\nMulti-language support: Handles R, Python, and JavaScript dependencies\nCaching: Speeds up builds by caching dependencies\n\nSecurity: Uses minimal required permissions\nFlexibility: Can be triggered manually or on pull requests\n\n\n\n\n\n\nquarto publish gh-pages\n\n\n\nSimply push your changes:\ngit add .\ngit commit -m \"Update content\"\ngit push origin main\nThe site will automatically rebuild and deploy!\n\n\n\n\n\nCheck the Actions tab in your GitHub repository for build logs\nThe workflow runs on ubuntu-latest with the latest Quarto version\nIf builds fail, check the workflow logs for specific error messages\n\n\n\n\n✅ Automatic deployment - No manual publish commands needed\n✅ No local git worktree issues - Builds run in clean environment\n✅ Version control - All deployments are tracked in git history\n✅ Collaboration friendly - Anyone with push access can deploy\n✅ Pull request previews - Can be configured for PR previews"
+  },
+  {
+    "objectID": "DEPLOYMENT.html#how-it-works",
+    "href": "DEPLOYMENT.html#how-it-works",
+    "title": "Deployment Setup",
+    "section": "",
+    "text": "Automatic Deployment: When you push changes to the main or master branch, GitHub Actions automatically:\n\nBuilds the Quarto website\nDeploys it to GitHub Pages\n\nManual Deployment: You can also trigger deployment manually from the GitHub Actions tab"
+  },
+  {
+    "objectID": "DEPLOYMENT.html#setup-requirements",
+    "href": "DEPLOYMENT.html#setup-requirements",
+    "title": "Deployment Setup",
+    "section": "",
+    "text": "You need to configure your GitHub repository settings once:\n\nGo to your repository on GitHub\nNavigate to Settings → Pages\nUnder Source, select GitHub Actions\nSave the settings\n\n\n\n\nAfter pushing the workflow file:\n\nThe first GitHub Actions run will create the deployment\nSubsequent pushes will automatically update the site\nYour site will be available at: https://mroberts1.github.io/generative-media-fa25/"
+  },
+  {
+    "objectID": "DEPLOYMENT.html#workflow-features",
+    "href": "DEPLOYMENT.html#workflow-features",
+    "title": "Deployment Setup",
+    "section": "",
+    "text": "Multi-language support: Handles R, Python, and JavaScript dependencies\nCaching: Speeds up builds by caching dependencies\n\nSecurity: Uses minimal required permissions\nFlexibility: Can be triggered manually or on pull requests"
+  },
+  {
+    "objectID": "DEPLOYMENT.html#migration-from-local-publishing",
+    "href": "DEPLOYMENT.html#migration-from-local-publishing",
+    "title": "Deployment Setup",
+    "section": "",
+    "text": "quarto publish gh-pages\n\n\n\nSimply push your changes:\ngit add .\ngit commit -m \"Update content\"\ngit push origin main\nThe site will automatically rebuild and deploy!"
+  },
+  {
+    "objectID": "DEPLOYMENT.html#troubleshooting",
+    "href": "DEPLOYMENT.html#troubleshooting",
+    "title": "Deployment Setup",
+    "section": "",
+    "text": "Check the Actions tab in your GitHub repository for build logs\nThe workflow runs on ubuntu-latest with the latest Quarto version\nIf builds fail, check the workflow logs for specific error messages"
+  },
+  {
+    "objectID": "DEPLOYMENT.html#benefits",
+    "href": "DEPLOYMENT.html#benefits",
+    "title": "Deployment Setup",
+    "section": "",
+    "text": "✅ Automatic deployment - No manual publish commands needed\n✅ No local git worktree issues - Builds run in clean environment\n✅ Version control - All deployments are tracked in git history\n✅ Collaboration friendly - Anyone with push access can deploy\n✅ Pull request previews - Can be configured for PR previews"
+  },
+  {
     "objectID": "shaderpark.html",
     "href": "shaderpark.html",
     "title": "VM402-09 Generative Media",
@@ -362,54 +411,5 @@
     "title": "VM402-09 Generative Media",
     "section": "Policies & Procedures",
     "text": "Policies & Procedures\nAttendance and Participation\nFull participation in class discussions and timely submission of all assignments constitutes evidence of class attendance. Students are expected to allocate sufficient time to complete all the requirements for each module: reading, viewing, responding to discussion questions, submitting replies to classmates, and completing other assignments on time. Failure to keep up with the pace of the course may result in lower grades or the failure of the class.\nAcademic Honesty\nDo not plagiarize. Plagiarism is using someone else’s work without giving them fair credit. Plagiarism and cheating will result in an “F” for the assignment.\nAccommodations\nEmerson is committed to providing equal access and support to all qualified students through the provision of reasonable accommodations, so that each student may fully participate in the Emerson experience. Student Accessibility Services (SAS) staff will be working remotely for the fall of 2020. If you have a disability that may require accommodations, please contact them at SAS@emerson.edu or at (617)824-8592 to make an appointment with an SAS staff member.\nStudents are encouraged to contact SAS early in the semester. Please note that accommodations are not applied retroactively.\nPlagiarism Statement\nIt is the responsibility of all Emerson students to know and adhere to the College’s policy on plagiarism, which can be found at: http://www.emerson.edu/policy/plagiarism*. If you have any question concerning the Emerson plagiarism policy or about documentation of sources in work you produce in this course, speak to your instructor.\nDiversity Statement\nEvery student in this class will be honored and respected as an individual with distinct experiences, talents, and backgrounds. Students will be treated fairly regardless of race, religion, sexual orientation, gender identification, disability, socio-economic status, or national identity. Issues of diversity may be a part of class discussion, assigned material, and projects. The instructor will make every effort to ensure that an inclusive environment exists for all students. If you have any concerns or suggestions for improving the classroom climate, please do not hesitate to speak with the course instructor or to contact the Office of Diversity and Inclusion at 617-824-8528 or by email at diversityinclusion@emerson.edu*"
-  },
-  {
-    "objectID": "DEPLOYMENT.html",
-    "href": "DEPLOYMENT.html",
-    "title": "Deployment Setup",
-    "section": "",
-    "text": "This site now uses GitHub Actions for automatic deployment to GitHub Pages.\n\n\n\nAutomatic Deployment: When you push changes to the main or master branch, GitHub Actions automatically:\n\nBuilds the Quarto website\nDeploys it to GitHub Pages\n\nManual Deployment: You can also trigger deployment manually from the GitHub Actions tab\n\n\n\n\n\n\nYou need to configure your GitHub repository settings once:\n\nGo to your repository on GitHub\nNavigate to Settings → Pages\nUnder Source, select GitHub Actions\nSave the settings\n\n\n\n\nAfter pushing the workflow file:\n\nThe first GitHub Actions run will create the deployment\nSubsequent pushes will automatically update the site\nYour site will be available at: https://mroberts1.github.io/generative-media-fa25/\n\n\n\n\n\n\nMulti-language support: Handles R, Python, and JavaScript dependencies\nCaching: Speeds up builds by caching dependencies\n\nSecurity: Uses minimal required permissions\nFlexibility: Can be triggered manually or on pull requests\n\n\n\n\n\n\nquarto publish gh-pages\n\n\n\nSimply push your changes:\ngit add .\ngit commit -m \"Update content\"\ngit push origin main\nThe site will automatically rebuild and deploy!\n\n\n\n\n\nCheck the Actions tab in your GitHub repository for build logs\nThe workflow runs on ubuntu-latest with the latest Quarto version\nIf builds fail, check the workflow logs for specific error messages\n\n\n\n\n✅ Automatic deployment - No manual publish commands needed\n✅ No local git worktree issues - Builds run in clean environment\n✅ Version control - All deployments are tracked in git history\n✅ Collaboration friendly - Anyone with push access can deploy\n✅ Pull request previews - Can be configured for PR previews"
-  },
-  {
-    "objectID": "DEPLOYMENT.html#how-it-works",
-    "href": "DEPLOYMENT.html#how-it-works",
-    "title": "Deployment Setup",
-    "section": "",
-    "text": "Automatic Deployment: When you push changes to the main or master branch, GitHub Actions automatically:\n\nBuilds the Quarto website\nDeploys it to GitHub Pages\n\nManual Deployment: You can also trigger deployment manually from the GitHub Actions tab"
-  },
-  {
-    "objectID": "DEPLOYMENT.html#setup-requirements",
-    "href": "DEPLOYMENT.html#setup-requirements",
-    "title": "Deployment Setup",
-    "section": "",
-    "text": "You need to configure your GitHub repository settings once:\n\nGo to your repository on GitHub\nNavigate to Settings → Pages\nUnder Source, select GitHub Actions\nSave the settings\n\n\n\n\nAfter pushing the workflow file:\n\nThe first GitHub Actions run will create the deployment\nSubsequent pushes will automatically update the site\nYour site will be available at: https://mroberts1.github.io/generative-media-fa25/"
-  },
-  {
-    "objectID": "DEPLOYMENT.html#workflow-features",
-    "href": "DEPLOYMENT.html#workflow-features",
-    "title": "Deployment Setup",
-    "section": "",
-    "text": "Multi-language support: Handles R, Python, and JavaScript dependencies\nCaching: Speeds up builds by caching dependencies\n\nSecurity: Uses minimal required permissions\nFlexibility: Can be triggered manually or on pull requests"
-  },
-  {
-    "objectID": "DEPLOYMENT.html#migration-from-local-publishing",
-    "href": "DEPLOYMENT.html#migration-from-local-publishing",
-    "title": "Deployment Setup",
-    "section": "",
-    "text": "quarto publish gh-pages\n\n\n\nSimply push your changes:\ngit add .\ngit commit -m \"Update content\"\ngit push origin main\nThe site will automatically rebuild and deploy!"
-  },
-  {
-    "objectID": "DEPLOYMENT.html#troubleshooting",
-    "href": "DEPLOYMENT.html#troubleshooting",
-    "title": "Deployment Setup",
-    "section": "",
-    "text": "Check the Actions tab in your GitHub repository for build logs\nThe workflow runs on ubuntu-latest with the latest Quarto version\nIf builds fail, check the workflow logs for specific error messages"
-  },
-  {
-    "objectID": "DEPLOYMENT.html#benefits",
-    "href": "DEPLOYMENT.html#benefits",
-    "title": "Deployment Setup",
-    "section": "",
-    "text": "✅ Automatic deployment - No manual publish commands needed\n✅ No local git worktree issues - Builds run in clean environment\n✅ Version control - All deployments are tracked in git history\n✅ Collaboration friendly - Anyone with push access can deploy\n✅ Pull request previews - Can be configured for PR previews"
   }
 ]
