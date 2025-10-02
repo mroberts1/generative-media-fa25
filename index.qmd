@@ -159,9 +159,11 @@ Thur_25-Sept
 
 {{< video https://youtu.be/fNodsrQhQ28 width="300" >}}
 
-{{< video  https://youtu.be/95UvPlhjbE4 width="300" >}}
+{{< video https://youtu.be/95UvPlhjbE4 width="300" >}}
 
 {{< video https://vimeo.com/8983993 width="300" >}}
+
+{{< video https://youtu.be/fU6qDeJPT-w width="300" >}}
 
 :::
 

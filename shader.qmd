@@ -1,0 +1,134 @@
+---
+title: "T1 Shader"
+---
+
+# T1 by h2ee
+
+<div id="shader-container" style="width: 500px; height: 500px; margin: 20px auto; border: 1px solid #333;"></div>
+
+<script>
+// T1 shader code by h2ee
+const shaderCode = `
+let pos = getSpace();
+let col = sin(normal.z*30)+.3+normal.y*.6;
+blend(0.9);
+color(col, col, col);
+for(let i = 3; i < 6; i++) {
+  
+  for(let j = 1; j < 6; j++) {
+    rotateX(time*0.1*j*i);
+    rotateY(time*0.1*j*i);
+    displace(.1*i - .5, .1*j - .5, 0);
+    line(vec3(0.9, -0.3, 0.1), vec3(0.1, 0.1, 0.1), 0.02);  
+    reset();
+  }
+}
+
+let oscillation = abs(sin(time));
+let endSize = 0.9;
+sphere(endSize * oscillation);
+`;
+
+// Function to load shader-park-core as ES6 module
+async function loadShaderPark() {
+    try {
+        // Try to import as ES6 module
+        const shaderParkCore = await import('https://unpkg.com/shader-park-core/dist/shader-park-core.esm.js');
+        console.log('Shader-park-core module loaded:', shaderParkCore);
+        initializeShader(shaderParkCore);
+    } catch (error) {
+        console.error('Failed to load ES6 module, trying UMD:', error);
+        
+        // Fallback to UMD version
+        const script = document.createElement('script');
+        script.src = 'https://unpkg.com/shader-park-core/dist/shader-park-core.umd.js';
+        script.onload = function() {
+            console.log('UMD version loaded');
+            console.log('Window object keys with shader:', Object.keys(window).filter(k => k.toLowerCase().includes('shader')));
+            // Try to find the library in global scope
+            const lib = window.shaderParkCore || window.ShaderParkCore || window.shaderPark || window.ShaderPark;
+            if (lib) {
+                initializeShader(lib);
+            } else {
+                // List all new properties on window
+                console.log('All window properties:', Object.keys(window).slice(-20));
+                const container = document.getElementById('shader-container');
+                if (container) {
+                    container.innerHTML = '<p style="color: red; text-align: center; padding: 20px;">Library loaded but not found on window object</p>';
+                }
+            }
+        };
+        script.onerror = function() {
+            console.error('Failed to load UMD version');
+            const container = document.getElementById('shader-container');
+            if (container) {
+                container.innerHTML = '<p style="color: red; text-align: center; padding: 20px;">Failed to load shader library</p>';
+            }
+        };
+        document.head.appendChild(script);
+    }
+}
+
+// Function to initialize the shader
+function initializeShader(shaderParkLib) {
+    const container = document.getElementById('shader-container');
+    
+    if (!container) {
+        console.error('Shader container not found');
+        return;
+    }
+    
+    try {
+        console.log('ShaderPark library received:', shaderParkLib);
+        console.log('ShaderPark methods:', Object.keys(shaderParkLib || {}));
+        
+        // Create canvas element
+        const canvas = document.createElement('canvas');
+        canvas.width = 500;
+        canvas.height = 500;
+        container.appendChild(canvas);
+        
+        // Try different initialization methods
+        if (shaderParkLib && typeof shaderParkLib.createSculpture === 'function') {
+            shaderParkLib.createSculpture({
+                canvas: canvas,
+                fragCode: shaderCode,
+                autoRotate: true
+            });
+        } else if (shaderParkLib && typeof shaderParkLib.default === 'function') {
+            // Try default export
+            new shaderParkLib.default({
+                canvas: canvas,
+                fragCode: shaderCode,
+                autoRotate: true
+            });
+        } else if (typeof shaderParkLib === 'function') {
+            // If it's a constructor function
+            new shaderParkLib({
+                canvas: canvas,
+                fragCode: shaderCode,
+                autoRotate: true
+            });
+        } else {
+            throw new Error('Unable to find shader initialization method. Available methods: ' + Object.keys(shaderParkLib || {}));
+        }
+        
+        console.log('T1 shader initialized successfully');
+        
+    } catch (error) {
+        console.error('Error initializing shader:', error);
+        container.innerHTML = '<p style="color: red; text-align: center; padding: 20px;">Error loading shader: ' + error.message + '</p>';
+    }
+}
+
+// Load shader when page is ready
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', loadShaderPark);
+} else {
+    loadShaderPark();
+}
+</script>
+
+<small>Original shader: [T1 by h2ee](https://shaderpark.com/sculpture/-OZ3EHXk8r1JyhqgVTCy) on ShaderPark</small>
+
+Direct implementation using [shader-park-core](https://www.npmjs.com/package/shader-park-core).
