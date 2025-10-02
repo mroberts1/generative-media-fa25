@@ -3,33 +3,27 @@ title: "Generative Media"
 subtitle: "History, Theory, Practice"
 ---
 
-<iframe src="https://shaderpark.com/embed/-OZ3EHXk8r1JyhqgVTCy" 
-        width="500" 
-        height="500" 
-        frameborder="0" 
-        style="display: block; margin: 0 auto; border: none;">
+<iframe src="https://shaderpark.com/embed/-OZ3EHXk8r1JyhqgVTCy" width="500" height="500" frameborder="0" style="display: block; margin: 0 auto; border: none;">
+
 </iframe>
 
-::: {.column-margin}
-
+::: column-margin
 [Department of Visual & Media Arts](https://emerson.edu/academics/academic-departments/visual-media-arts)\
 [Emerson College](https://emerson.edu/)\
 VM402-08\
 Fall Semester 2025\
 Thur 4 Sept - Tues 16 Dec\
-16:00-17:45\ 
-Ansin 502\
+16:00-17:45  Ansin 502\
 [Dr. Martin Roberts](http://mroberts.emerson.build/)\
 Office: TBA\
 Hours: Tues/Thur 14:30-3:30\
 [Canvas](https://canvas.emerson.edu/courses/2136023)\
 [{{< fa regular envelope >}}](mailto:martin_roberts@emerson.edu) \| [{{< fa brands mastodon >}}](https://merveilles.town/@dokoissho) \| [{{< fa brands github >}}](https://github.com/mroberts1/) \| [{{< fa brands twitter >}}](https://twitter.com/mroberts_vma)\
-
 :::
 
 <br>
 
-<small>Shader: [T1 by h2ee](https://shaderpark.com/sculpture/-OZ3EHXk8r1JyhqgVTCy?hideeditor=true&hidepedestal=true) \[[Fullscreen](https://shaderpark.com/embed/-OZ3EHXk8r1JyhqgVTCy)\]</small> 
+<small>Shader: [T1 by h2ee](https://shaderpark.com/sculpture/-OZ3EHXk8r1JyhqgVTCy?hideeditor=true&hidepedestal=true) \[[Fullscreen](https://shaderpark.com/embed/-OZ3EHXk8r1JyhqgVTCy)\]</small>
 
 ## Description
 
@@ -37,28 +31,38 @@ Hours: Tues/Thur 14:30-3:30\
 >
 > <small>---Judy Nylon, cited in Geeta Dayal, *Another Green Word* (23-24).</small>
 
-Although the term “generative” is today often treated as synonymous with AI-based artistic practices, generative art and aesthetics long predates the digital era, with antecedents that include the experiments with musical chance of John Cage and Lamonte Young, the early computational art of the 1960s, fractal images and music in the 1970s,  or the ambient music of Brian Eno. The popularization of algorithmic tools that enable images, music, literary works, animation, and motion graphics to be generated from text and image prompts, however, has led to a surge in interest in code-based and algorithmic forms of creativity, along with debates about the aesthetic and ethical legitimacy of AI-generated artworks and other creative content. While computational art has been able to pass as human since the 1960s, the current explosive growth of algorithmic tools has rekindled aesthetic debates about the technological dimension of art and the relationship of art to the human more generally.
+Although the term “generative” is today often treated as synonymous with AI-based artistic practices, generative art and aesthetics long predates the digital era, with antecedents that include the experiments with musical chance of John Cage and Lamonte Young, the early computational art of the 1960s, fractal images and music in the 1970s, or the ambient music of Brian Eno. The popularization of algorithmic tools that enable images, music, literary works, animation, and motion graphics to be generated from text and image prompts, however, has led to a surge in interest in code-based and algorithmic forms of creativity, along with debates about the aesthetic and ethical legitimacy of AI-generated artworks and other creative content. While computational art has been able to pass as human since the 1960s, the current explosive growth of algorithmic tools has rekindled aesthetic debates about the technological dimension of art and the relationship of art to the human more generally.
 
 This course explores the history of generative approaches in the media arts, as well as changing social attitudes towards these and the contemporary debate swirling around “AI art.” In addition to historical examples and philosophical dimensions, students are introduced to a variety of generative approaches to artistic creativity, and collaborate on producing generative artworks in a medium of their choice using a variety of tools, frameworks, and platforms.
 
 ## Texts
 
-- Geeta Dayal, *Another Green World* (New York: Continuum, 2009).
-- Benedikt Gross, Hartmut Bohnacker, and Julia Laub, [*Generative Design: Visualize, Program, and Create with P5.js*](http://www.generative-gestaltung.de/2/). Princeton, NJ: Princeton Architectural Press, 2018.
-- Philip, Terry, ed., *The Penguin Book of Oulipo*. London: Penguin Classics, 2020.
+-   Geeta Dayal, *Another Green World* (New York: Continuum, 2009).
+-   Benedikt Gross, Hartmut Bohnacker, and Julia Laub, [*Generative Design: Visualize, Program, and Create with P5.js*](http://www.generative-gestaltung.de/2/). Princeton, NJ: Princeton Architectural Press, 2018.
+-   Philip, Terry, ed., *The Penguin Book of Oulipo*. London: Penguin Classics, 2020.
 
 ## Films
 
-- *John Cage: Journeys in Sound* (Allan Miller and Paul Smaczny, 2012).  
-- [*Eno*](https://www.hustwit.com/eno) (Gary Hustwit, 2024).
-- [*Sisters With Transistors*](https://sisterswithtransistors.com/) (Lisa Rovner, 2022)
+-   *John Cage: Journeys in Sound* (Allan Miller and Paul Smaczny, 2012).\
+-   [*Eno*](https://www.hustwit.com/eno) (Gary Hustwit, 2024).
+-   [*Sisters With Transistors*](https://sisterswithtransistors.com/) (Lisa Rovner, 2022)
+
+## Women in Electronic Music
+
+-   [Ekho: Women in Sonic Art](https://ekhofemalesound.wordpress.com/) \[[Twitter](https://x.com/ekho_femsound)\]
+-   [Sarah Davachi](https://sarahdavachi.bandcamp.com/)
+-   [Kali Malone](https://kalimalone.bandcamp.com/)
+-   [Kara-Lis Coverdale](https://kara-liscoverdale.bandcamp.com/)
+-   [Kaitlyn Aurelia Smith](https://kaitlynaureliasmith.bandcamp.com/)
+-   [machìna](https://yeoheemusic.bandcamp.com/)
+-   [Heejin Jang](https://heejinjang.bandcamp.com/)
 
 ## Assignments & Evaluation
 
-Reflection post (weekly, due Friday of each week, 10 required) (40%)  
-Audiovisual or Textual Generative Work (20%, due at Thanksgiving)  
-Research Paper (20%, due Thur 11 Dec)  
-Oblique Strategies Project (20%, due 16 Oct)  
+Reflection post (weekly, due Friday of each week, 10 required) (40%)\
+Audiovisual or Textual Generative Work (20%, due at Thanksgiving)\
+Research Paper (20%, due Thur 11 Dec)\
+Oblique Strategies Project (20%, due 16 Oct)
 
 ## Class Schedule
 
@@ -68,37 +72,33 @@ Oblique Strategies Project (20%, due 16 Oct)
 
 Thur_04-Sept
 
-***
+------------------------------------------------------------------------
 
 *Week 2*
 
 **Oblique Strategies**
 
-::: {.column-margin}
-
+::: column-margin
 {{< video https://youtu.be/L8rBVU4gsMs width="300" >}}
-
 :::
 
 Tues_9-Sept
 
-::: {.column-margin}
-
+::: column-margin
 {{< video https://youtu.be/vNwYtllyt3Q width="300" >}}
-
 :::
 
 "Work at a different speed"
 
-- Geeta Dayal, [*Another Green World*, chs. 1-3](pdf/another-green-world-chs1-3.pdf)  
+-   Geeta Dayal, [*Another Green World*, chs. 1-3](pdf/another-green-world-chs1-3.pdf)
 
 Thur_11-Sept
 
-- Brian Eno, "[Generating and Organizing Variety in the Arts](pdf/eno-generating-organizing-arts.pdf)" (*Studio International*, 1976)
-- Brian Eno, *Music for Airports* (and other albums), [liner notes](pdf/eno-ambient.pdf)
-- Geeta Dayal, *Another Green World*, chs. 4-6
+-   Brian Eno, "[Generating and Organizing Variety in the Arts](pdf/eno-generating-organizing-arts.pdf)" (*Studio International*, 1976)
+-   Brian Eno, *Music for Airports* (and other albums), [liner notes](pdf/eno-ambient.pdf)
+-   Geeta Dayal, *Another Green World*, chs. 4-6
 
-***
+------------------------------------------------------------------------
 
 *Week 3*
 
@@ -106,57 +106,49 @@ Tues_16-Sept
 
 "Interesting failure after interesting failure"
 
-::: {.column-margin}
-
+::: column-margin
 ![](img/eno-discreet-music_loop-diagram.jpg){.lightbox width="300"}
-
 :::
 
-
-- Geeta Dayal, *Another Green World*, chs. 7-9
+-   Geeta Dayal, *Another Green World*, chs. 7-9
 
 Thur_18-Sept
 
-- Geeta Dayal, *Another Green World*, chs. 10-12
-- "[How Brian Eno Created 'Discreet Music'](https://reverbmachine.com/blog/deconstructing-brian-enos-discreet-music/)"
+-   Geeta Dayal, *Another Green World*, chs. 10-12
+-   "[How Brian Eno Created 'Discreet Music'](https://reverbmachine.com/blog/deconstructing-brian-enos-discreet-music/)"
 
-***
+------------------------------------------------------------------------
 
 *Week 4*
 
 **Imaginary Landscapes: John Cage**
 
-::: {.column-margin}
-
+::: column-margin
 {{< video https://youtu.be/eNqeE5c4W-s width="300" >}}
-
 :::
 
 Tues_23-Sept
 
-- Screening: *John Cage: Journeys in Sound*
+-   Screening: *John Cage: Journeys in Sound*
 
 Thur_25-Sept
 
 **Phasing: Steve Reich**
 
-::: {.column-margin}
-
+::: column-margin
 {{< video https://youtu.be/X1zuX6nRHNk width="300" >}}
-
 :::
 
-- Steve Reich, "[Music as a Gradual Process](http://www.bussigel.com/systemsforplay/wp-content/uploads/2014/02/Reich_Gradual-Process.pdf)" (1968)
-- Terry Riley, *In C*  
+-   Steve Reich, "[Music as a Gradual Process](http://www.bussigel.com/systemsforplay/wp-content/uploads/2014/02/Reich_Gradual-Process.pdf)" (1968)
+-   Terry Riley, *In C*
 
-***
+------------------------------------------------------------------------
 
 *Week 5*
 
 **Waveforms: Women and Generative Music**
 
-::: {.column-margin}
-
+::: column-margin
 {{< video https://youtu.be/fNodsrQhQ28 width="300" >}}
 
 {{< video https://youtu.be/95UvPlhjbE4 width="300" >}}
@@ -164,27 +156,26 @@ Thur_25-Sept
 {{< video https://vimeo.com/8983993 width="300" >}}
 
 {{< video https://youtu.be/fU6qDeJPT-w width="300" >}}
-
 :::
 
 Tues_30-Sept
 
-- *Sisters With Transistors* (Lisa Rovner, 2022) (excerpts)
+-   *Sisters With Transistors* (Lisa Rovner, 2022) (excerpts)
 
 Thur_02-Oct
 
 **Zones of Precarity**
 
-- Mandel Cabrera, "[Precarious Sound, Precarious Being: Éliane Radigue's Feedback Works](https://mandelcabrera.com/2019/06/17/precarious-sound-precarious-being-eliane-radigues-feedback-works/)" (*Empassive* (blog), 17 June 2019)
-- Mandel Cabrera, "[Feedback](pdf/mandel-cabrera-feedback.pdf)," in Sharon Jane Mee and Luke Robinson, *Sound Affects: A User's Guide* (New York: Bloomsbury Academic, 2023)
-- "[A Portrait of Éliane Radigue](https://vimeo.com/8983993)" (Institute for Media Archaeology, 2009)
+-   Mandel Cabrera, "[Precarious Sound, Precarious Being: Éliane Radigue's Feedback Works](https://mandelcabrera.com/2019/06/17/precarious-sound-precarious-being-eliane-radigues-feedback-works/)" (*Empassive* (blog), 17 June 2019)
+-   Mandel Cabrera, "[Feedback](pdf/mandel-cabrera-feedback.pdf)," in Sharon Jane Mee and Luke Robinson, *Sound Affects: A User's Guide* (New York: Bloomsbury Academic, 2023)
+-   "[A Portrait of Éliane Radigue](https://vimeo.com/8983993)" (Institute for Media Archaeology, 2009)
 
-See also: 
+See also:
 
-- Eliane Radigue, "[The Mysterious Power of the Infinitessimal](pdf/radigue-mysterious-power-infinitesimal.pdf)" (*Leonardo Music Journal* 19 (2009): 47-9)
-- [Ekho: Women in Sonic Art](https://ekhofemalesound.wordpress.com/) \[[Twitter](https://x.com/ekho_femsound)\]
+-   Eliane Radigue, "[The Mysterious Power of the Infinitessimal](pdf/radigue-mysterious-power-infinitesimal.pdf)" (*Leonardo Music Journal* 19 (2009): 47-9)
+-   [Ekho: Women in Sonic Art](https://ekhofemalesound.wordpress.com/) \[[Twitter](https://x.com/ekho_femsound)\]
 
-***
+------------------------------------------------------------------------
 
 *Week 6*
 
@@ -192,17 +183,17 @@ See also:
 
 Tues_07-Oct
 
-- Raymond Queneau, [*A Hundred Thousand Billion Poems*](https://en.wikipedia.org/wiki/A_Hundred_Thousand_Billion_Poems)
-- [Interactive edition](https://www.bevrowe.info/Internet/Queneau/Queneau.html)
-- Eno, [*77 Million Paintings*](https://en.wikipedia.org/wiki/77_Million_Paintings)
-- [*7 Hours in 77 Million Paintings*](https://vimeo.com/groups/chillounge/videos/751767)(420 mins. \> 35 mins. timelapse)
-- [*7 More Hours in 77 Million Paintings*\]([https://vimeo.com/751767](https://vimeo.com/751767?fl=pl&fe=sh)) (420 mins. \> 35 mins. timelapse)
+-   Raymond Queneau, [*A Hundred Thousand Billion Poems*](https://en.wikipedia.org/wiki/A_Hundred_Thousand_Billion_Poems)
+-   [Interactive edition](https://www.bevrowe.info/Internet/Queneau/Queneau.html)
+-   Eno, [*77 Million Paintings*](https://en.wikipedia.org/wiki/77_Million_Paintings)
+-   [*7 Hours in 77 Million Paintings*](https://vimeo.com/groups/chillounge/videos/751767)(420 mins. \> 35 mins. timelapse)
+-   \[*7 More Hours in 77 Million Paintings*\]([https://vimeo.com/751767](https://vimeo.com/751767?fl=pl&fe=sh)) (420 mins. \> 35 mins. timelapse)
 
 Thur_09-Oct
 
 Guest speaker: Geeta Dayal
 
-***
+------------------------------------------------------------------------
 
 *Week 7*
 
@@ -210,16 +201,16 @@ Guest speaker: Geeta Dayal
 
 Tues_14-Oct
 
-- *The Penguin Book of OULIPO*, selected chs.
+-   *The Penguin Book of OULIPO*, selected chs.
 
 Thur_16-Oct
 
-- Rob Clouth, [*The Harry Potter Book Generator*](https://robclouth.com/#projects/the-harry-potter-book-generator)
-- NanoGenMo
+-   Rob Clouth, [*The Harry Potter Book Generator*](https://robclouth.com/#projects/the-harry-potter-book-generator)
+-   NanoGenMo
 
 **DEADLINE: Oblique Strategies Project**
 
-***
+------------------------------------------------------------------------
 
 *Week 8*
 
@@ -227,37 +218,35 @@ Thur_16-Oct
 
 Tues_21-Oct
 
-- [Mandelbulb](https://www.mandelbulb.com/)  
-- [Fractal Worlds](https://www.youtube.com/watch?v=xj_4jvSDVME&list=PL1ywvug1r6ThGOrb9vQNfqYsI5XNyV3B3&index=14&ab_channel=bib993) (YouTube channel)
-  
+-   [Mandelbulb](https://www.mandelbulb.com/)\
+-   [Fractal Worlds](https://www.youtube.com/watch?v=xj_4jvSDVME&list=PL1ywvug1r6ThGOrb9vQNfqYsI5XNyV3B3&index=14&ab_channel=bib993) (YouTube channel)
+
 Thur_23-Oct
 
 Oblique Strategies Projects
 
-***
+------------------------------------------------------------------------
 
 *Week 9*
 
 **Mondrian: Computer Graphics**
 
-::: {.column-margin}
-
+::: column-margin
 {{< video https://youtu.be/M4nql28E_AE width="300" >}}
-
 :::
 
 Tues_28-Oct
 
-- Amy Goodchild, "[Early Computer Art in the '50s and '60s](https://www.amygoodchild.com/blog/computer-art-50s-and-60s)"
-- A. Michael Noll, "Human or Machine? A Subjective Comparison of Piet Mondrian's 'Composition With Lines' (1917) and a Computer-Generated Picture"
-- [Early 3D Computer Graphics from Bell Labs](https://youtu.be/M4nql28E_AE) 
+-   Amy Goodchild, "[Early Computer Art in the '50s and '60s](https://www.amygoodchild.com/blog/computer-art-50s-and-60s)"
+-   A. Michael Noll, "Human or Machine? A Subjective Comparison of Piet Mondrian's 'Composition With Lines' (1917) and a Computer-Generated Picture"
+-   [Early 3D Computer Graphics from Bell Labs](https://youtu.be/M4nql28E_AE)
 
 Thur_30-Oct
 
-- Lev Manovich, "Who is 'An Artist' in the 'AI Era'?"
-- Processing Mondrian
+-   Lev Manovich, "Who is 'An Artist' in the 'AI Era'?"
+-   Processing Mondrian
 
-***
+------------------------------------------------------------------------
 
 *Week 10*
 
@@ -271,7 +260,7 @@ Thur_06-Nov
 
 Lenia
 
-***
+------------------------------------------------------------------------
 
 *Week 11*
 
@@ -281,17 +270,15 @@ Thur_13-Nov
 
 **Procedural Worlds**
 
-- Simon Parkin, "[A Journey to the End of the World (of Minecraft)](https://www.newyorker.com/tech/annals-of-technology/a-journey-to-the-end-of-the-world-of-minecraft)" (*The New Yorker*, 23 January 2014)
+-   Simon Parkin, "[A Journey to the End of the World (of Minecraft)](https://www.newyorker.com/tech/annals-of-technology/a-journey-to-the-end-of-the-world-of-minecraft)" (*The New Yorker*, 23 January 2014)
 
-- [Wave Function Collapse](https://marian42.itch.io/wfc)
+-   [Wave Function Collapse](https://marian42.itch.io/wfc)
 
-::: {.column-margin}
-
+::: column-margin
 {{< video https://youtu.be/7ffT_8wViBA >}}
-
 :::
 
-***
+------------------------------------------------------------------------
 
 *Week 12*
 
@@ -299,13 +286,13 @@ Thur_13-Nov
 
 Tues_18-Nov
 
-- [Generative Design](http://www.generative-gestaltung.de/2/)
+-   [Generative Design](http://www.generative-gestaltung.de/2/)
 
 Thur_20-Nov
 
-- Read the interviews with [Josef Pelz](https://www.generativehut.com/post/interview-with-josef-pelz), [Étienne Jacob](https://www.generativehut.com/post/interview-with-etienne-jacob), [Shohei Fujimoto](https://www.generativehut.com/post/interview-with-shohei-fujimoto), [Giulia Cosco](https://www.generativehut.com/post/interview-with-giulia-cosco), and/or [Pierre Paslier](https://www.generativehut.com/post/interview-with-pierre-paslier)
+-   Read the interviews with [Josef Pelz](https://www.generativehut.com/post/interview-with-josef-pelz), [Étienne Jacob](https://www.generativehut.com/post/interview-with-etienne-jacob), [Shohei Fujimoto](https://www.generativehut.com/post/interview-with-shohei-fujimoto), [Giulia Cosco](https://www.generativehut.com/post/interview-with-giulia-cosco), and/or [Pierre Paslier](https://www.generativehut.com/post/interview-with-pierre-paslier)
 
-***
+------------------------------------------------------------------------
 
 *Week 13*
 
@@ -315,7 +302,7 @@ TBA
 
 Thanksgiving
 
-***
+------------------------------------------------------------------------
 
 *Week 14*
 
@@ -323,7 +310,7 @@ Tues_02-Dec Presentations
 
 Thur_04-Dec Presentations
 
-***
+------------------------------------------------------------------------
 
 *Week 15*
 
@@ -331,13 +318,13 @@ Tues_09-Dec Presentations
 
 Thur_11-Dec Presentations
 
-***
+------------------------------------------------------------------------
 
 *Week 16*
 
 Tues_16-Dec Conclusion
 
-***
+------------------------------------------------------------------------
 
 ## Policies
 
