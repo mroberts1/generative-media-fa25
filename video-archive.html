@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>warp –     </title>
+<title>Video Archive –</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,41 +19,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -341,7 +306,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title"></h1>
+          <h1 class="quarto-secondary-nav-title">Video Archive</h1>
         </a>     
     </div>
   </nav>
@@ -362,231 +327,96 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div></div>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Video Archive</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
-<section id="warp.md" class="level1">
-<h1>WARP.md</h1>
-<p>This file provides guidance to WARP (warp.dev) when working with code in this repository.</p>
-<section id="project-overview" class="level2">
-<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
-<p>This is a Quarto website project for an academic course <strong>VM402-09 Generative Media: History, Theory, Practice</strong> taught at Emerson College. The website serves as a course syllabus and resource hub, built with Quarto and deployed via GitHub Pages.</p>
-<p><strong>Key Technologies:</strong> - Quarto (website generation and publishing) - R (for data processing, though minimal usage) - SCSS/CSS (custom theming) - GitHub Pages (hosting) - Chicago Author-Date citation style</p>
-</section>
-<section id="quick-start-commands" class="level2">
-<h2 class="anchored" data-anchor-id="quick-start-commands">Quick Start Commands</h2>
-<section id="local-development" class="level3">
-<h3 class="anchored" data-anchor-id="local-development">Local Development</h3>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Render the website locally</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Preview the website with live reload</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Check Quarto version</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> <span class="at">--version</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="publishing-to-github-pages" class="level3">
-<h3 class="anchored" data-anchor-id="publishing-to-github-pages">Publishing to GitHub Pages</h3>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Standard publishing command</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># If you encounter git worktree issues (common with this project)</span></span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages <span class="at">--no-prompt</span> <span class="at">--no-browser</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Force publish (if worktree conflicts persist)</span></span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages <span class="at">--force</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-</section>
-<section id="architecture-structure" class="level2">
-<h2 class="anchored" data-anchor-id="architecture-structure">Architecture &amp; Structure</h2>
-<section id="website-configuration" class="level3">
-<h3 class="anchored" data-anchor-id="website-configuration">Website Configuration</h3>
-<ul>
-<li><strong>Main config</strong>: <code>_quarto.yml</code> - defines website structure, theming, and publishing settings</li>
-<li><strong>Site URL</strong>: https://mroberts1.github.io/generative-media-fa25/</li>
-<li><strong>Navigation</strong>: Simple navbar with Syllabus and Bibliography</li>
-<li><strong>Theme</strong>: Custom theme based on <code>ember.scss</code> with additional <code>custom.scss</code> overrides</li>
-</ul>
-</section>
-<section id="content-organization" class="level3">
-<h3 class="anchored" data-anchor-id="content-organization">Content Organization</h3>
-<pre><code>├── index.qmd                 # Main syllabus page
-├── bibliography.qmd          # Course bibliography
-├── references.bib            # BibTeX references
-├── pdf/                      # Academic PDFs and readings
-├── gif/                      # Animated images (course visuals)
-├── img/                      # Static images (logos, portraits)
-├── fonts/                    # Custom web fonts
-├── outlanders/               # Specific media assets folder
-└── _site/                    # Generated website (do not edit)</code></pre>
-</section>
-<section id="course-structure" class="level3">
-<h3 class="anchored" data-anchor-id="course-structure">Course Structure</h3>
-<ul>
-<li><strong>Duration</strong>: 7-week online/asynchronous summer course</li>
-<li><strong>Weekly Topics</strong>: From furniture music to AI performance</li>
-<li><strong>Assessment Types</strong>: Discussion posts, response papers, analytical papers</li>
-<li><strong>Academic Year</strong>: Summer 2025 (note: may need updating for future iterations)</li>
-</ul>
-</section>
-</section>
-<section id="development-workflow" class="level2">
-<h2 class="anchored" data-anchor-id="development-workflow">Development Workflow</h2>
-<section id="adding-new-content" class="level3">
-<h3 class="anchored" data-anchor-id="adding-new-content">Adding New Content</h3>
-<ol type="1">
-<li>Edit <code>.qmd</code> files using Quarto markdown syntax</li>
-<li>Add new references to <code>references.bib</code> for citations</li>
-<li>Place media assets in appropriate folders (<code>pdf/</code>, <code>gif/</code>, <code>img/</code>)</li>
-<li>Use R code chunks sparingly (mainly for package loading)</li>
-</ol>
-</section>
-<section id="citation-management" class="level3">
-<h3 class="anchored" data-anchor-id="citation-management">Citation Management</h3>
-<ul>
-<li>Uses Chicago Author-Date style (<code>chicago-author-date.csl</code>)</li>
-<li>Citations are handled via <code>references.bib</code></li>
-<li>Format: <code>[@author2020title]</code> for in-text citations</li>
-<li>Bibliography automatically generated from <code>references.bib</code></li>
-</ul>
-</section>
-<section id="media-asset-management" class="level3">
-<h3 class="anchored" data-anchor-id="media-asset-management">Media Asset Management</h3>
-<ul>
-<li><strong>PDF readings</strong>: Store in <code>pdf/</code> directory, reference with relative paths</li>
-<li><strong>Visual content</strong>: Use <code>gif/</code> for animated content, <code>img/</code> for static images</li>
-<li><strong>Animations</strong>: Project includes educational/artistic GIFs (e.g., outlanders-brain-magazine.gif)</li>
-</ul>
-</section>
-<section id="local-testing" class="level3">
-<h3 class="anchored" data-anchor-id="local-testing">Local Testing</h3>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Always render before committing</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Check for rendering errors</span></span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Look for any failed file processing in terminal output</span></span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Verify links work locally</span></span>
-<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-</section>
-<section id="publishing-deployment" class="level2">
-<h2 class="anchored" data-anchor-id="publishing-deployment">Publishing &amp; Deployment</h2>
-<section id="standard-deployment" class="level3">
-<h3 class="anchored" data-anchor-id="standard-deployment">Standard Deployment</h3>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># From the project root directory</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="troubleshooting-publishing-issues" class="level3">
-<h3 class="anchored" data-anchor-id="troubleshooting-publishing-issues">Troubleshooting Publishing Issues</h3>
-<p>This project has historically had git worktree conflicts. If you encounter errors:</p>
-<ol type="1">
-<li><strong>First, try the no-prompt option:</strong></li>
-</ol>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages <span class="at">--no-prompt</span> <span class="at">--no-browser</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<ol start="2" type="1">
-<li><strong>If worktree issues persist, clean up git worktrees:</strong></li>
-</ol>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Remove problematic worktree directories</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">rm</span> <span class="at">-rf</span> .git/worktrees/quarto-publish-worktree<span class="pp">*</span></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Prune git worktree references</span></span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> worktree prune</span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Then retry publishing</span></span>
-<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<ol start="3" type="1">
-<li><strong>Nuclear option for persistent issues:</strong></li>
-</ol>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Force publish (overwrites existing gh-pages branch)</span></span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages <span class="at">--force</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</section>
-<section id="verification" class="level3">
-<h3 class="anchored" data-anchor-id="verification">Verification</h3>
-<ul>
-<li>Check the live site: https://mroberts1.github.io/generative-media-fa25/</li>
-<li>Verify all links and media load correctly</li>
-<li>Test navigation between syllabus and bibliography pages</li>
-</ul>
-</section>
-</section>
-<section id="project-specific-context" class="level2">
-<h2 class="anchored" data-anchor-id="project-specific-context">Project-Specific Context</h2>
-<section id="academic-calendar" class="level3">
-<h3 class="anchored" data-anchor-id="academic-calendar">Academic Calendar</h3>
-<ul>
-<li>Course is scheduled for Summer 2025 (7 weeks: July 2 - August 19)</li>
-<li>Weekly structure: Wednesday to Tuesday cycles</li>
-<li>Update dates annually for course reruns</li>
-</ul>
-</section>
-<section id="emerson-college-branding" class="level3">
-<h3 class="anchored" data-anchor-id="emerson-college-branding">Emerson College Branding</h3>
-<ul>
-<li>Uses official Emerson logo (<code>Emerson-PrimaryLogo-Reversed-Color-400px.png</code>)</li>
-<li>Purple color scheme (<code>#62259d</code>) matches institutional branding</li>
-<li>Faculty contact info integrated into navigation</li>
-</ul>
-</section>
-<section id="social-media-integration" class="level3">
-<h3 class="anchored" data-anchor-id="social-media-integration">Social Media Integration</h3>
-<ul>
-<li>Instructor contact via multiple platforms: email, Mastodon, GitHub, Twitter, Facebook</li>
-<li>FontAwesome icons used for social links</li>
-<li>Professional academic presence maintained</li>
-</ul>
-</section>
-<section id="technical-quirks" class="level3">
-<h3 class="anchored" data-anchor-id="technical-quirks">Technical Quirks</h3>
-<ul>
-<li><strong>Git worktrees</strong>: This project frequently encounters git worktree conflicts during publishing</li>
-<li><strong>Large media files</strong>: Video files (<code>.mp4</code>) are gitignored due to size constraints</li>
-<li><strong>R dependency</strong>: Minimal R usage, mainly for tidyverse/palmerpenguins (example content)</li>
-</ul>
-</section>
-</section>
-<section id="important-files-locations" class="level2">
-<h2 class="anchored" data-anchor-id="important-files-locations">Important Files &amp; Locations</h2>
-<section id="configuration" class="level3">
-<h3 class="anchored" data-anchor-id="configuration">Configuration</h3>
-<ul>
-<li><code>_quarto.yml</code> - Website configuration, theming, publishing settings</li>
-<li><code>references.bib</code> - Bibliography database</li>
-<li><code>chicago-author-date.csl</code> - Citation style</li>
-<li><code>.gitignore</code> - Excludes large media files and sensitive content</li>
-</ul>
-</section>
-<section id="styling" class="level3">
-<h3 class="anchored" data-anchor-id="styling">Styling</h3>
-<ul>
-<li><code>ember.scss</code> - Primary theme file</li>
-<li><code>custom.scss</code> - Additional styling overrides</li>
-<li><code>fonts/</code> - Custom web font files (Avenir, Helvetica, etc.)</li>
-</ul>
-</section>
-<section id="content" class="level3">
-<h3 class="anchored" data-anchor-id="content">Content</h3>
-<ul>
-<li><code>index.qmd</code> - Main syllabus (course description, schedule, assignments)</li>
-<li><code>bibliography.qmd</code> - Course readings and references</li>
-<li><code>pdf/</code> - Academic readings and course materials</li>
-</ul>
-</section>
-<section id="publishing-scripts-for-reference" class="level3">
-<h3 class="anchored" data-anchor-id="publishing-scripts-for-reference">Publishing Scripts (for reference)</h3>
-<ul>
-<li><code>comprehensive-fix.sh</code> - Full git worktree cleanup procedure</li>
-<li><code>final-fix.sh</code> - Simplified worktree cleanup</li>
-<li><code>correct-publish.sh</code> - Publishing command reference</li>
-</ul>
-<p>These scripts exist due to historical publishing issues but document the solutions that work for this project.</p>
+</header>
 
 
+<section id="course-video-collection" class="level1">
+<h1>Course Video Collection</h1>
+<p><em>All videos are embedded from YouTube. Backup copies are available on Google Drive if needed.</em></p>
+<hr>
+<section id="electronic-music-sound-art" class="level2">
+<h2 class="anchored" data-anchor-id="electronic-music-sound-art">Electronic Music &amp; Sound Art</h2>
+<section id="brian-eno---ambient-1-music-for-airports-full-album" class="level3">
+<h3 class="anchored" data-anchor-id="brian-eno---ambient-1-music-for-airports-full-album">Brian Eno - Ambient 1: Music for Airports (Full Album)</h3>
+<p></p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/vNwYtllyt3Q" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <a href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view">📁 Backup Copy</a><p></p>
 </section>
+<section id="roxy-music---virginia-plain-time-stretched-version" class="level3">
+<h3 class="anchored" data-anchor-id="roxy-music---virginia-plain-time-stretched-version">Roxy Music - Virginia Plain (Time-stretched Version)</h3>
+<p></p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/L8rBVU4gsMs" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <a href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view">📁 Backup Copy</a><p></p>
+</section>
+<section id="kaitlyn-aurelia-smith---in-the-studio" class="level3">
+<h3 class="anchored" data-anchor-id="kaitlyn-aurelia-smith---in-the-studio">Kaitlyn Aurelia Smith - In The Studio</h3>
+<p></p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/95UvPlhjbE4" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <a href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view">📁 Backup Copy</a><p></p>
+<hr>
+</section>
+</section>
+<section id="algorithmic-generative-systems" class="level2">
+<h2 class="anchored" data-anchor-id="algorithmic-generative-systems">Algorithmic &amp; Generative Systems</h2>
+<section id="i-ching-oracle-tutorial-for-complete-beginners" class="level3">
+<h3 class="anchored" data-anchor-id="i-ching-oracle-tutorial-for-complete-beginners">I Ching Oracle Tutorial for Complete Beginners</h3>
+<p></p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/eNqeE5c4W-s" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <a href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view">📁 Backup Copy</a><p></p>
+</section>
+<section id="infinite-city---wave-function-collapse-algorithm" class="level3">
+<h3 class="anchored" data-anchor-id="infinite-city---wave-function-collapse-algorithm">Infinite City - Wave Function Collapse Algorithm</h3>
+<p></p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/7ffT_8wViBA" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <a href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view">📁 Backup Copy</a><p></p>
+<hr>
+</section>
+</section>
+<section id="historical-context" class="level2">
+<h2 class="anchored" data-anchor-id="historical-context">Historical Context</h2>
+<section id="steve-reich---its-gonna-rain-pt.-i-1965" class="level3">
+<h3 class="anchored" data-anchor-id="steve-reich---its-gonna-rain-pt.-i-1965">Steve Reich - It’s Gonna Rain, Pt. I (1965)</h3>
+<p></p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/X1zuX6nRHNk" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <a href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view">📁 Backup Copy</a><p></p>
+</section>
+<section id="early-3d-computer-graphics-from-bell-labs---att-archives" class="level3">
+<h3 class="anchored" data-anchor-id="early-3d-computer-graphics-from-bell-labs---att-archives">Early 3D Computer Graphics From Bell Labs - AT&amp;T Archives</h3>
+<p></p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/M4nql28E_AE" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <a href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view">📁 Backup Copy</a><p></p>
+</section>
+<section id="bells-of-atlantis---ian-hugo-1952" class="level3">
+<h3 class="anchored" data-anchor-id="bells-of-atlantis---ian-hugo-1952">Bells Of Atlantis - Ian Hugo (1952)</h3>
+<p></p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/fNodsrQhQ28" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <a href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view">📁 Backup Copy</a><p></p>
+<hr>
+</section>
+</section>
+<section id="d-fractals-computational-visualization" class="level2">
+<h2 class="anchored" data-anchor-id="d-fractals-computational-visualization">3D Fractals &amp; Computational Visualization</h2>
+<section id="d-fractal---sierpinskisierphilbert-zoom-out" class="level3">
+<h3 class="anchored" data-anchor-id="d-fractal---sierpinskisierphilbert-zoom-out">3D Fractal - Sierpinski/SierpHilbert zoom out</h3>
+<p></p><div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/xj_4jvSDVME" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div> <a href="https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view">📁 Backup Copy</a><p></p>
+<p><em>Additional fractal animations available in backup folder</em></p>
+<hr>
+</section>
+</section>
+<section id="about-this-archive" class="level2">
+<h2 class="anchored" data-anchor-id="about-this-archive">About This Archive</h2>
+<ul>
+<li><strong>Primary Source</strong>: YouTube (embedded above for best streaming experience)</li>
+<li><strong>Backup Storage</strong>: Google Drive (Emerson College account)</li>
+<li><strong>Purpose</strong>: Educational use in VM402-09 Generative Media course</li>
+<li><strong>Access</strong>: Links will be updated if YouTube sources become unavailable</li>
+</ul>
+<p><em>Note: Backup links require Emerson College authentication</em></p>
+
+
 </section>
 </section>
 

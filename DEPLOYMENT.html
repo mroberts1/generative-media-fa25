@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Sources –</title>
+<title>deployment –     </title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -38,14 +73,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-9a3499838c1bcf631256b0e7e6245332.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8c83013f5799ba6685f11ba0e32db395.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-9a3499838c1bcf631256b0e7e6245332.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-59c06a0660084945dbe6b7c0d97355a9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8be1234790665b3695550ff411685dbc.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-59c06a0660084945dbe6b7c0d97355a9.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-161097a682d7d25bd4329a1b26a17d91.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-8339ec71d99534c1fa011813dd0b875a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-161097a682d7d25bd4329a1b26a17d91.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-068dfa964da1358111a23b9366b745d4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-a8b600b434f8d766133e2aff07185395.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-068dfa964da1358111a23b9366b745d4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -268,7 +303,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Resources</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./bibliography.qmd"> 
+    <a class="nav-link" href="./bibliography.html"> 
 <span class="menu-text">Bibliography</span></a>
   </li>  
 </ul>
@@ -306,7 +341,7 @@ ul.task-list li input[type="checkbox"] {
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title">Sources</h1>
+          <h1 class="quarto-secondary-nav-title"></h1>
         </a>     
     </div>
   </nav>
@@ -325,148 +360,93 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar"><div class="quarto-margin-header"><div class="margin-header-item">
 <p><img src="./img/Emerson-PrimaryLogo-Reversed-Color-400px.png" class="img-fluid" style="width:50.0%"></p>
 </div></div>
-        <nav id="TOC" role="doc-toc" class="toc-active">
-   
-  <ul class="collapse">
-  <li><a href="#course-texts" id="toc-course-texts" class="nav-link active" data-scroll-target="#course-texts">Course Texts</a></li>
-  <li><a href="#films-documentaries" id="toc-films-documentaries" class="nav-link" data-scroll-target="#films-documentaries">Films &amp; Documentaries</a></li>
-  <li><a href="#articles-essays" id="toc-articles-essays" class="nav-link" data-scroll-target="#articles-essays">Articles &amp; Essays</a></li>
-  <li><a href="#music-audio" id="toc-music-audio" class="nav-link" data-scroll-target="#music-audio">Music &amp; Audio</a></li>
-  <li><a href="#online-articles" id="toc-online-articles" class="nav-link" data-scroll-target="#online-articles">Online Articles</a></li>
-  <li><a href="#media" id="toc-media" class="nav-link" data-scroll-target="#media">Media</a></li>
-  <li><a href="#interviews" id="toc-interviews" class="nav-link" data-scroll-target="#interviews">Interviews</a></li>
-  </ul>
-</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title d-none d-lg-block">Sources</h1>
-<p class="subtitle lead">Generative Media: History, Theory, Practice</p>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
 
 
-</header>
-
-
-<section id="course-texts" class="level2">
-<h2 class="anchored" data-anchor-id="course-texts">Course Texts</h2>
+<section id="deployment-setup" class="level1">
+<h1>Deployment Setup</h1>
+<p>This site now uses <strong>GitHub Actions</strong> for automatic deployment to GitHub Pages.</p>
+<section id="how-it-works" class="level2">
+<h2 class="anchored" data-anchor-id="how-it-works">How It Works</h2>
+<ol type="1">
+<li><strong>Automatic Deployment</strong>: When you push changes to the <code>main</code> or <code>master</code> branch, GitHub Actions automatically:
 <ul>
-<li>Dayal, Geeta. <em>Another Green World</em>. New York: Continuum, 2009.</li>
-<li>Gross, Benedikt, Hartmut Bohnacker, and Julia Laub. <a href="http://www.generative-gestaltung.de/2/"><em>Generative Design: Visualize, Program, and Create with P5.js</em></a>. Princeton, NJ: Princeton Architectural Press, 2018.</li>
-<li>Philip, Terry, editor. <em>The Penguin Book of Oulipo</em>. London: Penguin Classics, 2020.</li>
+<li>Builds the Quarto website</li>
+<li>Deploys it to GitHub Pages</li>
+</ul></li>
+<li><strong>Manual Deployment</strong>: You can also trigger deployment manually from the GitHub Actions tab</li>
+</ol>
+</section>
+<section id="setup-requirements" class="level2">
+<h2 class="anchored" data-anchor-id="setup-requirements">Setup Requirements</h2>
+<section id="github-repository-settings" class="level3">
+<h3 class="anchored" data-anchor-id="github-repository-settings">GitHub Repository Settings</h3>
+<p>You need to configure your GitHub repository settings <strong>once</strong>:</p>
+<ol type="1">
+<li>Go to your repository on GitHub</li>
+<li>Navigate to <strong>Settings</strong> → <strong>Pages</strong></li>
+<li>Under <strong>Source</strong>, select <strong>GitHub Actions</strong></li>
+<li>Save the settings</li>
+</ol>
+</section>
+<section id="first-time-setup" class="level3">
+<h3 class="anchored" data-anchor-id="first-time-setup">First-Time Setup</h3>
+<p>After pushing the workflow file:</p>
+<ol type="1">
+<li>The first GitHub Actions run will create the deployment</li>
+<li>Subsequent pushes will automatically update the site</li>
+<li>Your site will be available at: https://mroberts1.github.io/generative-media-fa25/</li>
+</ol>
+</section>
+</section>
+<section id="workflow-features" class="level2">
+<h2 class="anchored" data-anchor-id="workflow-features">Workflow Features</h2>
+<ul>
+<li><strong>Multi-language support</strong>: Handles R, Python, and JavaScript dependencies</li>
+<li><strong>Caching</strong>: Speeds up builds by caching dependencies<br>
+</li>
+<li><strong>Security</strong>: Uses minimal required permissions</li>
+<li><strong>Flexibility</strong>: Can be triggered manually or on pull requests</li>
 </ul>
 </section>
-<section id="films-documentaries" class="level2">
-<h2 class="anchored" data-anchor-id="films-documentaries">Films &amp; Documentaries</h2>
+<section id="migration-from-local-publishing" class="level2">
+<h2 class="anchored" data-anchor-id="migration-from-local-publishing">Migration from Local Publishing</h2>
+<section id="old-method-no-longer-needed" class="level3">
+<h3 class="anchored" data-anchor-id="old-method-no-longer-needed">Old Method (No longer needed):</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="new-method" class="level3">
+<h3 class="anchored" data-anchor-id="new-method">New Method:</h3>
+<p>Simply push your changes:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Update content"</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>The site will automatically rebuild and deploy!</p>
+</section>
+</section>
+<section id="troubleshooting" class="level2">
+<h2 class="anchored" data-anchor-id="troubleshooting">Troubleshooting</h2>
 <ul>
-<li>Miller, Allan, and Paul Smaczny, directors. <em>John Cage: Journeys in Sound</em>. 2012.</li>
-<li>Hustwit, Gary, director. <a href="https://www.hustwit.com/eno"><em>Eno</em></a>. 2024.</li>
+<li>Check the <strong>Actions</strong> tab in your GitHub repository for build logs</li>
+<li>The workflow runs on <code>ubuntu-latest</code> with the latest Quarto version</li>
+<li>If builds fail, check the workflow logs for specific error messages</li>
 </ul>
 </section>
-<section id="articles-essays" class="level2">
-<h2 class="anchored" data-anchor-id="articles-essays">Articles &amp; Essays</h2>
-<ul>
-<li>Eno, Brian. “Generating and Organizing Variety in the Arts.” <em>Studio International</em>, 1976.</li>
-<li>Reich, Steve. “Music as a Gradual Process.” 1968.</li>
-<li>Noll, A. Michael. “Human or Machine? A Subjective Comparison of Piet Mondrian’s ‘Composition With Lines’ (1917) and a Computer-Generated Picture.” <em>The Psychological Record</em>, vol.&nbsp;16, no. 1, 1966, pp.&nbsp;1-10.</li>
-<li>Manovich, Lev. “Who is ‘An Artist’ in the ‘AI Era’?” 2023.</li>
-<li>Parkin, Simon. “<a href="https://www.newyorker.com/tech/annals-of-technology/a-journey-to-the-end-of-the-world-of-minecraft">A Journey to the End of the World (of Minecraft)</a>.” <em>The New Yorker</em>, 23 Jan.&nbsp;2014.</li>
-</ul>
-</section>
-<section id="music-audio" class="level2">
-<h2 class="anchored" data-anchor-id="music-audio">Music &amp; Audio</h2>
-<ul>
-<li>Eno, Brian. <em>Music for Airports</em>. Album liner notes. 1978.</li>
-<li>Riley, Terry. <em>In C</em>. Musical composition. 1964.</li>
-<li>Eno, Brian. <a href="https://en.wikipedia.org/wiki/77_Million_Paintings"><em>77 Million Paintings</em></a>. Generative art installation. 2006.</li>
-</ul>
-</section>
-<section id="online-articles" class="level2">
-<h2 class="anchored" data-anchor-id="online-articles">Online Articles</h2>
-<ul>
-<li>Goodchild, Amy. “<a href="https://www.amygoodchild.com/blog/computer-art-50s-and-60s">Early Computer Art in the ’50s and ’60s</a>.” 2020.</li>
-<li>Reverb Machine. “<a href="https://reverbmachine.com/blog/deconstructing-brian-enos-discreet-music/">How Brian Eno Created ‘Discreet Music’</a>.” 2019.</li>
-<li>“<a href="https://www.mandelbulb.com/">Mandelbulb</a>.” 2024.</li>
-<li>Queneau, Raymond. “<a href="https://www.bevrowe.info/Internet/Queneau/Queneau.html">A Hundred Thousand Billion Poems - Interactive Edition</a>.” Original work 1961, interactive edition by Bev Rowe.</li>
-<li>Clouth, Rob. “<a href="https://robclouth.com/#projects/the-harry-potter-book-generator">The Harry Potter Book Generator</a>.” 2020.</li>
-<li>Marian42. “<a href="https://marian42.itch.io/wfc">Wave Function Collapse</a>.” 2019.</li>
-</ul>
-</section>
-<section id="media" class="level2">
-<h2 class="anchored" data-anchor-id="media">Media</h2>
-<ul>
-<li>“<a href="https://youtu.be/M4nql28E_AE">Early 3D Computer Graphics from Bell Labs</a>.” YouTube, 1963.</li>
-<li>bib993. “<a href="https://www.youtube.com/watch?v=xj_4jvSDVME&amp;list=PL1ywvug1r6ThGOrb9vQNfqYsI5XNyV3B3">3D Fractal Worlds</a>.” YouTube playlist, 2020.</li>
-<li>“<a href="https://vimeo.com/groups/chillounge/videos/751767">7 Hours in 77 Million Paintings</a>.” Vimeo, 2014. 420 mins. &gt; 35 mins. timelapse.</li>
-<li>h2ee. “<a href="https://shaderpark.com/sculpture/-OZ3EHXk8r1JyhqgVTCy">T1 Shader</a>.” ShaderPark, 2024.</li>
-</ul>
-</section>
-<section id="interviews" class="level2">
-<h2 class="anchored" data-anchor-id="interviews">Interviews</h2>
-<ul>
-<li><a href="https://www.generativehut.com/post/interview-with-josef-pelz">Josef Pelz</a></li>
-<li><a href="https://www.generativehut.com/post/interview-with-etienne-jacob">Étienne Jacob</a></li>
-<li><a href="https://www.generativehut.com/post/interview-with-shohei-fujimoto">Shohei Fujimoto</a></li>
-<li><a href="https://www.generativehut.com/post/interview-with-giulia-cosco">Giulia Cosco</a></li>
-<li><a href="https://www.generativehut.com/post/interview-with-pierre-paslier">Pierre Paslier</a></li>
-</ul>
-<hr>
-<!-- ## Complete Bibliography -->
-<!-- The following is a complete bibliography of all sources referenced in this course, formatted in MLA style: -->
-<!-- **Books:** -->
-<!-- - Cage, John. *Silence: Lectures and Writings*. Middletown, CT: Wesleyan University Press, 1961. -->
-<!-- - Dayal, Geeta. *Another Green World*. New York: Continuum, 2009. -->
-<!-- - Gross, Benedikt, Hartmut Bohnacker, and Julia Laub. [*Generative Design: Visualize, Program, and Create with P5.js*](http://www.generative-gestaltung.de/2/). Princeton, NJ: Princeton Architectural Press, 2018. -->
-<!-- - Philip, Terry, editor. *The Penguin Book of Oulipo*. London: Penguin Classics, 2020. -->
-<!-- **Films & Documentaries:** -->
-<!-- - Hustwit, Gary, director. [*Eno*](https://www.hustwit.com/eno). 2024. -->
-<!-- - Miller, Allan, and Paul Smaczny, directors. *John Cage: Journeys in Sound*. 2012. -->
-<!-- **Articles & Essays:** -->
-<!-- - Eno, Brian. "Generating and Organizing Variety in the Arts." *Studio International*, 1976. -->
-<!-- - Manovich, Lev. "Who is 'An Artist' in the 'AI Era'?" 2023. -->
-<!-- - Noll, A. Michael. "Human or Machine? A Subjective Comparison of Piet Mondrian's 'Composition With Lines' (1917) and a Computer-Generated Picture." *The Psychological Record*, vol. 16, no. 1, 1966, pp. 1-10. -->
-<!-- - Parkin, Simon. "[A Journey to the End of the World (of Minecraft)](https://www.newyorker.com/tech/annals-of-technology/a-journey-to-the-end-of-the-world-of-minecraft)." *The New Yorker*, 23 Jan. 2014. -->
-<!-- - Reich, Steve. "Music as a Gradual Process." 1968. -->
-<!-- **Music & Audio Works:** -->
-<!-- - Eno, Brian. *Music for Airports*. Album liner notes. 1978. -->
-<!-- - Riley, Terry. *In C*. Musical composition. 1964. -->
-<!-- - Eno, Brian. [*77 Million Paintings*](https://en.wikipedia.org/wiki/77_Million_Paintings). Generative art installation. 2006. -->
-<!-- **Online Articles & Resources:** -->
-<!-- - Goodchild, Amy. "[Early Computer Art in the '50s and '60s](https://www.amygoodchild.com/blog/computer-art-50s-and-60s)." 2020. -->
-<!-- - Reverb Machine. "[How Brian Eno Created 'Discreet Music'](https://reverbmachine.com/blog/deconstructing-brian-enos-discreet-music/)." 2019. -->
-<!-- - "[Mandelbulb](https://www.mandelbulb.com/)." 2024. -->
-<!-- - Queneau, Raymond. "[A Hundred Thousand Billion Poems - Interactive Edition](https://www.bevrowe.info/Internet/Queneau/Queneau.html)." Original work 1961, interactive edition by Bev Rowe. -->
-<!-- - Clouth, Rob. "[The Harry Potter Book Generator](https://robclouth.com/#projects/the-harry-potter-book-generator)." 2020. -->
-<!-- - Marian42. "[Wave Function Collapse](https://marian42.itch.io/wfc)." 2019. -->
-<!-- **Multimedia & Interactive Works:** -->
-<!-- - "[Early 3D Computer Graphics from Bell Labs](https://youtu.be/M4nql28E_AE)." YouTube, 1963. -->
-<!-- - bib993. "[3D Fractal Worlds](https://www.youtube.com/watch?v=xj_4jvSDVME&list=PL1ywvug1r6ThGOrb9vQNfqYsI5XNyV3B3)." YouTube playlist, 2020. -->
-<!-- - "[7 Hours in 77 Million Paintings](https://vimeo.com/groups/chillounge/videos/751767)." Vimeo, 2014. 420 mins. > 35 mins. timelapse. -->
-<!-- - h2ee. "[T1 Shader](https://shaderpark.com/sculpture/-OZ3EHXk8r1JyhqgVTCy)." ShaderPark, 2024. -->
-<!-- **Artist Interviews:** -->
-<!-- - "[Josef Pelz](https://www.generativehut.com/post/interview-with-josef-pelz)." *Generative Hut*, 2023. -->
-<!-- - "[Étienne Jacob](https://www.generativehut.com/post/interview-with-etienne-jacob)." *Generative Hut*, 2023. -->
-<!-- - "[Shohei Fujimoto](https://www.generativehut.com/post/interview-with-shohei-fujimoto)." *Generative Hut*, 2023. -->
-<!-- - "[Giulia Cosco](https://www.generativehut.com/post/interview-with-giulia-cosco)." *Generative Hut*, 2023. -->
-<!-- - "[Pierre Paslier](https://www.generativehut.com/post/interview-with-pierre-paslier)." *Generative Hut*, 2023. -->
-<!-- --- -->
-<!-- *This bibliography includes all primary and secondary sources, multimedia works, online resources, and interactive materials referenced in VM402-08 Generative Media: History, Theory, Practice, Fall 2025.* -->
+<section id="benefits" class="level2">
+<h2 class="anchored" data-anchor-id="benefits">Benefits</h2>
+<p>✅ <strong>Automatic deployment</strong> - No manual publish commands needed<br>
+✅ <strong>No local git worktree issues</strong> - Builds run in clean environment<br>
+✅ <strong>Version control</strong> - All deployments are tracked in git history<br>
+✅ <strong>Collaboration friendly</strong> - Anyone with push access can deploy<br>
+✅ <strong>Pull request previews</strong> - Can be configured for PR previews</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
