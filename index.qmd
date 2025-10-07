@@ -181,6 +181,12 @@ See also:
 
 **Permuations**
 
+::: {.column-margin}
+
+{{< video https://youtu.be/ico4FQfANJc width="300"  >}}
+
+:::
+
 Tues_07-Oct
 
 -   Raymond Queneau, [*A Hundred Thousand Billion Poems*](https://en.wikipedia.org/wiki/A_Hundred_Thousand_Billion_Poems)
