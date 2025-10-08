@@ -1,0 +1,131 @@
+---
+title: "Penrose Tiling"
+---
+
+``` {ojs}
+
+canvas = {
+  const S = config.size;
+  const concurrency = config.concurrency;
+  const context = DOM.context2d(S, S);
+  paper.setup(context.canvas);
+  paper.view.viewSize = new paper.Size(S, S);
+
+  const lines = data.lines.reverse();
+  let paths = [];
+  let i = 0;
+  let fillColor;
+  const reset = () => {
+    paper.project.activeLayer.removeChildren();
+    const backgroundLayer = new paper.Layer();
+    const background = new paper.Path.Rectangle(paper.view.bounds);
+    const colorIdx = Math.floor(Math.random() * config.colors.length);
+    fillColor = fillColorByArea(config.colors[colorIdx]);
+    background.style = { fillColor: config.colors[colorIdx].bgColor };
+    paper.view.draw();
+    i = 0;
+  };
+  const animate = lines => {
+    paths = [];
+    i = 0;
+    const b = bounds(lines);
+    const scaleX = d3
+      .scaleLinear()
+      .domain([b[0], b[2]])
+      .range([10, S - 10]);
+    const scaleY = d3
+      .scaleLinear()
+      .domain([b[1], b[3]])
+      .range([10, S - 10]);
+    return () => {
+      if (i > lines.length / concurrency) return;
+      for (let batch = 0; batch < concurrency; batch++) {
+        const pos = batch * Math.floor(lines.length / concurrency) + i;
+        if (!lines[pos]) continue;
+        const path = new paper.Path({
+          segments: [],
+          strokeColor: 'white'
+        });
+        lines[pos].forEach(point => {
+          path.add(new paper.Point(scaleX(point.x), scaleY(point.y)));
+        });
+        if (Math.abs(path.area) < 10) continue;
+        path.fillColor = fillColor(path);
+        paths.push(path);
+      }
+      i++;
+    };
+  };
+  reset();
+  context.canvas.onclick = reset;
+  paper.view.onFrame = animate(lines);
+
+  return context.canvas;
+}
+
+config = {
+  return {
+    size: 600,
+    concurrency: 4,
+    colors: [
+      { bgColor: '#E1DAD2', scheme: ['#FF4400', '#F7DA00', '#07748C'] },
+      { bgColor: '#FED322', scheme: ['#20BA4E', '#F20775', '#51358C'] },
+      { bgColor: '#F2EFC7', scheme: ['#FF9D83', '#4071A6', '#D3DEE8'] }
+      // { bgColor: '#101115', scheme: d3.schemePastel1 },
+      // { bgColor: '#fefefe', interpolator: d3.interpolatePlasma },
+    ]
+  };
+}
+
+data = linedata(L(parse(penroseLSystem)), 5)
+
+<!-- md` -->
+<!-- Click the canvas to reset the tiling and pick a random color scheme from the ones available in config. Change the config object to increase the size or experiment with different color schemes.  -->
+
+<!-- We use an L-System to generate the lines of the Penrose tiling. The logic to compute lines is imported from [this awesome interactive l-system explorer](/@kelleyvanevert/l-systems-2). I've re-written the rendering to work with canvas and paperjs and I've added fill colors to the shapes in the tiling. -->
+<!-- ` -->
+
+penroseLSystem = `order: 5
+axiom: [N]++[N]++[N]++[N]++[N]
+angle: 36
+colorful
+
+M -> OF++PF----NF[-OF----MF]++
+N -> +OF--PF[---MF--NF]+
+O -> -MF++NF[+++OF++PF]-
+P -> --OF++++MF[+PF++++NF]--NF
+F ->`
+
+<!-- md`## Dependencies` -->
+
+fillColorByArea = colors => {
+  let scale;
+  if (colors.interpolator) {
+    scale = d3
+      .scaleSequential()
+      .domain([240, 720])
+      .interpolator(colors.interpolator);
+  } else if (colors.scheme) {
+    scale = d3.scaleOrdinal(colors.scheme);
+  }
+  let vals = new Set();
+  return path => {
+    const val = Math.abs(Math.round(path.area));
+    vals.add(val);
+    return scale(val);
+  };
+}
+
+import { bounds, parse, L, linedata } from '@kelleyvanevert/l-systems-2'
+
+d3 = require('d3@v5')
+
+paper = require('paper')
+
+```
+
+Code: [Penrose Tilings](https://observablehq.com/@cimi/penrose-tilings) (Observable)  
+
+About: [Penrose Tiling](https://en.wikipedia.org/wiki/Penrose_tiling) (Wikipedia)
+
+***

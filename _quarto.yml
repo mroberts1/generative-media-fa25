@@ -30,12 +30,16 @@ website:
     background: "#62259d"
     search: false
     left:
-    - text: Home
-      file: index.qmd
-    - text: Resources
-      file: resources.qmd
-    - text: Bibliography
-      file: bibliography.qmd
+      - text: Home
+        file: index.qmd
+      - text: Resources
+        file: resources.qmd
+      - text: Algorithms
+        menu:
+          - text: Penrose Tiling
+            file: penrose.qmd
+      - text: Bibliography
+        file: bibliography.qmd
     right:
     - icon: envelope
       aria-label: envelope

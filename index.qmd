@@ -179,7 +179,7 @@ See also:
 
 *Week 6*
 
-**Permuations**
+**Towards Infinity**
 
 ::: {.column-margin}
 
