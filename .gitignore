@@ -2,6 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+.ojs
 
 /.quarto/
 **/*.quarto_ipynb

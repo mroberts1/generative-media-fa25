@@ -37,7 +37,7 @@ This course explores the history of generative approaches in the media arts, as 
 
 ## Texts
 
--   Geeta Dayal, *Another Green World* (New York: Continuum, 2009).
+-   [Geeta Dayal](https://www.theoriginalsoundtrack.com/), *Another Green World* (New York: Continuum, 2009).
 -   Benedikt Gross, Hartmut Bohnacker, and Julia Laub, [*Generative Design: Visualize, Program, and Create with P5.js*](http://www.generative-gestaltung.de/2/). Princeton, NJ: Princeton Architectural Press, 2018.
 -   Philip, Terry, ed., *The Penguin Book of Oulipo*. London: Penguin Classics, 2020.
 
@@ -90,7 +90,7 @@ Tues_9-Sept
 
 "Work at a different speed"
 
--   Geeta Dayal, [*Another Green World*, chs. 1-3](pdf/another-green-world-chs1-3.pdf)
+-   [Geeta Dayal](https://www.theoriginalsoundtrack.com/), [*Another Green World*, chs. 1-3](pdf/another-green-world-chs1-3.pdf)
 
 Thur_11-Sept
 
@@ -110,11 +110,11 @@ Tues_16-Sept
 ![](img/eno-discreet-music_loop-diagram.jpg){.lightbox width="300"}
 :::
 
--   Geeta Dayal, *Another Green World*, chs. 7-9
+-   [Geeta Dayal](https://www.theoriginalsoundtrack.com/), *Another Green World*, chs. 7-9
 
 Thur_18-Sept
 
--   Geeta Dayal, *Another Green World*, chs. 10-12
+-   [Geeta Dayal](https://www.theoriginalsoundtrack.com/), *Another Green World*, chs. 10-12
 -   "[How Brian Eno Created 'Discreet Music'](https://reverbmachine.com/blog/deconstructing-brian-enos-discreet-music/)"
 
 ------------------------------------------------------------------------
@@ -160,7 +160,7 @@ Thur_25-Sept
 
 Tues_30-Sept
 
--   *Sisters With Transistors* (Lisa Rovner, 2022) (excerpts)
+-   [*Sisters With Transistors*](https://sisterswithtransistors.com/) (Lisa Rovner, 2022) (excerpts)
 
 Thur_02-Oct
 
@@ -192,13 +192,15 @@ Tues_07-Oct
 -   Raymond Queneau, [*A Hundred Thousand Billion Poems*](https://en.wikipedia.org/wiki/A_Hundred_Thousand_Billion_Poems)
 -   [Interactive edition](https://www.bevrowe.info/Internet/Queneau/Queneau.html)
 -   Eno, [*77 Million Paintings*](https://en.wikipedia.org/wiki/77_Million_Paintings)
-- [Long Now event](https://legacy.longnow.org/events/02007/jun/29/77-million-paintings-brian-eno/)
+<!-- - [Long Now event](https://legacy.longnow.org/events/02007/jun/29/77-million-paintings-brian-eno/) -->
 - [*7 Hours in 77 Million Paintings*](https://vimeo.com/groups/chillounge/videos/638631)(420 mins. \> 35 mins. timelapse)
 - [*7 More Hours in 77 Million Paintings*](https://vimeo.com/751767)(420 mins. \> 35 mins. timelapse)
+- [Max Cooper](https://www.maxcooper.net/) and Rob Clouth, [*8 Billion Realities*](https://maxcooper.bandcamp.com/album/8-billion-realities) (album, forthcoming,  2025)
+- [Max Cooper](https://www.maxcooper.net/), [*One Hundred Billion Sparks*](https://ohbs.maxcooper.net/) (audiovisual album, 2019)
 
 Thur_09-Oct
 
-Guest speaker: Geeta Dayal
+A Conversation with [Geeta Dayal](https://www.theoriginalsoundtrack.com/)
 
 ------------------------------------------------------------------------
 

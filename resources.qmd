@@ -15,12 +15,13 @@ meleyal, [Definition of Generative Music](https://meleyal.github.io/generative-m
 
 ## Artists
 
-[Holly Herndon](https://hollyherndon.bandcamp.com/)  
-[Nobody and the Computer](https://www.youtube.com/@nobodyandthecomputer)  
-[Dor Brothers](https://www.youtube.com/@thedorbrothers)    
-[Kerim Safa](https://www.kerimsafa.com/) (nullMachines)  
-[Outlanders](https://www.outlandersdesign.com/work) (Tameem Sankari and Anja Dalby)  
-[Non-Euclidean Dreamer](https://youtube.com/@noneuclideandreamer?si=vli4sIcE20kXG7Nw) (Laura Kuttnig)
+- [Holly Herndon](https://hollyherndon.bandcamp.com/)  
+- [Nobody and the Computer](https://www.youtube.com/@nobodyandthecomputer)  
+- [Dor Brothers](https://www.youtube.com/@thedorbrothers)    
+- [Kerim Safa](https://www.kerimsafa.com/) (nullMachines)  
+- [Outlanders](https://www.outlandersdesign.com/work) (Tameem Sankari and Anja Dalby)  
+- [Non-Euclidean Dreamer](https://youtube.com/@noneuclideandreamer?si=vli4sIcE20kXG7Nw) (Laura Kuttnig)
+- [Max Cooper](https://www.maxcooper.net/)
 
 ::: {.column-margin}
 
