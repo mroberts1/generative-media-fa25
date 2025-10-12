@@ -210,7 +210,8 @@ A Conversation with [Geeta Dayal](https://www.theoriginalsoundtrack.com/)
 
 Tues_14-Oct
 
--   *The Penguin Book of OULIPO*, selected chs.
+- Philip Terry, "[Introduction](pdf/penguin-oulipo-intro.pdf)" (*The Penguin Book of OULIPO*)
+- Selected texts by Italo Calvino, Jorge Luis Borges, and Anne Garréta, in [*The Penguin Book of OULIPO*](pdf/calvino-borges-garreta.pdf)"
 
 Thur_16-Oct
 

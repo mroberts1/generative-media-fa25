@@ -40,6 +40,8 @@ website:
             file: penrose.qmd
       - text: Bibliography
         file: bibliography.qmd
+      - text: Oblique Strategies
+        file: oblique-strategies.qmd
     right:
     - icon: envelope
       aria-label: envelope
