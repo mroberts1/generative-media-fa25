@@ -216,6 +216,11 @@ Tues_14-Oct
 Thur_16-Oct
 
 -   Rob Clouth, [*The Harry Potter Book Generator*](https://robclouth.com/#projects/the-harry-potter-book-generator)
+-   [The People's Republic of Interactive Fiction](https://pr-if.org/about/)
+-   [Nick Montfort](https://nickm.com/)
+-   [Angela Chang](https://www.anjchang.com/)
+-   [Taper](https://www.anjchang.com/taper-digital-zine/) (biannual computational poetry journal)
+-   [Bad Quarto](https://badquar.to/) (computational literature publisher)
 -   [NanoGenMo](https://nanogenmo.github.io/)
 
 **DEADLINE: Oblique Strategies Project**
