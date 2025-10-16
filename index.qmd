@@ -222,6 +222,7 @@ Thur_16-Oct
 -   [Taper](https://www.anjchang.com/taper-digital-zine/) (biannual computational poetry journal)
 -   [Bad Quarto](https://badquar.to/) (computational literature publisher)
 -   [NanoGenMo](https://nanogenmo.github.io/)
+-   [Audioreactive: Algorithmic Visual Music](https://mroberts1.github.io/audioreactive/)
 
 **DEADLINE: Oblique Strategies Project**
 
