@@ -216,7 +216,7 @@ Tues_14-Oct
 Thur_16-Oct
 
 -   Rob Clouth, [*The Harry Potter Book Generator*](https://robclouth.com/#projects/the-harry-potter-book-generator)
--   NanoGenMo
+-   [NanoGenMo](https://nanogenmo.github.io/)
 
 **DEADLINE: Oblique Strategies Project**
 
