@@ -237,7 +237,8 @@ Thur_16-Oct
 Tues_21-Oct
 
 -   [Mandelbrot Viewer](https://math.hws.edu/eck/js/mandelbrot/MB-info.html)
--   [Mandelbulb](https://www.mandelbulb.com/)\
+-   [What Is The Mandelbulb?](https://www.mandelbulb.com/about/)
+-   [Mandelbulber](https://sourceforge.net/projects/mandelbulber/) (MacOS)
 -   [Fractal Worlds](https://www.youtube.com/watch?v=xj_4jvSDVME&list=PL1ywvug1r6ThGOrb9vQNfqYsI5XNyV3B3&index=14&ab_channel=bib993) (YouTube channel)
 
 Thur_23-Oct
