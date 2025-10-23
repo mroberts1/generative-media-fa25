@@ -211,7 +211,7 @@ A Conversation with [Geeta Dayal](https://www.theoriginalsoundtrack.com/)
 Tues_14-Oct
 
 - Philip Terry, "[Introduction](pdf/penguin-oulipo-intro.pdf)" (*The Penguin Book of OULIPO*)
-- Selected texts by Italo Calvino, Jorge Luis Borges, and Anne Garréta, in [*The Penguin Book of OULIPO*](pdf/calvino-borges-garreta.pdf)"
+- Selected texts by Italo Calvino, Jorge Luis Borges, and Anne Garréta, in [*The Penguin Book of OULIPO*](pdf/calvino-borges-garreta.pdf)
 
 Thur_16-Oct
 
@@ -230,15 +230,15 @@ Thur_16-Oct
 
 *Week 8*
 
-**Towards Infinity: Fractal Worlds**
+**Fractal Worlds**
 
-::: {column-margin}
+::: {.column-margin}
 
 {{< video https://youtu.be/ClrPgjIS5pg?list=PL67453435CBFEDB49 width="300" >}}
 
-{{< video https://vimeo.com/1028833030 width="300" }}
+{{< video https://vimeo.com/1028833030 width="300" >}}
 
-{{< video https://vimeo.com/1051929707?fl=pl&fe=sh width="300" >}}
+{{< video https://vimeo.com/1051929707 width="300" >}}
 
 :::
 
@@ -262,8 +262,10 @@ Oblique Strategies Projects
 
 **Mondrian: Computer Graphics**
 
-::: column-margin
+::: {.column-margin}
+
 {{< video https://youtu.be/M4nql28E_AE width="300" >}}
+
 :::
 
 Tues_28-Oct
