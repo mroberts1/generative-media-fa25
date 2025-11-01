@@ -254,13 +254,34 @@ Thur_23-Oct
 -   [Julius Horsthuis](https://vimeo.com/juliushorsthuis) (3D fractal artist using Mandelbulb)
 -   [*Recombination*](https://vimeo.com/1028833030) (fractal film/experience by Julius Horsthuis)
 
-Oblique Strategies Projects
-
 ------------------------------------------------------------------------
 
 *Week 9*
 
-**Mondrian: Computer Graphics**
+**Review**
+
+Tues_28-Oct
+
+- Oblique Strategies Projects
+
+Thur_30-Oct
+
+::: {.column-margin}
+
+{{< video https://youtu.be/lNcUwPriB58 width="300" >}}
+
+{{< video https://youtu.be/AXlorh8D7J4 width="300" >}}
+
+:::
+
+- [Envion](https://www.peamarte.it/env/envion_v3.6.html) (Algorithmic Dynatext Envelope Sequencer)
+- [Envion playlist](https://www.youtube.com/playlist?list=PLLITukQh1_l61lP6GMfa1Hz4Db7_wrTTT) (YouTube)
+
+------------------------------------------------------------------------
+
+*Week 10*
+
+**Computer Graphics**
 
 ::: {.column-margin}
 
@@ -268,30 +289,17 @@ Oblique Strategies Projects
 
 :::
 
-Tues_28-Oct
-
--   Amy Goodchild, "[Early Computer Art in the '50s and '60s](https://www.amygoodchild.com/blog/computer-art-50s-and-60s)"
--   A. Michael Noll, "Human or Machine? A Subjective Comparison of Piet Mondrian's 'Composition With Lines' (1917) and a Computer-Generated Picture"
--   [Early 3D Computer Graphics from Bell Labs](https://youtu.be/M4nql28E_AE)
-
-Thur_30-Oct
-
--   Lev Manovich, "Who is 'An Artist' in the 'AI Era'?"
--   Processing Mondrian
-
-------------------------------------------------------------------------
-
-*Week 10*
-
-**Ecosystems**
-
 Tues_04-Nov
 
-Conway's Game of Life
+-   Amy Goodchild, "[Early Computer Art in the '50s and '60s](https://www.amygoodchild.com/blog/computer-art-50s-and-60s)"
+-   Rachel R. Roe-Dale, "[Vera Molnar's Exploration of the Unimaginable](pdf/molnar-exploration-unimaginable.pdf)"
+-   Vera Molnar, "[Toward Aesthetic Guidelines for Paintings with the Aid of a Computer](pdf/molnar-aesthetic-guidelines.pdf)" (*Leonardo*, Summer, 1975, Vol. 8, No. 3 (Summer, 1975), pp. 185-189))
+
 
 Thur_06-Nov
 
-Lenia
+-   A. Michael Noll, "Human or Machine? A Subjective Comparison of Piet Mondrian's 'Composition With Lines' (1917) and a Computer-Generated Picture"
+-   Processing Mondrian
 
 ------------------------------------------------------------------------
 
