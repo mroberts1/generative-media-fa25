@@ -272,10 +272,13 @@ Thur_30-Oct
 
 {{< video https://youtu.be/AXlorh8D7J4 width="300" >}}
 
+[![](img/schaeffer.jpg){width="300"}](https://www.reddit.com/r/musiconcrete/comments/1om2agj/pierre_schaefferexe_the_new_net_sound_object/)
+
 :::
 
 - [Envion](https://www.peamarte.it/env/envion_v3.6.html) (Algorithmic Dynatext Envelope Sequencer)
 - [Envion playlist](https://www.youtube.com/playlist?list=PLLITukQh1_l61lP6GMfa1Hz4Db7_wrTTT) (YouTube)
+- [Envion](https://drive.google.com/drive/folders/1dlNMclRJPo6v7d5jslY7now5wirRjJDG?usp=sharing) (Download)
 
 ------------------------------------------------------------------------
 
