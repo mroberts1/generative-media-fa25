@@ -284,7 +284,7 @@ Thur_30-Oct
 
 *Week 10*
 
-**Computer Graphics**
+**Unimaginable Images: Computer Art**
 
 ::: {.column-margin}
 
@@ -301,7 +301,7 @@ Tues_04-Nov
 
 Thur_06-Nov
 
--   A. Michael Noll, "Human or Machine? A Subjective Comparison of Piet Mondrian's 'Composition With Lines' (1917) and a Computer-Generated Picture"
+-   A. Michael Noll, "[Human or Machine? A Subjective Comparison of Piet Mondrian's 'Composition With Lines' (1917) and a Computer-Generated Picture](pdf/Noll_Mondrian.pdf)"
 -   Processing Mondrian
 
 ------------------------------------------------------------------------
