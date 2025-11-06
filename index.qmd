@@ -57,6 +57,10 @@ This course explores the history of generative approaches in the media arts, as 
 -   [machìna](https://yeoheemusic.bandcamp.com/)
 -   [Heejin Jang](https://heejinjang.bandcamp.com/)
 
+## Resources
+
+-  [Generative Art](https://en.wikipedia.org/wiki/Generative_art) (Wikipedia)
+
 ## Assignments & Evaluation
 
 Reflection post (weekly, due Friday of each week, 10 required) (40%)\
@@ -339,6 +343,7 @@ Thur_13-Nov
 
 Tues_18-Nov
 
+-   Mike Freeman, [Creating Generative Art](https://observablehq.com/@mkfreeman/creating-generative-art)
 -   [Generative Design](http://www.generative-gestaltung.de/2/)
 
 Thur_20-Nov
