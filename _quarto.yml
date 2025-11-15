@@ -2,6 +2,8 @@ project:
   type: website
   resources:
     - "pdf/*.pdf"
+    - "img/halftone-pattern.svg"
+    - "img/halftone-gradient.svg"
   
 website:
   title: "    "
@@ -67,14 +69,16 @@ format:
     theme: 
       light: ember.scss
       dark: [slate, ember.scss]
-    css: custom.scss
+    css: 
+      - custom.scss
+      - navbar-pattern.css
     grid:
         sidebar-width: 300px
         body-width: 800px
         margin-width: 300px
         gutter-width: 1em
     # page-layout: article
-    fontsize: 1em
+    fontsize: 1.2em
     linestretch: 1.5
     smooth-scroll: true
     linkcolor: "#62259d"
