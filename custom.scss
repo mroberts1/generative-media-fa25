@@ -29,15 +29,10 @@ canvas[style*="background: transparent"] {
   margin-bottom: 0.5rem !important;
 }
 
-/* Ensure content container displays properly */
-.content {
-  overflow-x: hidden;
-}
-
 /* Make shader iframe match body text width (responsive to container) */
 iframe[src*="shaderpark.com"] {
   width: 100% !important;
-  max-width: 100% !important;
+  max-width: 800px !important;
   height: auto !important;
   aspect-ratio: 1 / 1;
   display: block;
