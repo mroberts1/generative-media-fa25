@@ -21,8 +21,6 @@ Hours: Tues/Thur 14:30-3:30\
 [{{< fa regular envelope >}}](mailto:martin_roberts@emerson.edu) \| [{{< fa brands mastodon >}}](https://merveilles.town/@dokoissho) \| [{{< fa brands github >}}](https://github.com/mroberts1/) \| [{{< fa brands twitter >}}](https://twitter.com/mroberts_vma)\
 :::
 
-<br>
-
 <small>Shader: [T1 by h2ee](https://shaderpark.com/sculpture/-OZ3EHXk8r1JyhqgVTCy?hideeditor=true&hidepedestal=true) \[[Fullscreen](https://shaderpark.com/embed/-OZ3EHXk8r1JyhqgVTCy)\]</small>
 
 ## Description
