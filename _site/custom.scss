@@ -24,4 +24,17 @@ canvas[style*="background: transparent"] {
   background-color: transparent !important;
 }
 
+/* Reduce spacing between title block and content */
+#title-block-header {
+  margin-bottom: 0.5rem !important;
+}
 
+/* Make shader iframe match body text width (responsive to container) */
+iframe[src*="shaderpark.com"] {
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 1 / 1;
+  display: block;
+  margin: 0.5rem auto !important;
+  border: none !important;
+}

@@ -3,7 +3,7 @@ title: "Generative Media"
 subtitle: "History, Theory, Practice"
 ---
 
-<iframe src="https://shaderpark.com/embed/-OZ3EHXk8r1JyhqgVTCy" width="500" height="500" frameborder="0" style="display: block; margin: 0 auto; border: none;">
+<iframe src="https://shaderpark.com/embed/-OZ3EHXk8r1JyhqgVTCy" frameborder="0">
 
 </iframe>
 
