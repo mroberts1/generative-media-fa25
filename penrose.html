@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>VM402-09 Generative Media –</title>
+<title>Penrose Tiling –</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -46,8 +81,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/bootstrap/bootstrap-c56f642c06ddc4a73b17ca08b3cb2bd9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/bootstrap/bootstrap-dark-bc84552884fd3f4f8536e2cbde38cb12.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="site_libs/bootstrap/bootstrap-c56f642c06ddc4a73b17ca08b3cb2bd9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,13 +109,15 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script type="module" src="site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="custom.scss">
 <link rel="stylesheet" href="navbar-pattern.css">
 </head>
 
-<body class="nav-sidebar floating nav-fixed slimcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-sidebar floating nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -324,7 +359,7 @@ ul.task-list li input[type="checkbox"] {
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title">VM402-09 Generative Media</h1>
+          <h1 class="quarto-secondary-nav-title">Penrose Tiling</h1>
         </a>     
     </div>
   </nav>
@@ -345,13 +380,12 @@ ul.task-list li input[type="checkbox"] {
 </div></div>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">VM402-09 Generative Media</h1>
-<p class="subtitle lead">History, Theory, Practice</p>
+<h1 class="title d-none d-lg-block">Penrose Tiling</h1>
 </div>
 
 
@@ -368,189 +402,199 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="quarto-layout-panel" data-layout="[[50, 50]]">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-<iframe src="https://shaderpark.com/embed/-OZ3EHXk8r1JyhqgVTCy" width="500" height="500" frameborder="0" style="display: block; margin: 0 auto; border: none;">
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code hidden" id="cb1" data-startfrom="7" data-source-offset="-1"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 6;"><span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>canvas <span class="op">=</span> {</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> S <span class="op">=</span> config<span class="op">.</span><span class="at">size</span><span class="op">;</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> concurrency <span class="op">=</span> config<span class="op">.</span><span class="at">concurrency</span><span class="op">;</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> context <span class="op">=</span> DOM<span class="op">.</span><span class="fu">context2d</span>(S<span class="op">,</span> S)<span class="op">;</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  paper<span class="op">.</span><span class="fu">setup</span>(context<span class="op">.</span><span class="at">canvas</span>)<span class="op">;</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  paper<span class="op">.</span><span class="at">view</span><span class="op">.</span><span class="at">viewSize</span> <span class="op">=</span> <span class="kw">new</span> paper<span class="op">.</span><span class="fu">Size</span>(S<span class="op">,</span> S)<span class="op">;</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> lines <span class="op">=</span> data<span class="op">.</span><span class="at">lines</span><span class="op">.</span><span class="fu">reverse</span>()<span class="op">;</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> paths <span class="op">=</span> []<span class="op">;</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> fillColor<span class="op">;</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> reset <span class="op">=</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>    paper<span class="op">.</span><span class="at">project</span><span class="op">.</span><span class="at">activeLayer</span><span class="op">.</span><span class="fu">removeChildren</span>()<span class="op">;</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> backgroundLayer <span class="op">=</span> <span class="kw">new</span> paper<span class="op">.</span><span class="fu">Layer</span>()<span class="op">;</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> background <span class="op">=</span> <span class="kw">new</span> paper<span class="op">.</span><span class="at">Path</span><span class="op">.</span><span class="fu">Rectangle</span>(paper<span class="op">.</span><span class="at">view</span><span class="op">.</span><span class="at">bounds</span>)<span class="op">;</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> colorIdx <span class="op">=</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">floor</span>(<span class="bu">Math</span><span class="op">.</span><span class="fu">random</span>() <span class="op">*</span> config<span class="op">.</span><span class="at">colors</span><span class="op">.</span><span class="at">length</span>)<span class="op">;</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>    fillColor <span class="op">=</span> <span class="fu">fillColorByArea</span>(config<span class="op">.</span><span class="at">colors</span>[colorIdx])<span class="op">;</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>    background<span class="op">.</span><span class="at">style</span> <span class="op">=</span> { <span class="dt">fillColor</span><span class="op">:</span> config<span class="op">.</span><span class="at">colors</span>[colorIdx]<span class="op">.</span><span class="at">bgColor</span> }<span class="op">;</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>    paper<span class="op">.</span><span class="at">view</span><span class="op">.</span><span class="fu">draw</span>()<span class="op">;</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a>    i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>  }<span class="op">;</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>  <span class="kw">const</span> animate <span class="op">=</span> lines <span class="kw">=&gt;</span> {</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>    paths <span class="op">=</span> []<span class="op">;</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>    i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> b <span class="op">=</span> <span class="fu">bounds</span>(lines)<span class="op">;</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> scaleX <span class="op">=</span> d3</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">scaleLinear</span>()</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">domain</span>([b[<span class="dv">0</span>]<span class="op">,</span> b[<span class="dv">2</span>]])</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">range</span>([<span class="dv">10</span><span class="op">,</span> S <span class="op">-</span> <span class="dv">10</span>])<span class="op">;</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> scaleY <span class="op">=</span> d3</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">scaleLinear</span>()</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">domain</span>([b[<span class="dv">1</span>]<span class="op">,</span> b[<span class="dv">3</span>]])</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">range</span>([<span class="dv">10</span><span class="op">,</span> S <span class="op">-</span> <span class="dv">10</span>])<span class="op">;</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>      <span class="cf">if</span> (i <span class="op">&gt;</span> lines<span class="op">.</span><span class="at">length</span> <span class="op">/</span> concurrency) <span class="cf">return</span><span class="op">;</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>      <span class="cf">for</span> (<span class="kw">let</span> batch <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> batch <span class="op">&lt;</span> concurrency<span class="op">;</span> batch<span class="op">++</span>) {</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>        <span class="kw">const</span> pos <span class="op">=</span> batch <span class="op">*</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">floor</span>(lines<span class="op">.</span><span class="at">length</span> <span class="op">/</span> concurrency) <span class="op">+</span> i<span class="op">;</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> (<span class="op">!</span>lines[pos]) <span class="cf">continue</span><span class="op">;</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>        <span class="kw">const</span> path <span class="op">=</span> <span class="kw">new</span> paper<span class="op">.</span><span class="fu">Path</span>({</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a>          <span class="dt">segments</span><span class="op">:</span> []<span class="op">,</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>          <span class="dt">strokeColor</span><span class="op">:</span> <span class="st">'white'</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>        })<span class="op">;</span></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>        lines[pos]<span class="op">.</span><span class="fu">forEach</span>(point <span class="kw">=&gt;</span> {</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>          path<span class="op">.</span><span class="fu">add</span>(<span class="kw">new</span> paper<span class="op">.</span><span class="fu">Point</span>(<span class="fu">scaleX</span>(point<span class="op">.</span><span class="at">x</span>)<span class="op">,</span> <span class="fu">scaleY</span>(point<span class="op">.</span><span class="at">y</span>)))<span class="op">;</span></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>        })<span class="op">;</span></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> (<span class="bu">Math</span><span class="op">.</span><span class="fu">abs</span>(path<span class="op">.</span><span class="at">area</span>) <span class="op">&lt;</span> <span class="dv">10</span>) <span class="cf">continue</span><span class="op">;</span></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>        path<span class="op">.</span><span class="at">fillColor</span> <span class="op">=</span> <span class="fu">fillColor</span>(path)<span class="op">;</span></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>        paths<span class="op">.</span><span class="fu">push</span>(path)<span class="op">;</span></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>      }</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>      i<span class="op">++;</span></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>    }<span class="op">;</span></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>  }<span class="op">;</span></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>  <span class="fu">reset</span>()<span class="op">;</span></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>  context<span class="op">.</span><span class="at">canvas</span><span class="op">.</span><span class="at">onclick</span> <span class="op">=</span> reset<span class="op">;</span></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>  paper<span class="op">.</span><span class="at">view</span><span class="op">.</span><span class="at">onFrame</span> <span class="op">=</span> <span class="fu">animate</span>(lines)<span class="op">;</span></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> context<span class="op">.</span><span class="at">canvas</span><span class="op">;</span></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>config <span class="op">=</span> {</span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> {</span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a>    <span class="dt">size</span><span class="op">:</span> <span class="dv">600</span><span class="op">,</span></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>    <span class="dt">concurrency</span><span class="op">:</span> <span class="dv">4</span><span class="op">,</span></span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>    <span class="dt">colors</span><span class="op">:</span> [</span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>      { <span class="dt">bgColor</span><span class="op">:</span> <span class="st">'#E1DAD2'</span><span class="op">,</span> <span class="dt">scheme</span><span class="op">:</span> [<span class="st">'#FF4400'</span><span class="op">,</span> <span class="st">'#F7DA00'</span><span class="op">,</span> <span class="st">'#07748C'</span>] }<span class="op">,</span></span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a>      { <span class="dt">bgColor</span><span class="op">:</span> <span class="st">'#FED322'</span><span class="op">,</span> <span class="dt">scheme</span><span class="op">:</span> [<span class="st">'#20BA4E'</span><span class="op">,</span> <span class="st">'#F20775'</span><span class="op">,</span> <span class="st">'#51358C'</span>] }<span class="op">,</span></span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a>      { <span class="dt">bgColor</span><span class="op">:</span> <span class="st">'#F2EFC7'</span><span class="op">,</span> <span class="dt">scheme</span><span class="op">:</span> [<span class="st">'#FF9D83'</span><span class="op">,</span> <span class="st">'#4071A6'</span><span class="op">,</span> <span class="st">'#D3DEE8'</span>] }</span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>      <span class="co">// { bgColor: '#101115', scheme: d3.schemePastel1 },</span></span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a>      <span class="co">// { bgColor: '#fefefe', interpolator: d3.interpolatePlasma },</span></span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a>  }<span class="op">;</span></span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> <span class="fu">linedata</span>(<span class="fu">L</span>(<span class="fu">parse</span>(penroseLSystem))<span class="op">,</span> <span class="dv">5</span>)</span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;!--</span> <span class="fu">md</span><span class="vs">` --&gt;</span></span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;!-- Click the canvas to reset the tiling and pick a random color scheme from the ones available in config. Change the config object to increase the size or experiment with different color schemes.  --&gt;</span></span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;!-- We use an L-System to generate the lines of the Penrose tiling. The logic to compute lines is imported from [this awesome interactive l-system explorer](/@kelleyvanevert/l-systems-2). I've re-written the rendering to work with canvas and paperjs and I've added fill colors to the shapes in the tiling. --&gt;</span></span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a><span class="vs">&lt;!-- `</span> <span class="op">--&gt;</span></span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a>penroseLSystem <span class="op">=</span> <span class="vs">`order: 5</span></span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a><span class="vs">axiom: [N]++[N]++[N]++[N]++[N]</span></span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a><span class="vs">angle: 36</span></span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a><span class="vs">colorful</span></span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a><span class="vs">M -&gt; OF++PF----NF[-OF----MF]++</span></span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a><span class="vs">N -&gt; +OF--PF[---MF--NF]+</span></span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a><span class="vs">O -&gt; -MF++NF[+++OF++PF]-</span></span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a><span class="vs">P -&gt; --OF++++MF[+PF++++NF]--NF</span></span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a><span class="vs">F -&gt;`</span></span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;!--</span> <span class="fu">md</span><span class="vs">`## Dependencies`</span> <span class="op">--&gt;</span></span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a>fillColorByArea <span class="op">=</span> colors <span class="kw">=&gt;</span> {</span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> scale<span class="op">;</span></span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (colors<span class="op">.</span><span class="at">interpolator</span>) {</span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a>    scale <span class="op">=</span> d3</span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">scaleSequential</span>()</span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">domain</span>([<span class="dv">240</span><span class="op">,</span> <span class="dv">720</span>])</span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a>      <span class="op">.</span><span class="fu">interpolator</span>(colors<span class="op">.</span><span class="at">interpolator</span>)<span class="op">;</span></span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a>  } <span class="cf">else</span> <span class="cf">if</span> (colors<span class="op">.</span><span class="at">scheme</span>) {</span>
+<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a>    scale <span class="op">=</span> d3<span class="op">.</span><span class="fu">scaleOrdinal</span>(colors<span class="op">.</span><span class="at">scheme</span>)<span class="op">;</span></span>
+<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a>  <span class="kw">let</span> vals <span class="op">=</span> <span class="kw">new</span> <span class="bu">Set</span>()<span class="op">;</span></span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a>  <span class="cf">return</span> path <span class="kw">=&gt;</span> {</span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a>    <span class="kw">const</span> val <span class="op">=</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">abs</span>(<span class="bu">Math</span><span class="op">.</span><span class="fu">round</span>(path<span class="op">.</span><span class="at">area</span>))<span class="op">;</span></span>
+<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a>    vals<span class="op">.</span><span class="fu">add</span>(val)<span class="op">;</span></span>
+<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="fu">scale</span>(val)<span class="op">;</span></span>
+<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a>  }<span class="op">;</span></span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> { bounds<span class="op">,</span> parse<span class="op">,</span> L<span class="op">,</span> linedata } <span class="im">from</span> <span class="st">'@kelleyvanevert/l-systems-2'</span></span>
+<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a>d3 <span class="op">=</span> <span class="pp">require</span>(<span class="st">'d3@v5'</span>)</span>
+<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a>paper <span class="op">=</span> <span class="pp">require</span>(<span class="st">'paper'</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: flex-start;">
-</iframe>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="declaration">
+
 </div>
 </div>
 </div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-3" data-nodetype="declaration">
 
-<div class="no-row-height column-margin column-container"><div class="">
-<p><a href="https://emerson.edu/academics/academic-departments/visual-media-arts">Department of Visual &amp; Media Arts</a><br>
-<a href="https://emerson.edu/">Emerson College</a><br>
-Fall Semester 2025<br>
-Thur 4 Sept - Tues 16 Dec<br>
-16:00-17:45 Ansin 502<br>
-<a href="http://mroberts.emerson.build/">Dr.&nbsp;Martin Roberts</a><br>
-Office: TBA<br>
-Hours: Tues/Thur 14:30-3:30<br>
-<a href="mailto:martin_roberts@emerson.edu"><i class="fa-regular fa-envelope" aria-label="envelope"></i></a> | <a href="https://merveilles.town/@dokoissho"><i class="fa-brands fa-mastodon" aria-label="mastodon"></i></a> | <a href="https://github.com/mroberts1/"><i class="fa-brands fa-github" aria-label="github"></i></a> | <a href="https://twitter.com/mroberts_vma"><i class="fa-brands fa-twitter" aria-label="twitter"></i></a><br>
-</p>
-</div></div><p><br></p>
-<p><small>Shader: <a href="https://shaderpark.com/sculpture/-OZ3EHXk8r1JyhqgVTCy?hideeditor=true&amp;hidepedestal=true">T1 by h2ee</a> [<a href="https://shaderpark.com/embed/-OZ3EHXk8r1JyhqgVTCy">Fullscreen</a>]</small></p>
-<section id="description" class="level2">
-<h2 class="anchored" data-anchor-id="description">Description</h2>
-<blockquote class="blockquote">
-<p><small>It’s very uSseful in the arts to have certain sorts of systems, [particularly] if you’re working with something that doesn’t have immediate limitations because you don’t have enough money. … Sometimes not having enough money is good, because you don’t end up throwing a million dollars at a five-cent idea. But [what] if the idea doesn’t require any money? How do you actually stop yourself from putting too much into an idea that’s too small? You find an external system. And some of the best systems in the world come out of physics, the sciences. Math.</small></p>
-<p><small>—Judy Nylon, cited in Geeta Dayal, <em>Another Green Word</em> (23-24).</small></p>
-</blockquote>
-<p>This online, asynchronous course examines approaches to the analysis and criticism of contemporary media. You will learn how to become critical of the media messages you use <em>and</em> create, and how to think and write with agency.</p>
-</section>
-<section id="learning-objectives" class="level2">
-<h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
-</section>
-<section id="texts" class="level2">
-<h2 class="anchored" data-anchor-id="texts">Texts</h2>
-<ul>
-<li>Geeta Dayal, <em>Another Green World</em> (New York: Continuum, 2009).</li>
-<li>Benedikt Gross, Hartmut Bohnacker, and Julia Laub, <a href="http://www.generative-gestaltung.de/2/"><em>Generative Design: Visualize, Program, and Create with P5.js</em></a>. Princeton, NJ: Princeton Architectural Press, 2018.</li>
-<li>Philip, Terry, ed., <em>The Penguin Book of Oulipo</em>. London: Penguin Classics, 2020.</li>
-</ul>
-</section>
-<section id="films" class="level2">
-<h2 class="anchored" data-anchor-id="films">Films</h2>
-<p><em>John Cage: Journeys in Sound</em> (Allan Miller and Paul Smaczny, 2012).</p>
-</section>
-<section id="evaluation" class="level2">
-<h2 class="anchored" data-anchor-id="evaluation">Evaluation</h2>
-<p>Paper #1 20%</p>
-<p>Paper #2/Creative Project 20%</p>
-<p>Discussion Posts 30%</p>
-<p>Response papers (2) 30%</p>
-</section>
-<section id="class-schedule" class="level2 page-columns page-full">
-<h2 class="anchored" data-anchor-id="class-schedule">Class Schedule</h2>
-<p><em>Week 1</em></p>
-<p><strong>Introduction: Unpromising Beginnings</strong></p>
-<p>Thur_04-Sept</p>
-<hr>
-<p><em>Week 2</em></p>
-<p><strong>Oblique Strategies</strong></p>
-<p>Tues_9-Sept</p>
-<p>Geeta Dayal, <em>Another Green World</em>, chs.&nbsp;1-3</p>
-<p>Thur_11-Sept</p>
-<p>Geeta Dayal, <em>Another Green World</em>, chs.&nbsp;4-6</p>
-<hr>
-<p><em>Week 3</em></p>
-<p>Tues_16-Sept</p>
-<p>Geeta Dayal, <em>Another Green World</em>, chs.&nbsp;7-9</p>
-<p>Thur_18-Sept</p>
-<p>Geeta Dayal, <em>Another Green World</em>, chs.&nbsp;10-12</p>
-<hr>
-<p><em>Week 4</em></p>
-<p><strong>Imaginary Landscapes: John Cage and La Monte Young</strong></p>
-<p>Tues_23-Sept</p>
-<p>Screening: <em>John Cage: Journeys in Sound</em></p>
-<p>Thur_25-Sept</p>
-<p>Cage, selected essays from <em>Silence</em></p>
-<hr>
-<p><em>Week 5</em></p>
-<p><strong>Phasing: Steve Reich and Terry Riley</strong></p>
-<p>Tues_30-Sept</p>
-<p>Steve Reich, “Music as a Gradual Process” (1968)</p>
-<p>Wim Mertens book?</p>
-<p>Thur_02-Oct</p>
-<p>Terry Riley?</p>
-<hr>
-<p><em>Week 6</em></p>
-<p>Tues_07-Oct</p>
-<p><strong>Numbers</strong></p>
-<p>Raymond Queneau, <a href="https://en.wikipedia.org/wiki/A_Hundred_Thousand_Billion_Poems"><em>A Hundred Thousand Billion Poems</em></a></p>
-<p><a href="https://www.bevrowe.info/Internet/Queneau/Queneau.html">Interactive edition</a></p>
-<p>Eno, <a href="https://en.wikipedia.org/wiki/77_Million_Paintings"><em>77 Million Paintings</em></a></p>
-<p>Watch:</p>
-<ul>
-<li><a href="https://vimeo.com/groups/chillounge/videos/751767"><em>7 Hours in 77 Million Paintings</em></a>(420 mins. &gt; 35 mins. timelapse)</li>
-</ul>
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-4" data-nodetype="declaration">
 
-<div class="no-row-height column-margin column-container"><div class="">
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://player.vimeo.com/video/638631" frameborder="0" title="" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
-</div></div><ul>
-<li>[<em>7 More Hours in 77 Million Paintings</em>](<a href="https://vimeo.com/751767?fl=pl&amp;fe=sh">https://vimeo.com/751767</a>) (420 mins. &gt; 35 mins. timelapse)</li>
-</ul>
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-5" data-nodetype="declaration">
 
-<div class="no-row-height column-margin column-container"><div class="">
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://player.vimeo.com/video/751767" frameborder="0" title="" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
-</div></div><p>Thur_09-Oct</p>
-<hr>
-<p><em>Week 7</em></p>
-<p><strong>Fractals</strong></p>
-<p>Tues_14-Oct</p>
-<p>Thur_16-Oct</p>
-<hr>
-<p><em>Week 8</em></p>
-<p><strong>Ecosystems</strong></p>
-<p>Tues_21-Oct</p>
-<p>Conway’s Game of Life</p>
-<p>Thur_23-Oct</p>
-<p>Lenia</p>
-<hr>
-<p><em>Week 9</em></p>
-<p><strong>Procedural Worlds</strong></p>
-<p>Tues_28-Oct</p>
-<p>Simon Parkin, “<a href="https://www.newyorker.com/tech/annals-of-technology/a-journey-to-the-end-of-the-world-of-minecraft">A Journey to the End of the World (of Minecraft)</a>” (<em>The New Yorker</em>, 23 January 2014)</p>
-<p>Thur_30-Oct</p>
-<p><a href="https://marian42.itch.io/wfc">Wave Function Collapse</a></p>
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-6" data-nodetype="declaration">
 
-<div class="no-row-height column-margin column-container"><div class="">
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/7ffT_8wViBA" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</div></div><hr>
-<p><em>Week 10</em></p>
-<p><strong>Algorithmic Architecture</strong></p>
-<p>Tues_04-Nov</p>
-<p>Thur_06-Nov</p>
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-7" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-8" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+</div>
+<p>Code: <a href="https://observablehq.com/@cimi/penrose-tilings">Penrose Tilings</a> (Observable)</p>
+<p>About: <a href="https://en.wikipedia.org/wiki/Penrose_tiling">Penrose Tiling</a> (Wikipedia)</p>
 <hr>
-<p><em>Week 11</em></p>
-<p>Veterans Day</p>
-<p><strong>Generative Art &amp; Design</strong></p>
-<p>Thur_13-Nov</p>
-<p>Read the interviews with <a href="https://www.generativehut.com/post/interview-with-josef-pelz">Josef Pelz</a>, <a href="https://www.generativehut.com/post/interview-with-etienne-jacob">Étienne Jacob</a>, <a href="https://www.generativehut.com/post/interview-with-shohei-fujimoto">Shohei Fujimoto</a>, <a href="https://www.generativehut.com/post/interview-with-giulia-cosco">Giulia Cosco</a>, and/or <a href="https://www.generativehut.com/post/interview-with-pierre-paslier">Pierre Paslier</a></p>
-<hr>
-<p><em>Week 12</em></p>
-<p>Tues_18-Nov</p>
-<p><a href="https://www.generativehut.com/">Generative Hut</a> website</p>
-<p>Thur_20-Nov</p>
-<p>P5.js workshop</p>
-<hr>
-<p><em>Week 13</em></p>
-<p>Tues_25-Nov</p>
-<p>NO CLASS?</p>
-<p>Thanksgiving</p>
-<hr>
-<p><em>Week 14</em></p>
-<p>Tues_02-Dec Presentations</p>
-<p>Thur_04-Dec Presentations</p>
-<hr>
-<p><em>Week 15</em></p>
-<p>Tues_09-Dec Presentations</p>
-<p>Thur_11-Dec Presentations</p>
-<hr>
-<p><em>Week 16</em></p>
-<p>Tues_16-Dec Conclusion</p>
-<hr>
-</section>
-<section id="policies-procedures" class="level2">
-<h2 class="anchored" data-anchor-id="policies-procedures">Policies &amp; Procedures</h2>
-<p><strong>Attendance and Participation</strong><br>
-Full participation in class discussions and timely submission of all assignments constitutes evidence of class attendance. Students are expected to allocate sufficient time to complete all the requirements for each module: reading, viewing, responding to discussion questions, submitting replies to classmates, and completing other assignments on time. Failure to keep up with the pace of the course may result in lower grades or the failure of the class.</p>
-<p><strong>Academic Honesty</strong><br>
-Do not plagiarize. Plagiarism is using someone else’s work without giving them fair credit. Plagiarism and cheating will result in an “F” for the assignment.</p>
-<p><strong>Accommodations</strong><br>
-Emerson is committed to providing equal access and support to all qualified students through the provision of reasonable accommodations, so that each student may fully participate in the Emerson experience. Student Accessibility Services (SAS) staff will be working remotely for the fall of 2020. If you have a disability that may require accommodations, please contact them at <a href="mailto:SAS@emerson.edu"><em>SAS@emerson.edu</em></a> or at (617)824-8592 to make an appointment with an SAS staff member.</p>
-<p>Students are encouraged to contact SAS early in the semester. Please note that accommodations are not applied retroactively.</p>
-<p><strong>Plagiarism Statement</strong><br>
-It is the responsibility of all Emerson students to know and adhere to the College’s policy on plagiarism, which can be found at: <a href="http://www.emerson.edu/policy/plagiarism"><em>http://www.emerson.edu/policy/plagiarism</em></a>*. If you have any question concerning the Emerson plagiarism policy or about documentation of sources in work you produce in this course, speak to your instructor.</p>
-<p><strong>Diversity Statement</strong><br>
-Every student in this class will be honored and respected as an individual with distinct experiences, talents, and backgrounds. Students will be treated fairly regardless of race, religion, sexual orientation, gender identification, disability, socio-economic status, or national identity. Issues of diversity may be a part of class discussion, assigned material, and projects. The instructor will make every effort to ensure that an inclusive environment exists for all students. If you have any concerns or suggestions for improving the classroom climate, please do not hesitate to speak with the course instructor or to contact the Office of Diversity and Inclusion at 617-824-8528 or by email at <a href="mailto:diversity*inclusion@emerson.edu"><em>diversity</em>inclusion@emerson.edu*</a></p>
 
 
-</section>
 
 </main> <!-- /main -->
+<script type="ojs-module-contents">
+eyJjb250ZW50cyI6W3sibWV0aG9kTmFtZSI6ImludGVycHJldCIsImNlbGxOYW1lIjoib2pzLWNlbGwtMSIsImlubGluZSI6ZmFsc2UsInNvdXJjZSI6IlxuY2FudmFzID0ge1xuICBjb25zdCBTID0gY29uZmlnLnNpemU7XG4gIGNvbnN0IGNvbmN1cnJlbmN5ID0gY29uZmlnLmNvbmN1cnJlbmN5O1xuICBjb25zdCBjb250ZXh0ID0gRE9NLmNvbnRleHQyZChTLCBTKTtcbiAgcGFwZXIuc2V0dXAoY29udGV4dC5jYW52YXMpO1xuICBwYXBlci52aWV3LnZpZXdTaXplID0gbmV3IHBhcGVyLlNpemUoUywgUyk7XG5cbiAgY29uc3QgbGluZXMgPSBkYXRhLmxpbmVzLnJldmVyc2UoKTtcbiAgbGV0IHBhdGhzID0gW107XG4gIGxldCBpID0gMDtcbiAgbGV0IGZpbGxDb2xvcjtcbiAgY29uc3QgcmVzZXQgPSAoKSA9PiB7XG4gICAgcGFwZXIucHJvamVjdC5hY3RpdmVMYXllci5yZW1vdmVDaGlsZHJlbigpO1xuICAgIGNvbnN0IGJhY2tncm91bmRMYXllciA9IG5ldyBwYXBlci5MYXllcigpO1xuICAgIGNvbnN0IGJhY2tncm91bmQgPSBuZXcgcGFwZXIuUGF0aC5SZWN0YW5nbGUocGFwZXIudmlldy5ib3VuZHMpO1xuICAgIGNvbnN0IGNvbG9ySWR4ID0gTWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpICogY29uZmlnLmNvbG9ycy5sZW5ndGgpO1xuICAgIGZpbGxDb2xvciA9IGZpbGxDb2xvckJ5QXJlYShjb25maWcuY29sb3JzW2NvbG9ySWR4XSk7XG4gICAgYmFja2dyb3VuZC5zdHlsZSA9IHsgZmlsbENvbG9yOiBjb25maWcuY29sb3JzW2NvbG9ySWR4XS5iZ0NvbG9yIH07XG4gICAgcGFwZXIudmlldy5kcmF3KCk7XG4gICAgaSA9IDA7XG4gIH07XG4gIGNvbnN0IGFuaW1hdGUgPSBsaW5lcyA9PiB7XG4gICAgcGF0aHMgPSBbXTtcbiAgICBpID0gMDtcbiAgICBjb25zdCBiID0gYm91bmRzKGxpbmVzKTtcbiAgICBjb25zdCBzY2FsZVggPSBkM1xuICAgICAgLnNjYWxlTGluZWFyKClcbiAgICAgIC5kb21haW4oW2JbMF0sIGJbMl1dKVxuICAgICAgLnJhbmdlKFsxMCwgUyAtIDEwXSk7XG4gICAgY29uc3Qgc2NhbGVZID0gZDNcbiAgICAgIC5zY2FsZUxpbmVhcigpXG4gICAgICAuZG9tYWluKFtiWzFdLCBiWzNdXSlcbiAgICAgIC5yYW5nZShbMTAsIFMgLSAxMF0pO1xuICAgIHJldHVybiAoKSA9PiB7XG4gICAgICBpZiAoaSA+IGxpbmVzLmxlbmd0aCAvIGNvbmN1cnJlbmN5KSByZXR1cm47XG4gICAgICBmb3IgKGxldCBiYXRjaCA9IDA7IGJhdGNoIDwgY29uY3VycmVuY3k7IGJhdGNoKyspIHtcbiAgICAgICAgY29uc3QgcG9zID0gYmF0Y2ggKiBNYXRoLmZsb29yKGxpbmVzLmxlbmd0aCAvIGNvbmN1cnJlbmN5KSArIGk7XG4gICAgICAgIGlmICghbGluZXNbcG9zXSkgY29udGludWU7XG4gICAgICAgIGNvbnN0IHBhdGggPSBuZXcgcGFwZXIuUGF0aCh7XG4gICAgICAgICAgc2VnbWVudHM6IFtdLFxuICAgICAgICAgIHN0cm9rZUNvbG9yOiAnd2hpdGUnXG4gICAgICAgIH0pO1xuICAgICAgICBsaW5lc1twb3NdLmZvckVhY2gocG9pbnQgPT4ge1xuICAgICAgICAgIHBhdGguYWRkKG5ldyBwYXBlci5Qb2ludChzY2FsZVgocG9pbnQueCksIHNjYWxlWShwb2ludC55KSkpO1xuICAgICAgICB9KTtcbiAgICAgICAgaWYgKE1hdGguYWJzKHBhdGguYXJlYSkgPCAxMCkgY29udGludWU7XG4gICAgICAgIHBhdGguZmlsbENvbG9yID0gZmlsbENvbG9yKHBhdGgpO1xuICAgICAgICBwYXRocy5wdXNoKHBhdGgpO1xuICAgICAgfVxuICAgICAgaSsrO1xuICAgIH07XG4gIH07XG4gIHJlc2V0KCk7XG4gIGNvbnRleHQuY2FudmFzLm9uY2xpY2sgPSByZXNldDtcbiAgcGFwZXIudmlldy5vbkZyYW1lID0gYW5pbWF0ZShsaW5lcyk7XG5cbiAgcmV0dXJuIGNvbnRleHQuY2FudmFzO1xufVxuXG5jb25maWcgPSB7XG4gIHJldHVybiB7XG4gICAgc2l6ZTogNjAwLFxuICAgIGNvbmN1cnJlbmN5OiA0LFxuICAgIGNvbG9yczogW1xuICAgICAgeyBiZ0NvbG9yOiAnI0UxREFEMicsIHNjaGVtZTogWycjRkY0NDAwJywgJyNGN0RBMDAnLCAnIzA3NzQ4QyddIH0sXG4gICAgICB7IGJnQ29sb3I6ICcjRkVEMzIyJywgc2NoZW1lOiBbJyMyMEJBNEUnLCAnI0YyMDc3NScsICcjNTEzNThDJ10gfSxcbiAgICAgIHsgYmdDb2xvcjogJyNGMkVGQzcnLCBzY2hlbWU6IFsnI0ZGOUQ4MycsICcjNDA3MUE2JywgJyNEM0RFRTgnXSB9XG4gICAgICAvLyB7IGJnQ29sb3I6ICcjMTAxMTE1Jywgc2NoZW1lOiBkMy5zY2hlbWVQYXN0ZWwxIH0sXG4gICAgICAvLyB7IGJnQ29sb3I6ICcjZmVmZWZlJywgaW50ZXJwb2xhdG9yOiBkMy5pbnRlcnBvbGF0ZVBsYXNtYSB9LFxuICAgIF1cbiAgfTtcbn1cblxuZGF0YSA9IGxpbmVkYXRhKEwocGFyc2UocGVucm9zZUxTeXN0ZW0pKSwgNSlcblxuPCEtLSBtZGAgLS0+XG48IS0tIENsaWNrIHRoZSBjYW52YXMgdG8gcmVzZXQgdGhlIHRpbGluZyBhbmQgcGljayBhIHJhbmRvbSBjb2xvciBzY2hlbWUgZnJvbSB0aGUgb25lcyBhdmFpbGFibGUgaW4gY29uZmlnLiBDaGFuZ2UgdGhlIGNvbmZpZyBvYmplY3QgdG8gaW5jcmVhc2UgdGhlIHNpemUgb3IgZXhwZXJpbWVudCB3aXRoIGRpZmZlcmVudCBjb2xvciBzY2hlbWVzLiAgLS0+XG5cbjwhLS0gV2UgdXNlIGFuIEwtU3lzdGVtIHRvIGdlbmVyYXRlIHRoZSBsaW5lcyBvZiB0aGUgUGVucm9zZSB0aWxpbmcuIFRoZSBsb2dpYyB0byBjb21wdXRlIGxpbmVzIGlzIGltcG9ydGVkIGZyb20gW3RoaXMgYXdlc29tZSBpbnRlcmFjdGl2ZSBsLXN5c3RlbSBleHBsb3Jlcl0oL0BrZWxsZXl2YW5ldmVydC9sLXN5c3RlbXMtMikuIEkndmUgcmUtd3JpdHRlbiB0aGUgcmVuZGVyaW5nIHRvIHdvcmsgd2l0aCBjYW52YXMgYW5kIHBhcGVyanMgYW5kIEkndmUgYWRkZWQgZmlsbCBjb2xvcnMgdG8gdGhlIHNoYXBlcyBpbiB0aGUgdGlsaW5nLiAtLT5cbjwhLS0gYCAtLT5cblxucGVucm9zZUxTeXN0ZW0gPSBgb3JkZXI6IDVcbmF4aW9tOiBbTl0rK1tOXSsrW05dKytbTl0rK1tOXVxuYW5nbGU6IDM2XG5jb2xvcmZ1bFxuXG5NIC0+IE9GKytQRi0tLS1ORlstT0YtLS0tTUZdKytcbk4gLT4gK09GLS1QRlstLS1NRi0tTkZdK1xuTyAtPiAtTUYrK05GWysrK09GKytQRl0tXG5QIC0+IC0tT0YrKysrTUZbK1BGKysrK05GXS0tTkZcbkYgLT5gXG5cbjwhLS0gbWRgIyMgRGVwZW5kZW5jaWVzYCAtLT5cblxuZmlsbENvbG9yQnlBcmVhID0gY29sb3JzID0+IHtcbiAgbGV0IHNjYWxlO1xuICBpZiAoY29sb3JzLmludGVycG9sYXRvcikge1xuICAgIHNjYWxlID0gZDNcbiAgICAgIC5zY2FsZVNlcXVlbnRpYWwoKVxuICAgICAgLmRvbWFpbihbMjQwLCA3MjBdKVxuICAgICAgLmludGVycG9sYXRvcihjb2xvcnMuaW50ZXJwb2xhdG9yKTtcbiAgfSBlbHNlIGlmIChjb2xvcnMuc2NoZW1lKSB7XG4gICAgc2NhbGUgPSBkMy5zY2FsZU9yZGluYWwoY29sb3JzLnNjaGVtZSk7XG4gIH1cbiAgbGV0IHZhbHMgPSBuZXcgU2V0KCk7XG4gIHJldHVybiBwYXRoID0+IHtcbiAgICBjb25zdCB2YWwgPSBNYXRoLmFicyhNYXRoLnJvdW5kKHBhdGguYXJlYSkpO1xuICAgIHZhbHMuYWRkKHZhbCk7XG4gICAgcmV0dXJuIHNjYWxlKHZhbCk7XG4gIH07XG59XG5cbmltcG9ydCB7IGJvdW5kcywgcGFyc2UsIEwsIGxpbmVkYXRhIH0gZnJvbSAnQGtlbGxleXZhbmV2ZXJ0L2wtc3lzdGVtcy0yJ1xuXG5kMyA9IHJlcXVpcmUoJ2QzQHY1JylcblxucGFwZXIgPSByZXF1aXJlKCdwYXBlcicpXG5cbiJ9XX0=
+</script>
+<script type="module">
+if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+window._ojs.paths.runtimeToDoc = "../..";
+window._ojs.paths.runtimeToRoot = "../..";
+window._ojs.paths.docToRoot = "";
+window._ojs.selfContained = false;
+window._ojs.runtime.interpretFromScriptTags();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
