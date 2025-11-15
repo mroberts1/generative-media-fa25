@@ -70,7 +70,7 @@ format:
       light: ember.scss
       dark: [slate, ember.scss]
     css: 
-      - custom.scss
+      - custom.css
       - navbar-pattern.css
     grid:
         sidebar-width: 300px
