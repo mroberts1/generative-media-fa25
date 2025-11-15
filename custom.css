@@ -31,4 +31,5 @@ iframe[src*="shaderpark.com"] {
   margin: 0.5rem auto !important;
   border: none !important;
   box-sizing: border-box;
+  overflow: hidden !important;
 }
