@@ -22,14 +22,26 @@ canvas[style*="background: transparent"] {
 }
 
 /* Make shader iframe match body text width (responsive to container) */
-iframe[src*="shaderpark.com"] {
-  width: 100% !important;
+main iframe[src*="shaderpark.com"] {
+  width: calc(100% - 10px) !important;
   max-width: calc(100% - 10px) !important;
   height: auto !important;
-  aspect-ratio: 1 / 1;
-  display: block;
+  aspect-ratio: 1 / 1 !important;
+  display: block !important;
   margin: 0.5rem auto !important;
   border: none !important;
-  box-sizing: border-box;
+  box-sizing: border-box !important;
+  overflow: hidden !important;
+}
+
+iframe[src*="shaderpark.com"] {
+  width: calc(100% - 10px) !important;
+  max-width: calc(100% - 10px) !important;
+  height: auto !important;
+  aspect-ratio: 1 / 1 !important;
+  display: block !important;
+  margin: 0.5rem auto !important;
+  border: none !important;
+  box-sizing: border-box !important;
   overflow: hidden !important;
 }
