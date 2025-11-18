@@ -16,6 +16,13 @@
 	font-display: swap; /* Improve loading performance */
 }
 
+@font-face {
+	font-family: 'Mercury Text G1';
+	src: url('fonts/MercuryTextG1Regular.ttf') format('truetype');
+	font-weight: 400; /* Use heavier weight */
+	font-display: swap; /* Improve loading performance */
+}
+
 // Google fonts
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
@@ -27,7 +34,7 @@ $font-family-sans-serif:  "DM Sans", "Roboto", "proxima-nova", "Helvetica Neue",
 // use IBM Plex Mono
 $font-family-monospace: "Overpass Mono", "Roboto Mono", "IBM Plex Mono", monospace, monospace;
 
-$font-family-serif: "Gentium Plus", "Newsreader", "Literata", "Piazzolla", serif;
+$font-family-serif: "Mercury Text G1 Regular", "Gentium Plus", "Newsreader", "Literata", "Piazzolla", serif;
 
 $font-family-headers: "Offside";
 
@@ -35,7 +42,7 @@ $font-family-headers: "Offside";
 
 // litera is serif by default: revert to san-serif
 p, li {
-  font-family: $font-family-sans-serif;
+  font-family: $font-family-serif;
   font-weight: 400 !important;
 }
 h1 {
